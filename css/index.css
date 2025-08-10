@@ -197,4 +197,15 @@ body {
     font-size: 0.875rem;
     text-align: center;
   }
+  #search-result-container{
+    margin: 1rem;
+    height: 16vmin;
+    display: flex;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
   
