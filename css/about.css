@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+    margin: 0;
+    color: #111827;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.75rem 2.5rem;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #111827;
+  }
+  .header-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2.25rem;
+  }
+  .nav-links a {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .nav-links a.active {
+    color: #2563eb;
+  }
+  .help-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #f3f4f6;
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+  .help-btn.active {
+    background-color: #2563eb;
+    color: white;
+  }
+  .avatar {
+    background-size: cover;
+    background-position: center;
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  /* About Section */
+  .about-container {
+    padding: 2rem 10rem;
+  }
+  .about-section {
+    margin-bottom: 2rem;
+  }
+  .about-section h1,
+  .about-section h2 {
+    font-weight: bold;
+  }
+  .about-section h1 {
+    font-size: 1.5rem;
+  }
+  .about-section h2 {
+    font-size: 1.25rem;
+  }
+  .about-section p {
+    font-size: 0.875rem;
+    color: #374151;
+  }
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+  }
+  .about-section li {
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 2.5rem 0;
+    gap: 1.5rem;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .footer-links a {
+    color: #6b7280;
+  }
+  .footer-links a.active {
+    color: #2563eb;
+  }
+  .footer p {
+    color: #6b7280;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .abc{
+    color: black;
+  }

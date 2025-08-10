@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UniGo - Homepage</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <h2 class="header-title">UniGo</h2>
+    </div>
+
+    <div class="header-right">
+      <nav class="nav-links">
+        <a class="abc" href="index.html">Home</a>
+        <a class="abc" href="search.html">Search</a>
+        <a class="abc" href="filters.html">Filters</a>
+        <a class="abc" href="route.html">Route</a>
+        <a class="abc" href="profile.html">Profile</a>
+      </nav>
+      <a href="about.html" class="help-btn">Help</a>
+      <div class="avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCc3_VF5bM9cOgUg22sIOumMzYRiXGL9Yn2x6N4_pFvQZ0F6m5CsB4-7oDEccNjJ1EcJ6VHKQkj3GOC25bgfR0Jw9MEtYVILBeNij_oDIX9a9QYXVBMvCEuwIGHLDmj4iodq3QqYuvyWF8PD5_CTS3XmwwG95nge7d9BKHmDhEbWCCnwJKytiDupWRNkbCA0imit-fuZdqGPlLP-eX5KqLboyE6p4aPv-v37SzQ9oCFD0wC6RYa-XroG_XjFUT5J__oXnbl2fJ5_Fs");'></div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA38A7QamZh9iYwhWlZNBvJJRvSGhnLBR_UO2IN20j2NsvovEtsjRlaCp9oSpIj4yy7yvDL_XrIFLkMz6KC_0CDyyi8JvHlW3fYDZLHOp5mKas6r147KIs8-QorGQHb7WqI0TMfZda-05rREo1cNAPpwg6Wye3kNDG9VxrYTWCbSq6wahl1MMw1Pz1Lt0g2-MXYxyZIlJto8ySLX_Jue3fyq0Q2WzIvw4J1uwT_zjRfFgPtLXocJoYQiwhRdlKKhG3kke1foIRMP7Q");'>
+    <div class="hero-text">
+      <h1>Go anywhere with UniGo</h1>
+      <p>Search a transport, hop into a vehicle, and go</p>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search">
+      <div>
+        <label for="departure" class="select-label">Select your departure</label>
+          <select name="departure" id="departure-dropdown" class="dropdown">
+            <option>
+              <optgroup label="🎓 Universities">
+                <option value="comsats">COMSATS University Islamabad</option>
+                <option value="nust">NUST (National University of Sciences & Technology)</option>
+                <option value="qau">Quaid-i-Azam University (QAU)</option>
+                <option value="iiu">International Islamic University (IIU)</option>
+                <option value="bahria-uni">Bahria University Islamabad</option>
+                <option value="air-uni">Air University</option>
+                <option value="fast-uni">FAST-NUCES Islamabad</option>
+                <option value="nust-smme">NUST SMME Campus</option>
+                <option value="iqra-uni">IQRA University Islamabad</option>
+                <option value="riphah-uni">Riphah International University</option>
+                <option value="preston-uni">Preston University</option>
+                <option value="iiui-female">IIUI Female Campus</option>
+            </optgroup>
+            
+            <!-- Major Areas & Transport Hubs -->
+            <optgroup label="🚌 Major Areas">
+                <option value="saddar">Saddar Rawalpindi</option>
+                <option value="committee-chowk">Committee Chowk</option>
+                <option value="faizabad">Faizabad</option>
+                <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
+                <option value="blue-area">Blue Area</option>
+                <option value="g9">G-9 Markaz</option>
+                <option value="centaurus">Centaurus Mall</option>
+                <option value="peshawar-mor">Peshawar Mor</option>
+                <option value="f6">F-6 Markaz</option>
+                <option value="f7">F-7 Markaz</option>
+                <option value="f8">F-8 Markaz</option>
+                <option value="g10">G-10 Markaz</option>
+                <option value="g11">G-11 Markaz</option>
+                <option value="bahria-town">Bahria Town Islamabad</option>
+                <option value="dha">DHA Islamabad</option>
+                <option value="pwd">PWD Colony</option>
+            </optgroup>
+            </option>
+          </select>
+        </div>
+        <button id = "search" onclick="findTrans()">Search</button>
+      <div>
+        <label for="destination" class="select-label">Select your destination</label>
+          <select name="destination" id="destination-dropdown" class="dropdown">
+            <option>
+              <optgroup label="🎓 Universities">
+                <option value="comsats">COMSATS University Islamabad</option>
+                <option value="nust">NUST (National University of Sciences & Technology)</option>
+                <option value="qau">Quaid-i-Azam University (QAU)</option>
+                <option value="iiu">International Islamic University (IIU)</option>
+                <option value="bahria-uni">Bahria University Islamabad</option>
+                <option value="air-uni">Air University</option>
+                <option value="fast-uni">FAST-NUCES Islamabad</option>
+                <option value="nust-smme">NUST SMME Campus</option>
+                <option value="iqra-uni">IQRA University Islamabad</option>
+                <option value="riphah-uni">Riphah International University</option>
+                <option value="preston-uni">Preston University</option>
+                <option value="iiui-female">IIUI Female Campus</option>
+            </optgroup>
+            
+            <!-- Major Areas & Transport Hubs -->
+            <optgroup label="🚌 Major Areas">
+                <option value="saddar">Saddar Rawalpindi</option>
+                <option value="committee-chowk">Committee Chowk</option>
+                <option value="faizabad">Faizabad</option>
+                <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
+                <option value="blue-area">Blue Area</option>
+                <option value="g9">G-9 Markaz</option>
+                <option value="centaurus">Centaurus Mall</option>
+                <option value="peshawar-mor">Peshawar Mor</option>
+                <option value="f6">F-6 Markaz</option>
+                <option value="f7">F-7 Markaz</option>
+                <option value="f8">F-8 Markaz</option>
+                <option value="g10">G-10 Markaz</option>
+                <option value="g11">G-11 Markaz</option>
+                <option value="bahria-town">Bahria Town Islamabad</option>
+                <option value="dha">DHA Islamabad</option>
+                <option value="pwd">PWD Colony</option>
+            </optgroup>
+            </option>
+          </select>
+        </div>
+    </div>
+  </section>
+
+  <!-- Popular Routes -->
+  <h2 class="section-title">Popular routes</h2>
+  <div class="routes-grid">
+    <div class="route-card">
+      <h3>National University of Sciences and Technology to Bahria University</h3>
+      <p class="route-location">Islamabad</p>
+    </div>
+    <div class="route-card">
+      <h3>International Islamic University to COMSATS University</h3>
+      <p class="route-location">Islamabad</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="about.html">About Us</a>
+      <a href="profile.html">Profile</a>
+      <a href="search.html">Search</a>
+      <a href="filters.html">Filters</a>
+      <a href="route.html">Route</a>
+    </div>
+    <p>© Made by M. Ehsaan ur Rehman Qazi</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
