@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #e5e7eb;
-    padding: 0.75rem 2.5rem;
+    padding: 0.75rem 1rem; /* Adjusted padding for mobile */
   }
   .header-left {
     display: flex;
@@ -30,10 +30,10 @@ body {
   .header-right {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem; /* Adjusted gap for mobile */
   }
   .nav-links {
-    display: flex;
+    display: none; /* Hide nav links by default on mobile */
     gap: 2.25rem;
   }
   .nav-links a {
@@ -49,6 +49,7 @@ body {
     background-color: #f3f4f6;
     font-weight: bold;
     font-size: 0.875rem;
+    display: none; /* Hide help button by default on mobile */
   }
   .avatar {
     background-size: cover;
@@ -58,21 +59,61 @@ body {
     height: 2.5rem;
   }
   
+  /* Hamburger menu icon */
+  .menu-icon {
+    display: block; /* Show hamburger icon on mobile */
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .menu-icon .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #111827;
+  }
+
+  /* Overlay menu for mobile */
+  .overlay-menu {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .overlay-menu.show {
+    display: flex;
+  }
+  .overlay-menu a {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #111827;
+    text-decoration: none;
+  }
+  
   /* Route Details */
   .route-container {
-    padding: 2rem 10rem;
+    padding: 1rem; /* Adjusted padding for mobile */
   }
   .page-heading h1 {
-    font-size: 1.5rem;
+    font-size: 1.375rem; /* Adjusted font size for mobile */
     font-weight: bold;
   }
   .page-heading p {
-    font-size: 0.875rem;
+    font-size: 0.8rem; /* Adjusted font size for mobile */
     color: #6b7280;
     margin-bottom: 1rem;
   }
   .map-placeholder {
-    height: 300px;
+    height: 200px; /* Adjusted height for mobile */
     background-color: #f3f4f6;
     border-radius: 0.5rem;
     display: flex;
@@ -120,4 +161,38 @@ body {
   }
   .abc{
     color: black;
+  }
+
+  /* Media query for larger screens (e.g., tablets and desktops) */
+  @media (min-width: 768px) {
+    .header {
+      padding: 0.75rem 2.5rem; /* Original padding for larger screens */
+    }
+    .header-right {
+      gap: 2rem; /* Original gap for larger screens */
+    }
+    .nav-links {
+      display: flex; /* Show nav links on larger screens */
+    }
+    .help-btn {
+      display: block; /* Show help button on larger screens */
+    }
+    .menu-icon {
+      display: none; /* Hide hamburger icon on larger screens */
+    }
+    .overlay-menu {
+      display: none !important; /* Ensure menu is hidden on large screens */
+    }
+    .route-container {
+      padding: 2rem 10rem; /* Original padding for larger screens */
+    }
+    .page-heading h1 {
+      font-size: 1.5rem; /* Original font size for larger screens */
+    }
+    .page-heading p {
+      font-size: 0.875rem; /* Original font size for larger screens */
+    }
+    .map-placeholder {
+      height: 300px; /* Original height for larger screens */
+    }
   }
