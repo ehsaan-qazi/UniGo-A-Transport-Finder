@@ -1,3 +1,8 @@
+/* Universal box-sizing for easier layout */
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: white;
     font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
@@ -32,9 +37,6 @@ body {
     align-items: center;
     gap: 1rem; /* Adjusted gap for mobile */
   }
-  .abc{
-    color: black;
-  }
   .nav-links {
     display: none; /* Hide nav links by default on mobile */
   }
@@ -53,6 +55,11 @@ body {
     }
     .nav-links {
       display: flex; /* Show nav links on larger screens */
+    }
+    .nav-links a {
+      font-size: 0.875rem; /* Ensure original font size for desktop */
+      font-weight: 500;
+      padding: 0 0.5rem; /* Add slight padding for better spacing on desktop nav */
     }
     .help-btn {
       display: block; /* Show help button on larger screens */
@@ -140,33 +147,45 @@ body {
     cursor: pointer;
   }
   .dropdown{
-    padding:8px;
+    padding: 12px; /* Increased padding for better touch target */
     width: 100%;
     margin-top: 4px;
   }
-  .nav-links {
-    display: flex;
-    gap: 2.25rem;
+
+  /* Mobile specific styles for search section */
+  @media (max-width: 767px) {
+    .search {
+      flex-direction: column; /* Stack elements vertically on mobile */
+      align-items: stretch; /* Stretch items to full width */
+      padding: 0 1rem; /* Add horizontal padding to prevent overflow */
+    }
+    .search .field {
+      flex: 1 1 auto; /* Allow fields to grow and shrink, remove min-width restriction */
+      width: 100%; /* Ensure full width */
+      min-width: auto; /* Remove explicit min-width for mobile */
+    }
+    #search {
+      display: block; /* Make search button full-width */
+      width: 100%; /* Ensure full width */
+      padding: 12px; /* Increased padding for better touch target */
+      margin-top: 1rem; /* Add more space above button */
+      height: auto; /* Allow height to adjust with padding */
+    }
+    .dropdown {
+      background-color: white; /* Ensure white background on mobile */
+      max-height: 40vh; /* Limit visible height on mobile */
+      overflow-y: auto; /* Enable scrolling for long lists */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      padding: 12px; /* Ensure consistent padding */
+    }
+    .view-route-btn {
+      display: block; /* Make view route button full-width */
+      width: 100%;
+      padding: 12px; /* Increased padding for better touch target */
+      text-align: center;
+    }
   }
-  .nav-links a {
-    font-size: 0.875rem;
-    font-weight: 500;
-  }
-  .help-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    background-color: #f3f4f6;
-    font-weight: bold;
-    font-size: 0.875rem;
-  }
-  .avatar {
-    background-size: cover;
-    background-position: center;
-    border-radius: 9999px;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  
+
   /* Hero Section */
   .hero {
     padding: 1.25rem 1rem; /* Adjusted padding for mobile */
@@ -261,6 +280,8 @@ body {
   }
   .footer-links a {
     color: #6b7280;
+    padding: 8px 12px; /* Add padding for better touch target */
+    border-radius: 4px;
   }
   .footer p {
     color: #6b7280;
@@ -344,5 +365,8 @@ body {
       width: auto; /* Auto width on larger screens */
       flex: 1; /* Original flex for larger screens */
     }
+  }
+  .abc{
+    color: black;
   }
   

@@ -34,7 +34,6 @@ body {
   }
   .nav-links {
     display: none; /* Hide nav links by default on mobile */
-    gap: 2.25rem;
   }
   .nav-links a {
     font-size: 0.875rem;
@@ -44,11 +43,6 @@ body {
     color: #2563eb;
   }
   .help-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    background-color: #f3f4f6;
-    font-weight: bold;
-    font-size: 0.875rem;
     display: none; /* Hide help button by default on mobile */
   }
   .help-btn.active {
@@ -149,6 +143,8 @@ body {
   }
   .footer-links a {
     color: #6b7280;
+    padding: 8px 12px; /* Add padding for better touch target */
+    border-radius: 4px;
   }
   .footer-links a.active {
     color: #2563eb;
