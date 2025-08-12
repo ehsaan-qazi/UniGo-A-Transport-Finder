@@ -1,37 +1,80 @@
-let data=[
-    ["comsats","comsats","No transport needed"],
-    ["saddar","comsats","Red Line metro bus from Saddar Metro Station to Faizabad,Green Line Metro Bus from Faizabad to Comsats University Islamabad,Green line Bus ID: FR-08C"]
-]
+let routes = [];
+let isDataLoaded = false;
+
+// Load the full slugged dataset
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/unigo_transport_routes_full_slugged.json")
+    .then((r) => r.json())
+    .then((json) => {
+      if (Array.isArray(json)) {
+        routes = json;
+        isDataLoaded = true;
+      }
+    })
+    .catch(() => {
+      isDataLoaded = false;
+      // If fetch fails (e.g., opened via file://). Use a local server.
+      try { console.warn("[UniGo] Failed to load routes JSON. Please ensure the site is served via a local server (e.g., Live Server) to enable data loading."); } catch (_) {}
+    });
+});
+
 function findTrans(){
-    let value = document.getElementById("departure-dropdown").value;
-    let value2 = document.getElementById("destination-dropdown").value;
-    let departure = document.getElementById("departure-dropdown").options[document.getElementById("departure-dropdown").selectedIndex].text;
-    let destination = document.getElementById("destination-dropdown").options[document.getElementById("destination-dropdown").selectedIndex].text; // Gets the visible text
-    let result;
-    for(let element of data){
-        if(element[0]===value && element[1]===value2){
-            const resultsContainer = document.querySelector(".search-result-container");
-            if (resultsContainer) {
-                resultsContainer.classList.remove("hide");
-            }
+  const depEl = document.getElementById("departure-dropdown");
+  const dstEl = document.getElementById("destination-dropdown");
+  const from = depEl.value;
+  const to = dstEl.value;
+  const fromLabel = depEl.options[depEl.selectedIndex].text;
+  const toLabel = dstEl.options[dstEl.selectedIndex].text;
 
-            document.querySelector("#route-1").innerText = `Route 1: ${departure} to ${destination}`;
+  const resultsContainer = document.querySelector(".search-result-container");
+  if (resultsContainer) resultsContainer.classList.remove("hide");
 
-            // Clear previously generated lines (avoid duplicates on multiple searches)
-            const infoContainer = document.querySelector("#result-card-1 .result-info");
-            if (infoContainer) {
-                infoContainer.querySelectorAll(".result-info-p.generated").forEach(p => p.remove());
-            }
+  const titleEl = document.querySelector("#route-1");
+  if (titleEl) titleEl.innerText = `Route 1: ${fromLabel} to ${toLabel}`;
 
-            // Add current steps
-            let s = element[2].split(",");
-            let existingP = document.querySelector("#result-card-1 .result-info .result-info-p");
-            for(let i = s.length-1; i>=0; i--){
-                let para = document.createElement("p");
-                para.textContent = s[i];
-                para.setAttribute("class", "result-info-p generated");
-                existingP.insertAdjacentElement("afterend", para);
-            }
-        }
+  const info = document.querySelector("#result-card-1 .result-info");
+  if (info) info.querySelectorAll(".result-info-p.generated").forEach(p => p.remove());
+  const anchorP = document.querySelector("#result-card-1 .result-info .result-info-p");
+
+  if (!isDataLoaded) {
+    const p = document.createElement("p");
+    p.className = "result-info-p generated";
+    p.textContent = "Loading route data... please try again in a moment.";
+    anchorP && anchorP.insertAdjacentElement("afterend", p);
+    return;
+  }
+
+  // Find direct or reverse route
+  let route = routes.find(r => r.from === from && r.to === to);
+  let steps = route?.steps ? [...route.steps] : null;
+  if (!steps) {
+    const reverse = routes.find(r => r.from === to && r.to === from);
+    if (reverse?.steps) steps = [...reverse.steps].reverse();
+  }
+
+  if (steps && steps.length) {
+    for (let i = steps.length - 1; i >= 0; i--) {
+      const p = document.createElement("p");
+      p.className = "result-info-p generated";
+      p.textContent = steps[i];
+      anchorP && anchorP.insertAdjacentElement("afterend", p);
     }
+    const viewRouteBtn = document.querySelector("#result-card-1 .result-info .view-route-btn");
+    if (viewRouteBtn) {
+      viewRouteBtn.onclick = () => {
+        const routeData = {
+          fromLabel: fromLabel,
+          toLabel: toLabel,
+          steps: steps
+        };
+        localStorage.setItem('currentRoute', JSON.stringify(routeData));
+        window.location.href = 'route.html';
+      };
+    }
+  } else {
+    const p = document.createElement("p");
+    p.className = "result-info-p generated";
+    p.textContent = "No routes found for the selected departure and destination.";
+    anchorP && anchorP.insertAdjacentElement("afterend", p);
+  }
 }
