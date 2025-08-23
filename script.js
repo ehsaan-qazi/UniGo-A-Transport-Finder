@@ -37,6 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+function reverseStepText(text) {
+  const match = text.match(/^(Take\s[A-Z0-9-]+)\sfrom\s(.*?)\s(to|via)\s(.*?)(?:\.)?$/i);
+  if (match) {
+    const [, routePart, fromLocation, toOrVia, toLocation] = match;
+    return `${routePart} from ${toLocation.trim()} ${toOrVia} ${fromLocation.trim()}.`;
+  }
+  return text;
+}
+
 function findTrans(){
   const depEl = document.getElementById("departure-dropdown");
   const dstEl = document.getElementById("destination-dropdown");
@@ -68,11 +77,14 @@ function findTrans(){
   let steps = route?.steps ? [...route.steps] : null;
   if (!steps) {
     const reverse = routes.find(r => r.from === to && r.to === from);
-    if (reverse?.steps) steps = [...reverse.steps].reverse();
+    if (reverse?.steps) {
+      steps = [...reverse.steps].reverse();
+      steps = steps.map(step => reverseStepText(step));
+    }
   }
 
   if (steps && steps.length) {
-    for (let i = steps.length - 1; i >= 0; i--) {
+    for (let i = 0; i < steps.length; i++) {
       const p = document.createElement("p");
       p.className = "result-info-p generated";
       p.textContent = steps[i];
