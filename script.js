@@ -18,21 +18,53 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Toggle mobile menu
+// Enhanced mobile menu toggle with animation
 document.addEventListener("DOMContentLoaded", () => {
   const menuIcon = document.querySelector('.menu-icon');
   const overlayMenu = document.querySelector('.overlay-menu');
 
   if (menuIcon && overlayMenu) {
+    // Toggle menu on hamburger click
     menuIcon.addEventListener('click', () => {
       overlayMenu.classList.toggle('show');
+      
+      // Animate hamburger bars to X
+      const bars = menuIcon.querySelectorAll('.bar');
+      if (overlayMenu.classList.contains('show')) {
+        bars[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
+        bars[1].style.opacity = '0';
+        bars[2].style.transform = 'rotate(-45deg) translate(6px, -6px)';
+      } else {
+        bars[0].style.transform = 'rotate(0) translate(0, 0)';
+        bars[1].style.opacity = '1';
+        bars[2].style.transform = 'rotate(0) translate(0, 0)';
+      }
     });
 
-    // Close menu when a link is clicked (optional)
+    // Close menu when a link is clicked
     overlayMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         overlayMenu.classList.remove('show');
+        // Reset hamburger animation
+        const bars = menuIcon.querySelectorAll('.bar');
+        bars[0].style.transform = 'rotate(0) translate(0, 0)';
+        bars[1].style.opacity = '1';
+        bars[2].style.transform = 'rotate(0) translate(0, 0)';
       });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!menuIcon.contains(e.target) && !overlayMenu.contains(e.target)) {
+        if (overlayMenu.classList.contains('show')) {
+          overlayMenu.classList.remove('show');
+          // Reset hamburger animation
+          const bars = menuIcon.querySelectorAll('.bar');
+          bars[0].style.transform = 'rotate(0) translate(0, 0)';
+          bars[1].style.opacity = '1';
+          bars[2].style.transform = 'rotate(0) translate(0, 0)';
+        }
+      }
     });
   }
 });
