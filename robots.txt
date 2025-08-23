@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ehsaan-qazi.github.io/UniGo-A-Transport-Finder/sitemap.xml
