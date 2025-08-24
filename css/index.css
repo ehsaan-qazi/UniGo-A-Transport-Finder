@@ -269,6 +269,65 @@ body {
   font-size: 0.875rem;
   color: #6b7280;
 }
+/* Popular Route Card Hover */
+.route-card {
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.route-card:hover {
+  border-color: #9ca3af;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* Result Card Hover */
+.result-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+.result-card:hover {
+  border-color: #9ca3af;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* View Route Button Hover */
+.view-route-btn {
+  display: inline-block;
+  background-color: #f3f4f6;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.view-route-btn:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-1px);
+}
+
+/* Footer Links Hover */
+.footer-links a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer-links a:hover {
+  color: #111827;
+}
+
 
 /* Footer */
 .footer {

@@ -158,3 +158,36 @@ function findTrans() {
     anchorP && anchorP.insertAdjacentElement("afterend", p);
   }
 }
+// Make Popular Routes Clickable
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".route-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const from = card.getAttribute("data-from");
+      const to = card.getAttribute("data-to");
+
+      // Try to find a direct route first
+      let steps = null;
+      let fromLabel = document.querySelector(`#departure-dropdown option[value="${from}"]`)?.text || from;
+      let toLabel = document.querySelector(`#destination-dropdown option[value="${to}"]`)?.text || to;
+
+      const direct = routes.find(r => r.from === from && r.to === to);
+      if (direct?.steps) {
+        steps = direct.steps.slice();
+      } else {
+        // Reverse route
+        const reverse = routes.find(r => r.from === to && r.to === from);
+        if (reverse?.steps) {
+          steps = reverse.steps.slice().reverse().map(s => reverseStepText(s));
+          [fromLabel, toLabel] = [toLabel, fromLabel];
+        }
+      }
+
+      if (steps && steps.length) {
+        localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
+        window.location.href = "route.html";
+      } else {
+        alert("No route found for this popular route.");
+      }
+    });
+  });
+});
