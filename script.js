@@ -91,73 +91,137 @@ function renderStepsAfter(anchorEl, steps) {
   });
 }
 
+// Map bus names/feeder codes to images
+const busImages = {
+  "Red Line": "images/red-line.png",
+  "Orange Line": "images/orange-line.png",
+  "Green Line": "images/green-line.jpeg", // fallback if no feeder match
+  "FR-01": "images/green-feeders/fr-01.png",
+  "FR-02": "images/green-feeders/fr-02.png",
+  "FR-03": "images/green-feeders/fr-03.png",
+  "FR-03a": "images/green-feeders/fr-03a.png",
+  "FR-04": "images/green-feeders/fr-04.png",
+  "FR-04a": "images/green-feeders/fr-04a.png",
+  "FR-05": "images/green-feeders/fr-05.png",
+  "FR-06": "images/green-feeders/fr-06.png",
+  "FR-07": "images/green-feeders/fr-07.png",
+  "FR-08C": "images/green-feeders/fr-08c.png",
+  "FR-08A": "images/green-feeders/fr-08a.png",
+  "FR-09": "images/green-feeders/fr-09.png"
+};
+
 // Search function
 function findTrans() {
-  const depEl = document.getElementById("departure-dropdown");
-  const dstEl = document.getElementById("destination-dropdown");
-  let from = depEl.value;
-  let to = dstEl.value;
-  let fromLabel = depEl.options[depEl.selectedIndex].text;
-  let toLabel = dstEl.options[dstEl.selectedIndex].text;
-
-  const resultsContainer = document.querySelector(".search-result-container");
-  if (resultsContainer) resultsContainer.classList.remove("hide");
-
-  const titleEl = document.querySelector("#route-1");
-  if (titleEl) titleEl.innerText = `Route 1: ${fromLabel} to ${toLabel}`;
-
-  const info = document.querySelector("#result-card-1 .result-info");
-  if (info) info.querySelectorAll(".result-info-p.generated").forEach((p) => p.remove());
-  const anchorP = document.querySelector("#result-card-1 .result-info .result-info-p");
-
+  // Ensure data is loaded
   if (!isDataLoaded) {
-    const p = document.createElement("p");
-    p.className = "result-info-p generated";
-    p.textContent = "Loading route data... please try again in a moment.";
-    anchorP && anchorP.insertAdjacentElement("afterend", p);
+    alert("Route data is still loading. Please try again in a moment.");
     return;
   }
 
+  const from = document.getElementById("departure-dropdown").value;
+  const to = document.getElementById("destination-dropdown").value;
+
+  const fromLabel = document.querySelector(`#departure-dropdown option[value="${from}"]`)?.text || from;
+  const toLabel = document.querySelector(`#destination-dropdown option[value="${to}"]`)?.text || to;
+
+  const resultsList = document.querySelector(".results-list");
+  resultsList.innerHTML = "";
+
+  // Show the search results container
+  document.querySelector(".search-result-container").classList.remove("hide");
+
   let steps = null;
 
-  // Direct route: keep dataset order
-  const direct = routes.find((r) => r.from === from && r.to === to);
+  // Direct route
+  const direct = routes.find(r => r.from === from && r.to === to);
   if (direct?.steps) {
     steps = direct.steps.slice();
   } else {
-    // Reverse route: reverse array and swap "from ... to/via ..." text
-    const reverse = routes.find((r) => r.from === to && r.to === from);
+    // Reverse route
+    const reverse = routes.find(r => r.from === to && r.to === from);
     if (reverse?.steps) {
-      steps = reverse.steps.slice().reverse().map((s) => reverseStepText(s));
-      [fromLabel, toLabel] = [toLabel, fromLabel]; // swap for display + route.html
-      if (titleEl) titleEl.innerText = `Route 1: ${fromLabel} to ${toLabel}`;
+      steps = reverse.steps.slice().reverse().map(s => reverseStepText(s));
     }
   }
 
   if (steps && steps.length) {
-    if (anchorP) renderStepsAfter(anchorP, steps);
+    // Create result card
+    const resultCard = document.createElement("div");
+    resultCard.className = "result-card";
 
-    const viewRouteBtn = document.querySelector("#result-card-1 .result-info .view-route-btn");
-    if (viewRouteBtn) {
-      viewRouteBtn.onclick = () => {
-        localStorage.setItem(
-          "currentRoute",
-          JSON.stringify({
-            fromLabel,
-            toLabel,
-            steps,
-          })
-        );
-        window.location.href = "route.html";
-      };
-    }
+    const infoDiv = document.createElement("div");
+    infoDiv.className = "result-info";
+
+    const h3 = document.createElement("h3");
+    h3.textContent = `${fromLabel} to ${toLabel}`;
+    infoDiv.appendChild(h3);
+
+    const anchorP = document.createElement("p");
+    anchorP.className = "result-info-p";
+    anchorP.textContent = "Recommended Route:";
+    infoDiv.appendChild(anchorP);
+
+    resultCard.appendChild(infoDiv);
+    resultsList.appendChild(resultCard);
+
+    // Make the entire resultCard clickable
+    resultCard.style.cursor = "pointer"; // Add cursor style to indicate clickability
+    resultCard.addEventListener("click", () => {
+      localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
+      window.location.href = "route.html";
+    });
+
+    let insertAfterElement = anchorP; // Start inserting after the 'Recommended Route' paragraph
+
+    // 🔧 Step rendering with images + animation
+    steps.forEach((text, i) => {
+      const stepDiv = document.createElement("div");
+      stepDiv.className = "step-card animated";
+
+      // Add bus image if available
+      const imgSrc = getBusImage(text);
+      if (imgSrc) {
+        const imgContainer = document.createElement("div");
+        imgContainer.className = "bus-img-container"; // New container for image
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.alt = "Bus Image";
+        img.className = "bus-img";
+        imgContainer.appendChild(img);
+        stepDiv.appendChild(imgContainer);
+      }
+
+      // Add step text
+      const p = document.createElement("p");
+      p.className = "result-info-p generated";
+      p.textContent = text;
+      stepDiv.appendChild(p);
+
+      insertAfterElement.insertAdjacentElement("afterend", stepDiv);
+      insertAfterElement = stepDiv; // Update the insertion point for the next step
+
+      // Pop-out animation delay
+      setTimeout(() => stepDiv.classList.add("show"), i * 300);
+    });
+
+    // "View Route" button (removed as the entire card is clickable)
+    // const viewBtn = document.createElement("a");
+    // viewBtn.className = "view-route-btn";
+    // viewBtn.textContent = "View Route";
+    // viewBtn.href = "#";
+    // viewBtn.addEventListener("click", (e) => {
+    //   e.preventDefault();
+    //   localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
+    //   window.location.href = "route.html";
+    // });
+
+    // infoDiv.appendChild(viewBtn);
+
   } else {
-    const p = document.createElement("p");
-    p.className = "result-info-p generated";
-    p.textContent = "No routes found for the selected departure and destination.";
-    anchorP && anchorP.insertAdjacentElement("afterend", p);
+    resultsList.innerHTML = `<p class="result-info-p">No route found between ${fromLabel} and ${toLabel}.</p>`;
   }
 }
+
 // Make Popular Routes Clickable
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".route-card").forEach(card => {
@@ -191,3 +255,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Helper to detect which image to use
+function getBusImage(stepText) {
+  // 🔴 Red Line
+  if (stepText.includes("Red Line")) {
+    return "images/red-line.png";
+  }
+
+  // 🟠 Orange Line
+  if (stepText.includes("Orange Line")) {
+    return "images/orange-line.png";
+  }
+
+  // 🔵 Blue Line
+  if (stepText.includes("Blue Line")) {
+    return "images/blue-line.png";
+  }
+
+  // 🟢 Green Line Feeders (check for FR codes like FR-08C, FR-01, etc.)
+  const feederMatch = stepText.match(/FR-\d+[A-Z]?/i); 
+  if (feederMatch) {
+    const code = feederMatch[0].toLowerCase(); // e.g. fr-08c
+    return `images/green-feeders/${code}.png`;
+  }
+
+  // Generic fallback for green line (if no feeder match)
+  if (stepText.includes("Green")) {
+    return "images/green-line.jpeg";
+  }
+
+  return null; // nothing matched
+}
+
+
+

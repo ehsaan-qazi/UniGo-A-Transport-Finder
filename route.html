@@ -96,10 +96,31 @@
       const routeInfoUl = document.querySelector('.route-info ul');
       if (routeInfoUl) {
         routeInfoUl.innerHTML = ''; // Clear dummy data
-        routeData.steps.forEach(step => {
-          const li = document.createElement('li');
-          li.textContent = step;
-          routeInfoUl.appendChild(li);
+        routeData.steps.forEach((step, i) => {
+          const stepDiv = document.createElement("div");
+          stepDiv.className = "step-card animated";
+
+          const imgSrc = getBusImage(step);
+          if (imgSrc) {
+            const imgContainer = document.createElement("div");
+            imgContainer.className = "bus-img-container";
+            const img = document.createElement("img");
+            img.src = imgSrc;
+            img.alt = "Bus Image";
+            img.className = "bus-img";
+            imgContainer.appendChild(img);
+            stepDiv.appendChild(imgContainer);
+          }
+
+          const p = document.createElement("p");
+          p.className = "result-info-p generated";
+          p.textContent = step;
+          stepDiv.appendChild(p);
+
+          routeInfoUl.appendChild(stepDiv);
+
+          // Pop-out animation delay
+          setTimeout(() => stepDiv.classList.add("show"), i * 300);
         });
       }
 
@@ -119,5 +140,6 @@
   });
 </script>
 <script src="route.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

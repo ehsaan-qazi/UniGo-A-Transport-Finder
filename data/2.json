@@ -1,0 +1,5490 @@
+[
+  {
+    "from": "saddar",
+    "to": "saddar",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "committee-chowk",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Committee-Chowk Metro Station"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Faizabad Metro Station"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Peshawar-Mor Metro Station"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "saddar",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "saddar",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Committee-Chowk Metro Station"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "committee-chowk",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Committee-Chowk Metro Station to Faizabad Metro Station"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "committee-chowk",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "saddar",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Faizabad Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "committee-chowk",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Committee-Chowk Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "faizabad",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "blue-area",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Blue-Area Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "g9",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to G9 Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "centaurus",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Centaurus Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Peshawar-Mor Metro Station"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "comsats",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Comsats"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "nust",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Nust"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "qau",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Qau"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "faizabad",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "pir-wadhai",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pir-wadhai",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Blue-Area Metro Station"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "blue-area",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "blue-area",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to G9 Metro Station"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "g9",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g9",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Centaurus Metro Station"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "centaurus",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "centaurus",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "saddar",
+    "steps": [
+      "Take Red Line Metro from Saddar Metro Station to Peshawar-Mor Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "faizabad",
+    "steps": [
+      "Take Red Line Metro from Faizabad Metro Station to Peshawar-Mor Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "peshawar-mor",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "nust",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Nust Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "iiu",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Iiu Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "iiui-female",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Iiui-Female Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "fast-uni",
+    "steps": [
+      "Take Green Line Feeder from Peshawar-Mor Metro Station to Fast-Uni"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "nust-smme",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Nust-Smme Metro Station"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "iqra-uni",
+    "steps": [
+      "Take Green Line Feeder from Peshawar-Mor Metro Station to Iqra-Uni"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "peshawar-mor",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "f6",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f6",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "f7",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f7",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "f8",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "f8",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "g10",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g10",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "g11",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "g11",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "bahria-town",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-town",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "dha",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "dha",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "pwd",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "pwd",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "faizabad",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Comsats"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "comsats",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "comsats",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "faizabad",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Nust"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Nust Metro Station"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "nust",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "faizabad",
+    "steps": [
+      "Take Green Line Feeder from Faizabad Metro Station to Qau"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "qau",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "qau",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Iiu Metro Station"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "iiu",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiu",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Iiui-Female Metro Station"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "iiui-female",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iiui-female",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "bahria-uni",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "air-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "air-uni",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Green Line Feeder from Peshawar-Mor Metro Station to Fast-Uni"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "fast-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "fast-uni",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Orange Line Metro from Peshawar-Mor Metro Station to Nust-Smme Metro Station"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "nust-smme",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "nust-smme",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Take Green Line Feeder from Peshawar-Mor Metro Station to Iqra-Uni"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "iqra-uni",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  },
+  {
+    "from": "riphah-uni",
+    "to": "preston-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "saddar",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "committee-chowk",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "faizabad",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "pir-wadhai",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "blue-area",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "g9",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "centaurus",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "peshawar-mor",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "f6",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "f7",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "f8",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "g10",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "g11",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "bahria-town",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "dha",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "pwd",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "comsats",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "nust",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "qau",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "iiu",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "iiui-female",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "bahria-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "air-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "fast-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "nust-smme",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "iqra-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "riphah-uni",
+    "steps": [
+      "Route requires combination of metro and feeder services"
+    ]
+  },
+  {
+    "from": "preston-uni",
+    "to": "preston-uni",
+    "steps": [
+      "No transport needed"
+    ]
+  }
+]

@@ -439,3 +439,92 @@ body {
     flex: 1; /* Original flex for larger screens */
   }
 }
+.step-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.step-card.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.bus-img {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.step-card {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.step-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bus-img-container {
+  width: 100%;
+  max-width: 150px; /* Adjust as needed for desired size */
+  height: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease-out;
+}
+
+.step-card.show .bus-img-container {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.bus-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.result-info-p.generated {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .step-card {
+    flex-direction: row; /* Horizontal layout on larger screens */
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .bus-img-container {
+    max-width: 200px; /* Larger images on desktop */
+  }
+}
