@@ -6,6 +6,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -19,6 +20,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -32,6 +34,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -44,6 +47,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -71,6 +75,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -83,9 +88,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -97,6 +102,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -109,6 +115,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -121,6 +128,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -133,6 +141,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -145,6 +154,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -157,6 +167,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -181,6 +192,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -193,6 +205,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -234,6 +247,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -247,8 +261,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -262,8 +275,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -277,8 +289,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -290,6 +301,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -317,6 +329,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -372,7 +385,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -400,7 +414,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -441,8 +456,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from nust → nust-smme"
         ]
       }
     ]
@@ -579,8 +593,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from nust → g9"
         ]
       }
     ]
@@ -606,9 +619,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from nust → peshawar-mor"
         ]
       }
     ]
@@ -620,8 +631,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from nust → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -634,8 +644,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from nust → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -648,8 +657,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from nust → f8"
         ]
       }
     ]
@@ -661,9 +669,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from nust → g10"
         ]
       }
     ]
@@ -675,8 +681,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from nust → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from nust → g11"
         ]
       }
     ]
@@ -730,6 +735,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -742,6 +748,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -755,6 +762,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -767,6 +775,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -794,6 +803,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -806,9 +816,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -820,6 +830,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -832,6 +843,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -844,6 +856,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -856,6 +869,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -868,6 +882,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -880,6 +895,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -904,6 +920,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -916,6 +933,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -957,6 +975,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -970,8 +989,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -985,8 +1003,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -1000,8 +1017,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -1013,6 +1029,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1040,6 +1057,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1080,6 +1098,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -1092,6 +1111,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -1105,6 +1125,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -1118,6 +1139,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -1145,6 +1167,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -1157,9 +1180,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -1171,6 +1194,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -1183,6 +1207,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -1195,6 +1220,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1207,6 +1233,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -1219,6 +1246,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1231,6 +1259,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1255,6 +1284,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1267,6 +1297,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1308,6 +1339,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1321,8 +1353,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -1336,8 +1367,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -1351,8 +1381,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -1364,6 +1393,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1391,6 +1421,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1431,6 +1462,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -1443,6 +1475,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -1456,6 +1489,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -1469,6 +1503,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -1495,6 +1530,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -1507,9 +1543,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -1521,6 +1557,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -1533,6 +1570,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -1545,6 +1583,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1557,6 +1596,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -1569,6 +1609,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1581,6 +1622,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1605,6 +1647,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1617,6 +1660,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1658,6 +1702,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1671,8 +1716,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -1686,8 +1730,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -1701,8 +1744,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -1714,6 +1756,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1741,6 +1784,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -1781,6 +1825,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
@@ -1794,8 +1839,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from secretariat → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → nust"
+          "Closest Metro Station: secretariat",
+          "Red Line from secretariat → nust"
         ]
       }
     ]
@@ -1807,7 +1852,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from secretariat → PIMS",
+          "Closest Metro Station: secretariat",
+          "Red Line from secretariat → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -1820,6 +1867,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
@@ -1833,7 +1881,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from secretariat → PIMS",
+          "Closest Metro Station: secretariat",
+          "Red Line from secretariat → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -1846,6 +1896,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
@@ -1859,9 +1910,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from secretariat → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Closest Metro Station: secretariat",
+          "Red Line from secretariat → nust"
         ]
       }
     ]
@@ -1873,6 +1923,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
@@ -1886,6 +1937,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
@@ -1913,6 +1965,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: secretariat",
           "Red Line from secretariat → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
@@ -1996,8 +2049,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: secretariat",
-          "Red Line from secretariat → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
+          "Red Line from secretariat → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -2039,8 +2091,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: secretariat",
-          "Orange Line from secretariat → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from secretariat → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2054,8 +2105,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: secretariat",
-          "Orange Line from secretariat → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from secretariat → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2069,8 +2119,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: secretariat",
-          "Orange Line from secretariat → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from secretariat → f8"
         ]
       }
     ]
@@ -2097,8 +2146,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: secretariat",
-          "Red Line from secretariat → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
+          "Red Line from secretariat → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -2153,6 +2201,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -2165,6 +2214,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -2178,6 +2228,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -2191,6 +2242,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -2203,6 +2255,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -2230,9 +2283,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -2244,6 +2297,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -2256,6 +2310,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -2268,6 +2323,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2280,6 +2336,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -2292,6 +2349,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2304,6 +2362,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2328,6 +2387,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2340,6 +2400,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2381,6 +2442,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2394,8 +2456,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2409,8 +2470,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2424,8 +2484,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -2437,6 +2496,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2464,6 +2524,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2504,6 +2565,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -2516,6 +2578,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -2529,6 +2592,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -2542,6 +2606,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -2554,6 +2619,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -2581,6 +2647,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -2593,6 +2660,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -2605,6 +2673,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -2617,6 +2686,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2629,6 +2699,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -2641,6 +2712,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2653,6 +2725,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2677,6 +2750,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2689,6 +2763,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2730,6 +2805,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2743,8 +2819,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2758,8 +2833,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -2773,8 +2847,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -2786,6 +2859,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2813,6 +2887,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2853,6 +2928,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -2865,6 +2941,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -2878,6 +2955,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -2891,6 +2969,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -2903,6 +2982,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -2930,6 +3010,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -2942,9 +3023,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -2956,6 +3037,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -2968,6 +3050,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -2980,6 +3063,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -2992,6 +3076,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3004,6 +3089,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3028,6 +3114,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3040,6 +3127,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3081,6 +3169,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3094,8 +3183,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3109,8 +3197,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3124,8 +3211,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -3137,6 +3223,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3164,6 +3251,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3204,6 +3292,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -3216,6 +3305,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -3229,6 +3319,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -3242,6 +3333,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -3254,6 +3346,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -3281,6 +3374,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -3293,9 +3387,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -3307,6 +3401,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -3319,6 +3414,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3331,6 +3427,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -3343,6 +3440,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3355,6 +3453,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3379,6 +3478,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3391,6 +3491,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3432,6 +3533,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3445,8 +3547,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3460,8 +3561,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3475,8 +3575,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -3488,6 +3587,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3515,6 +3615,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3555,6 +3656,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -3567,6 +3669,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -3580,6 +3683,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -3593,6 +3697,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -3605,6 +3710,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -3632,6 +3738,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -3644,9 +3751,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -3658,6 +3765,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -3670,6 +3778,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -3682,6 +3791,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -3694,6 +3804,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3706,6 +3817,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3730,6 +3842,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3742,6 +3855,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3783,6 +3897,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3796,8 +3911,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3811,8 +3925,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -3826,8 +3939,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -3839,6 +3951,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3866,6 +3979,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -3906,6 +4020,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -3918,6 +4033,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -3931,6 +4047,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -3944,6 +4061,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -3956,6 +4074,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -3983,6 +4102,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -3995,9 +4115,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -4009,6 +4129,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -4021,6 +4142,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -4033,6 +4155,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4045,6 +4168,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4057,6 +4181,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4081,6 +4206,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4093,6 +4219,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4134,6 +4261,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4147,8 +4275,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4162,8 +4289,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4177,8 +4303,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -4190,6 +4315,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4217,6 +4343,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -4349,8 +4476,7 @@
         "label": "Recommended Route",
         "steps": [
           "Red Line from saddar → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust-smme"
         ]
       }
     ]
@@ -4414,8 +4540,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from saddar → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from saddar → committee-chowk"
         ]
       }
     ]
@@ -4452,8 +4577,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from saddar → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from saddar → blue-area"
         ]
       }
     ]
@@ -4505,8 +4629,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from saddar → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from saddar → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4519,8 +4642,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from saddar → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from saddar → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4533,8 +4655,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from saddar → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from saddar → f8"
         ]
       }
     ]
@@ -4704,8 +4825,7 @@
         "label": "Recommended Route",
         "steps": [
           "Red Line from committee-chowk → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust-smme"
         ]
       }
     ]
@@ -4769,8 +4889,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from committee-chowk → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from committee-chowk → saddar"
         ]
       }
     ]
@@ -4807,8 +4926,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from committee-chowk → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from committee-chowk → blue-area"
         ]
       }
     ]
@@ -4860,8 +4978,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from committee-chowk → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from committee-chowk → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4874,8 +4991,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from committee-chowk → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from committee-chowk → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -4888,8 +5004,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from committee-chowk → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from committee-chowk → f8"
         ]
       }
     ]
@@ -5056,8 +5171,7 @@
         "label": "Recommended Route",
         "steps": [
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust-smme"
         ]
       }
     ]
@@ -5117,7 +5231,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Closest Metro Station: faizabad"
+          "Red Line from faizabad → saddar"
         ]
       }
     ]
@@ -5129,7 +5243,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Closest Metro Station: faizabad"
+          "Red Line from faizabad → committee-chowk"
         ]
       }
     ]
@@ -5153,7 +5267,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Closest Metro Station: faizabad"
+          "Red Line from faizabad → blue-area"
         ]
       }
     ]
@@ -5204,8 +5318,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5218,8 +5331,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5232,8 +5344,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -5309,6 +5420,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -5321,6 +5433,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -5334,6 +5447,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -5347,6 +5461,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -5359,6 +5474,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -5386,6 +5502,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -5398,9 +5515,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -5412,6 +5529,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -5424,6 +5542,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -5436,6 +5555,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5448,6 +5568,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -5460,6 +5581,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5472,6 +5594,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5496,6 +5619,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5537,6 +5661,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5550,8 +5675,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5565,8 +5689,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5580,8 +5703,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -5593,6 +5715,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5620,6 +5743,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -5752,8 +5876,7 @@
         "label": "Recommended Route",
         "steps": [
           "Red Line from blue-area → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust-smme"
         ]
       }
     ]
@@ -5817,8 +5940,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from blue-area → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from blue-area → saddar"
         ]
       }
     ]
@@ -5830,8 +5952,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Red Line from blue-area → faizabad",
-          "Closest Metro Station: faizabad"
+          "Red Line from blue-area → committee-chowk"
         ]
       }
     ]
@@ -5907,8 +6028,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5921,8 +6041,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -5935,8 +6054,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from blue-area → f8"
         ]
       }
     ]
@@ -6026,7 +6144,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → NUST"
+          "Orange Line from g9 → nust"
         ]
       }
     ]
@@ -6039,7 +6157,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -6067,7 +6186,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -6108,8 +6228,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from g9 → nust-smme"
         ]
       }
     ]
@@ -6260,9 +6379,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from g9 → peshawar-mor"
         ]
       }
     ]
@@ -6274,8 +6391,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -6288,8 +6405,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -6302,8 +6419,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8"
         ]
       }
     ]
@@ -6315,9 +6432,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from g9 → g10"
         ]
       }
     ]
@@ -6329,8 +6444,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g9 → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from g9 → g11"
         ]
       }
     ]
@@ -6384,6 +6498,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
@@ -6397,6 +6512,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -6410,6 +6526,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -6423,6 +6540,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
@@ -6436,6 +6554,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -6463,6 +6582,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
@@ -6476,9 +6596,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -6490,6 +6610,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
@@ -6503,6 +6624,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
@@ -6530,6 +6652,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
@@ -6642,8 +6765,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -6657,8 +6779,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -6672,8 +6793,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from blue-area → f8"
         ]
       }
     ]
@@ -6728,6 +6848,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -6740,6 +6861,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -6766,7 +6888,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → NUST"
+          "Orange Line from peshawar-mor → nust"
         ]
       }
     ]
@@ -6779,7 +6901,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -6807,7 +6930,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -6848,8 +6972,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from peshawar-mor → nust-smme"
         ]
       }
     ]
@@ -6986,8 +7109,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from peshawar-mor → g9"
         ]
       }
     ]
@@ -7013,8 +7135,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from peshawar-mor → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -7027,8 +7148,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from peshawar-mor → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -7041,8 +7161,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from peshawar-mor → f8"
         ]
       }
     ]
@@ -7054,9 +7173,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from peshawar-mor → g10"
         ]
       }
     ]
@@ -7068,8 +7185,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from peshawar-mor → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from peshawar-mor → g11"
         ]
       }
     ]
@@ -7123,8 +7239,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -7137,8 +7253,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → nust"
+          "Closest Metro Station: f8",
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -7150,8 +7266,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -7164,8 +7281,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -7178,8 +7295,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -7193,8 +7311,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → secretariat",
+          "Red Line from f8 → secretariat",
           "Closest Metro Station: secretariat"
         ]
       }
@@ -7207,8 +7324,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -7221,9 +7338,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Closest Metro Station: f8",
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -7235,8 +7351,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -7249,8 +7365,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -7264,8 +7380,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7278,8 +7393,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -7293,8 +7408,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7308,8 +7422,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7323,8 +7436,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad"
+          "Red Line from f8 → faizabad"
         ]
       }
     ]
@@ -7337,8 +7449,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7352,8 +7463,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7367,8 +7477,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -7382,8 +7491,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7397,8 +7505,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7411,6 +7518,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -7436,8 +7544,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7451,8 +7558,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -7466,8 +7572,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7481,8 +7586,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7496,8 +7600,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7510,8 +7613,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -7524,8 +7627,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → nust"
+          "Closest Metro Station: f8",
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -7537,8 +7640,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -7551,8 +7655,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -7565,8 +7669,9 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -7580,8 +7685,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → secretariat",
+          "Red Line from f8 → secretariat",
           "Closest Metro Station: secretariat"
         ]
       }
@@ -7594,8 +7698,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -7608,9 +7712,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Closest Metro Station: f8",
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -7622,8 +7725,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -7636,8 +7739,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -7651,8 +7754,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7665,8 +7767,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: f8",
+          "Red Line from f8 → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -7680,8 +7782,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7695,8 +7796,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7710,8 +7810,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad"
+          "Red Line from f8 → faizabad"
         ]
       }
     ]
@@ -7724,8 +7823,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7739,8 +7837,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7754,8 +7851,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -7769,8 +7865,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7784,8 +7879,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7798,6 +7892,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -7823,8 +7918,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7838,8 +7932,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -7853,8 +7946,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -7868,8 +7960,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7883,8 +7974,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: f8",
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -7897,8 +7987,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -7911,8 +8000,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → nust"
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -7924,8 +8012,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: faizabad",
+          "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -7938,8 +8026,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -7952,8 +8039,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Closest Metro Station: faizabad",
+          "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -7966,8 +8053,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → secretariat",
+          "Red Line from f8 → secretariat",
           "Closest Metro Station: secretariat"
         ]
       }
@@ -7980,8 +8066,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -7994,9 +8079,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Red Line from f8 → nust"
         ]
       }
     ]
@@ -8008,8 +8091,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -8022,8 +8104,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -8036,8 +8117,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8050,8 +8130,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -8064,8 +8143,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8078,8 +8156,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8092,8 +8169,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad"
+          "Red Line from f8 → faizabad"
         ]
       }
     ]
@@ -8105,8 +8181,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8119,8 +8194,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8133,8 +8207,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -8147,8 +8220,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -8161,8 +8233,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8199,8 +8270,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8213,8 +8283,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → g10",
+          "Red Line from f8 → g10",
           "Closest Metro Station: g10"
         ]
       }
@@ -8227,8 +8296,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from f8 → faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -8241,8 +8309,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -8255,8 +8322,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from f8 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → blue-area",
+          "Red Line from f8 → blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -8283,7 +8349,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g10 → NUST"
+          "Orange Line from g10 → nust"
         ]
       }
     ]
@@ -8296,7 +8362,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -8324,7 +8391,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -8365,7 +8433,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from g10 → nust-smme"
         ]
       }
     ]
@@ -8502,7 +8570,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Closest Metro Station: g10"
+          "Orange Line from g10 → g9"
         ]
       }
     ]
@@ -8528,9 +8596,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from g10 → peshawar-mor"
         ]
       }
     ]
@@ -8542,8 +8608,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -8556,8 +8621,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -8570,8 +8634,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g10 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from g10 → f8"
         ]
       }
     ]
@@ -8583,7 +8646,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Closest Metro Station: g10"
+          "Orange Line from g10 → g11"
         ]
       }
     ]
@@ -8651,7 +8714,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → NUST"
+          "Orange Line from g11 → nust"
         ]
       }
     ]
@@ -8664,7 +8727,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
       }
@@ -8692,7 +8756,8 @@
         "label": "Recommended Route",
         "steps": [
           "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → PIMS",
+          "Red Line from Faiz Ahmed Faiz → faizabad",
+          "Red Line from Faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
       }
@@ -8733,8 +8798,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from g11 → nust-smme"
         ]
       }
     ]
@@ -8871,8 +8935,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → g10",
-          "Closest Metro Station: g10"
+          "Orange Line from g11 → g9"
         ]
       }
     ]
@@ -8898,9 +8961,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from g11 → peshawar-mor"
         ]
       }
     ]
@@ -8912,8 +8973,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -8926,8 +8987,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -8940,8 +9001,8 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Closest Metro Station: g10",
+          "Red Line from g10 → f8"
         ]
       }
     ]
@@ -8953,9 +9014,7 @@
       {
         "label": "Recommended Route",
         "steps": [
-          "Orange Line from g11 → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → faizabad",
-          "Closest Metro Station: faizabad"
+          "Orange Line from g11 → g10"
         ]
       }
     ]
@@ -9009,6 +9068,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
       }
@@ -9021,6 +9081,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -9034,6 +9095,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -9047,6 +9109,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
       }
@@ -9059,6 +9122,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -9086,6 +9150,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
       }
@@ -9098,9 +9163,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Red Line from faizabad → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -9112,6 +9177,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
       }
@@ -9124,6 +9190,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
       }
@@ -9136,6 +9203,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9148,6 +9216,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
       }
@@ -9160,6 +9229,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9172,6 +9242,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9196,6 +9267,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9208,6 +9280,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9249,6 +9322,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9262,8 +9336,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -9277,8 +9350,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from faizabad → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -9292,8 +9364,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: faizabad",
-          "Orange Line from faizabad → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from faizabad → f8"
         ]
       }
     ]
@@ -9305,6 +9376,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: faizabad",
           "Closest Metro Station: faizabad"
         ]
       }
@@ -9360,6 +9432,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
@@ -9373,6 +9446,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -9386,6 +9460,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -9399,6 +9474,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
@@ -9412,6 +9488,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -9439,6 +9516,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
@@ -9452,9 +9530,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -9466,6 +9544,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
@@ -9479,6 +9558,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
@@ -9506,6 +9586,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
@@ -9603,6 +9684,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -9630,8 +9712,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -9645,8 +9726,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -9660,8 +9740,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from blue-area → f8"
         ]
       }
     ]
@@ -9716,6 +9795,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -9728,6 +9808,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-08C from Faizabad → COMSATS University Islamabad"
         ]
@@ -9741,6 +9822,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
           "Orange Line from Faiz Ahmed Faiz → nust"
         ]
@@ -9754,6 +9836,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
         ]
@@ -9767,6 +9850,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → International Islamic University (IIU)"
         ]
@@ -9780,6 +9864,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → PIMS",
           "Green Feeder FR-03A from PIMS → Bahria University"
         ]
@@ -9807,6 +9892,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → FAST University"
         ]
@@ -9820,9 +9906,9 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → Faiz Ahmed Faiz",
-          "Orange Line from Faiz Ahmed Faiz → g10",
-          "Green Feeder FR-07 from G-10 → NUST SMME"
+          "Orange Line from Faiz Ahmed Faiz → nust"
         ]
       }
     ]
@@ -9834,6 +9920,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IQRA University"
         ]
@@ -9847,6 +9934,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → Riphah University"
         ]
@@ -9874,6 +9962,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Red Line from blue-area → faizabad",
           "Green Feeder FR-01 from Faizabad → IIUI Female Campus"
         ]
@@ -9971,6 +10060,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }
@@ -9998,8 +10088,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -10013,8 +10102,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8",
+          "Red Line from blue-area → f8",
           "Closest Metro Station: f8"
         ]
       }
@@ -10028,8 +10116,7 @@
         "label": "Recommended Route",
         "steps": [
           "Closest Metro Station: blue-area",
-          "Orange Line from blue-area → Faiz Ahmed Faiz",
-          "Red Line from Faiz Ahmed Faiz → f8"
+          "Red Line from blue-area → f8"
         ]
       }
     ]
@@ -10084,6 +10171,7 @@
       {
         "label": "Recommended Route",
         "steps": [
+          "Closest Metro Station: blue-area",
           "Closest Metro Station: blue-area"
         ]
       }

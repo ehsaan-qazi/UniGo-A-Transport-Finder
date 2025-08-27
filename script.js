@@ -1,9 +1,9 @@
 let routes = [];
 let isDataLoaded = false;
 
-// Load the full slugged dataset
+// Load the full dataset
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("data/unigo_transport_routes_full_slugged.json")
+  fetch("data/unigo_transport_routes_full_slugged.json") // <-- make sure the JSON file is in /data/
     .then((r) => r.json())
     .then((json) => {
       if (Array.isArray(json)) {
@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const overlayMenu = document.querySelector(".overlay-menu");
 
   if (menuIcon && overlayMenu) {
-    // Toggle menu on hamburger click
     menuIcon.addEventListener("click", () => {
       overlayMenu.classList.toggle("show");
 
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    // Close menu when a link is clicked
     overlayMenu.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
         overlayMenu.classList.remove("show");
@@ -52,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // Close menu when clicking outside
     document.addEventListener("click", function (e) {
       if (!menuIcon.contains(e.target) && !overlayMenu.contains(e.target)) {
         if (overlayMenu.classList.contains("show")) {
@@ -67,35 +64,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Rewrites a step for reverse routes where the step has explicit "from ... to/via ..."
+// Reverse route text handler
 function reverseStepText(text) {
   const match = text.match(
-    /^(Take\s(?:[A-Z][a-z]+\s){0,2}(?:Line|Feeder|Bus|Metro)\s(?:[A-Z0-9-]+)?)\sfrom\s(.*?)\s(to|via)\s(.*?)(?:\.)?$/i
+    /^(.*? from )(.+?)( →| via )(.+?)$/i
   );
   if (match) {
-    const [, routePart, fromLocation, toOrVia, toLocation] = match;
-    return `${routePart} from ${toLocation.trim()} ${toOrVia} ${fromLocation.trim()}.`;
+    const [, routePart, fromLocation, arrow, toLocation] = match;
+    return `${routePart}${toLocation.trim()}${arrow} ${fromLocation.trim()}`;
   }
-  return text; // leave untouched if it doesn't fit the pattern
-}
-
-// Utility: render steps after the anchor, preserving order
-function renderStepsAfter(anchorEl, steps) {
-  let insertAfter = anchorEl; // start by inserting after the anchor
-  steps.forEach((step) => {
-    const p = document.createElement("p");
-    p.className = "result-info-p generated";
-    p.textContent = step;
-    insertAfter.insertAdjacentElement("afterend", p);
-    insertAfter = p; // next insertion goes after the last inserted <p>
-  });
+  return text;
 }
 
 // Map bus names/feeder codes to images
 const busImages = {
   "Red Line": "images/red-line.png",
   "Orange Line": "images/orange-line.png",
-  "Green Line": "images/green-line.jpeg", // fallback if no feeder match
+  "Green Line": "images/green-line.jpeg",
   "FR-01": "images/green-feeders/fr-01.png",
   "FR-02": "images/green-feeders/fr-02.png",
   "FR-03": "images/green-feeders/fr-03.png",
@@ -110,9 +95,21 @@ const busImages = {
   "FR-09": "images/green-feeders/fr-09.png"
 };
 
+// Helper to detect which image to use
+function getBusImage(stepText) {
+  if (stepText.includes("Red Line")) return busImages["Red Line"];
+  if (stepText.includes("Orange Line")) return busImages["Orange Line"];
+  const feederMatch = stepText.match(/FR-\d+[A-Z]?/i);
+  if (feederMatch) {
+    const code = feederMatch[0].toUpperCase();
+    return busImages[code] || busImages["Green Line"];
+  }
+  if (stepText.includes("Green")) return busImages["Green Line"];
+  return null;
+}
+
 // Search function
 function findTrans() {
-  // Ensure data is loaded
   if (!isDataLoaded) {
     alert("Route data is still loading. Please try again in a moment.");
     return;
@@ -126,26 +123,24 @@ function findTrans() {
 
   const resultsList = document.querySelector(".results-list");
   resultsList.innerHTML = "";
-
-  // Show the search results container
   document.querySelector(".search-result-container").classList.remove("hide");
 
   let steps = null;
+  let routeLabel = "Recommended Route";
 
-  // Direct route
   const direct = routes.find(r => r.from === from && r.to === to);
-  if (direct?.steps) {
-    steps = direct.steps.slice();
+  if (direct?.options?.length) {
+    steps = direct.options[0].steps.slice();
+    routeLabel = direct.options[0].label || routeLabel;
   } else {
-    // Reverse route
     const reverse = routes.find(r => r.from === to && r.to === from);
-    if (reverse?.steps) {
-      steps = reverse.steps.slice().reverse().map(s => reverseStepText(s));
+    if (reverse?.options?.length) {
+      steps = reverse.options[0].steps.slice().reverse().map(s => reverseStepText(s));
+      routeLabel = reverse.options[0].label || routeLabel;
     }
   }
 
   if (steps && steps.length) {
-    // Create result card
     const resultCard = document.createElement("div");
     resultCard.className = "result-card";
 
@@ -158,31 +153,27 @@ function findTrans() {
 
     const anchorP = document.createElement("p");
     anchorP.className = "result-info-p";
-    anchorP.textContent = "Recommended Route:";
+    anchorP.textContent = routeLabel;
     infoDiv.appendChild(anchorP);
 
     resultCard.appendChild(infoDiv);
     resultsList.appendChild(resultCard);
 
-    // Make the entire resultCard clickable
-    resultCard.style.cursor = "pointer"; // Add cursor style to indicate clickability
+    resultCard.style.cursor = "pointer";
     resultCard.addEventListener("click", () => {
-      localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
+      localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps, routeLabel }));
       window.location.href = "route.html";
     });
 
-    let insertAfterElement = anchorP; // Start inserting after the 'Recommended Route' paragraph
-
-    // 🔧 Step rendering with images + animation
+    let insertAfterElement = anchorP;
     steps.forEach((text, i) => {
       const stepDiv = document.createElement("div");
       stepDiv.className = "step-card animated";
 
-      // Add bus image if available
       const imgSrc = getBusImage(text);
       if (imgSrc) {
         const imgContainer = document.createElement("div");
-        imgContainer.className = "bus-img-container"; // New container for image
+        imgContainer.className = "bus-img-container";
         const img = document.createElement("img");
         img.src = imgSrc;
         img.alt = "Bus Image";
@@ -191,63 +182,49 @@ function findTrans() {
         stepDiv.appendChild(imgContainer);
       }
 
-      // Add step text
       const p = document.createElement("p");
       p.className = "result-info-p generated";
       p.textContent = text;
       stepDiv.appendChild(p);
 
       insertAfterElement.insertAdjacentElement("afterend", stepDiv);
-      insertAfterElement = stepDiv; // Update the insertion point for the next step
+      insertAfterElement = stepDiv;
 
-      // Pop-out animation delay
       setTimeout(() => stepDiv.classList.add("show"), i * 300);
     });
-
-    // "View Route" button (removed as the entire card is clickable)
-    // const viewBtn = document.createElement("a");
-    // viewBtn.className = "view-route-btn";
-    // viewBtn.textContent = "View Route";
-    // viewBtn.href = "#";
-    // viewBtn.addEventListener("click", (e) => {
-    //   e.preventDefault();
-    //   localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
-    //   window.location.href = "route.html";
-    // });
-
-    // infoDiv.appendChild(viewBtn);
-
   } else {
     resultsList.innerHTML = `<p class="result-info-p">No route found between ${fromLabel} and ${toLabel}.</p>`;
   }
 }
 
-// Make Popular Routes Clickable
+// Popular Routes
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".route-card").forEach(card => {
     card.addEventListener("click", () => {
       const from = card.getAttribute("data-from");
       const to = card.getAttribute("data-to");
 
-      // Try to find a direct route first
       let steps = null;
+      let routeLabel = "Recommended Route";
+
       let fromLabel = document.querySelector(`#departure-dropdown option[value="${from}"]`)?.text || from;
       let toLabel = document.querySelector(`#destination-dropdown option[value="${to}"]`)?.text || to;
 
       const direct = routes.find(r => r.from === from && r.to === to);
-      if (direct?.steps) {
-        steps = direct.steps.slice();
+      if (direct?.options?.length) {
+        steps = direct.options[0].steps.slice();
+        routeLabel = direct.options[0].label || routeLabel;
       } else {
-        // Reverse route
         const reverse = routes.find(r => r.from === to && r.to === from);
-        if (reverse?.steps) {
-          steps = reverse.steps.slice().reverse().map(s => reverseStepText(s));
+        if (reverse?.options?.length) {
+          steps = reverse.options[0].steps.slice().reverse().map(s => reverseStepText(s));
+          routeLabel = reverse.options[0].label || routeLabel;
           [fromLabel, toLabel] = [toLabel, fromLabel];
         }
       }
 
       if (steps && steps.length) {
-        localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps }));
+        localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps, routeLabel }));
         window.location.href = "route.html";
       } else {
         alert("No route found for this popular route.");
@@ -255,38 +232,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-// Helper to detect which image to use
-function getBusImage(stepText) {
-  // 🔴 Red Line
-  if (stepText.includes("Red Line")) {
-    return "images/red-line.png";
-  }
-
-  // 🟠 Orange Line
-  if (stepText.includes("Orange Line")) {
-    return "images/orange-line.png";
-  }
-
-  // 🔵 Blue Line
-  if (stepText.includes("Blue Line")) {
-    return "images/blue-line.png";
-  }
-
-  // 🟢 Green Line Feeders (check for FR codes like FR-08C, FR-01, etc.)
-  const feederMatch = stepText.match(/FR-\d+[A-Z]?/i); 
-  if (feederMatch) {
-    const code = feederMatch[0].toLowerCase(); // e.g. fr-08c
-    return `images/green-feeders/${code}.png`;
-  }
-
-  // Generic fallback for green line (if no feeder match)
-  if (stepText.includes("Green")) {
-    return "images/green-line.jpeg";
-  }
-
-  return null; // nothing matched
-}
-
-
-

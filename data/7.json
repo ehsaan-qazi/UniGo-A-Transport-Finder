@@ -1,0 +1,568 @@
+[
+    {
+      "from": "saddar",
+      "to": "comsats",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-08C from Faizabad → COMSATS University"
+      ]
+    },
+    {
+      "from": "comsats",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-08C from COMSATS University → Faizabad",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "nust",
+      "steps": [
+        "Red Line from Saddar → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "saddar",
+      "steps": [
+        "Orange Line from NUST → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "qau",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-04A from PIMS → Quaid-e-Azam University"
+      ]
+    },
+    {
+      "from": "qau",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-04A from Quaid-e-Azam University → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "iiu",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-01 from Faizabad → Islamic University"
+      ]
+    },
+    {
+      "from": "iiu",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-01 from Islamic University → Faizabad",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "bahria-uni",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-03A from PIMS → Bahria University"
+      ]
+    },
+    {
+      "from": "bahria-uni",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-03A from Bahria University → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "fast-uni",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-01 from Faizabad → FAST University"
+      ]
+    },
+    {
+      "from": "fast-uni",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-01 from Faizabad → FAST University",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "air-uni",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "air-uni",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "nust-smme",
+      "steps": [
+        "Red Line from Saddar → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → NUST"
+      ]
+    },
+    {
+      "from": "nust-smme",
+      "to": "saddar",
+      "steps": [
+        "Orange Line from NUST → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "iqra-uni",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "iqra-uni",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "riphah-uni",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "riphah-uni",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "preston-uni",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "preston-uni",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "iiui-female",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-01 from Faizabad → Islamic University"
+      ]
+    },
+    {
+      "from": "iiui-female",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-01 from Islamic University → Faizabad",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "committee-chowk",
+      "steps": [
+        "Red Line from Saddar → Committee Chowk"
+      ]
+    },
+    {
+      "from": "committee-chowk",
+      "to": "saddar",
+      "steps": [
+        "Red Line from Committee Chowk → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "faizabad",
+      "steps": [
+        "Red Line from Saddar → Faizabad"
+      ]
+    },
+    {
+      "from": "faizabad",
+      "to": "saddar",
+      "steps": [
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "pir-wadhai",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-09 from Faizabad → Pir Wadhai Morr"
+      ]
+    },
+    {
+      "from": "pir-wadhai",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-09 from Pir Wadhai Morr → Faizabad",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "blue-area",
+      "steps": [
+        "Red Line from Saddar → Secretariat"
+      ]
+    },
+    {
+      "from": "blue-area",
+      "to": "saddar",
+      "steps": [
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "g9",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-07 from PIMS → G-9 Markaz"
+      ]
+    },
+    {
+      "from": "g9",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-07 from G-9 Markaz → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "centaurus",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "centaurus",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "peshawar-mor",
+      "steps": [
+        "Red Line from Saddar → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → Airport"
+      ]
+    },
+    {
+      "from": "peshawar-mor",
+      "to": "saddar",
+      "steps": [
+        "Orange Line from Airport → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "f6",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-04 from PIMS → G-6/1,2"
+      ]
+    },
+    {
+      "from": "f6",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-04 from G-6/1,2 → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "f7",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "f7",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "f8",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-03A from PIMS → F-8 Markaz"
+      ]
+    },
+    {
+      "from": "f8",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-03A from F-8 Markaz → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "g10",
+      "steps": [
+        "Red Line from Saddar → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → G-10"
+      ]
+    },
+    {
+      "from": "g10",
+      "to": "saddar",
+      "steps": [
+        "Orange Line from G-10 → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "g11",
+      "steps": [
+        "Red Line from Saddar → PIMS",
+        "Green Feeder FR-07 from PIMS → G-11 Markaz"
+      ]
+    },
+    {
+      "from": "g11",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-07 from G-11 Markaz → PIMS",
+        "Red Line from PIMS → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "bahria-town",
+      "steps": [
+        "Red Line from Saddar → Faizabad",
+        "Green Feeder FR-14 from Faizabad → Margalla Town"
+      ]
+    },
+    {
+      "from": "bahria-town",
+      "to": "saddar",
+      "steps": [
+        "Green Feeder FR-14 from Margalla Town → Faizabad",
+        "Red Line from Faizabad → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "dha",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "dha",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "saddar",
+      "to": "pwd",
+      "steps": [
+        "Red Line from Saddar → Secretariat",
+        "Closest Metro Station: Secretariat"
+      ]
+    },
+    {
+      "from": "pwd",
+      "to": "saddar",
+      "steps": [
+        "Closest Metro Station: Secretariat",
+        "Red Line from Secretariat → Saddar"
+      ]
+    },
+    {
+      "from": "committee-chowk",
+      "to": "comsats",
+      "steps": [
+        "Red Line from Committee Chowk → Faizabad",
+        "Green Feeder FR-08C from Faizabad → COMSATS University"
+      ]
+    },
+    {
+      "from": "comsats",
+      "to": "committee-chowk",
+      "steps": [
+        "Green Feeder FR-08C from COMSATS University → Faizabad",
+        "Red Line from Faizabad → Committee Chowk"
+      ]
+    },
+    {
+      "from": "committee-chowk",
+      "to": "nust",
+      "steps": [
+        "Red Line from Committee Chowk → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "committee-chowk",
+      "steps": [
+        "Orange Line from NUST → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Committee Chowk"
+      ]
+    },
+    {
+      "from": "faizabad",
+      "to": "comsats",
+      "steps": [
+        "Green Feeder FR-08C from Faizabad → COMSATS University"
+      ]
+    },
+    {
+      "from": "comsats",
+      "to": "faizabad",
+      "steps": [
+        "Green Feeder FR-08C from COMSATS University → Faizabad"
+      ]
+    },
+    {
+      "from": "faizabad",
+      "to": "nust",
+      "steps": [
+        "Red Line from Faizabad → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "faizabad",
+      "steps": [
+        "Orange Line from NUST → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Faizabad"
+      ]
+    },
+    {
+      "from": "peshawar-mor",
+      "to": "nust",
+      "steps": [
+        "Orange Line from Peshawar Mor → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "peshawar-mor",
+      "steps": [
+        "Orange Line from NUST → Peshawar Mor"
+      ]
+    },
+    {
+      "from": "peshawar-mor",
+      "to": "comsats",
+      "steps": [
+        "Orange Line from Peshawar Mor → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Faizabad",
+        "Green Feeder FR-08C from Faizabad → COMSATS University"
+      ]
+    },
+    {
+      "from": "comsats",
+      "to": "peshawar-mor",
+      "steps": [
+        "Green Feeder FR-08C from COMSATS University → Faizabad",
+        "Red Line from Faizabad → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → Peshawar Mor"
+      ]
+    },
+    {
+      "from": "g10",
+      "to": "nust",
+      "steps": [
+        "Orange Line from G-10 → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "g10",
+      "steps": [
+        "Orange Line from NUST → G-10"
+      ]
+    },
+    {
+      "from": "blue-area",
+      "to": "nust",
+      "steps": [
+        "Red Line from Secretariat → Faiz Ahmed Faiz",
+        "Orange Line from Faiz Ahmed Faiz → NUST"
+      ]
+    },
+    {
+      "from": "nust",
+      "to": "blue-area",
+      "steps": [
+        "Orange Line from NUST → Faiz Ahmed Faiz",
+        "Red Line from Faiz Ahmed Faiz → Secretariat"
+      ]
+    },
+    {
+      "from": "blue-area",
+      "to": "comsats",
+      "steps": [
+        "Red Line from Secretariat → Faizabad",
+        "Green Feeder FR-08C from Faizabad → COMSATS University"
+      ]
+    },
+    {
+      "from": "comsats",
+      "to": "blue-area",
+      "steps": [
+        "Green Feeder FR-08C from COMSATS University → Faizabad",
+        "Red Line from Faizabad → Secretariat"
+      ]
+    }
+  ]
