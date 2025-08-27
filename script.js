@@ -123,7 +123,11 @@ function findTrans() {
 
   const resultsList = document.querySelector(".results-list");
   resultsList.innerHTML = "";
-  document.querySelector(".search-result-container").classList.remove("hide");
+  const searchResultContainer = document.querySelector(".search-result-container");
+  searchResultContainer.classList.remove("hide");
+
+  // Scroll to the search result container
+  searchResultContainer.scrollIntoView({ behavior: 'smooth' });
 
   let steps = null;
   let routeLabel = "Recommended Route";
