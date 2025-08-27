@@ -32,19 +32,18 @@ body {
     align-items: center;
     gap: 1rem; /* Adjusted gap for mobile */
   }
-  .nav-links {
-    display: none; /* Hide nav links by default on mobile */
-  }
-  .nav-links a {
-    font-size: 0.875rem;
-    font-weight: 500;
+  .abc{
+    color: black;
     text-decoration: none;
   }
-  .nav-links a.active {
-    color: #2563eb;
+
+  /* Mobile-first: Hide nav and help button by default */
+  .nav-links {
+    display: none;
   }
+
   .help-btn {
-    display: none; /* Hide help button by default on mobile */
+    display: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     background-color: #f3f4f6;
@@ -53,17 +52,10 @@ body {
     text-decoration: none;
     color: inherit;
   }
-  .avatar {
-    background-size: cover;
-    background-position: center;
-    border-radius: 9999px;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  
-  /* Hamburger menu icon */
+
+  /* Hamburger menu icon - visible on mobile */
   .menu-icon {
-    display: block; /* Show hamburger icon on mobile */
+    display: block;
     cursor: pointer;
     z-index: 1000;
     transition: transform 0.3s ease-in-out;
@@ -115,7 +107,16 @@ body {
     color: #6b7280;
     background-color: rgba(243, 244, 246, 0.5);
   }
-  
+
+  /* Avatar */
+  .avatar {
+    background-size: cover;
+    background-position: center;
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
   /* Profile Section */
   .profile-container {
     padding: 1rem; /* Adjusted padding for mobile */
@@ -133,6 +134,9 @@ body {
     height: 4rem; /* Adjusted size for mobile */
     border-radius: 9999px;
     background-color: #f3f4f6;
+    background-image: url('../images/Ehsaan.jpg');
+    background-size: 90%;
+    background-position: center;
   }
   .profile-details h1 {
     font-size: 1.375rem; /* Adjusted font size for mobile */
@@ -183,29 +187,38 @@ body {
     font-size: 0.875rem;
     text-align: center;
   }
-  .abc{
-    color: black;
-  }
   
-  /* Media query for larger screens (e.g., tablets and desktops) */
+  /* Desktop styles - 768px and up */
   @media (min-width: 768px) {
     .header {
-      padding: 0.75rem 2.5rem; /* Original padding for larger screens */
+      padding: 0.75rem 2.5rem;
     }
     .header-right {
-      gap: 2rem; /* Original gap for larger screens */
+      gap: 2rem;
     }
+    
+    /* Show nav links and help button on desktop */
     .nav-links {
-      display: flex; /* Show nav links on larger screens */
+      display: flex;
+      gap: 2.25rem;
+    }
+    .nav-links a {
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
     }
     .help-btn {
-      display: block; /* Show help button on larger screens */
+      display: block;
     }
+    
+    /* Hide hamburger menu on desktop */
     .menu-icon {
-      display: none; /* Hide hamburger icon on larger screens */
+      display: none;
     }
+    
+    /* Ensure overlay menu is never shown on desktop */
     .overlay-menu {
-      display: none !important; /* Ensure menu is hidden on large screens */
+      display: none !important;
     }
     .profile-container {
       padding: 2rem 10rem; /* Original padding for larger screens */
