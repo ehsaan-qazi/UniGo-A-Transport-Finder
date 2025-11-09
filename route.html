@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UniGo - Route Details</title>
-  <link rel="stylesheet" href="css/route.css">
+  <link rel="stylesheet" href="src/css/route.css">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800">
 </head>
@@ -83,12 +83,20 @@
     <p>© Made by M. Ehsaan ur Rehman Qazi</p>
   </footer>
 
+<!-- UniGo Scripts -->
+<script src="config.js"></script>
+<script src="src/js/utils/helpers.js"></script>
+<script src="src/js/utils/routeParser.js"></script>
+<script src="src/js/core/dataLoader.js"></script>
+<script src="src/js/components/ui.js"></script>
+<script src="src/js/main.js"></script>
+
+<!-- Route Page Specific Script -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const routeDataString = localStorage.getItem('currentRoute');
-    if (routeDataString) {
-      const routeData = JSON.parse(routeDataString);
-
+    const routeData = UniGoUI.loadRouteFromStorage();
+    
+    if (routeData) {
       const pageHeadingH1 = document.querySelector('.page-heading h1');
       if (pageHeadingH1) {
         pageHeadingH1.textContent = `Route: ${routeData.fromLabel} to ${routeData.toLabel}`;
@@ -98,37 +106,12 @@
       if (routeInfoUl) {
         routeInfoUl.innerHTML = ''; // Clear dummy data
         routeData.steps.forEach((step, i) => {
-          const stepDiv = document.createElement("div");
-          stepDiv.className = "step-card animated";
-
-          const imgSrc = getBusImage(step);
-          if (imgSrc) {
-            const imgContainer = document.createElement("div");
-            imgContainer.className = "bus-img-container";
-            const img = document.createElement("img");
-            img.src = imgSrc;
-            img.alt = "Bus Image";
-            img.className = "bus-img";
-            imgContainer.appendChild(img);
-            stepDiv.appendChild(imgContainer);
-          }
-
-          const p = document.createElement("p");
-          p.className = "result-info-p generated";
-          p.textContent = step;
-          stepDiv.appendChild(p);
-
-          routeInfoUl.appendChild(stepDiv);
-
-          // Pop-out animation delay
-          setTimeout(() => stepDiv.classList.add("show"), i * 300);
+          const stepCard = UniGoUI.createStepCard(step, i);
+          routeInfoUl.appendChild(stepCard);
         });
       }
-
-      // Clear localStorage after use (optional, depending on desired behavior)
-      // localStorage.removeItem('currentRoute');
     } else {
-      // Fallback if no route data is found (e.g., accessed route.html directly)
+      // Fallback if no route data is found
       const pageHeadingH1 = document.querySelector('.page-heading h1');
       if (pageHeadingH1) {
         pageHeadingH1.textContent = 'Route Details Not Available';
@@ -140,7 +123,5 @@
     }
   });
 </script>
-<script src="route.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
