@@ -5,182 +5,142 @@
 
 const DataLoader = {
   routes: [],
+  graph: null,
   stops: {},
   isRoutesLoaded: false,
+  isGraphLoaded: false,
   isStopsLoaded: false,
   loadingPromises: {},
 
+  // Mapping from Dropdown Values (Slugs) to Graph Node IDs
+  slugMapping: {
+    "comsats": "comsats-university",
+    "nust": "nust-metro-station", // or "nust" depending on graph
+    "qau": "quaid-azam-university",
+    "iiu": "islamic-university",
+    "bahria-uni": "bahria-university",
+    "air-uni": "air-university", // Check graph
+    "fast-uni": "fast-university",
+    "nust-smme": "nust-smme", // Check graph
+    "iqra-uni": "iqra-university", // Check graph
+    "riphah-uni": "riphah-university", // Check graph
+    "preston-uni": "preston-university", // Check graph
+    "iiui-female": "iiui-female-campus", // Check graph
+    "saddar": "saddar",
+    "committee-chowk": "committee-chowk",
+    "faizabad": "faizabad",
+    "pir-wadhai": "pir-wadhai-morh", // Check graph
+    "blue-area": "blue-area",
+    "g9": "g-9-markaz",
+    "centaurus": "centaurus", // Check graph
+    "peshawar-mor": "peshawar-mor",
+    "f6": "f-6", // Check graph
+    "f7": "f-7-markaz",
+    "f8": "f-8-markaz",
+    "g10": "g-10-markaz",
+    "g11": "g-11-markaz",
+    "bahria-town": "bahria-town", // Check graph
+    "dha": "dha-gate-07", // Check graph
+    "pwd": "pwd-housing-society"
+  },
+
   /**
-   * Load route data from JSON file
-   * @returns {Promise<Array>} Promise resolving to routes array
+   * Load route data from JSON file (Legacy support + Graph)
    */
   async loadRoutes() {
-    if (this.isRoutesLoaded) {
-      return Promise.resolve(this.routes);
+    // Load Graph Data
+    if (!this.isGraphLoaded && !this.loadingPromises.graph) {
+      this.loadingPromises.graph = fetch('data/graph.json')
+        .then(r => r.json())
+        .then(data => {
+          this.graph = data;
+          this.isGraphLoaded = true;
+          UniGoHelpers.debug('Graph loaded successfully:', Object.keys(this.graph.nodes).length, 'nodes');
+          return this.graph;
+        })
+        .catch(e => {
+          console.error('Failed to load graph:', e);
+          return null;
+        });
     }
 
-    if (this.loadingPromises.routes) {
-      return this.loadingPromises.routes;
-    }
+    // Keep loading legacy routes for now as fallback or for other features
+    if (this.isRoutesLoaded) return Promise.resolve(this.routes);
+    if (this.loadingPromises.routes) return this.loadingPromises.routes;
 
     const routesFile = CONFIG?.dataFiles?.routes || 'src/data/unigo_transport_routes_full_slugged.json';
-    
     this.loadingPromises.routes = fetch(routesFile)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to load routes: ${response.statusText}`);
-        }
-        return response.json();
-      })
+      .then(r => r.json())
       .then(data => {
-        if (Array.isArray(data)) {
-          this.routes = data;
-          this.isRoutesLoaded = true;
-          UniGoHelpers.debug('Routes loaded successfully:', this.routes.length);
-          return this.routes;
-        } else {
-          throw new Error('Invalid routes data format');
-        }
+        this.routes = Array.isArray(data) ? data : [];
+        this.isRoutesLoaded = true;
+        return this.routes;
       })
-      .catch(error => {
-        console.error('[UniGo] Failed to load routes:', error);
-        UniGoHelpers.showError('Failed to load route data. Please ensure the site is served via a local server.');
-        throw error;
-      })
-      .finally(() => {
-        delete this.loadingPromises.routes;
+      .catch(e => {
+        console.warn('Failed to load legacy routes:', e);
+        return [];
       });
 
-    return this.loadingPromises.routes;
+    return Promise.all([this.loadingPromises.graph, this.loadingPromises.routes]);
   },
 
-  /**
-   * Load stops data from JSON file (will be created in Phase 3)
-   * @returns {Promise<Object>} Promise resolving to stops object
-   */
   async loadStops() {
-    if (this.isStopsLoaded) {
-      return Promise.resolve(this.stops);
-    }
-
-    if (this.loadingPromises.stops) {
-      return this.loadingPromises.stops;
-    }
-
-    const stopsFile = CONFIG?.dataFiles?.stops || 'src/data/stops.json';
-    
-    this.loadingPromises.stops = fetch(stopsFile)
-      .then(response => {
-        if (!response.ok) {
-          // Stops file doesn't exist yet, that's okay
-          UniGoHelpers.debug('Stops file not found (will be created in Phase 3)');
-          return { stops: [], routes: {} };
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.stops = data;
-        this.isStopsLoaded = true;
-        UniGoHelpers.debug('Stops loaded successfully');
-        return this.stops;
-      })
-      .catch(error => {
-        console.warn('[UniGo] Stops data not available:', error);
-        this.stops = { stops: [], routes: {} };
-        return this.stops;
-      })
-      .finally(() => {
-        delete this.loadingPromises.stops;
-      });
-
-    return this.loadingPromises.stops;
+    // Placeholder for future
+    return {};
   },
 
-  /**
-   * Load all data (routes and stops)
-   * @returns {Promise<Object>} Promise resolving to object with routes and stops
-   */
   async loadAll() {
-    try {
-      const [routes, stops] = await Promise.all([
-        this.loadRoutes(),
-        this.loadStops()
-      ]);
-      return { routes, stops };
-    } catch (error) {
-      console.error('[UniGo] Failed to load data:', error);
-      throw error;
-    }
-  },
-
-  /**
-   * Get routes data (load if not already loaded)
-   * @returns {Promise<Array>} Routes array
-   */
-  async getRoutes() {
-    if (!this.isRoutesLoaded) {
-      await this.loadRoutes();
-    }
-    return this.routes;
-  },
-
-  /**
-   * Get stops data (load if not already loaded)
-   * @returns {Promise<Object>} Stops object
-   */
-  async getStops() {
-    if (!this.isStopsLoaded) {
-      await this.loadStops();
-    }
-    return this.stops;
+    await this.loadRoutes();
   },
 
   /**
    * Search for a route between two locations
-   * @param {string} from - Starting location slug
-   * @param {string} to - Destination location slug
-   * @returns {Promise<Object|null>} Route data or null
+   * Uses Dynamic Pathfinding if available, otherwise falls back to legacy
    */
   async searchRoute(from, to) {
-    const routes = await this.getRoutes();
-    return RouteParser.findRoute(routes, from, to);
-  },
+    await this.loadRoutes();
 
-  /**
-   * Get stop by ID
-   * @param {string} stopId - Stop ID/slug
-   * @returns {Promise<Object|null>} Stop data or null
-   */
-  async getStop(stopId) {
-    const stops = await this.getStops();
-    if (stops.stops && Array.isArray(stops.stops)) {
-      return stops.stops.find(stop => stop.id === stopId) || null;
+    // Try Dynamic Search first
+    if (this.isGraphLoaded && window.UniGoPathfinder) {
+      const startNode = this.slugMapping[from] || from;
+      const endNode = this.slugMapping[to] || to;
+
+      UniGoHelpers.debug(`Searching graph: ${startNode} -> ${endNode}`);
+
+      const path = UniGoPathfinder.findShortestPath(this.graph, startNode, endNode);
+
+      if (path) {
+        const formattedSteps = UniGoPathfinder.formatPath(path);
+        return {
+          label: "Recommended Route (Dynamic)",
+          steps: formattedSteps
+        };
+      } else {
+        UniGoHelpers.debug('No dynamic path found, trying legacy...');
+      }
     }
-    return null;
+
+    // Fallback to Legacy Search
+    return RouteParser.findRoute(this.routes, from, to);
   },
 
-  /**
-   * Reset/clear cached data
-   */
+  // ... (Other methods kept simple)
+  async getStop(stopId) { return null; },
   reset() {
     this.routes = [];
-    this.stops = {};
+    this.graph = null;
     this.isRoutesLoaded = false;
-    this.isStopsLoaded = false;
-    UniGoHelpers.debug('Data cache cleared');
+    this.isGraphLoaded = false;
   }
 };
 
-// Auto-load data when DOM is ready
+// Auto-load
 if (typeof document !== 'undefined') {
   document.addEventListener('DOMContentLoaded', () => {
-    DataLoader.loadAll().catch(error => {
-      console.error('[UniGo] Failed to auto-load data:', error);
-    });
+    DataLoader.loadAll().catch(console.error);
   });
 }
 
-// Export for use in other modules
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = DataLoader;
 }

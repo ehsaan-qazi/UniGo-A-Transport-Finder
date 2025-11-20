@@ -1,0 +1,1304 @@
+{
+  "metro_transit_routes": [
+    {
+      "route_id": "FR-01",
+      "locations": [
+        {
+          "name": "Nust Metro Station",
+          "latitude": 33.65616235045436,
+          "longitude": 72.99354916191967
+        },
+        {
+          "name": "Police Foundation Metro Station",
+          "latitude": 33.66401117816605,
+          "longitude": 73.00665575482641
+        },
+        {
+          "name": "NPA Stop",
+          "latitude": 33.65522369551933,
+          "longitude": 73.0107879951163
+        },
+        {
+          "name": "Islamic University",
+          "latitude": 33.65841146575012,
+          "longitude": 73.01874069819371
+        },
+        {
+          "name": "FAST University",
+          "latitude": 33.65715207354386,
+          "longitude": 73.01562587623567
+        },
+        {
+          "name": "PAEC General Hospital",
+          "latitude": 33.65186416615534,
+          "longitude": 73.01455034691553
+        },
+        {
+          "name": "IMC Hospital",
+          "latitude": 33.6485390851684,
+          "longitude": 73.0172052799046
+        },
+        {
+          "name": "Metro CNC",
+          "latitude": 33.64017881210836,
+          "longitude": 73.02475235499799
+        },
+        {
+          "name": "Sabzi Mandi",
+          "latitude": 33.64015443818664,
+          "longitude": 73.02470144651754
+        },
+        {
+          "name": "Mandi Morh",
+          "latitude": 33.636761081440426,
+          "longitude": 73.0340763701306
+        },
+        {
+          "name": "Kurang Road Stop",
+          "latitude": 33.6442317902593,
+          "longitude": 73.02994407977063
+        },
+        {
+          "name": "IESCO",
+          "latitude": 33.653177186922356,
+          "longitude": 73.04855285509447
+        },
+        {
+          "name": "PTCL I-10",
+          "latitude": 33.64915941878916,
+          "longitude": 73.04126007977088
+        },
+        {
+          "name": "Sui Gas Stop",
+          "latitude": 33.65323621167766,
+          "longitude": 73.04846239326234
+        },
+        {
+          "name": "OGTI Stop",
+          "latitude": 33.65493785374421,
+          "longitude": 73.05186740729125
+        },
+        {
+          "name": "CDA Complain Center",
+          "latitude": 33.65749161703867,
+          "longitude": 73.05705183675967
+        },
+        {
+          "name": "MCI Model School",
+          "latitude": 33.65936929199387,
+          "longitude": 73.06036175576642
+        }
+      ]
+    },
+    {
+      "route_id": "FR-03A",
+      "locations": [
+        {
+          "name": "PIMS Hospital",
+          "latitude": 33.70615764257587,
+          "longitude": 73.05207378746138
+        },
+        {
+          "name": "PIMS Metro Station",
+          "latitude": 33.705771076959586,
+          "longitude": 73.04842526628263
+        },
+        {
+          "name": "Katchery",
+          "latitude": 33.71167004345022,
+          "longitude": 73.0396811906576
+        },
+        {
+          "name": "F-8 Markaz",
+          "latitude": 33.70897506352382,
+          "longitude": 73.0392400742605
+        },
+        {
+          "name": "F-9 Park",
+          "latitude": 33.69626473744667,
+          "longitude": 73.0178166356354
+        },
+        {
+          "name": "Shaheen Chowk",
+          "latitude": 33.71225657009168,
+          "longitude": 73.02647576865095
+        },
+        {
+          "name": "Bahria University",
+          "latitude": 33.71590950412624,
+          "longitude": 73.0316821680655
+        },
+        {
+          "name": "Naval Complex",
+          "latitude": 33.71911409238221,
+          "longitude": 73.037922851093
+        },
+        {
+          "name": "Faisal Masjid",
+          "latitude": 33.72745049970733,
+          "longitude": 73.04013203590536
+        },
+        {
+          "name": "Parveen Shakir Road",
+          "latitude": 33.72295906576111,
+          "longitude": 73.0450559269901
+        },
+        {
+          "name": "Kohsar Road",
+          "latitude": 33.72676191855094,
+          "longitude": 73.05295235299494
+        },
+        {
+          "name": "F-7 Markaz",
+          "latitude": 33.72238280297697,
+          "longitude": 73.05763403115739
+        },
+        {
+          "name": "Flower Market",
+          "latitude": 33.72406619654728,
+          "longitude": 73.06107810820274
+        }
+      ]
+    },
+    {
+      "route_id": "FR-04",
+      "locations": [
+        {
+          "name": "PIMS Hospital",
+          "latitude": 33.70615764257587,
+          "longitude": 73.05207378746138
+        },
+        {
+          "name": "Children Hospital",
+          "latitude": 33.70537137129901,
+          "longitude": 73.05554950477897
+        },
+        {
+          "name": "Rescue 15",
+          "latitude": 33.70046153534805,
+          "longitude": 73.06198165393491
+        },
+        {
+          "name": "Bank Colony",
+          "latitude": 33.735948114807464,
+          "longitude": 73.20982690793362
+        },
+        {
+          "name": "Salai Centre",
+          "latitude": 33.643091125649825,
+          "longitude": 73.0098718110711
+        },
+        {
+          "name": "Sitara Market",
+          "latitude": 33.70592071993154,
+          "longitude": 73.06693220487129
+        },
+        {
+          "name": "Pully Stop",
+          "latitude": 33.70787069043686,
+          "longitude": 73.07015990743906
+        },
+        {
+          "name": "Iqbal Hall",
+          "latitude": 33.70999902341296,
+          "longitude": 73.07204809974415
+        },
+        {
+          "name": "G-6/1.2",
+          "latitude": 33.712788794465204,
+          "longitude": 73.08046943559292
+        },
+        {
+          "name": "Melody Market",
+          "latitude": 33.715180092014734,
+          "longitude": 73.08434247142414
+        },
+        {
+          "name": "Abpara Market",
+          "latitude": 33.710074373640424,
+          "longitude": 73.09163807490908
+        },
+        {
+          "name": "Youth Hostel",
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "name": "Metropolitan Corporation",
+          "latitude": 33.71556543415166,
+          "longitude": 73.08762716304525
+        },
+        {
+          "name": "ICB College",
+          "latitude": 33.71730159896494,
+          "longitude": 73.08916067184546
+        },
+        {
+          "name": "NADRA Chowk",
+          "latitude": 33.71984059249061,
+          "longitude": 73.09563118162852
+        },
+        {
+          "name": "Lodges Park",
+          "latitude": 33.71584970852236,
+          "longitude": 73.098551452535
+        },
+        {
+          "name": "Sukh Chayn Park",
+          "latitude": 33.7134400732209,
+          "longitude": 73.09994620092624
+        },
+        {
+          "name": "Ministry of Foreign Affairs",
+          "latitude": 33.71891611494204,
+          "longitude": 73.1037976477992
+        },
+        {
+          "name": "Radio Pakistan",
+          "latitude": 33.72276283585213,
+          "longitude": 73.10087335960137
+        },
+        {
+          "name": "National Library",
+          "latitude": 33.724648528214054,
+          "longitude": 73.10273174843998
+        },
+        {
+          "name": "Secretariate Police Station",
+          "latitude": 33.72699328083057,
+          "longitude": 73.10741081999159
+        },
+        {
+          "name": "Diplomatic Enclave Gate 4",
+          "latitude": 33.7320741385373,
+          "longitude": 73.11036091874325
+        },
+        {
+          "name": "Aiwan e Sadar Colony",
+          "latitude": 33.733911705279155,
+          "longitude": 73.10842840119612
+        },
+        {
+          "name": "Muslim Colony",
+          "latitude": 33.7376341761268,
+          "longitude": 73.10810204829741
+        },
+        {
+          "name": "Bari Imam",
+          "latitude": 33.74361259060048,
+          "longitude": 73.1094763783134
+        }
+      ]
+    },
+    {
+      "route_id": "FR-04A",
+      "locations": [
+        {
+          "name": "Bari Imam",
+          "latitude": 33.74361259060048,
+          "longitude": 73.1094763783134
+        },
+        {
+          "name": "Muhallah Noori Bagh",
+          "latitude": 33.744526135013956,
+          "longitude": 73.11301072395725
+        },
+        {
+          "name": "Community Health Center",
+          "latitude": 33.744672004954126,
+          "longitude": 73.11764764402467
+        },
+        {
+          "name": "D-Type Quaid e Azam Colony",
+          "latitude": 33.74477842201472,
+          "longitude": 73.1200990877055
+        },
+        {
+          "name": "C-Type Quaid e Azam Colony",
+          "latitude": 33.744751658278815,
+          "longitude": 73.12486269091103
+        },
+        {
+          "name": "Babul Quaid",
+          "latitude": 33.74495684671334,
+          "longitude": 73.12947609046074
+        },
+        {
+          "name": "Quaid Azam University",
+          "latitude": 33.74493900426212,
+          "longitude": 73.13964702705954
+        }
+      ]
+    },
+    {
+      "route_id": "FR-05",
+      "locations": [
+        {
+          "name": "Nust Metro Station",
+          "latitude": 33.65616235045436,
+          "longitude": 72.99354916191967
+        },
+        {
+          "name": "Police Foundation",
+          "latitude": 33.66401117816605,
+          "longitude": 73.00665575482641
+        },
+        {
+          "name": "G-10 Metro Station",
+          "latitude": 33.66812149156935,
+          "longitude": 73.01199876656565
+        },
+        {
+          "name": "Sunday Bazar",
+          "latitude": 33.6704710026737,
+          "longitude": 73.01037636005229
+        },
+        {
+          "name": "G10/G11",
+          "latitude": 33.67300425910158,
+          "longitude": 73.00725014484864
+        },
+        {
+          "name": "Sumbal Road",
+          "latitude": 33.690848001420804,
+          "longitude": 73.00599400538732
+        },
+        {
+          "name": "Khayaban e Iqbal",
+          "latitude": 33.71785084228562,
+          "longitude": 73.03562589644407
+        },
+        {
+          "name": "NPF Housing Society",
+          "latitude": 33.70139092157227,
+          "longitude": 72.98530191014846
+        },
+        {
+          "name": "Multy Stop / Islamabad Gardens",
+          "latitude": 33.70517043778595,
+          "longitude": 72.98238300850728
+        },
+        {
+          "name": "E-11/2 / FECHS / Islamabad International Hospital",
+          "latitude": 33.702804330380225,
+          "longitude": 72.96823623693213
+        },
+        {
+          "name": "D-12 Service Road",
+          "latitude": 33.70024371460742,
+          "longitude": 72.9605014871891
+        },
+        {
+          "name": "IESCO D-12",
+          "latitude": 33.69716012091452,
+          "longitude": 72.95348103744601
+        },
+        {
+          "name": "D-12 Markaz",
+          "latitude": 33.70058031989568,
+          "longitude": 72.95126514412566
+        },
+        {
+          "name": "D-12",
+          "latitude": 33.702651972144444,
+          "longitude": 72.94973004425427
+        }
+      ]
+    },
+    {
+      "route_id": "FR-06",
+      "locations": [
+        {
+          "name": "Pims Metro Station",
+          "latitude": 33.705771076959586,
+          "longitude": 73.04842526628263
+        },
+        {
+          "name": "Tipu Market G-8",
+          "latitude": 33.7007123212486,
+          "longitude": 73.04232873603668
+        },
+        {
+          "name": "Ibn-e-Sina Metro Station",
+          "latitude": 33.69583366301052,
+          "longitude": 73.03858458162729
+        },
+        {
+          "name": "Chaman Metro Station",
+          "latitude": 33.6917436315037,
+          "longitude": 73.0426001379597
+        },
+        {
+          "name": "Taqwa Market",
+          "latitude": 33.690401390940806,
+          "longitude": 73.0396584699581
+        },
+        {
+          "name": "G-9/4 Park",
+          "latitude": 33.68926021306159,
+          "longitude": 73.03707597009735
+        },
+        {
+          "name": "Karachi Company",
+          "latitude": 33.68655826790666,
+          "longitude": 73.03235930280375
+        },
+        {
+          "name": "G-9/1 and G-9/4",
+          "latitude": 33.685223869252575,
+          "longitude": 73.03347546749892
+        },
+        {
+          "name": "G-9 Markaz",
+          "latitude": 33.689904955947306,
+          "longitude": 73.03033111082424
+        },
+        {
+          "name": "G-9/3",
+          "latitude": 33.68923994732535,
+          "longitude": 73.03698939735551
+        },
+        {
+          "name": "F-9 Park",
+          "latitude": 33.69626473744667,
+          "longitude": 73.0178166356354
+        },
+        {
+          "name": "Shaheen Chowk",
+          "latitude": 33.71225657009168,
+          "longitude": 73.02647576865095
+        },
+        {
+          "name": "Fazaia Housing Scheme",
+          "latitude": 33.71000020631117,
+          "longitude": 73.02092766969206
+        },
+        {
+          "name": "PAF Hospital",
+          "latitude": 33.70755267741876,
+          "longitude": 73.01561043283475
+        },
+        {
+          "name": "Pakistan Gate",
+          "latitude": 33.70253375310019,
+          "longitude": 73.00883904780024
+        },
+        {
+          "name": "Maroof International Hospital",
+          "latitude": 33.69714725702341,
+          "longitude": 73.01273480758155
+        },
+        {
+          "name": "F-10 Markaz",
+          "latitude": 33.69455644959399,
+          "longitude": 73.01251602172444
+        },
+        {
+          "name": "IMCB F10/4",
+          "latitude": 33.6908547246512,
+          "longitude": 73.00600824451489
+        },
+        {
+          "name": "IMCG F-10/2",
+          "latitude": 33.689450763125755,
+          "longitude": 73.00306083483818
+        },
+        {
+          "name": "F-10/F-11 Chowk",
+          "latitude": 33.686806044482154,
+          "longitude": 72.99687850784939
+        },
+        {
+          "name": "Major Road",
+          "latitude": 33.68594605429847,
+          "longitude": 72.99410110355345
+        },
+        {
+          "name": "PTCL F-11",
+          "latitude": 33.68429111900835,
+          "longitude": 72.99154822303227
+        },
+        {
+          "name": "F-11 Markaz",
+          "latitude": 33.68285846364324,
+          "longitude": 72.98881723877136
+        },
+        {
+          "name": "OPF Girls College",
+          "latitude": 33.68560024870533,
+          "longitude": 72.98495823937701
+        },
+        {
+          "name": "Golra Sharif F-11/3",
+          "latitude": 33.68937965949906,
+          "longitude": 72.9822889951181
+        },
+        {
+          "name": "Golra Sharif",
+          "latitude": 33.68932992407956,
+          "longitude": 72.98237567821926
+        }
+      ]
+    },
+    {
+      "route_id": "FR-07",
+      "locations": [
+        {
+          "name": "PIMS Hospital",
+          "latitude": 33.70615764257587,
+          "longitude": 73.05207378746138
+        },
+        {
+          "name": "Children Hospital",
+          "latitude": 33.70537137129901,
+          "longitude": 73.05554950477897
+        },
+        {
+          "name": "NORI Hospital",
+          "latitude": 33.69872355284949,
+          "longitude": 73.05390933322424
+        },
+        {
+          "name": "Dental Hospital",
+          "latitude": 33.69974111444802,
+          "longitude": 73.04896333974719
+        },
+        {
+          "name": "G-8 Markaz",
+          "latitude": 33.699027037385164,
+          "longitude": 73.04749348921057
+        },
+        {
+          "name": "Development Park",
+          "latitude": 33.69557260579922,
+          "longitude": 73.04804065987764
+        },
+        {
+          "name": "Chaman Metro Station",
+          "latitude": 33.6917436315037,
+          "longitude": 73.0426001379597
+        },
+        {
+          "name": "G-9/4",
+          "latitude": 33.68926021306159,
+          "longitude": 73.03707597009735
+        },
+        {
+          "name": "Karachi Company",
+          "latitude": 33.68655826790666,
+          "longitude": 73.03235930280375
+        },
+        {
+          "name": "G-9 Markaz",
+          "latitude": 33.689904955947306,
+          "longitude": 73.03033111082424
+        },
+        {
+          "name": "Police Flats",
+          "latitude": 33.684880600359925,
+          "longitude": 73.02472775132632
+        },
+        {
+          "name": "College Morh",
+          "latitude": 33.68105540612217,
+          "longitude": 73.01837571468454
+        },
+        {
+          "name": "G-10 Markaz",
+          "latitude": 33.67650917901414,
+          "longitude": 73.01458852478868
+        },
+        {
+          "name": "PHA Flats",
+          "latitude": 33.67574296788226,
+          "longitude": 73.01182475666249
+        },
+        {
+          "name": "Tanki Stop",
+          "latitude": 33.6741222166913,
+          "longitude": 73.00985989044702
+        },
+        {
+          "name": "G-10/G-11",
+          "latitude": 33.67299020399478,
+          "longitude": 73.0072397263097
+        },
+        {
+          "name": "Institute of Modern Studies",
+          "latitude": 33.67225142887911,
+          "longitude": 73.00283562653611
+        },
+        {
+          "name": "G-11 Markaz",
+          "latitude": 33.67000714306969,
+          "longitude": 72.99869564926453
+        },
+        {
+          "name": "Mehrabad",
+          "latitude": 33.66647019084591,
+          "longitude": 72.98976782580704
+        },
+        {
+          "name": "Nust Metro Station",
+          "latitude": 33.65616235045436,
+          "longitude": 72.99354916191967
+        },
+        {
+          "name": "Bar Council",
+          "latitude": 33.65950949850007,
+          "longitude": 72.99708985839457
+        },
+        {
+          "name": "A.K Bari Road",
+          "latitude": 33.661795574704115,
+          "longitude": 73.00230407282065
+        },
+        {
+          "name": "Police Foundation Metro Station",
+          "latitude": 33.66401117816605,
+          "longitude": 73.00665575482641
+        }
+      ]
+    },
+    {
+      "route_id": "FR-08A",
+      "locations": [
+        {
+          "name": "PIMS Hospital",
+          "latitude": 33.70615764257587,
+          "longitude": 73.05207378746138
+        },
+        {
+          "name": "Children Hospital",
+          "latitude": 33.70537137129901,
+          "longitude": 73.05554950477897
+        },
+        {
+          "name": "TNT",
+          "latitude": 33.69766367958974,
+          "longitude": 73.06191122632266
+        },
+        {
+          "name": "Zero Point",
+          "latitude": 33.69661193644461,
+          "longitude": 73.07012632570736
+        },
+        {
+          "name": "CDA",
+          "latitude": 33.70071791395022,
+          "longitude": 73.07773307050417
+        },
+        {
+          "name": "Abpara",
+          "latitude": 33.70587953244183,
+          "longitude": 73.08876630811679
+        },
+        {
+          "name": "Foreign Affairs Office",
+          "latitude": 33.710955767476264,
+          "longitude": 73.10564090623255
+        },
+        {
+          "name": "Kashmir Chowk",
+          "latitude": 33.70737686380931,
+          "longitude": 73.1063704670969
+        },
+        {
+          "name": "Rawal Dam Chowk",
+          "latitude": 33.691837664272,
+          "longitude": 73.11058213416324
+        },
+        {
+          "name": "Rawal Town",
+          "latitude": 33.689370419069675,
+          "longitude": 73.11173039079104
+        },
+        {
+          "name": "School Board Stop",
+          "latitude": 33.68899245184988,
+          "longitude": 73.11641174492661
+        },
+        {
+          "name": "Rawal Dam Colony",
+          "latitude": 33.68840449953099,
+          "longitude": 73.12036124315094
+        },
+        {
+          "name": "NARC Colony",
+          "latitude": 33.687407071224186,
+          "longitude": 73.13180595527018
+        },
+        {
+          "name": "NIH Allergy Center",
+          "latitude": 33.6848662015435,
+          "longitude": 73.13538952548298
+        },
+        {
+          "name": "Shahzad Town",
+          "latitude": 33.67736914836529,
+          "longitude": 73.14168600981654
+        },
+        {
+          "name": "Park View City",
+          "latitude": 33.67418733049198,
+          "longitude": 73.14437213534026
+        },
+        {
+          "name": "Green Avenue",
+          "latitude": 33.667634529881504,
+          "longitude": 73.14987079253174
+        },
+        {
+          "name": "Chatta Bakhtawar",
+          "latitude": 33.664579580165444,
+          "longitude": 73.1525913323509
+        },
+        {
+          "name": "Gulshan Al Huda Community",
+          "latitude": 33.65922417128849,
+          "longitude": 73.15375727797695
+        },
+        {
+          "name": "Hostel City",
+          "latitude": 33.65608505185562,
+          "longitude": 73.15413153213662
+        },
+        {
+          "name": "COMSATS University",
+          "latitude": 33.65184346427155,
+          "longitude": 73.15980292203837
+        },
+        {
+          "name": "Tamma Stop",
+          "latitude": 33.64812890801019,
+          "longitude": 73.16224996841554
+        },
+        {
+          "name": "Capt. Naeem Tufail Shaheed Chowk",
+          "latitude": 33.644823335305404,
+          "longitude": 73.16359373542986
+        }
+      ]
+    },
+    {
+      "route_id": "FR-08C",
+      "locations": [
+        {
+          "name": "PIMS Hospital",
+          "latitude": 33.70615764257587,
+          "longitude": 73.05207378746138
+        },
+        {
+          "name": "Children Hospital",
+          "latitude": 33.70537137129901,
+          "longitude": 73.05554950477897
+        },
+        {
+          "name": "TNT",
+          "latitude": 33.69766367958974,
+          "longitude": 73.06191122632266
+        },
+        {
+          "name": "H-8",
+          "latitude": 33.68411295908987,
+          "longitude": 73.07210484166711
+        },
+        {
+          "name": "Kach Naar Park I-8",
+          "latitude": 33.673201261143895,
+          "longitude": 73.08022224442259
+        },
+        {
+          "name": "Faizabad",
+          "latitude": 33.66682997443567,
+          "longitude": 73.08816133297216
+        },
+        {
+          "name": "ITP Driving License Centre",
+          "latitude": 33.67249336537841,
+          "longitude": 73.09322959081629
+        },
+        {
+          "name": "Margalla Town",
+          "latitude": 33.68165134127899,
+          "longitude": 73.10182436371905
+        },
+        {
+          "name": "Garden Avenue",
+          "latitude": 33.685986661172585,
+          "longitude": 73.10703439098384
+        },
+        {
+          "name": "Rawal Town",
+          "latitude": 33.689370419069675,
+          "longitude": 73.11173039079104
+        },
+        {
+          "name": "School Board Stop",
+          "latitude": 33.68899245184988,
+          "longitude": 73.11641174492661
+        },
+        {
+          "name": "Rawal Dam Colony",
+          "latitude": 33.68840449953099,
+          "longitude": 73.12036124315094
+        },
+        {
+          "name": "N.A.R.C Colony",
+          "latitude": 33.687407071224186,
+          "longitude": 73.13180595527018
+        },
+        {
+          "name": "N.I.H Allergy Center",
+          "latitude": 33.6848662015435,
+          "longitude": 73.13538952548298
+        },
+        {
+          "name": "Shahzad Town",
+          "latitude": 33.67736914836529,
+          "longitude": 73.14168600981654
+        },
+        {
+          "name": "Park View City",
+          "latitude": 33.67418733049198,
+          "longitude": 73.14437213534026
+        },
+        {
+          "name": "Green Avenue",
+          "latitude": 33.667634529881504,
+          "longitude": 73.14987079253174
+        },
+        {
+          "name": "Chatta Bakhtawar",
+          "latitude": 33.664579580165444,
+          "longitude": 73.1525913323509
+        },
+        {
+          "name": "Gulshan Al Huda Community",
+          "latitude": 33.65922417128849,
+          "longitude": 73.15375727797695
+        },
+        {
+          "name": "Hostel City",
+          "latitude": 33.65608505185562,
+          "longitude": 73.15413153213662
+        },
+        {
+          "name": "COMSATS University",
+          "latitude": 33.65184346427155,
+          "longitude": 73.15980292203837
+        },
+        {
+          "name": "Tamma Stop",
+          "latitude": 33.64812890801019,
+          "longitude": 73.16224996841554
+        },
+        {
+          "name": "Capt. Naeem Tufail Shaheed Chowk",
+          "latitude": 33.644823335305404,
+          "longitude": 73.16359373542986
+        }
+      ]
+    },
+    {
+      "route_id": "FR-09",
+      "locations": [
+        {
+          "name": "Khanna Pul",
+          "latitude": 33.62729234971165,
+          "longitude": 73.11615187311992
+        },
+        {
+          "name": "Zia Masjid",
+          "latitude": 33.63668261039801,
+          "longitude": 73.1076208316939
+        },
+        {
+          "name": "Kuri Road",
+          "latitude": 33.64278168133575,
+          "longitude": 73.10400334725043
+        },
+        {
+          "name": "Iqbal Town",
+          "latitude": 33.645759696879345,
+          "longitude": 73.10077842531066
+        },
+        {
+          "name": "Dhok Kala Khan",
+          "latitude": 33.64970088746827,
+          "longitude": 73.09779915626328
+        },
+        {
+          "name": "Sohan",
+          "latitude": 33.65947377424344,
+          "longitude": 73.09047317351903
+        },
+        {
+          "name": "Faizabad Metro Station",
+          "latitude": 33.66682997443567,
+          "longitude": 73.08816133297216
+        },
+        {
+          "name": "IJP Metro Station",
+          "latitude": 33.65608729476395,
+          "longitude": 73.0720416988241
+        },
+        {
+          "name": "Pindora Chungi",
+          "latitude": 33.65221524115215,
+          "longitude": 73.06400180860736
+        },
+        {
+          "name": "Katarian Chungi",
+          "latitude": 33.64875892858748,
+          "longitude": 73.05840135614791
+        },
+        {
+          "name": "Katarian Pull",
+          "latitude": 33.64585623326584,
+          "longitude": 73.05246830981389
+        },
+        {
+          "name": "CDA Stop",
+          "latitude": 33.6413010371886,
+          "longitude": 73.04411054651209
+        },
+        {
+          "name": "Pully Stop",
+          "latitude": 33.70787069043686,
+          "longitude": 73.07015990743906
+        },
+        {
+          "name": "Mandi Morh",
+          "latitude": 33.636761081440426,
+          "longitude": 73.0340763701306
+        },
+        {
+          "name": "Fauji Colony",
+          "latitude": 33.632654433545156,
+          "longitude": 73.02755595249089
+        },
+        {
+          "name": "Carriage Factory",
+          "latitude": 33.63044752798577,
+          "longitude": 73.02264207135525
+        },
+        {
+          "name": "Westridge",
+          "latitude": 33.62726656249293,
+          "longitude": 73.01666847329481
+        },
+        {
+          "name": "CTTI",
+          "latitude": 33.62426215737786,
+          "longitude": 73.01060728212643
+        },
+        {
+          "name": "Social Security Hospital",
+          "latitude": 33.62038657630803,
+          "longitude": 73.0033251194973
+        },
+        {
+          "name": "British Homes",
+          "latitude": 33.61706073534783,
+          "longitude": 72.9979236934649
+        },
+        {
+          "name": "Pir Wadhai Morh",
+          "latitude": 33.61575514091682,
+          "longitude": 72.99445625256871
+        },
+        {
+          "name": "Kohinoor Mill Colony",
+          "latitude": 33.61640317566239,
+          "longitude": 72.98716661606083
+        },
+        {
+          "name": "Kohinoor Mill",
+          "latitude": 33.61897620669635,
+          "longitude": 72.98080391924425
+        },
+        {
+          "name": "Chishtiabad",
+          "latitude": 33.62235914910118,
+          "longitude": 72.97551693016543
+        },
+        {
+          "name": "Golra Morh",
+          "latitude": 33.62451272776406,
+          "longitude": 72.9710653311336
+        },
+        {
+          "name": "Home of Military Transport",
+          "latitude": 33.63446041895948,
+          "longitude": 72.96680827497872
+        },
+        {
+          "name": "Golra Morh Metro Station",
+          "latitude": 33.64068190616236,
+          "longitude": 72.96169294133917
+        }
+      ]
+    },
+    {
+      "route_id": "FR-14",
+      "locations": [
+        {
+          "name": "Barakahu",
+          "latitude": 33.735497639838265,
+          "longitude": 73.1653332236176
+        },
+        {
+          "name": "Shahdara",
+          "latitude": 33.73491699754946,
+          "longitude": 73.1591076957223
+        },
+        {
+          "name": "Malpur",
+          "latitude": 33.72992318391457,
+          "longitude": 73.14446747498076
+        },
+        {
+          "name": "Lake View Park",
+          "latitude": 33.722883791026305,
+          "longitude": 73.1352601487836
+        },
+        {
+          "name": "Dhokri Stop",
+          "latitude": 33.71144018613291,
+          "longitude": 73.10611361247028
+        },
+        {
+          "name": "Kashmir Chowk",
+          "latitude": 33.70737686380931,
+          "longitude": 73.1063704670969
+        },
+        {
+          "name": "Rawal Dam Chowk",
+          "latitude": 33.691837664272,
+          "longitude": 73.11058213416324
+        },
+        {
+          "name": "Garden Avenue",
+          "latitude": 33.685986661172585,
+          "longitude": 73.10703439098384
+        },
+        {
+          "name": "Margalla Town",
+          "latitude": 33.68165134127899,
+          "longitude": 73.10182436371905
+        },
+        {
+          "name": "ITP Driving License Centre",
+          "latitude": 33.67249336537841,
+          "longitude": 73.09322959081629
+        },
+        {
+          "name": "Sohan",
+          "latitude": 33.65947377424344,
+          "longitude": 73.09047317351903
+        },
+        {
+          "name": "Faizabad Metro Station",
+          "latitude": 33.66682997443567,
+          "longitude": 73.08816133297216
+        },
+        {
+          "name": "IJP Metro Station",
+          "latitude": 33.65608729476395,
+          "longitude": 73.0720416988241
+        },
+        {
+          "name": "Pindora Chungi",
+          "latitude": 33.65221524115215,
+          "longitude": 73.06400180860736
+        },
+        {
+          "name": "Katarian Chungi",
+          "latitude": 33.64875892858748,
+          "longitude": 73.05840135614791
+        },
+        {
+          "name": "Katarian Pull",
+          "latitude": 33.64585623326584,
+          "longitude": 73.05246830981389
+        },
+        {
+          "name": "CDA Stop",
+          "latitude": 33.6413010371886,
+          "longitude": 73.04411054651209
+        },
+        {
+          "name": "Pully Stop",
+          "latitude": 33.70787069043686,
+          "longitude": 73.07015990743906
+        },
+        {
+          "name": "Mandi Morh",
+          "latitude": 33.636761081440426,
+          "longitude": 73.0340763701306
+        }
+      ]
+    },
+    {
+      "route_id": "FR-14A",
+      "locations": [
+        {
+          "name": "Barakahu Terminal",
+          "latitude": 33.735497639838265,
+          "longitude": 73.1653332236176
+        },
+        {
+          "name": "Mangu Town",
+          "latitude": 33.73627356624121,
+          "longitude": 73.1721032067579
+        },
+        {
+          "name": "Col. Ammanullah Road",
+          "latitude": 33.73684207209912,
+          "longitude": 73.1747230502809
+        },
+        {
+          "name": "Athal Chowk",
+          "latitude": 33.73972547946584,
+          "longitude": 73.17988434320343
+        },
+        {
+          "name": "Barakahu Bazar",
+          "latitude": 33.74296589046329,
+          "longitude": 73.18494225120912
+        },
+        {
+          "name": "Bhera Pull",
+          "latitude": 33.74495242285442,
+          "longitude": 73.18903166333249
+        },
+        {
+          "name": "Nai Abadi",
+          "latitude": 33.74826270686837,
+          "longitude": 73.1941912244859
+        },
+        {
+          "name": "Traders Colony",
+          "latitude": 33.753819249837505,
+          "longitude": 73.2053793826709
+        },
+        {
+          "name": "Akbar Niazi Hospital",
+          "latitude": 33.75639216654366,
+          "longitude": 73.210149401866
+        },
+        {
+          "name": "Phulgran",
+          "latitude": 33.757528124890136,
+          "longitude": 73.21274960051353
+        },
+        {
+          "name": "Dhok Badam",
+          "latitude": 33.75877923391185,
+          "longitude": 73.21550644260951
+        },
+        {
+          "name": "Punjab College",
+          "latitude": 33.76122652592548,
+          "longitude": 73.21798884194057
+        },
+        {
+          "name": "Al Wadi Colony",
+          "latitude": 33.762573768209634,
+          "longitude": 73.21933018733174
+        },
+        {
+          "name": "Satra Meel",
+          "latitude": 33.764047132524766,
+          "longitude": 73.22300219618715
+        }
+      ]
+    },
+    {
+      "route_id": "FR-15",
+      "locations": [
+        {
+          "name": "Khanna Pul",
+          "latitude": 33.62729234971165,
+          "longitude": 73.11615187311992
+        },
+        {
+          "name": "Fazaia",
+          "latitude": 33.620769397121414,
+          "longitude": 73.12042150978492
+        },
+        {
+          "name": "Gangal",
+          "latitude": 33.61283553089856,
+          "longitude": 73.12595758898938
+        },
+        {
+          "name": "Koral Town",
+          "latitude": 33.60407883994751,
+          "longitude": 73.13252363665529
+        },
+        {
+          "name": "Gulberg",
+          "latitude": 33.59507526959182,
+          "longitude": 73.13927457564758
+        },
+        {
+          "name": "Pagh Chowk",
+          "latitude": 33.584989746096,
+          "longitude": 73.14621363147394
+        },
+        {
+          "name": "PWD Housing Society",
+          "latitude": 33.5757829004841,
+          "longitude": 73.1529865617986
+        },
+        {
+          "name": "Soan Gardens E Block",
+          "latitude": 33.56761952166926,
+          "longitude": 73.1590876857792
+        },
+        {
+          "name": "Soan Gardens G Block",
+          "latitude": 33.56122981858447,
+          "longitude": 73.16388484403411
+        },
+        {
+          "name": "Soan Gardens H Block",
+          "latitude": 33.556644092819006,
+          "longitude": 73.16734214758053
+        },
+        {
+          "name": "River Gardens",
+          "latitude": 33.55031440649514,
+          "longitude": 73.17214273881568
+        },
+        {
+          "name": "Kaak Pul",
+          "latitude": 33.541540392663094,
+          "longitude": 73.1786745303829
+        },
+        {
+          "name": "DHA Gate 08",
+          "latitude": 33.538758445405364,
+          "longitude": 73.18016990388493
+        },
+        {
+          "name": "DHA Gate 07",
+          "latitude": 33.53331629060999,
+          "longitude": 73.1806106080966
+        },
+        {
+          "name": "SUPARCO",
+          "latitude": 33.52010801924289,
+          "longitude": 73.17886918123955
+        },
+        {
+          "name": "T- Chowk",
+          "latitude": 33.51187400906095,
+          "longitude": 73.17892381524551
+        }
+      ]
+    }
+  ]
+}

@@ -78,7 +78,7 @@ const UniGoUI = {
 
         try {
           const routeData = await DataLoader.searchRoute(from, to);
-          
+
           if (routeData) {
             const fromLabel = RouteParser.getLocationName(from, 'departure-dropdown');
             const toLabel = RouteParser.getLocationName(to, 'destination-dropdown');
@@ -212,6 +212,7 @@ const UniGoUI = {
       img.src = imgSrc;
       img.alt = 'Bus Image';
       img.className = 'bus-img';
+      img.loading = 'lazy';
       imgContainer.appendChild(img);
       stepDiv.appendChild(imgContainer);
     }

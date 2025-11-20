@@ -1,0 +1,4818 @@
+{
+  "nodes": {
+    "nust-metro-station": {
+      "id": "nust-metro-station",
+      "name": "Nust Metro Station",
+      "lat": 33.65616235045436,
+      "lng": 72.99354916191967
+    },
+    "police-foundation-metro-station": {
+      "id": "police-foundation-metro-station",
+      "name": "Police Foundation Metro Station",
+      "lat": 33.66401117816605,
+      "lng": 73.00665575482641
+    },
+    "npa-stop": {
+      "id": "npa-stop",
+      "name": "NPA Stop",
+      "lat": 33.65522369551933,
+      "lng": 73.0107879951163
+    },
+    "islamic-university": {
+      "id": "islamic-university",
+      "name": "Islamic University",
+      "lat": 33.65841146575012,
+      "lng": 73.01874069819371
+    },
+    "fast-university": {
+      "id": "fast-university",
+      "name": "FAST University",
+      "lat": 33.65715207354386,
+      "lng": 73.01562587623567
+    },
+    "paec-general-hospital": {
+      "id": "paec-general-hospital",
+      "name": "PAEC General Hospital",
+      "lat": 33.65186416615534,
+      "lng": 73.01455034691553
+    },
+    "imc-hospital": {
+      "id": "imc-hospital",
+      "name": "IMC Hospital",
+      "lat": 33.6485390851684,
+      "lng": 73.0172052799046
+    },
+    "metro-cnc": {
+      "id": "metro-cnc",
+      "name": "Metro CNC",
+      "lat": 33.64017881210836,
+      "lng": 73.02475235499799
+    },
+    "sabzi-mandi": {
+      "id": "sabzi-mandi",
+      "name": "Sabzi Mandi",
+      "lat": 33.64015443818664,
+      "lng": 73.02470144651754
+    },
+    "mandi-morh": {
+      "id": "mandi-morh",
+      "name": "Mandi Morh",
+      "lat": 33.636761081440426,
+      "lng": 73.0340763701306
+    },
+    "kurang-road-stop": {
+      "id": "kurang-road-stop",
+      "name": "Kurang Road Stop",
+      "lat": 33.6442317902593,
+      "lng": 73.02994407977063
+    },
+    "iesco": {
+      "id": "iesco",
+      "name": "IESCO",
+      "lat": 33.653177186922356,
+      "lng": 73.04855285509447
+    },
+    "ptcl-i-10": {
+      "id": "ptcl-i-10",
+      "name": "PTCL I-10",
+      "lat": 33.64915941878916,
+      "lng": 73.04126007977088
+    },
+    "sui-gas-stop": {
+      "id": "sui-gas-stop",
+      "name": "Sui Gas Stop",
+      "lat": 33.65323621167766,
+      "lng": 73.04846239326234
+    },
+    "ogti-stop": {
+      "id": "ogti-stop",
+      "name": "OGTI Stop",
+      "lat": 33.65493785374421,
+      "lng": 73.05186740729125
+    },
+    "cda-complain-center": {
+      "id": "cda-complain-center",
+      "name": "CDA Complain Center",
+      "lat": 33.65749161703867,
+      "lng": 73.05705183675967
+    },
+    "mci-model-school": {
+      "id": "mci-model-school",
+      "name": "MCI Model School",
+      "lat": 33.65936929199387,
+      "lng": 73.06036175576642
+    },
+    "pims-hospital": {
+      "id": "pims-hospital",
+      "name": "PIMS Hospital",
+      "lat": 33.70615764257587,
+      "lng": 73.05207378746138
+    },
+    "pims-metro-station": {
+      "id": "pims-metro-station",
+      "name": "PIMS Metro Station",
+      "lat": 33.705771076959586,
+      "lng": 73.04842526628263
+    },
+    "katchery": {
+      "id": "katchery",
+      "name": "Katchery",
+      "lat": 33.71167004345022,
+      "lng": 73.0396811906576
+    },
+    "f-8-markaz": {
+      "id": "f-8-markaz",
+      "name": "F-8 Markaz",
+      "lat": 33.70897506352382,
+      "lng": 73.0392400742605
+    },
+    "f-9-park": {
+      "id": "f-9-park",
+      "name": "F-9 Park",
+      "lat": 33.69626473744667,
+      "lng": 73.0178166356354
+    },
+    "shaheen-chowk": {
+      "id": "shaheen-chowk",
+      "name": "Shaheen Chowk",
+      "lat": 33.71225657009168,
+      "lng": 73.02647576865095
+    },
+    "bahria-university": {
+      "id": "bahria-university",
+      "name": "Bahria University",
+      "lat": 33.71590950412624,
+      "lng": 73.0316821680655
+    },
+    "naval-complex": {
+      "id": "naval-complex",
+      "name": "Naval Complex",
+      "lat": 33.71911409238221,
+      "lng": 73.037922851093
+    },
+    "faisal-masjid": {
+      "id": "faisal-masjid",
+      "name": "Faisal Masjid",
+      "lat": 33.72745049970733,
+      "lng": 73.04013203590536
+    },
+    "parveen-shakir-road": {
+      "id": "parveen-shakir-road",
+      "name": "Parveen Shakir Road",
+      "lat": 33.72295906576111,
+      "lng": 73.0450559269901
+    },
+    "kohsar-road": {
+      "id": "kohsar-road",
+      "name": "Kohsar Road",
+      "lat": 33.72676191855094,
+      "lng": 73.05295235299494
+    },
+    "f-7-markaz": {
+      "id": "f-7-markaz",
+      "name": "F-7 Markaz",
+      "lat": 33.72238280297697,
+      "lng": 73.05763403115739
+    },
+    "flower-market": {
+      "id": "flower-market",
+      "name": "Flower Market",
+      "lat": 33.72406619654728,
+      "lng": 73.06107810820274
+    },
+    "children-hospital": {
+      "id": "children-hospital",
+      "name": "Children Hospital",
+      "lat": 33.70537137129901,
+      "lng": 73.05554950477897
+    },
+    "rescue-15": {
+      "id": "rescue-15",
+      "name": "Rescue 15",
+      "lat": 33.70046153534805,
+      "lng": 73.06198165393491
+    },
+    "bank-colony": {
+      "id": "bank-colony",
+      "name": "Bank Colony",
+      "lat": 33.735948114807464,
+      "lng": 73.20982690793362
+    },
+    "salai-centre": {
+      "id": "salai-centre",
+      "name": "Salai Centre",
+      "lat": 33.643091125649825,
+      "lng": 73.0098718110711
+    },
+    "sitara-market": {
+      "id": "sitara-market",
+      "name": "Sitara Market",
+      "lat": 33.70592071993154,
+      "lng": 73.06693220487129
+    },
+    "pully-stop": {
+      "id": "pully-stop",
+      "name": "Pully Stop",
+      "lat": 33.70787069043686,
+      "lng": 73.07015990743906
+    },
+    "iqbal-hall": {
+      "id": "iqbal-hall",
+      "name": "Iqbal Hall",
+      "lat": 33.70999902341296,
+      "lng": 73.07204809974415
+    },
+    "g-6-1-2": {
+      "id": "g-6-1-2",
+      "name": "G-6/1.2",
+      "lat": 33.712788794465204,
+      "lng": 73.08046943559292
+    },
+    "melody-market": {
+      "id": "melody-market",
+      "name": "Melody Market",
+      "lat": 33.715180092014734,
+      "lng": 73.08434247142414
+    },
+    "abpara-market": {
+      "id": "abpara-market",
+      "name": "Abpara Market",
+      "lat": 33.710074373640424,
+      "lng": 73.09163807490908
+    },
+    "youth-hostel": {
+      "id": "youth-hostel",
+      "name": "Youth Hostel",
+      "lat": null,
+      "lng": null
+    },
+    "metropolitan-corporation": {
+      "id": "metropolitan-corporation",
+      "name": "Metropolitan Corporation",
+      "lat": 33.71556543415166,
+      "lng": 73.08762716304525
+    },
+    "icb-college": {
+      "id": "icb-college",
+      "name": "ICB College",
+      "lat": 33.71730159896494,
+      "lng": 73.08916067184546
+    },
+    "nadra-chowk": {
+      "id": "nadra-chowk",
+      "name": "NADRA Chowk",
+      "lat": 33.71984059249061,
+      "lng": 73.09563118162852
+    },
+    "lodges-park": {
+      "id": "lodges-park",
+      "name": "Lodges Park",
+      "lat": 33.71584970852236,
+      "lng": 73.098551452535
+    },
+    "sukh-chayn-park": {
+      "id": "sukh-chayn-park",
+      "name": "Sukh Chayn Park",
+      "lat": 33.7134400732209,
+      "lng": 73.09994620092624
+    },
+    "ministry-of-foreign-affairs": {
+      "id": "ministry-of-foreign-affairs",
+      "name": "Ministry of Foreign Affairs",
+      "lat": 33.71891611494204,
+      "lng": 73.1037976477992
+    },
+    "radio-pakistan": {
+      "id": "radio-pakistan",
+      "name": "Radio Pakistan",
+      "lat": 33.72276283585213,
+      "lng": 73.10087335960137
+    },
+    "national-library": {
+      "id": "national-library",
+      "name": "National Library",
+      "lat": 33.724648528214054,
+      "lng": 73.10273174843998
+    },
+    "secretariate-police-station": {
+      "id": "secretariate-police-station",
+      "name": "Secretariate Police Station",
+      "lat": 33.72699328083057,
+      "lng": 73.10741081999159
+    },
+    "diplomatic-enclave-gate-4": {
+      "id": "diplomatic-enclave-gate-4",
+      "name": "Diplomatic Enclave Gate 4",
+      "lat": 33.7320741385373,
+      "lng": 73.11036091874325
+    },
+    "aiwan-e-sadar-colony": {
+      "id": "aiwan-e-sadar-colony",
+      "name": "Aiwan e Sadar Colony",
+      "lat": 33.733911705279155,
+      "lng": 73.10842840119612
+    },
+    "muslim-colony": {
+      "id": "muslim-colony",
+      "name": "Muslim Colony",
+      "lat": 33.7376341761268,
+      "lng": 73.10810204829741
+    },
+    "bari-imam": {
+      "id": "bari-imam",
+      "name": "Bari Imam",
+      "lat": 33.74361259060048,
+      "lng": 73.1094763783134
+    },
+    "muhallah-noori-bagh": {
+      "id": "muhallah-noori-bagh",
+      "name": "Muhallah Noori Bagh",
+      "lat": 33.744526135013956,
+      "lng": 73.11301072395725
+    },
+    "community-health-center": {
+      "id": "community-health-center",
+      "name": "Community Health Center",
+      "lat": 33.744672004954126,
+      "lng": 73.11764764402467
+    },
+    "d-type-quaid-e-azam-colony": {
+      "id": "d-type-quaid-e-azam-colony",
+      "name": "D-Type Quaid e Azam Colony",
+      "lat": 33.74477842201472,
+      "lng": 73.1200990877055
+    },
+    "c-type-quaid-e-azam-colony": {
+      "id": "c-type-quaid-e-azam-colony",
+      "name": "C-Type Quaid e Azam Colony",
+      "lat": 33.744751658278815,
+      "lng": 73.12486269091103
+    },
+    "babul-quaid": {
+      "id": "babul-quaid",
+      "name": "Babul Quaid",
+      "lat": 33.74495684671334,
+      "lng": 73.12947609046074
+    },
+    "quaid-azam-university": {
+      "id": "quaid-azam-university",
+      "name": "Quaid Azam University",
+      "lat": 33.74493900426212,
+      "lng": 73.13964702705954
+    },
+    "police-foundation": {
+      "id": "police-foundation",
+      "name": "Police Foundation",
+      "lat": 33.66401117816605,
+      "lng": 73.00665575482641
+    },
+    "g-10-metro-station": {
+      "id": "g-10-metro-station",
+      "name": "G-10 Metro Station",
+      "lat": 33.66812149156935,
+      "lng": 73.01199876656565
+    },
+    "sunday-bazar": {
+      "id": "sunday-bazar",
+      "name": "Sunday Bazar",
+      "lat": 33.6704710026737,
+      "lng": 73.01037636005229
+    },
+    "g10-g11": {
+      "id": "g10-g11",
+      "name": "G10/G11",
+      "lat": 33.67300425910158,
+      "lng": 73.00725014484864
+    },
+    "sumbal-road": {
+      "id": "sumbal-road",
+      "name": "Sumbal Road",
+      "lat": 33.690848001420804,
+      "lng": 73.00599400538732
+    },
+    "khayaban-e-iqbal": {
+      "id": "khayaban-e-iqbal",
+      "name": "Khayaban e Iqbal",
+      "lat": 33.71785084228562,
+      "lng": 73.03562589644407
+    },
+    "npf-housing-society": {
+      "id": "npf-housing-society",
+      "name": "NPF Housing Society",
+      "lat": 33.70139092157227,
+      "lng": 72.98530191014846
+    },
+    "multy-stop-islamabad-gardens": {
+      "id": "multy-stop-islamabad-gardens",
+      "name": "Multy Stop / Islamabad Gardens",
+      "lat": 33.70517043778595,
+      "lng": 72.98238300850728
+    },
+    "e-11-2-fechs-islamabad-international-hospital": {
+      "id": "e-11-2-fechs-islamabad-international-hospital",
+      "name": "E-11/2 / FECHS / Islamabad International Hospital",
+      "lat": 33.702804330380225,
+      "lng": 72.96823623693213
+    },
+    "d-12-service-road": {
+      "id": "d-12-service-road",
+      "name": "D-12 Service Road",
+      "lat": 33.70024371460742,
+      "lng": 72.9605014871891
+    },
+    "iesco-d-12": {
+      "id": "iesco-d-12",
+      "name": "IESCO D-12",
+      "lat": 33.69716012091452,
+      "lng": 72.95348103744601
+    },
+    "d-12-markaz": {
+      "id": "d-12-markaz",
+      "name": "D-12 Markaz",
+      "lat": 33.70058031989568,
+      "lng": 72.95126514412566
+    },
+    "d-12": {
+      "id": "d-12",
+      "name": "D-12",
+      "lat": 33.702651972144444,
+      "lng": 72.94973004425427
+    },
+    "tipu-market-g-8": {
+      "id": "tipu-market-g-8",
+      "name": "Tipu Market G-8",
+      "lat": 33.7007123212486,
+      "lng": 73.04232873603668
+    },
+    "ibn-e-sina-metro-station": {
+      "id": "ibn-e-sina-metro-station",
+      "name": "Ibn-e-Sina Metro Station",
+      "lat": 33.69583366301052,
+      "lng": 73.03858458162729
+    },
+    "chaman-metro-station": {
+      "id": "chaman-metro-station",
+      "name": "Chaman Metro Station",
+      "lat": 33.6917436315037,
+      "lng": 73.0426001379597
+    },
+    "taqwa-market": {
+      "id": "taqwa-market",
+      "name": "Taqwa Market",
+      "lat": 33.690401390940806,
+      "lng": 73.0396584699581
+    },
+    "g-9-4-park": {
+      "id": "g-9-4-park",
+      "name": "G-9/4 Park",
+      "lat": 33.68926021306159,
+      "lng": 73.03707597009735
+    },
+    "karachi-company": {
+      "id": "karachi-company",
+      "name": "Karachi Company",
+      "lat": 33.68655826790666,
+      "lng": 73.03235930280375
+    },
+    "g-9-1-and-g-9-4": {
+      "id": "g-9-1-and-g-9-4",
+      "name": "G-9/1 and G-9/4",
+      "lat": 33.685223869252575,
+      "lng": 73.03347546749892
+    },
+    "g-9-markaz": {
+      "id": "g-9-markaz",
+      "name": "G-9 Markaz",
+      "lat": 33.689904955947306,
+      "lng": 73.03033111082424
+    },
+    "g-9-3": {
+      "id": "g-9-3",
+      "name": "G-9/3",
+      "lat": 33.68923994732535,
+      "lng": 73.03698939735551
+    },
+    "fazaia-housing-scheme": {
+      "id": "fazaia-housing-scheme",
+      "name": "Fazaia Housing Scheme",
+      "lat": 33.71000020631117,
+      "lng": 73.02092766969206
+    },
+    "paf-hospital": {
+      "id": "paf-hospital",
+      "name": "PAF Hospital",
+      "lat": 33.70755267741876,
+      "lng": 73.01561043283475
+    },
+    "pakistan-gate": {
+      "id": "pakistan-gate",
+      "name": "Pakistan Gate",
+      "lat": 33.70253375310019,
+      "lng": 73.00883904780024
+    },
+    "maroof-international-hospital": {
+      "id": "maroof-international-hospital",
+      "name": "Maroof International Hospital",
+      "lat": 33.69714725702341,
+      "lng": 73.01273480758155
+    },
+    "f-10-markaz": {
+      "id": "f-10-markaz",
+      "name": "F-10 Markaz",
+      "lat": 33.69455644959399,
+      "lng": 73.01251602172444
+    },
+    "imcb-f10-4": {
+      "id": "imcb-f10-4",
+      "name": "IMCB F10/4",
+      "lat": 33.6908547246512,
+      "lng": 73.00600824451489
+    },
+    "imcg-f-10-2": {
+      "id": "imcg-f-10-2",
+      "name": "IMCG F-10/2",
+      "lat": 33.689450763125755,
+      "lng": 73.00306083483818
+    },
+    "f-10-f-11-chowk": {
+      "id": "f-10-f-11-chowk",
+      "name": "F-10/F-11 Chowk",
+      "lat": 33.686806044482154,
+      "lng": 72.99687850784939
+    },
+    "major-road": {
+      "id": "major-road",
+      "name": "Major Road",
+      "lat": 33.68594605429847,
+      "lng": 72.99410110355345
+    },
+    "ptcl-f-11": {
+      "id": "ptcl-f-11",
+      "name": "PTCL F-11",
+      "lat": 33.68429111900835,
+      "lng": 72.99154822303227
+    },
+    "f-11-markaz": {
+      "id": "f-11-markaz",
+      "name": "F-11 Markaz",
+      "lat": 33.68285846364324,
+      "lng": 72.98881723877136
+    },
+    "opf-girls-college": {
+      "id": "opf-girls-college",
+      "name": "OPF Girls College",
+      "lat": 33.68560024870533,
+      "lng": 72.98495823937701
+    },
+    "golra-sharif-f-11-3": {
+      "id": "golra-sharif-f-11-3",
+      "name": "Golra Sharif F-11/3",
+      "lat": 33.68937965949906,
+      "lng": 72.9822889951181
+    },
+    "golra-sharif": {
+      "id": "golra-sharif",
+      "name": "Golra Sharif",
+      "lat": 33.68932992407956,
+      "lng": 72.98237567821926
+    },
+    "nori-hospital": {
+      "id": "nori-hospital",
+      "name": "NORI Hospital",
+      "lat": 33.69872355284949,
+      "lng": 73.05390933322424
+    },
+    "dental-hospital": {
+      "id": "dental-hospital",
+      "name": "Dental Hospital",
+      "lat": 33.69974111444802,
+      "lng": 73.04896333974719
+    },
+    "g-8-markaz": {
+      "id": "g-8-markaz",
+      "name": "G-8 Markaz",
+      "lat": 33.699027037385164,
+      "lng": 73.04749348921057
+    },
+    "development-park": {
+      "id": "development-park",
+      "name": "Development Park",
+      "lat": 33.69557260579922,
+      "lng": 73.04804065987764
+    },
+    "g-9-4": {
+      "id": "g-9-4",
+      "name": "G-9/4",
+      "lat": 33.68926021306159,
+      "lng": 73.03707597009735
+    },
+    "police-flats": {
+      "id": "police-flats",
+      "name": "Police Flats",
+      "lat": 33.684880600359925,
+      "lng": 73.02472775132632
+    },
+    "college-morh": {
+      "id": "college-morh",
+      "name": "College Morh",
+      "lat": 33.68105540612217,
+      "lng": 73.01837571468454
+    },
+    "g-10-markaz": {
+      "id": "g-10-markaz",
+      "name": "G-10 Markaz",
+      "lat": 33.67650917901414,
+      "lng": 73.01458852478868
+    },
+    "pha-flats": {
+      "id": "pha-flats",
+      "name": "PHA Flats",
+      "lat": 33.67574296788226,
+      "lng": 73.01182475666249
+    },
+    "tanki-stop": {
+      "id": "tanki-stop",
+      "name": "Tanki Stop",
+      "lat": 33.6741222166913,
+      "lng": 73.00985989044702
+    },
+    "g-10-g-11": {
+      "id": "g-10-g-11",
+      "name": "G-10/G-11",
+      "lat": 33.67299020399478,
+      "lng": 73.0072397263097
+    },
+    "institute-of-modern-studies": {
+      "id": "institute-of-modern-studies",
+      "name": "Institute of Modern Studies",
+      "lat": 33.67225142887911,
+      "lng": 73.00283562653611
+    },
+    "g-11-markaz": {
+      "id": "g-11-markaz",
+      "name": "G-11 Markaz",
+      "lat": 33.67000714306969,
+      "lng": 72.99869564926453
+    },
+    "mehrabad": {
+      "id": "mehrabad",
+      "name": "Mehrabad",
+      "lat": 33.66647019084591,
+      "lng": 72.98976782580704
+    },
+    "bar-council": {
+      "id": "bar-council",
+      "name": "Bar Council",
+      "lat": 33.65950949850007,
+      "lng": 72.99708985839457
+    },
+    "a-k-bari-road": {
+      "id": "a-k-bari-road",
+      "name": "A.K Bari Road",
+      "lat": 33.661795574704115,
+      "lng": 73.00230407282065
+    },
+    "tnt": {
+      "id": "tnt",
+      "name": "TNT",
+      "lat": 33.69766367958974,
+      "lng": 73.06191122632266
+    },
+    "zero-point": {
+      "id": "zero-point",
+      "name": "Zero Point",
+      "lat": 33.69661193644461,
+      "lng": 73.07012632570736
+    },
+    "cda": {
+      "id": "cda",
+      "name": "CDA",
+      "lat": 33.70071791395022,
+      "lng": 73.07773307050417
+    },
+    "abpara": {
+      "id": "abpara",
+      "name": "Abpara",
+      "lat": 33.70587953244183,
+      "lng": 73.08876630811679
+    },
+    "foreign-affairs-office": {
+      "id": "foreign-affairs-office",
+      "name": "Foreign Affairs Office",
+      "lat": 33.710955767476264,
+      "lng": 73.10564090623255
+    },
+    "kashmir-chowk": {
+      "id": "kashmir-chowk",
+      "name": "Kashmir Chowk",
+      "lat": 33.70737686380931,
+      "lng": 73.1063704670969
+    },
+    "rawal-dam-chowk": {
+      "id": "rawal-dam-chowk",
+      "name": "Rawal Dam Chowk",
+      "lat": 33.691837664272,
+      "lng": 73.11058213416324
+    },
+    "rawal-town": {
+      "id": "rawal-town",
+      "name": "Rawal Town",
+      "lat": 33.689370419069675,
+      "lng": 73.11173039079104
+    },
+    "school-board-stop": {
+      "id": "school-board-stop",
+      "name": "School Board Stop",
+      "lat": 33.68899245184988,
+      "lng": 73.11641174492661
+    },
+    "rawal-dam-colony": {
+      "id": "rawal-dam-colony",
+      "name": "Rawal Dam Colony",
+      "lat": 33.68840449953099,
+      "lng": 73.12036124315094
+    },
+    "narc-colony": {
+      "id": "narc-colony",
+      "name": "NARC Colony",
+      "lat": 33.687407071224186,
+      "lng": 73.13180595527018
+    },
+    "nih-allergy-center": {
+      "id": "nih-allergy-center",
+      "name": "NIH Allergy Center",
+      "lat": 33.6848662015435,
+      "lng": 73.13538952548298
+    },
+    "shahzad-town": {
+      "id": "shahzad-town",
+      "name": "Shahzad Town",
+      "lat": 33.67736914836529,
+      "lng": 73.14168600981654
+    },
+    "park-view-city": {
+      "id": "park-view-city",
+      "name": "Park View City",
+      "lat": 33.67418733049198,
+      "lng": 73.14437213534026
+    },
+    "green-avenue": {
+      "id": "green-avenue",
+      "name": "Green Avenue",
+      "lat": 33.667634529881504,
+      "lng": 73.14987079253174
+    },
+    "chatta-bakhtawar": {
+      "id": "chatta-bakhtawar",
+      "name": "Chatta Bakhtawar",
+      "lat": 33.664579580165444,
+      "lng": 73.1525913323509
+    },
+    "gulshan-al-huda-community": {
+      "id": "gulshan-al-huda-community",
+      "name": "Gulshan Al Huda Community",
+      "lat": 33.65922417128849,
+      "lng": 73.15375727797695
+    },
+    "hostel-city": {
+      "id": "hostel-city",
+      "name": "Hostel City",
+      "lat": 33.65608505185562,
+      "lng": 73.15413153213662
+    },
+    "comsats-university": {
+      "id": "comsats-university",
+      "name": "COMSATS University",
+      "lat": 33.65184346427155,
+      "lng": 73.15980292203837
+    },
+    "tamma-stop": {
+      "id": "tamma-stop",
+      "name": "Tamma Stop",
+      "lat": 33.64812890801019,
+      "lng": 73.16224996841554
+    },
+    "capt-naeem-tufail-shaheed-chowk": {
+      "id": "capt-naeem-tufail-shaheed-chowk",
+      "name": "Capt. Naeem Tufail Shaheed Chowk",
+      "lat": 33.644823335305404,
+      "lng": 73.16359373542986
+    },
+    "h-8": {
+      "id": "h-8",
+      "name": "H-8",
+      "lat": 33.68411295908987,
+      "lng": 73.07210484166711
+    },
+    "kach-naar-park-i-8": {
+      "id": "kach-naar-park-i-8",
+      "name": "Kach Naar Park I-8",
+      "lat": 33.673201261143895,
+      "lng": 73.08022224442259
+    },
+    "faizabad": {
+      "id": "faizabad",
+      "name": "Faizabad",
+      "lat": 33.66682997443567,
+      "lng": 73.08816133297216
+    },
+    "itp-driving-license-centre": {
+      "id": "itp-driving-license-centre",
+      "name": "ITP Driving License Centre",
+      "lat": 33.67249336537841,
+      "lng": 73.09322959081629
+    },
+    "margalla-town": {
+      "id": "margalla-town",
+      "name": "Margalla Town",
+      "lat": 33.68165134127899,
+      "lng": 73.10182436371905
+    },
+    "garden-avenue": {
+      "id": "garden-avenue",
+      "name": "Garden Avenue",
+      "lat": 33.685986661172585,
+      "lng": 73.10703439098384
+    },
+    "n-a-r-c-colony": {
+      "id": "n-a-r-c-colony",
+      "name": "N.A.R.C Colony",
+      "lat": 33.687407071224186,
+      "lng": 73.13180595527018
+    },
+    "n-i-h-allergy-center": {
+      "id": "n-i-h-allergy-center",
+      "name": "N.I.H Allergy Center",
+      "lat": 33.6848662015435,
+      "lng": 73.13538952548298
+    },
+    "khanna-pul": {
+      "id": "khanna-pul",
+      "name": "Khanna Pul",
+      "lat": 33.62729234971165,
+      "lng": 73.11615187311992
+    },
+    "zia-masjid": {
+      "id": "zia-masjid",
+      "name": "Zia Masjid",
+      "lat": 33.63668261039801,
+      "lng": 73.1076208316939
+    },
+    "kuri-road": {
+      "id": "kuri-road",
+      "name": "Kuri Road",
+      "lat": 33.64278168133575,
+      "lng": 73.10400334725043
+    },
+    "iqbal-town": {
+      "id": "iqbal-town",
+      "name": "Iqbal Town",
+      "lat": 33.645759696879345,
+      "lng": 73.10077842531066
+    },
+    "dhok-kala-khan": {
+      "id": "dhok-kala-khan",
+      "name": "Dhok Kala Khan",
+      "lat": 33.64970088746827,
+      "lng": 73.09779915626328
+    },
+    "sohan": {
+      "id": "sohan",
+      "name": "Sohan",
+      "lat": 33.65947377424344,
+      "lng": 73.09047317351903
+    },
+    "faizabad-metro-station": {
+      "id": "faizabad-metro-station",
+      "name": "Faizabad Metro Station",
+      "lat": 33.66682997443567,
+      "lng": 73.08816133297216
+    },
+    "ijp-metro-station": {
+      "id": "ijp-metro-station",
+      "name": "IJP Metro Station",
+      "lat": 33.65608729476395,
+      "lng": 73.0720416988241
+    },
+    "pindora-chungi": {
+      "id": "pindora-chungi",
+      "name": "Pindora Chungi",
+      "lat": 33.65221524115215,
+      "lng": 73.06400180860736
+    },
+    "katarian-chungi": {
+      "id": "katarian-chungi",
+      "name": "Katarian Chungi",
+      "lat": 33.64875892858748,
+      "lng": 73.05840135614791
+    },
+    "katarian-pull": {
+      "id": "katarian-pull",
+      "name": "Katarian Pull",
+      "lat": 33.64585623326584,
+      "lng": 73.05246830981389
+    },
+    "cda-stop": {
+      "id": "cda-stop",
+      "name": "CDA Stop",
+      "lat": 33.6413010371886,
+      "lng": 73.04411054651209
+    },
+    "fauji-colony": {
+      "id": "fauji-colony",
+      "name": "Fauji Colony",
+      "lat": 33.632654433545156,
+      "lng": 73.02755595249089
+    },
+    "carriage-factory": {
+      "id": "carriage-factory",
+      "name": "Carriage Factory",
+      "lat": 33.63044752798577,
+      "lng": 73.02264207135525
+    },
+    "westridge": {
+      "id": "westridge",
+      "name": "Westridge",
+      "lat": 33.62726656249293,
+      "lng": 73.01666847329481
+    },
+    "ctti": {
+      "id": "ctti",
+      "name": "CTTI",
+      "lat": 33.62426215737786,
+      "lng": 73.01060728212643
+    },
+    "social-security-hospital": {
+      "id": "social-security-hospital",
+      "name": "Social Security Hospital",
+      "lat": 33.62038657630803,
+      "lng": 73.0033251194973
+    },
+    "british-homes": {
+      "id": "british-homes",
+      "name": "British Homes",
+      "lat": 33.61706073534783,
+      "lng": 72.9979236934649
+    },
+    "pir-wadhai-morh": {
+      "id": "pir-wadhai-morh",
+      "name": "Pir Wadhai Morh",
+      "lat": 33.61575514091682,
+      "lng": 72.99445625256871
+    },
+    "kohinoor-mill-colony": {
+      "id": "kohinoor-mill-colony",
+      "name": "Kohinoor Mill Colony",
+      "lat": 33.61640317566239,
+      "lng": 72.98716661606083
+    },
+    "kohinoor-mill": {
+      "id": "kohinoor-mill",
+      "name": "Kohinoor Mill",
+      "lat": 33.61897620669635,
+      "lng": 72.98080391924425
+    },
+    "chishtiabad": {
+      "id": "chishtiabad",
+      "name": "Chishtiabad",
+      "lat": 33.62235914910118,
+      "lng": 72.97551693016543
+    },
+    "golra-morh": {
+      "id": "golra-morh",
+      "name": "Golra Morh",
+      "lat": 33.62451272776406,
+      "lng": 72.9710653311336
+    },
+    "home-of-military-transport": {
+      "id": "home-of-military-transport",
+      "name": "Home of Military Transport",
+      "lat": 33.63446041895948,
+      "lng": 72.96680827497872
+    },
+    "golra-morh-metro-station": {
+      "id": "golra-morh-metro-station",
+      "name": "Golra Morh Metro Station",
+      "lat": 33.64068190616236,
+      "lng": 72.96169294133917
+    },
+    "barakahu": {
+      "id": "barakahu",
+      "name": "Barakahu",
+      "lat": 33.735497639838265,
+      "lng": 73.1653332236176
+    },
+    "shahdara": {
+      "id": "shahdara",
+      "name": "Shahdara",
+      "lat": 33.73491699754946,
+      "lng": 73.1591076957223
+    },
+    "malpur": {
+      "id": "malpur",
+      "name": "Malpur",
+      "lat": 33.72992318391457,
+      "lng": 73.14446747498076
+    },
+    "lake-view-park": {
+      "id": "lake-view-park",
+      "name": "Lake View Park",
+      "lat": 33.722883791026305,
+      "lng": 73.1352601487836
+    },
+    "dhokri-stop": {
+      "id": "dhokri-stop",
+      "name": "Dhokri Stop",
+      "lat": 33.71144018613291,
+      "lng": 73.10611361247028
+    },
+    "barakahu-terminal": {
+      "id": "barakahu-terminal",
+      "name": "Barakahu Terminal",
+      "lat": 33.735497639838265,
+      "lng": 73.1653332236176
+    },
+    "mangu-town": {
+      "id": "mangu-town",
+      "name": "Mangu Town",
+      "lat": 33.73627356624121,
+      "lng": 73.1721032067579
+    },
+    "col-ammanullah-road": {
+      "id": "col-ammanullah-road",
+      "name": "Col. Ammanullah Road",
+      "lat": 33.73684207209912,
+      "lng": 73.1747230502809
+    },
+    "athal-chowk": {
+      "id": "athal-chowk",
+      "name": "Athal Chowk",
+      "lat": 33.73972547946584,
+      "lng": 73.17988434320343
+    },
+    "barakahu-bazar": {
+      "id": "barakahu-bazar",
+      "name": "Barakahu Bazar",
+      "lat": 33.74296589046329,
+      "lng": 73.18494225120912
+    },
+    "bhera-pull": {
+      "id": "bhera-pull",
+      "name": "Bhera Pull",
+      "lat": 33.74495242285442,
+      "lng": 73.18903166333249
+    },
+    "nai-abadi": {
+      "id": "nai-abadi",
+      "name": "Nai Abadi",
+      "lat": 33.74826270686837,
+      "lng": 73.1941912244859
+    },
+    "traders-colony": {
+      "id": "traders-colony",
+      "name": "Traders Colony",
+      "lat": 33.753819249837505,
+      "lng": 73.2053793826709
+    },
+    "akbar-niazi-hospital": {
+      "id": "akbar-niazi-hospital",
+      "name": "Akbar Niazi Hospital",
+      "lat": 33.75639216654366,
+      "lng": 73.210149401866
+    },
+    "phulgran": {
+      "id": "phulgran",
+      "name": "Phulgran",
+      "lat": 33.757528124890136,
+      "lng": 73.21274960051353
+    },
+    "dhok-badam": {
+      "id": "dhok-badam",
+      "name": "Dhok Badam",
+      "lat": 33.75877923391185,
+      "lng": 73.21550644260951
+    },
+    "punjab-college": {
+      "id": "punjab-college",
+      "name": "Punjab College",
+      "lat": 33.76122652592548,
+      "lng": 73.21798884194057
+    },
+    "al-wadi-colony": {
+      "id": "al-wadi-colony",
+      "name": "Al Wadi Colony",
+      "lat": 33.762573768209634,
+      "lng": 73.21933018733174
+    },
+    "satra-meel": {
+      "id": "satra-meel",
+      "name": "Satra Meel",
+      "lat": 33.764047132524766,
+      "lng": 73.22300219618715
+    },
+    "fazaia": {
+      "id": "fazaia",
+      "name": "Fazaia",
+      "lat": 33.620769397121414,
+      "lng": 73.12042150978492
+    },
+    "gangal": {
+      "id": "gangal",
+      "name": "Gangal",
+      "lat": 33.61283553089856,
+      "lng": 73.12595758898938
+    },
+    "koral-town": {
+      "id": "koral-town",
+      "name": "Koral Town",
+      "lat": 33.60407883994751,
+      "lng": 73.13252363665529
+    },
+    "gulberg": {
+      "id": "gulberg",
+      "name": "Gulberg",
+      "lat": 33.59507526959182,
+      "lng": 73.13927457564758
+    },
+    "pagh-chowk": {
+      "id": "pagh-chowk",
+      "name": "Pagh Chowk",
+      "lat": 33.584989746096,
+      "lng": 73.14621363147394
+    },
+    "pwd-housing-society": {
+      "id": "pwd-housing-society",
+      "name": "PWD Housing Society",
+      "lat": 33.5757829004841,
+      "lng": 73.1529865617986
+    },
+    "soan-gardens-e-block": {
+      "id": "soan-gardens-e-block",
+      "name": "Soan Gardens E Block",
+      "lat": 33.56761952166926,
+      "lng": 73.1590876857792
+    },
+    "soan-gardens-g-block": {
+      "id": "soan-gardens-g-block",
+      "name": "Soan Gardens G Block",
+      "lat": 33.56122981858447,
+      "lng": 73.16388484403411
+    },
+    "soan-gardens-h-block": {
+      "id": "soan-gardens-h-block",
+      "name": "Soan Gardens H Block",
+      "lat": 33.556644092819006,
+      "lng": 73.16734214758053
+    },
+    "river-gardens": {
+      "id": "river-gardens",
+      "name": "River Gardens",
+      "lat": 33.55031440649514,
+      "lng": 73.17214273881568
+    },
+    "kaak-pul": {
+      "id": "kaak-pul",
+      "name": "Kaak Pul",
+      "lat": 33.541540392663094,
+      "lng": 73.1786745303829
+    },
+    "dha-gate-08": {
+      "id": "dha-gate-08",
+      "name": "DHA Gate 08",
+      "lat": 33.538758445405364,
+      "lng": 73.18016990388493
+    },
+    "dha-gate-07": {
+      "id": "dha-gate-07",
+      "name": "DHA Gate 07",
+      "lat": 33.53331629060999,
+      "lng": 73.1806106080966
+    },
+    "suparco": {
+      "id": "suparco",
+      "name": "SUPARCO",
+      "lat": 33.52010801924289,
+      "lng": 73.17886918123955
+    },
+    "t-chowk": {
+      "id": "t-chowk",
+      "name": "T- Chowk",
+      "lat": 33.51187400906095,
+      "lng": 73.17892381524551
+    },
+    "saddar": {
+      "id": "saddar",
+      "name": "Saddar",
+      "lat": 33.59844,
+      "lng": 73.04507
+    },
+    "marir-chowk": {
+      "id": "marir-chowk",
+      "name": "Marir Chowk",
+      "lat": 33.60145,
+      "lng": 73.04683
+    },
+    "liaquat-bagh": {
+      "id": "liaquat-bagh",
+      "name": "Liaquat Bagh",
+      "lat": 33.60577,
+      "lng": 73.0499
+    },
+    "committee-chowk": {
+      "id": "committee-chowk",
+      "name": "Committee Chowk",
+      "lat": 33.61211,
+      "lng": 73.05473
+    },
+    "warisc-khan": {
+      "id": "warisc-khan",
+      "name": "Warisc Khan",
+      "lat": 33.61847,
+      "lng": 73.05955
+    },
+    "rehmanabad": {
+      "id": "rehmanabad",
+      "name": "Rehmanabad",
+      "lat": 33.62483,
+      "lng": 73.06437
+    },
+    "6th-road": {
+      "id": "6th-road",
+      "name": "6th Road",
+      "lat": 33.6312,
+      "lng": 73.06919
+    },
+    "shamsabad": {
+      "id": "shamsabad",
+      "name": "Shamsabad",
+      "lat": 33.63756,
+      "lng": 73.07401
+    },
+    "ijp": {
+      "id": "ijp",
+      "name": "IJP",
+      "lat": 33.65156,
+      "lng": 73.07972
+    },
+    "potohar": {
+      "id": "potohar",
+      "name": "Potohar",
+      "lat": 33.65701,
+      "lng": 73.07603
+    },
+    "khayaban-e-johar": {
+      "id": "khayaban-e-johar",
+      "name": "Khayaban-e-Johar",
+      "lat": 33.66246,
+      "lng": 73.07233
+    },
+    "faiz-ahmad-faiz": {
+      "id": "faiz-ahmad-faiz",
+      "name": "Faiz Ahmad Faiz",
+      "lat": 33.67931,
+      "lng": 73.05161
+    },
+    "kashmir-highway": {
+      "id": "kashmir-highway",
+      "name": "Kashmir Highway",
+      "lat": 33.68389,
+      "lng": 73.04766
+    },
+    "chaman": {
+      "id": "chaman",
+      "name": "Chaman",
+      "lat": 33.68911,
+      "lng": 73.04359
+    },
+    "ibn-e-sina": {
+      "id": "ibn-e-sina",
+      "name": "Ibn-e-Sina",
+      "lat": 33.69583,
+      "lng": 73.03858
+    },
+    "pims": {
+      "id": "pims",
+      "name": "PIMS",
+      "lat": 33.70615,
+      "lng": 73.05207
+    },
+    "stock-exchange": {
+      "id": "stock-exchange",
+      "name": "Stock Exchange",
+      "lat": 33.70924,
+      "lng": 73.05386
+    },
+    "7th-avenue": {
+      "id": "7th-avenue",
+      "name": "7th Avenue",
+      "lat": 33.71233,
+      "lng": 73.05565
+    },
+    "shaheed-e-millat": {
+      "id": "shaheed-e-millat",
+      "name": "Shaheed-e-Millat",
+      "lat": 33.71542,
+      "lng": 73.05744
+    },
+    "parade-ground": {
+      "id": "parade-ground",
+      "name": "Parade Ground",
+      "lat": 33.71851,
+      "lng": 73.05923
+    },
+    "secretariat": {
+      "id": "secretariat",
+      "name": "Secretariat",
+      "lat": 33.7216,
+      "lng": 73.06102
+    },
+    "peshawar-mor": {
+      "id": "peshawar-mor",
+      "name": "Peshawar Mor",
+      "lat": 33.65083,
+      "lng": 72.98794
+    },
+    "nust": {
+      "id": "nust",
+      "name": "NUST",
+      "lat": 33.65616,
+      "lng": 72.99355
+    },
+    "g-10": {
+      "id": "g-10",
+      "name": "G-10",
+      "lat": 33.66812,
+      "lng": 73.012
+    },
+    "g-11": {
+      "id": "g-11",
+      "name": "G-11",
+      "lat": 33.67001,
+      "lng": 72.9987
+    },
+    "golra": {
+      "id": "golra",
+      "name": "Golra",
+      "lat": 33.68933,
+      "lng": 72.98238
+    },
+    "n5": {
+      "id": "n5",
+      "name": "N5",
+      "lat": 33.7,
+      "lng": 72.97
+    },
+    "airport": {
+      "id": "airport",
+      "name": "Airport",
+      "lat": 33.61667,
+      "lng": 72.98333
+    },
+    "g-7": {
+      "id": "g-7",
+      "name": "G-7",
+      "lat": 33.69967,
+      "lng": 73.04819
+    },
+    "g-6": {
+      "id": "g-6",
+      "name": "G-6",
+      "lat": 33.71279,
+      "lng": 73.08047
+    },
+    "melody": {
+      "id": "melody",
+      "name": "Melody",
+      "lat": 33.71518,
+      "lng": 73.08434
+    },
+    "aabpara": {
+      "id": "aabpara",
+      "name": "Aabpara",
+      "lat": 33.71007,
+      "lng": 73.09164
+    },
+    "ataturk-avenue": {
+      "id": "ataturk-avenue",
+      "name": "Ataturk Avenue",
+      "lat": 33.717,
+      "lng": 73.092
+    },
+    "f-6": {
+      "id": "f-6",
+      "name": "F-6",
+      "lat": 33.724,
+      "lng": 73.09
+    },
+    "f-7": {
+      "id": "f-7",
+      "name": "F-7",
+      "lat": 33.72238,
+      "lng": 73.05763
+    },
+    "blue-area": {
+      "id": "blue-area",
+      "name": "Blue Area",
+      "lat": 33.715,
+      "lng": 73.085
+    }
+  },
+  "edges": [
+    {
+      "from": "nust-metro-station",
+      "to": "police-foundation-metro-station",
+      "route": "FR-01",
+      "weight": 1.4943770330079686
+    },
+    {
+      "from": "police-foundation-metro-station",
+      "to": "nust-metro-station",
+      "route": "FR-01",
+      "weight": 1.4943770330079686
+    },
+    {
+      "from": "police-foundation-metro-station",
+      "to": "npa-stop",
+      "route": "FR-01",
+      "weight": 1.04930348290944
+    },
+    {
+      "from": "npa-stop",
+      "to": "police-foundation-metro-station",
+      "route": "FR-01",
+      "weight": 1.04930348290944
+    },
+    {
+      "from": "npa-stop",
+      "to": "islamic-university",
+      "route": "FR-01",
+      "weight": 0.8169693898923814
+    },
+    {
+      "from": "islamic-university",
+      "to": "npa-stop",
+      "route": "FR-01",
+      "weight": 0.8169693898923814
+    },
+    {
+      "from": "islamic-university",
+      "to": "fast-university",
+      "route": "FR-01",
+      "weight": 0.32050312056245606
+    },
+    {
+      "from": "fast-university",
+      "to": "islamic-university",
+      "route": "FR-01",
+      "weight": 0.32050312056245606
+    },
+    {
+      "from": "fast-university",
+      "to": "paec-general-hospital",
+      "route": "FR-01",
+      "weight": 0.5963559550356184
+    },
+    {
+      "from": "paec-general-hospital",
+      "to": "fast-university",
+      "route": "FR-01",
+      "weight": 0.5963559550356184
+    },
+    {
+      "from": "paec-general-hospital",
+      "to": "imc-hospital",
+      "route": "FR-01",
+      "weight": 0.4439524432072663
+    },
+    {
+      "from": "imc-hospital",
+      "to": "paec-general-hospital",
+      "route": "FR-01",
+      "weight": 0.4439524432072663
+    },
+    {
+      "from": "imc-hospital",
+      "to": "metro-cnc",
+      "route": "FR-01",
+      "weight": 1.1628713869794214
+    },
+    {
+      "from": "metro-cnc",
+      "to": "imc-hospital",
+      "route": "FR-01",
+      "weight": 1.1628713869794214
+    },
+    {
+      "from": "metro-cnc",
+      "to": "sabzi-mandi",
+      "route": "FR-01",
+      "weight": 0.1
+    },
+    {
+      "from": "sabzi-mandi",
+      "to": "metro-cnc",
+      "route": "FR-01",
+      "weight": 0.1
+    },
+    {
+      "from": "sabzi-mandi",
+      "to": "mandi-morh",
+      "route": "FR-01",
+      "weight": 0.9463614879511459
+    },
+    {
+      "from": "mandi-morh",
+      "to": "sabzi-mandi",
+      "route": "FR-01",
+      "weight": 0.9463614879511459
+    },
+    {
+      "from": "mandi-morh",
+      "to": "kurang-road-stop",
+      "route": "FR-01",
+      "weight": 0.9145527305474096
+    },
+    {
+      "from": "kurang-road-stop",
+      "to": "mandi-morh",
+      "route": "FR-01",
+      "weight": 0.9145527305474096
+    },
+    {
+      "from": "kurang-road-stop",
+      "to": "iesco",
+      "route": "FR-01",
+      "weight": 1.9890768794375444
+    },
+    {
+      "from": "iesco",
+      "to": "kurang-road-stop",
+      "route": "FR-01",
+      "weight": 1.9890768794375444
+    },
+    {
+      "from": "iesco",
+      "to": "ptcl-i-10",
+      "route": "FR-01",
+      "weight": 0.8094797443826799
+    },
+    {
+      "from": "ptcl-i-10",
+      "to": "iesco",
+      "route": "FR-01",
+      "weight": 0.8094797443826799
+    },
+    {
+      "from": "ptcl-i-10",
+      "to": "sui-gas-stop",
+      "route": "FR-01",
+      "weight": 0.8061824914862602
+    },
+    {
+      "from": "sui-gas-stop",
+      "to": "ptcl-i-10",
+      "route": "FR-01",
+      "weight": 0.8061824914862602
+    },
+    {
+      "from": "sui-gas-stop",
+      "to": "ogti-stop",
+      "route": "FR-01",
+      "weight": 0.367599791862029
+    },
+    {
+      "from": "ogti-stop",
+      "to": "sui-gas-stop",
+      "route": "FR-01",
+      "weight": 0.367599791862029
+    },
+    {
+      "from": "ogti-stop",
+      "to": "cda-complain-center",
+      "route": "FR-01",
+      "weight": 0.5575782267026282
+    },
+    {
+      "from": "cda-complain-center",
+      "to": "ogti-stop",
+      "route": "FR-01",
+      "weight": 0.5575782267026282
+    },
+    {
+      "from": "cda-complain-center",
+      "to": "mci-model-school",
+      "route": "FR-01",
+      "weight": 0.3707290728418543
+    },
+    {
+      "from": "mci-model-school",
+      "to": "cda-complain-center",
+      "route": "FR-01",
+      "weight": 0.3707290728418543
+    },
+    {
+      "from": "pims-hospital",
+      "to": "pims-metro-station",
+      "route": "FR-03A",
+      "weight": 0.3402241390596194
+    },
+    {
+      "from": "pims-metro-station",
+      "to": "pims-hospital",
+      "route": "FR-03A",
+      "weight": 0.3402241390596194
+    },
+    {
+      "from": "pims-metro-station",
+      "to": "katchery",
+      "route": "FR-03A",
+      "weight": 1.0413681311569656
+    },
+    {
+      "from": "katchery",
+      "to": "pims-metro-station",
+      "route": "FR-03A",
+      "weight": 1.0413681311569656
+    },
+    {
+      "from": "katchery",
+      "to": "f-8-markaz",
+      "route": "FR-03A",
+      "weight": 0.3024331338725985
+    },
+    {
+      "from": "f-8-markaz",
+      "to": "katchery",
+      "route": "FR-03A",
+      "weight": 0.3024331338725985
+    },
+    {
+      "from": "f-8-markaz",
+      "to": "f-9-park",
+      "route": "FR-03A",
+      "weight": 2.4341371430801533
+    },
+    {
+      "from": "f-9-park",
+      "to": "f-8-markaz",
+      "route": "FR-03A",
+      "weight": 2.4341371430801533
+    },
+    {
+      "from": "f-9-park",
+      "to": "shaheen-chowk",
+      "route": "FR-03A",
+      "weight": 1.9502943463175444
+    },
+    {
+      "from": "shaheen-chowk",
+      "to": "f-9-park",
+      "route": "FR-03A",
+      "weight": 1.9502943463175444
+    },
+    {
+      "from": "shaheen-chowk",
+      "to": "bahria-university",
+      "route": "FR-03A",
+      "weight": 0.6299910619950961
+    },
+    {
+      "from": "bahria-university",
+      "to": "shaheen-chowk",
+      "route": "FR-03A",
+      "weight": 0.6299910619950961
+    },
+    {
+      "from": "bahria-university",
+      "to": "naval-complex",
+      "route": "FR-03A",
+      "weight": 0.678333384939413
+    },
+    {
+      "from": "naval-complex",
+      "to": "bahria-university",
+      "route": "FR-03A",
+      "weight": 0.678333384939413
+    },
+    {
+      "from": "naval-complex",
+      "to": "faisal-masjid",
+      "route": "FR-03A",
+      "weight": 0.9492158075558877
+    },
+    {
+      "from": "faisal-masjid",
+      "to": "naval-complex",
+      "route": "FR-03A",
+      "weight": 0.9492158075558877
+    },
+    {
+      "from": "faisal-masjid",
+      "to": "parveen-shakir-road",
+      "route": "FR-03A",
+      "weight": 0.6758607057405475
+    },
+    {
+      "from": "parveen-shakir-road",
+      "to": "faisal-masjid",
+      "route": "FR-03A",
+      "weight": 0.6758607057405475
+    },
+    {
+      "from": "parveen-shakir-road",
+      "to": "kohsar-road",
+      "route": "FR-03A",
+      "weight": 0.8438703546827788
+    },
+    {
+      "from": "kohsar-road",
+      "to": "parveen-shakir-road",
+      "route": "FR-03A",
+      "weight": 0.8438703546827788
+    },
+    {
+      "from": "kohsar-road",
+      "to": "f-7-markaz",
+      "route": "FR-03A",
+      "weight": 0.6515922353982458
+    },
+    {
+      "from": "f-7-markaz",
+      "to": "kohsar-road",
+      "route": "FR-03A",
+      "weight": 0.6515922353982458
+    },
+    {
+      "from": "f-7-markaz",
+      "to": "flower-market",
+      "route": "FR-03A",
+      "weight": 0.36945171882843664
+    },
+    {
+      "from": "flower-market",
+      "to": "f-7-markaz",
+      "route": "FR-03A",
+      "weight": 0.36945171882843664
+    },
+    {
+      "from": "pims-hospital",
+      "to": "children-hospital",
+      "route": "FR-04",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "pims-hospital",
+      "route": "FR-04",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "rescue-15",
+      "route": "FR-04",
+      "weight": 0.8075267218725943
+    },
+    {
+      "from": "rescue-15",
+      "to": "children-hospital",
+      "route": "FR-04",
+      "weight": 0.8075267218725943
+    },
+    {
+      "from": "rescue-15",
+      "to": "bank-colony",
+      "route": "FR-04",
+      "weight": 14.232080232195946
+    },
+    {
+      "from": "bank-colony",
+      "to": "rescue-15",
+      "route": "FR-04",
+      "weight": 14.232080232195946
+    },
+    {
+      "from": "bank-colony",
+      "to": "salai-centre",
+      "route": "FR-04",
+      "weight": 21.186244851007086
+    },
+    {
+      "from": "salai-centre",
+      "to": "bank-colony",
+      "route": "FR-04",
+      "weight": 21.186244851007086
+    },
+    {
+      "from": "salai-centre",
+      "to": "sitara-market",
+      "route": "FR-04",
+      "weight": 8.757227168691587
+    },
+    {
+      "from": "sitara-market",
+      "to": "salai-centre",
+      "route": "FR-04",
+      "weight": 8.757227168691587
+    },
+    {
+      "from": "sitara-market",
+      "to": "pully-stop",
+      "route": "FR-04",
+      "weight": 0.36899405858251355
+    },
+    {
+      "from": "pully-stop",
+      "to": "sitara-market",
+      "route": "FR-04",
+      "weight": 0.36899405858251355
+    },
+    {
+      "from": "pully-stop",
+      "to": "iqbal-hall",
+      "route": "FR-04",
+      "weight": 0.2941306827446619
+    },
+    {
+      "from": "iqbal-hall",
+      "to": "pully-stop",
+      "route": "FR-04",
+      "weight": 0.2941306827446619
+    },
+    {
+      "from": "iqbal-hall",
+      "to": "g-6-1-2",
+      "route": "FR-04",
+      "weight": 0.8384432992152742
+    },
+    {
+      "from": "g-6-1-2",
+      "to": "iqbal-hall",
+      "route": "FR-04",
+      "weight": 0.8384432992152742
+    },
+    {
+      "from": "g-6-1-2",
+      "to": "melody-market",
+      "route": "FR-04",
+      "weight": 0.4461317259660818
+    },
+    {
+      "from": "melody-market",
+      "to": "g-6-1-2",
+      "route": "FR-04",
+      "weight": 0.4461317259660818
+    },
+    {
+      "from": "melody-market",
+      "to": "abpara-market",
+      "route": "FR-04",
+      "weight": 0.8818652486704465
+    },
+    {
+      "from": "abpara-market",
+      "to": "melody-market",
+      "route": "FR-04",
+      "weight": 0.8818652486704465
+    },
+    {
+      "from": "abpara-market",
+      "to": "youth-hostel",
+      "route": "FR-04",
+      "weight": 1
+    },
+    {
+      "from": "youth-hostel",
+      "to": "abpara-market",
+      "route": "FR-04",
+      "weight": 1
+    },
+    {
+      "from": "youth-hostel",
+      "to": "metropolitan-corporation",
+      "route": "FR-04",
+      "weight": 1
+    },
+    {
+      "from": "metropolitan-corporation",
+      "to": "youth-hostel",
+      "route": "FR-04",
+      "weight": 1
+    },
+    {
+      "from": "metropolitan-corporation",
+      "to": "icb-college",
+      "route": "FR-04",
+      "weight": 0.23955563105776548
+    },
+    {
+      "from": "icb-college",
+      "to": "metropolitan-corporation",
+      "route": "FR-04",
+      "weight": 0.23955563105776548
+    },
+    {
+      "from": "icb-college",
+      "to": "nadra-chowk",
+      "route": "FR-04",
+      "weight": 0.6617027634938093
+    },
+    {
+      "from": "nadra-chowk",
+      "to": "icb-college",
+      "route": "FR-04",
+      "weight": 0.6617027634938093
+    },
+    {
+      "from": "nadra-chowk",
+      "to": "lodges-park",
+      "route": "FR-04",
+      "weight": 0.5194996187281185
+    },
+    {
+      "from": "lodges-park",
+      "to": "nadra-chowk",
+      "route": "FR-04",
+      "weight": 0.5194996187281185
+    },
+    {
+      "from": "lodges-park",
+      "to": "sukh-chayn-park",
+      "route": "FR-04",
+      "weight": 0.29737802060428853
+    },
+    {
+      "from": "sukh-chayn-park",
+      "to": "lodges-park",
+      "route": "FR-04",
+      "weight": 0.29737802060428853
+    },
+    {
+      "from": "sukh-chayn-park",
+      "to": "ministry-of-foreign-affairs",
+      "route": "FR-04",
+      "weight": 0.7054548010485048
+    },
+    {
+      "from": "ministry-of-foreign-affairs",
+      "to": "sukh-chayn-park",
+      "route": "FR-04",
+      "weight": 0.7054548010485048
+    },
+    {
+      "from": "ministry-of-foreign-affairs",
+      "to": "radio-pakistan",
+      "route": "FR-04",
+      "weight": 0.5060684256069433
+    },
+    {
+      "from": "radio-pakistan",
+      "to": "ministry-of-foreign-affairs",
+      "route": "FR-04",
+      "weight": 0.5060684256069433
+    },
+    {
+      "from": "radio-pakistan",
+      "to": "national-library",
+      "route": "FR-04",
+      "weight": 0.2711178526102439
+    },
+    {
+      "from": "national-library",
+      "to": "radio-pakistan",
+      "route": "FR-04",
+      "weight": 0.2711178526102439
+    },
+    {
+      "from": "national-library",
+      "to": "secretariate-police-station",
+      "route": "FR-04",
+      "weight": 0.5052024322693963
+    },
+    {
+      "from": "secretariate-police-station",
+      "to": "national-library",
+      "route": "FR-04",
+      "weight": 0.5052024322693963
+    },
+    {
+      "from": "secretariate-police-station",
+      "to": "diplomatic-enclave-gate-4",
+      "route": "FR-04",
+      "weight": 0.6273876609189108
+    },
+    {
+      "from": "diplomatic-enclave-gate-4",
+      "to": "secretariate-police-station",
+      "route": "FR-04",
+      "weight": 0.6273876609189108
+    },
+    {
+      "from": "diplomatic-enclave-gate-4",
+      "to": "aiwan-e-sadar-colony",
+      "route": "FR-04",
+      "weight": 0.2714517774278899
+    },
+    {
+      "from": "aiwan-e-sadar-colony",
+      "to": "diplomatic-enclave-gate-4",
+      "route": "FR-04",
+      "weight": 0.2714517774278899
+    },
+    {
+      "from": "aiwan-e-sadar-colony",
+      "to": "muslim-colony",
+      "route": "FR-04",
+      "weight": 0.415018523128393
+    },
+    {
+      "from": "muslim-colony",
+      "to": "aiwan-e-sadar-colony",
+      "route": "FR-04",
+      "weight": 0.415018523128393
+    },
+    {
+      "from": "muslim-colony",
+      "to": "bari-imam",
+      "route": "FR-04",
+      "weight": 0.6768065314905685
+    },
+    {
+      "from": "bari-imam",
+      "to": "muslim-colony",
+      "route": "FR-04",
+      "weight": 0.6768065314905685
+    },
+    {
+      "from": "bari-imam",
+      "to": "muhallah-noori-bagh",
+      "route": "FR-04A",
+      "weight": 0.3422153079656116
+    },
+    {
+      "from": "muhallah-noori-bagh",
+      "to": "bari-imam",
+      "route": "FR-04A",
+      "weight": 0.3422153079656116
+    },
+    {
+      "from": "muhallah-noori-bagh",
+      "to": "community-health-center",
+      "route": "FR-04A",
+      "weight": 0.4290410943020779
+    },
+    {
+      "from": "community-health-center",
+      "to": "muhallah-noori-bagh",
+      "route": "FR-04A",
+      "weight": 0.4290410943020779
+    },
+    {
+      "from": "community-health-center",
+      "to": "d-type-quaid-e-azam-colony",
+      "route": "FR-04A",
+      "weight": 0.2269713278108398
+    },
+    {
+      "from": "d-type-quaid-e-azam-colony",
+      "to": "community-health-center",
+      "route": "FR-04A",
+      "weight": 0.2269713278108398
+    },
+    {
+      "from": "d-type-quaid-e-azam-colony",
+      "to": "c-type-quaid-e-azam-colony",
+      "route": "FR-04A",
+      "weight": 0.4404568387437582
+    },
+    {
+      "from": "c-type-quaid-e-azam-colony",
+      "to": "d-type-quaid-e-azam-colony",
+      "route": "FR-04A",
+      "weight": 0.4404568387437582
+    },
+    {
+      "from": "c-type-quaid-e-azam-colony",
+      "to": "babul-quaid",
+      "route": "FR-04A",
+      "weight": 0.42716814115437773
+    },
+    {
+      "from": "babul-quaid",
+      "to": "c-type-quaid-e-azam-colony",
+      "route": "FR-04A",
+      "weight": 0.42716814115437773
+    },
+    {
+      "from": "babul-quaid",
+      "to": "quaid-azam-university",
+      "route": "FR-04A",
+      "weight": 0.9404134949502598
+    },
+    {
+      "from": "quaid-azam-university",
+      "to": "babul-quaid",
+      "route": "FR-04A",
+      "weight": 0.9404134949502598
+    },
+    {
+      "from": "nust-metro-station",
+      "to": "police-foundation",
+      "route": "FR-05",
+      "weight": 1.4943770330079686
+    },
+    {
+      "from": "police-foundation",
+      "to": "nust-metro-station",
+      "route": "FR-05",
+      "weight": 1.4943770330079686
+    },
+    {
+      "from": "police-foundation",
+      "to": "g-10-metro-station",
+      "route": "FR-05",
+      "weight": 0.6733452548204624
+    },
+    {
+      "from": "g-10-metro-station",
+      "to": "police-foundation",
+      "route": "FR-05",
+      "weight": 0.6733452548204624
+    },
+    {
+      "from": "g-10-metro-station",
+      "to": "sunday-bazar",
+      "route": "FR-05",
+      "weight": 0.3013234272254769
+    },
+    {
+      "from": "sunday-bazar",
+      "to": "g-10-metro-station",
+      "route": "FR-05",
+      "weight": 0.3013234272254769
+    },
+    {
+      "from": "sunday-bazar",
+      "to": "g10-g11",
+      "route": "FR-05",
+      "weight": 0.40378229918485703
+    },
+    {
+      "from": "g10-g11",
+      "to": "sunday-bazar",
+      "route": "FR-05",
+      "weight": 0.40378229918485703
+    },
+    {
+      "from": "g10-g11",
+      "to": "sumbal-road",
+      "route": "FR-05",
+      "weight": 1.9875349898132157
+    },
+    {
+      "from": "sumbal-road",
+      "to": "g10-g11",
+      "route": "FR-05",
+      "weight": 1.9875349898132157
+    },
+    {
+      "from": "sumbal-road",
+      "to": "khayaban-e-iqbal",
+      "route": "FR-05",
+      "weight": 4.06558728379627
+    },
+    {
+      "from": "khayaban-e-iqbal",
+      "to": "sumbal-road",
+      "route": "FR-05",
+      "weight": 4.06558728379627
+    },
+    {
+      "from": "khayaban-e-iqbal",
+      "to": "npf-housing-society",
+      "route": "FR-05",
+      "weight": 5.001797906197928
+    },
+    {
+      "from": "npf-housing-society",
+      "to": "khayaban-e-iqbal",
+      "route": "FR-05",
+      "weight": 5.001797906197928
+    },
+    {
+      "from": "npf-housing-society",
+      "to": "multy-stop-islamabad-gardens",
+      "route": "FR-05",
+      "weight": 0.49952866754598974
+    },
+    {
+      "from": "multy-stop-islamabad-gardens",
+      "to": "npf-housing-society",
+      "route": "FR-05",
+      "weight": 0.49952866754598974
+    },
+    {
+      "from": "multy-stop-islamabad-gardens",
+      "to": "e-11-2-fechs-islamabad-international-hospital",
+      "route": "FR-05",
+      "weight": 1.3348297237991145
+    },
+    {
+      "from": "e-11-2-fechs-islamabad-international-hospital",
+      "to": "multy-stop-islamabad-gardens",
+      "route": "FR-05",
+      "weight": 1.3348297237991145
+    },
+    {
+      "from": "e-11-2-fechs-islamabad-international-hospital",
+      "to": "d-12-service-road",
+      "route": "FR-05",
+      "weight": 0.7700917389860137
+    },
+    {
+      "from": "d-12-service-road",
+      "to": "e-11-2-fechs-islamabad-international-hospital",
+      "route": "FR-05",
+      "weight": 0.7700917389860137
+    },
+    {
+      "from": "d-12-service-road",
+      "to": "iesco-d-12",
+      "route": "FR-05",
+      "weight": 0.7344192591106884
+    },
+    {
+      "from": "iesco-d-12",
+      "to": "d-12-service-road",
+      "route": "FR-05",
+      "weight": 0.7344192591106884
+    },
+    {
+      "from": "iesco-d-12",
+      "to": "d-12-markaz",
+      "route": "FR-05",
+      "weight": 0.4320380431879635
+    },
+    {
+      "from": "d-12-markaz",
+      "to": "iesco-d-12",
+      "route": "FR-05",
+      "weight": 0.4320380431879635
+    },
+    {
+      "from": "d-12-markaz",
+      "to": "d-12",
+      "route": "FR-05",
+      "weight": 0.2706117536878179
+    },
+    {
+      "from": "d-12",
+      "to": "d-12-markaz",
+      "route": "FR-05",
+      "weight": 0.2706117536878179
+    },
+    {
+      "from": "pims-metro-station",
+      "to": "tipu-market-g-8",
+      "route": "FR-06",
+      "weight": 0.7965360022379143
+    },
+    {
+      "from": "tipu-market-g-8",
+      "to": "pims-metro-station",
+      "route": "FR-06",
+      "weight": 0.7965360022379143
+    },
+    {
+      "from": "tipu-market-g-8",
+      "to": "ibn-e-sina-metro-station",
+      "route": "FR-06",
+      "weight": 0.6436323260513354
+    },
+    {
+      "from": "ibn-e-sina-metro-station",
+      "to": "tipu-market-g-8",
+      "route": "FR-06",
+      "weight": 0.6436323260513354
+    },
+    {
+      "from": "ibn-e-sina-metro-station",
+      "to": "chaman-metro-station",
+      "route": "FR-06",
+      "weight": 0.5872380812183486
+    },
+    {
+      "from": "chaman-metro-station",
+      "to": "ibn-e-sina-metro-station",
+      "route": "FR-06",
+      "weight": 0.5872380812183486
+    },
+    {
+      "from": "chaman-metro-station",
+      "to": "taqwa-market",
+      "route": "FR-06",
+      "weight": 0.3103970549682064
+    },
+    {
+      "from": "taqwa-market",
+      "to": "chaman-metro-station",
+      "route": "FR-06",
+      "weight": 0.3103970549682064
+    },
+    {
+      "from": "taqwa-market",
+      "to": "g-9-4-park",
+      "route": "FR-06",
+      "weight": 0.2705380542231713
+    },
+    {
+      "from": "g-9-4-park",
+      "to": "taqwa-market",
+      "route": "FR-06",
+      "weight": 0.2705380542231713
+    },
+    {
+      "from": "g-9-4-park",
+      "to": "karachi-company",
+      "route": "FR-06",
+      "weight": 0.5298180507537065
+    },
+    {
+      "from": "karachi-company",
+      "to": "g-9-4-park",
+      "route": "FR-06",
+      "weight": 0.5298180507537065
+    },
+    {
+      "from": "karachi-company",
+      "to": "g-9-1-and-g-9-4",
+      "route": "FR-06",
+      "weight": 0.1807797279449707
+    },
+    {
+      "from": "g-9-1-and-g-9-4",
+      "to": "karachi-company",
+      "route": "FR-06",
+      "weight": 0.1807797279449707
+    },
+    {
+      "from": "g-9-1-and-g-9-4",
+      "to": "g-9-markaz",
+      "route": "FR-06",
+      "weight": 0.5962972740077822
+    },
+    {
+      "from": "g-9-markaz",
+      "to": "g-9-1-and-g-9-4",
+      "route": "FR-06",
+      "weight": 0.5962972740077822
+    },
+    {
+      "from": "g-9-markaz",
+      "to": "g-9-3",
+      "route": "FR-06",
+      "weight": 0.6204489022860649
+    },
+    {
+      "from": "g-9-3",
+      "to": "g-9-markaz",
+      "route": "FR-06",
+      "weight": 0.6204489022860649
+    },
+    {
+      "from": "g-9-3",
+      "to": "f-9-park",
+      "route": "FR-06",
+      "weight": 1.9381772561058603
+    },
+    {
+      "from": "f-9-park",
+      "to": "g-9-3",
+      "route": "FR-06",
+      "weight": 1.9381772561058603
+    },
+    {
+      "from": "f-9-park",
+      "to": "shaheen-chowk",
+      "route": "FR-06",
+      "weight": 1.9502943463175444
+    },
+    {
+      "from": "shaheen-chowk",
+      "to": "f-9-park",
+      "route": "FR-06",
+      "weight": 1.9502943463175444
+    },
+    {
+      "from": "shaheen-chowk",
+      "to": "fazaia-housing-scheme",
+      "route": "FR-06",
+      "weight": 0.5712317586851625
+    },
+    {
+      "from": "fazaia-housing-scheme",
+      "to": "shaheen-chowk",
+      "route": "FR-06",
+      "weight": 0.5712317586851625
+    },
+    {
+      "from": "fazaia-housing-scheme",
+      "to": "paf-hospital",
+      "route": "FR-06",
+      "weight": 0.5621175242698785
+    },
+    {
+      "from": "paf-hospital",
+      "to": "fazaia-housing-scheme",
+      "route": "FR-06",
+      "weight": 0.5621175242698785
+    },
+    {
+      "from": "paf-hospital",
+      "to": "pakistan-gate",
+      "route": "FR-06",
+      "weight": 0.8389286271064773
+    },
+    {
+      "from": "pakistan-gate",
+      "to": "paf-hospital",
+      "route": "FR-06",
+      "weight": 0.8389286271064773
+    },
+    {
+      "from": "pakistan-gate",
+      "to": "maroof-international-hospital",
+      "route": "FR-06",
+      "weight": 0.6990179138137735
+    },
+    {
+      "from": "maroof-international-hospital",
+      "to": "pakistan-gate",
+      "route": "FR-06",
+      "weight": 0.6990179138137735
+    },
+    {
+      "from": "maroof-international-hospital",
+      "to": "f-10-markaz",
+      "route": "FR-06",
+      "weight": 0.28879481489347325
+    },
+    {
+      "from": "f-10-markaz",
+      "to": "maroof-international-hospital",
+      "route": "FR-06",
+      "weight": 0.28879481489347325
+    },
+    {
+      "from": "f-10-markaz",
+      "to": "imcb-f10-4",
+      "route": "FR-06",
+      "weight": 0.7293319593825596
+    },
+    {
+      "from": "imcb-f10-4",
+      "to": "f-10-markaz",
+      "route": "FR-06",
+      "weight": 0.7293319593825596
+    },
+    {
+      "from": "imcb-f10-4",
+      "to": "imcg-f-10-2",
+      "route": "FR-06",
+      "weight": 0.31421820964933495
+    },
+    {
+      "from": "imcg-f-10-2",
+      "to": "imcb-f10-4",
+      "route": "FR-06",
+      "weight": 0.31421820964933495
+    },
+    {
+      "from": "imcg-f-10-2",
+      "to": "f-10-f-11-chowk",
+      "route": "FR-06",
+      "weight": 0.6431695519684498
+    },
+    {
+      "from": "f-10-f-11-chowk",
+      "to": "imcg-f-10-2",
+      "route": "FR-06",
+      "weight": 0.6431695519684498
+    },
+    {
+      "from": "f-10-f-11-chowk",
+      "to": "major-road",
+      "route": "FR-06",
+      "weight": 0.2741915795600172
+    },
+    {
+      "from": "major-road",
+      "to": "f-10-f-11-chowk",
+      "route": "FR-06",
+      "weight": 0.2741915795600172
+    },
+    {
+      "from": "major-road",
+      "to": "ptcl-f-11",
+      "route": "FR-06",
+      "weight": 0.29942705179447576
+    },
+    {
+      "from": "ptcl-f-11",
+      "to": "major-road",
+      "route": "FR-06",
+      "weight": 0.29942705179447576
+    },
+    {
+      "from": "ptcl-f-11",
+      "to": "f-11-markaz",
+      "route": "FR-06",
+      "weight": 0.2987131761222271
+    },
+    {
+      "from": "f-11-markaz",
+      "to": "ptcl-f-11",
+      "route": "FR-06",
+      "weight": 0.2987131761222271
+    },
+    {
+      "from": "f-11-markaz",
+      "to": "opf-girls-college",
+      "route": "FR-06",
+      "weight": 0.46950794037224186
+    },
+    {
+      "from": "opf-girls-college",
+      "to": "f-11-markaz",
+      "route": "FR-06",
+      "weight": 0.46950794037224186
+    },
+    {
+      "from": "opf-girls-college",
+      "to": "golra-sharif-f-11-3",
+      "route": "FR-06",
+      "weight": 0.4874453889736281
+    },
+    {
+      "from": "golra-sharif-f-11-3",
+      "to": "opf-girls-college",
+      "route": "FR-06",
+      "weight": 0.4874453889736281
+    },
+    {
+      "from": "golra-sharif-f-11-3",
+      "to": "golra-sharif",
+      "route": "FR-06",
+      "weight": 0.1
+    },
+    {
+      "from": "golra-sharif",
+      "to": "golra-sharif-f-11-3",
+      "route": "FR-06",
+      "weight": 0.1
+    },
+    {
+      "from": "pims-hospital",
+      "to": "children-hospital",
+      "route": "FR-07",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "pims-hospital",
+      "route": "FR-07",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "nori-hospital",
+      "route": "FR-07",
+      "weight": 0.7546146122786356
+    },
+    {
+      "from": "nori-hospital",
+      "to": "children-hospital",
+      "route": "FR-07",
+      "weight": 0.7546146122786356
+    },
+    {
+      "from": "nori-hospital",
+      "to": "dental-hospital",
+      "route": "FR-07",
+      "weight": 0.47133586444805997
+    },
+    {
+      "from": "dental-hospital",
+      "to": "nori-hospital",
+      "route": "FR-07",
+      "weight": 0.47133586444805997
+    },
+    {
+      "from": "dental-hospital",
+      "to": "g-8-markaz",
+      "route": "FR-07",
+      "weight": 0.15746101687054662
+    },
+    {
+      "from": "g-8-markaz",
+      "to": "dental-hospital",
+      "route": "FR-07",
+      "weight": 0.15746101687054662
+    },
+    {
+      "from": "g-8-markaz",
+      "to": "development-park",
+      "route": "FR-07",
+      "weight": 0.38743632618553553
+    },
+    {
+      "from": "development-park",
+      "to": "g-8-markaz",
+      "route": "FR-07",
+      "weight": 0.38743632618553553
+    },
+    {
+      "from": "development-park",
+      "to": "chaman-metro-station",
+      "route": "FR-07",
+      "weight": 0.6592568957799912
+    },
+    {
+      "from": "chaman-metro-station",
+      "to": "development-park",
+      "route": "FR-07",
+      "weight": 0.6592568957799912
+    },
+    {
+      "from": "chaman-metro-station",
+      "to": "g-9-4",
+      "route": "FR-07",
+      "weight": 0.5809220693701792
+    },
+    {
+      "from": "g-9-4",
+      "to": "chaman-metro-station",
+      "route": "FR-07",
+      "weight": 0.5809220693701792
+    },
+    {
+      "from": "g-9-4",
+      "to": "karachi-company",
+      "route": "FR-07",
+      "weight": 0.5298180507537065
+    },
+    {
+      "from": "karachi-company",
+      "to": "g-9-4",
+      "route": "FR-07",
+      "weight": 0.5298180507537065
+    },
+    {
+      "from": "karachi-company",
+      "to": "g-9-markaz",
+      "route": "FR-07",
+      "weight": 0.4167702979320447
+    },
+    {
+      "from": "g-9-markaz",
+      "to": "karachi-company",
+      "route": "FR-07",
+      "weight": 0.4167702979320447
+    },
+    {
+      "from": "g-9-markaz",
+      "to": "police-flats",
+      "route": "FR-07",
+      "weight": 0.7621706824524511
+    },
+    {
+      "from": "police-flats",
+      "to": "g-9-markaz",
+      "route": "FR-07",
+      "weight": 0.7621706824524511
+    },
+    {
+      "from": "police-flats",
+      "to": "college-morh",
+      "route": "FR-07",
+      "weight": 0.7255007745348846
+    },
+    {
+      "from": "college-morh",
+      "to": "police-flats",
+      "route": "FR-07",
+      "weight": 0.7255007745348846
+    },
+    {
+      "from": "college-morh",
+      "to": "g-10-markaz",
+      "route": "FR-07",
+      "weight": 0.6151042055751665
+    },
+    {
+      "from": "g-10-markaz",
+      "to": "college-morh",
+      "route": "FR-07",
+      "weight": 0.6151042055751665
+    },
+    {
+      "from": "g-10-markaz",
+      "to": "pha-flats",
+      "route": "FR-07",
+      "weight": 0.2695629214165823
+    },
+    {
+      "from": "pha-flats",
+      "to": "g-10-markaz",
+      "route": "FR-07",
+      "weight": 0.2695629214165823
+    },
+    {
+      "from": "pha-flats",
+      "to": "tanki-stop",
+      "route": "FR-07",
+      "weight": 0.25600364944527065
+    },
+    {
+      "from": "tanki-stop",
+      "to": "pha-flats",
+      "route": "FR-07",
+      "weight": 0.25600364944527065
+    },
+    {
+      "from": "tanki-stop",
+      "to": "g-10-g-11",
+      "route": "FR-07",
+      "weight": 0.27319014277478115
+    },
+    {
+      "from": "g-10-g-11",
+      "to": "tanki-stop",
+      "route": "FR-07",
+      "weight": 0.27319014277478115
+    },
+    {
+      "from": "g-10-g-11",
+      "to": "institute-of-modern-studies",
+      "route": "FR-07",
+      "weight": 0.4157457037660854
+    },
+    {
+      "from": "institute-of-modern-studies",
+      "to": "g-10-g-11",
+      "route": "FR-07",
+      "weight": 0.4157457037660854
+    },
+    {
+      "from": "institute-of-modern-studies",
+      "to": "g-11-markaz",
+      "route": "FR-07",
+      "weight": 0.45722339891771613
+    },
+    {
+      "from": "g-11-markaz",
+      "to": "institute-of-modern-studies",
+      "route": "FR-07",
+      "weight": 0.45722339891771613
+    },
+    {
+      "from": "g-11-markaz",
+      "to": "mehrabad",
+      "route": "FR-07",
+      "weight": 0.9150413964814175
+    },
+    {
+      "from": "mehrabad",
+      "to": "g-11-markaz",
+      "route": "FR-07",
+      "weight": 0.9150413964814175
+    },
+    {
+      "from": "mehrabad",
+      "to": "nust-metro-station",
+      "route": "FR-07",
+      "weight": 1.1984170048360478
+    },
+    {
+      "from": "nust-metro-station",
+      "to": "mehrabad",
+      "route": "FR-07",
+      "weight": 1.1984170048360478
+    },
+    {
+      "from": "nust-metro-station",
+      "to": "bar-council",
+      "route": "FR-07",
+      "weight": 0.495897529433567
+    },
+    {
+      "from": "bar-council",
+      "to": "nust-metro-station",
+      "route": "FR-07",
+      "weight": 0.495897529433567
+    },
+    {
+      "from": "bar-council",
+      "to": "a-k-bari-road",
+      "route": "FR-07",
+      "weight": 0.5454392783793821
+    },
+    {
+      "from": "a-k-bari-road",
+      "to": "bar-council",
+      "route": "FR-07",
+      "weight": 0.5454392783793821
+    },
+    {
+      "from": "a-k-bari-road",
+      "to": "police-foundation-metro-station",
+      "route": "FR-07",
+      "weight": 0.47212048195437895
+    },
+    {
+      "from": "police-foundation-metro-station",
+      "to": "a-k-bari-road",
+      "route": "FR-07",
+      "weight": 0.47212048195437895
+    },
+    {
+      "from": "pims-hospital",
+      "to": "children-hospital",
+      "route": "FR-08A",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "pims-hospital",
+      "route": "FR-08A",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "tnt",
+      "route": "FR-08A",
+      "weight": 1.0396563695355774
+    },
+    {
+      "from": "tnt",
+      "to": "children-hospital",
+      "route": "FR-08A",
+      "weight": 1.0396563695355774
+    },
+    {
+      "from": "tnt",
+      "to": "zero-point",
+      "route": "FR-08A",
+      "weight": 0.7689419743284781
+    },
+    {
+      "from": "zero-point",
+      "to": "tnt",
+      "route": "FR-08A",
+      "weight": 0.7689419743284781
+    },
+    {
+      "from": "zero-point",
+      "to": "cda",
+      "route": "FR-08A",
+      "weight": 0.8388383127492397
+    },
+    {
+      "from": "cda",
+      "to": "zero-point",
+      "route": "FR-08A",
+      "weight": 0.8388383127492397
+    },
+    {
+      "from": "cda",
+      "to": "abpara",
+      "route": "FR-08A",
+      "weight": 1.1709442651377215
+    },
+    {
+      "from": "abpara",
+      "to": "cda",
+      "route": "FR-08A",
+      "weight": 1.1709442651377215
+    },
+    {
+      "from": "abpara",
+      "to": "foreign-affairs-office",
+      "route": "FR-08A",
+      "weight": 1.6598241064347647
+    },
+    {
+      "from": "foreign-affairs-office",
+      "to": "abpara",
+      "route": "FR-08A",
+      "weight": 1.6598241064347647
+    },
+    {
+      "from": "foreign-affairs-office",
+      "to": "kashmir-chowk",
+      "route": "FR-08A",
+      "weight": 0.40363719619997396
+    },
+    {
+      "from": "kashmir-chowk",
+      "to": "foreign-affairs-office",
+      "route": "FR-08A",
+      "weight": 0.40363719619997396
+    },
+    {
+      "from": "kashmir-chowk",
+      "to": "rawal-dam-chowk",
+      "route": "FR-08A",
+      "weight": 1.7712630955437354
+    },
+    {
+      "from": "rawal-dam-chowk",
+      "to": "kashmir-chowk",
+      "route": "FR-08A",
+      "weight": 1.7712630955437354
+    },
+    {
+      "from": "rawal-dam-chowk",
+      "to": "rawal-town",
+      "route": "FR-08A",
+      "weight": 0.29419602541008666
+    },
+    {
+      "from": "rawal-town",
+      "to": "rawal-dam-chowk",
+      "route": "FR-08A",
+      "weight": 0.29419602541008666
+    },
+    {
+      "from": "rawal-town",
+      "to": "school-board-stop",
+      "route": "FR-08A",
+      "weight": 0.43515659873098
+    },
+    {
+      "from": "school-board-stop",
+      "to": "rawal-town",
+      "route": "FR-08A",
+      "weight": 0.43515659873098
+    },
+    {
+      "from": "school-board-stop",
+      "to": "rawal-dam-colony",
+      "route": "FR-08A",
+      "weight": 0.3712148755891396
+    },
+    {
+      "from": "rawal-dam-colony",
+      "to": "school-board-stop",
+      "route": "FR-08A",
+      "weight": 0.3712148755891396
+    },
+    {
+      "from": "rawal-dam-colony",
+      "to": "narc-colony",
+      "route": "FR-08A",
+      "weight": 1.0646812908740326
+    },
+    {
+      "from": "narc-colony",
+      "to": "rawal-dam-colony",
+      "route": "FR-08A",
+      "weight": 1.0646812908740326
+    },
+    {
+      "from": "narc-colony",
+      "to": "nih-allergy-center",
+      "route": "FR-08A",
+      "weight": 0.43561498281230365
+    },
+    {
+      "from": "nih-allergy-center",
+      "to": "narc-colony",
+      "route": "FR-08A",
+      "weight": 0.43561498281230365
+    },
+    {
+      "from": "nih-allergy-center",
+      "to": "shahzad-town",
+      "route": "FR-08A",
+      "weight": 1.0170449650977085
+    },
+    {
+      "from": "shahzad-town",
+      "to": "nih-allergy-center",
+      "route": "FR-08A",
+      "weight": 1.0170449650977085
+    },
+    {
+      "from": "shahzad-town",
+      "to": "park-view-city",
+      "route": "FR-08A",
+      "weight": 0.4323869159775676
+    },
+    {
+      "from": "park-view-city",
+      "to": "shahzad-town",
+      "route": "FR-08A",
+      "weight": 0.4323869159775676
+    },
+    {
+      "from": "park-view-city",
+      "to": "green-avenue",
+      "route": "FR-08A",
+      "weight": 0.8887292949943708
+    },
+    {
+      "from": "green-avenue",
+      "to": "park-view-city",
+      "route": "FR-08A",
+      "weight": 0.8887292949943708
+    },
+    {
+      "from": "green-avenue",
+      "to": "chatta-bakhtawar",
+      "route": "FR-08A",
+      "weight": 0.4228270508111678
+    },
+    {
+      "from": "chatta-bakhtawar",
+      "to": "green-avenue",
+      "route": "FR-08A",
+      "weight": 0.4228270508111678
+    },
+    {
+      "from": "chatta-bakhtawar",
+      "to": "gulshan-al-huda-community",
+      "route": "FR-08A",
+      "weight": 0.6051922608867034
+    },
+    {
+      "from": "gulshan-al-huda-community",
+      "to": "chatta-bakhtawar",
+      "route": "FR-08A",
+      "weight": 0.6051922608867034
+    },
+    {
+      "from": "gulshan-al-huda-community",
+      "to": "hostel-city",
+      "route": "FR-08A",
+      "weight": 0.3507686714934051
+    },
+    {
+      "from": "hostel-city",
+      "to": "gulshan-al-huda-community",
+      "route": "FR-08A",
+      "weight": 0.3507686714934051
+    },
+    {
+      "from": "hostel-city",
+      "to": "comsats-university",
+      "route": "FR-08A",
+      "weight": 0.7056946643435519
+    },
+    {
+      "from": "comsats-university",
+      "to": "hostel-city",
+      "route": "FR-08A",
+      "weight": 0.7056946643435519
+    },
+    {
+      "from": "comsats-university",
+      "to": "tamma-stop",
+      "route": "FR-08A",
+      "weight": 0.47106975957072234
+    },
+    {
+      "from": "tamma-stop",
+      "to": "comsats-university",
+      "route": "FR-08A",
+      "weight": 0.47106975957072234
+    },
+    {
+      "from": "tamma-stop",
+      "to": "capt-naeem-tufail-shaheed-chowk",
+      "route": "FR-08A",
+      "weight": 0.3880397924213406
+    },
+    {
+      "from": "capt-naeem-tufail-shaheed-chowk",
+      "to": "tamma-stop",
+      "route": "FR-08A",
+      "weight": 0.3880397924213406
+    },
+    {
+      "from": "pims-hospital",
+      "to": "children-hospital",
+      "route": "FR-08C",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "pims-hospital",
+      "route": "FR-08C",
+      "weight": 0.33318919073031283
+    },
+    {
+      "from": "children-hospital",
+      "to": "tnt",
+      "route": "FR-08C",
+      "weight": 1.0396563695355774
+    },
+    {
+      "from": "tnt",
+      "to": "children-hospital",
+      "route": "FR-08C",
+      "weight": 1.0396563695355774
+    },
+    {
+      "from": "tnt",
+      "to": "h-8",
+      "route": "FR-08C",
+      "weight": 1.7775829808853438
+    },
+    {
+      "from": "h-8",
+      "to": "tnt",
+      "route": "FR-08C",
+      "weight": 1.7775829808853438
+    },
+    {
+      "from": "h-8",
+      "to": "kach-naar-park-i-8",
+      "route": "FR-08C",
+      "weight": 1.4270037906101662
+    },
+    {
+      "from": "kach-naar-park-i-8",
+      "to": "h-8",
+      "route": "FR-08C",
+      "weight": 1.4270037906101662
+    },
+    {
+      "from": "kach-naar-park-i-8",
+      "to": "faizabad",
+      "route": "FR-08C",
+      "weight": 1.02062892309567
+    },
+    {
+      "from": "faizabad",
+      "to": "kach-naar-park-i-8",
+      "route": "FR-08C",
+      "weight": 1.02062892309567
+    },
+    {
+      "from": "faizabad",
+      "to": "itp-driving-license-centre",
+      "route": "FR-08C",
+      "weight": 0.7852118741336654
+    },
+    {
+      "from": "itp-driving-license-centre",
+      "to": "faizabad",
+      "route": "FR-08C",
+      "weight": 0.7852118741336654
+    },
+    {
+      "from": "itp-driving-license-centre",
+      "to": "margalla-town",
+      "route": "FR-08C",
+      "weight": 1.2920871509344267
+    },
+    {
+      "from": "margalla-town",
+      "to": "itp-driving-license-centre",
+      "route": "FR-08C",
+      "weight": 1.2920871509344267
+    },
+    {
+      "from": "margalla-town",
+      "to": "garden-avenue",
+      "route": "FR-08C",
+      "weight": 0.681743675596828
+    },
+    {
+      "from": "garden-avenue",
+      "to": "margalla-town",
+      "route": "FR-08C",
+      "weight": 0.681743675596828
+    },
+    {
+      "from": "garden-avenue",
+      "to": "rawal-town",
+      "route": "FR-08C",
+      "weight": 0.5747575538395204
+    },
+    {
+      "from": "rawal-town",
+      "to": "garden-avenue",
+      "route": "FR-08C",
+      "weight": 0.5747575538395204
+    },
+    {
+      "from": "rawal-town",
+      "to": "school-board-stop",
+      "route": "FR-08C",
+      "weight": 0.43515659873098
+    },
+    {
+      "from": "school-board-stop",
+      "to": "rawal-town",
+      "route": "FR-08C",
+      "weight": 0.43515659873098
+    },
+    {
+      "from": "school-board-stop",
+      "to": "rawal-dam-colony",
+      "route": "FR-08C",
+      "weight": 0.3712148755891396
+    },
+    {
+      "from": "rawal-dam-colony",
+      "to": "school-board-stop",
+      "route": "FR-08C",
+      "weight": 0.3712148755891396
+    },
+    {
+      "from": "rawal-dam-colony",
+      "to": "n-a-r-c-colony",
+      "route": "FR-08C",
+      "weight": 1.0646812908740326
+    },
+    {
+      "from": "n-a-r-c-colony",
+      "to": "rawal-dam-colony",
+      "route": "FR-08C",
+      "weight": 1.0646812908740326
+    },
+    {
+      "from": "n-a-r-c-colony",
+      "to": "n-i-h-allergy-center",
+      "route": "FR-08C",
+      "weight": 0.43561498281230365
+    },
+    {
+      "from": "n-i-h-allergy-center",
+      "to": "n-a-r-c-colony",
+      "route": "FR-08C",
+      "weight": 0.43561498281230365
+    },
+    {
+      "from": "n-i-h-allergy-center",
+      "to": "shahzad-town",
+      "route": "FR-08C",
+      "weight": 1.0170449650977085
+    },
+    {
+      "from": "shahzad-town",
+      "to": "n-i-h-allergy-center",
+      "route": "FR-08C",
+      "weight": 1.0170449650977085
+    },
+    {
+      "from": "shahzad-town",
+      "to": "park-view-city",
+      "route": "FR-08C",
+      "weight": 0.4323869159775676
+    },
+    {
+      "from": "park-view-city",
+      "to": "shahzad-town",
+      "route": "FR-08C",
+      "weight": 0.4323869159775676
+    },
+    {
+      "from": "park-view-city",
+      "to": "green-avenue",
+      "route": "FR-08C",
+      "weight": 0.8887292949943708
+    },
+    {
+      "from": "green-avenue",
+      "to": "park-view-city",
+      "route": "FR-08C",
+      "weight": 0.8887292949943708
+    },
+    {
+      "from": "green-avenue",
+      "to": "chatta-bakhtawar",
+      "route": "FR-08C",
+      "weight": 0.4228270508111678
+    },
+    {
+      "from": "chatta-bakhtawar",
+      "to": "green-avenue",
+      "route": "FR-08C",
+      "weight": 0.4228270508111678
+    },
+    {
+      "from": "chatta-bakhtawar",
+      "to": "gulshan-al-huda-community",
+      "route": "FR-08C",
+      "weight": 0.6051922608867034
+    },
+    {
+      "from": "gulshan-al-huda-community",
+      "to": "chatta-bakhtawar",
+      "route": "FR-08C",
+      "weight": 0.6051922608867034
+    },
+    {
+      "from": "gulshan-al-huda-community",
+      "to": "hostel-city",
+      "route": "FR-08C",
+      "weight": 0.3507686714934051
+    },
+    {
+      "from": "hostel-city",
+      "to": "gulshan-al-huda-community",
+      "route": "FR-08C",
+      "weight": 0.3507686714934051
+    },
+    {
+      "from": "hostel-city",
+      "to": "comsats-university",
+      "route": "FR-08C",
+      "weight": 0.7056946643435519
+    },
+    {
+      "from": "comsats-university",
+      "to": "hostel-city",
+      "route": "FR-08C",
+      "weight": 0.7056946643435519
+    },
+    {
+      "from": "comsats-university",
+      "to": "tamma-stop",
+      "route": "FR-08C",
+      "weight": 0.47106975957072234
+    },
+    {
+      "from": "tamma-stop",
+      "to": "comsats-university",
+      "route": "FR-08C",
+      "weight": 0.47106975957072234
+    },
+    {
+      "from": "tamma-stop",
+      "to": "capt-naeem-tufail-shaheed-chowk",
+      "route": "FR-08C",
+      "weight": 0.3880397924213406
+    },
+    {
+      "from": "capt-naeem-tufail-shaheed-chowk",
+      "to": "tamma-stop",
+      "route": "FR-08C",
+      "weight": 0.3880397924213406
+    },
+    {
+      "from": "khanna-pul",
+      "to": "zia-masjid",
+      "route": "FR-09",
+      "weight": 1.309224281125417
+    },
+    {
+      "from": "zia-masjid",
+      "to": "khanna-pul",
+      "route": "FR-09",
+      "weight": 1.309224281125417
+    },
+    {
+      "from": "zia-masjid",
+      "to": "kuri-road",
+      "route": "FR-09",
+      "weight": 0.7563621382104126
+    },
+    {
+      "from": "kuri-road",
+      "to": "zia-masjid",
+      "route": "FR-09",
+      "weight": 0.7563621382104126
+    },
+    {
+      "from": "kuri-road",
+      "to": "iqbal-town",
+      "route": "FR-09",
+      "weight": 0.44583940455474724
+    },
+    {
+      "from": "iqbal-town",
+      "to": "kuri-road",
+      "route": "FR-09",
+      "weight": 0.44583940455474724
+    },
+    {
+      "from": "iqbal-town",
+      "to": "dhok-kala-khan",
+      "route": "FR-09",
+      "weight": 0.5177910787583424
+    },
+    {
+      "from": "dhok-kala-khan",
+      "to": "iqbal-town",
+      "route": "FR-09",
+      "weight": 0.5177910787583424
+    },
+    {
+      "from": "dhok-kala-khan",
+      "to": "sohan",
+      "route": "FR-09",
+      "weight": 1.2808968095460909
+    },
+    {
+      "from": "sohan",
+      "to": "dhok-kala-khan",
+      "route": "FR-09",
+      "weight": 1.2808968095460909
+    },
+    {
+      "from": "sohan",
+      "to": "faizabad-metro-station",
+      "route": "FR-09",
+      "weight": 0.8454918184112518
+    },
+    {
+      "from": "faizabad-metro-station",
+      "to": "sohan",
+      "route": "FR-09",
+      "weight": 0.8454918184112518
+    },
+    {
+      "from": "faizabad-metro-station",
+      "to": "ijp-metro-station",
+      "route": "FR-09",
+      "weight": 1.9111815054081676
+    },
+    {
+      "from": "ijp-metro-station",
+      "to": "faizabad-metro-station",
+      "route": "FR-09",
+      "weight": 1.9111815054081676
+    },
+    {
+      "from": "ijp-metro-station",
+      "to": "pindora-chungi",
+      "route": "FR-09",
+      "weight": 0.8597377671953099
+    },
+    {
+      "from": "pindora-chungi",
+      "to": "ijp-metro-station",
+      "route": "FR-09",
+      "weight": 0.8597377671953099
+    },
+    {
+      "from": "pindora-chungi",
+      "to": "katarian-chungi",
+      "route": "FR-09",
+      "weight": 0.6453174263742825
+    },
+    {
+      "from": "katarian-chungi",
+      "to": "pindora-chungi",
+      "route": "FR-09",
+      "weight": 0.6453174263742825
+    },
+    {
+      "from": "katarian-chungi",
+      "to": "katarian-pull",
+      "route": "FR-09",
+      "weight": 0.6370201226794641
+    },
+    {
+      "from": "katarian-pull",
+      "to": "katarian-chungi",
+      "route": "FR-09",
+      "weight": 0.6370201226794641
+    },
+    {
+      "from": "katarian-pull",
+      "to": "cda-stop",
+      "route": "FR-09",
+      "weight": 0.9247336144624861
+    },
+    {
+      "from": "cda-stop",
+      "to": "katarian-pull",
+      "route": "FR-09",
+      "weight": 0.9247336144624861
+    },
+    {
+      "from": "cda-stop",
+      "to": "pully-stop",
+      "route": "FR-09",
+      "weight": 7.7848095593674165
+    },
+    {
+      "from": "pully-stop",
+      "to": "cda-stop",
+      "route": "FR-09",
+      "weight": 7.7848095593674165
+    },
+    {
+      "from": "pully-stop",
+      "to": "mandi-morh",
+      "route": "FR-09",
+      "weight": 8.583173874783645
+    },
+    {
+      "from": "mandi-morh",
+      "to": "pully-stop",
+      "route": "FR-09",
+      "weight": 8.583173874783645
+    },
+    {
+      "from": "mandi-morh",
+      "to": "fauji-colony",
+      "route": "FR-09",
+      "weight": 0.7569141509880405
+    },
+    {
+      "from": "fauji-colony",
+      "to": "mandi-morh",
+      "route": "FR-09",
+      "weight": 0.7569141509880405
+    },
+    {
+      "from": "fauji-colony",
+      "to": "carriage-factory",
+      "route": "FR-09",
+      "weight": 0.5169046045073671
+    },
+    {
+      "from": "carriage-factory",
+      "to": "fauji-colony",
+      "route": "FR-09",
+      "weight": 0.5169046045073671
+    },
+    {
+      "from": "carriage-factory",
+      "to": "westridge",
+      "route": "FR-09",
+      "weight": 0.6565016229533308
+    },
+    {
+      "from": "westridge",
+      "to": "carriage-factory",
+      "route": "FR-09",
+      "weight": 0.6565016229533308
+    },
+    {
+      "from": "westridge",
+      "to": "ctti",
+      "route": "FR-09",
+      "weight": 0.6531082870265387
+    },
+    {
+      "from": "ctti",
+      "to": "westridge",
+      "route": "FR-09",
+      "weight": 0.6531082870265387
+    },
+    {
+      "from": "ctti",
+      "to": "social-security-hospital",
+      "route": "FR-09",
+      "weight": 0.8002248481161851
+    },
+    {
+      "from": "social-security-hospital",
+      "to": "ctti",
+      "route": "FR-09",
+      "weight": 0.8002248481161851
+    },
+    {
+      "from": "social-security-hospital",
+      "to": "british-homes",
+      "route": "FR-09",
+      "weight": 0.622026953600602
+    },
+    {
+      "from": "british-homes",
+      "to": "social-security-hospital",
+      "route": "FR-09",
+      "weight": 0.622026953600602
+    },
+    {
+      "from": "british-homes",
+      "to": "pir-wadhai-morh",
+      "route": "FR-09",
+      "weight": 0.35237659728739135
+    },
+    {
+      "from": "pir-wadhai-morh",
+      "to": "british-homes",
+      "route": "FR-09",
+      "weight": 0.35237659728739135
+    },
+    {
+      "from": "pir-wadhai-morh",
+      "to": "kohinoor-mill-colony",
+      "route": "FR-09",
+      "weight": 0.6788507823180092
+    },
+    {
+      "from": "kohinoor-mill-colony",
+      "to": "pir-wadhai-morh",
+      "route": "FR-09",
+      "weight": 0.6788507823180092
+    },
+    {
+      "from": "kohinoor-mill-colony",
+      "to": "kohinoor-mill",
+      "route": "FR-09",
+      "weight": 0.6549654280470771
+    },
+    {
+      "from": "kohinoor-mill",
+      "to": "kohinoor-mill-colony",
+      "route": "FR-09",
+      "weight": 0.6549654280470771
+    },
+    {
+      "from": "kohinoor-mill",
+      "to": "chishtiabad",
+      "route": "FR-09",
+      "weight": 0.617378191076913
+    },
+    {
+      "from": "chishtiabad",
+      "to": "kohinoor-mill",
+      "route": "FR-09",
+      "weight": 0.617378191076913
+    },
+    {
+      "from": "chishtiabad",
+      "to": "golra-morh",
+      "route": "FR-09",
+      "weight": 0.47669358436784576
+    },
+    {
+      "from": "golra-morh",
+      "to": "chishtiabad",
+      "route": "FR-09",
+      "weight": 0.47669358436784576
+    },
+    {
+      "from": "golra-morh",
+      "to": "home-of-military-transport",
+      "route": "FR-09",
+      "weight": 1.1742553044758561
+    },
+    {
+      "from": "home-of-military-transport",
+      "to": "golra-morh",
+      "route": "FR-09",
+      "weight": 1.1742553044758561
+    },
+    {
+      "from": "home-of-military-transport",
+      "to": "golra-morh-metro-station",
+      "route": "FR-09",
+      "weight": 0.8383565811195598
+    },
+    {
+      "from": "golra-morh-metro-station",
+      "to": "home-of-military-transport",
+      "route": "FR-09",
+      "weight": 0.8383565811195598
+    },
+    {
+      "from": "barakahu",
+      "to": "shahdara",
+      "route": "FR-14",
+      "weight": 0.5792909559004418
+    },
+    {
+      "from": "shahdara",
+      "to": "barakahu",
+      "route": "FR-14",
+      "weight": 0.5792909559004418
+    },
+    {
+      "from": "shahdara",
+      "to": "malpur",
+      "route": "FR-14",
+      "weight": 1.4632947590875305
+    },
+    {
+      "from": "malpur",
+      "to": "shahdara",
+      "route": "FR-14",
+      "weight": 1.4632947590875305
+    },
+    {
+      "from": "malpur",
+      "to": "lake-view-park",
+      "route": "FR-14",
+      "weight": 1.1566073616934696
+    },
+    {
+      "from": "lake-view-park",
+      "to": "malpur",
+      "route": "FR-14",
+      "weight": 1.1566073616934696
+    },
+    {
+      "from": "lake-view-park",
+      "to": "dhokri-stop",
+      "route": "FR-14",
+      "weight": 2.9810088956057874
+    },
+    {
+      "from": "dhokri-stop",
+      "to": "lake-view-park",
+      "route": "FR-14",
+      "weight": 2.9810088956057874
+    },
+    {
+      "from": "dhokri-stop",
+      "to": "kashmir-chowk",
+      "route": "FR-14",
+      "weight": 0.45244506856970523
+    },
+    {
+      "from": "kashmir-chowk",
+      "to": "dhokri-stop",
+      "route": "FR-14",
+      "weight": 0.45244506856970523
+    },
+    {
+      "from": "kashmir-chowk",
+      "to": "rawal-dam-chowk",
+      "route": "FR-14",
+      "weight": 1.7712630955437354
+    },
+    {
+      "from": "rawal-dam-chowk",
+      "to": "kashmir-chowk",
+      "route": "FR-14",
+      "weight": 1.7712630955437354
+    },
+    {
+      "from": "rawal-dam-chowk",
+      "to": "garden-avenue",
+      "route": "FR-14",
+      "weight": 0.7287144871294605
+    },
+    {
+      "from": "garden-avenue",
+      "to": "rawal-dam-chowk",
+      "route": "FR-14",
+      "weight": 0.7287144871294605
+    },
+    {
+      "from": "garden-avenue",
+      "to": "margalla-town",
+      "route": "FR-14",
+      "weight": 0.681743675596828
+    },
+    {
+      "from": "margalla-town",
+      "to": "garden-avenue",
+      "route": "FR-14",
+      "weight": 0.681743675596828
+    },
+    {
+      "from": "margalla-town",
+      "to": "itp-driving-license-centre",
+      "route": "FR-14",
+      "weight": 1.2920871509344267
+    },
+    {
+      "from": "itp-driving-license-centre",
+      "to": "margalla-town",
+      "route": "FR-14",
+      "weight": 1.2920871509344267
+    },
+    {
+      "from": "itp-driving-license-centre",
+      "to": "sohan",
+      "route": "FR-14",
+      "weight": 1.4700151877818664
+    },
+    {
+      "from": "sohan",
+      "to": "itp-driving-license-centre",
+      "route": "FR-14",
+      "weight": 1.4700151877818664
+    },
+    {
+      "from": "sohan",
+      "to": "faizabad-metro-station",
+      "route": "FR-14",
+      "weight": 0.8454918184112518
+    },
+    {
+      "from": "faizabad-metro-station",
+      "to": "sohan",
+      "route": "FR-14",
+      "weight": 0.8454918184112518
+    },
+    {
+      "from": "faizabad-metro-station",
+      "to": "ijp-metro-station",
+      "route": "FR-14",
+      "weight": 1.9111815054081676
+    },
+    {
+      "from": "ijp-metro-station",
+      "to": "faizabad-metro-station",
+      "route": "FR-14",
+      "weight": 1.9111815054081676
+    },
+    {
+      "from": "ijp-metro-station",
+      "to": "pindora-chungi",
+      "route": "FR-14",
+      "weight": 0.8597377671953099
+    },
+    {
+      "from": "pindora-chungi",
+      "to": "ijp-metro-station",
+      "route": "FR-14",
+      "weight": 0.8597377671953099
+    },
+    {
+      "from": "pindora-chungi",
+      "to": "katarian-chungi",
+      "route": "FR-14",
+      "weight": 0.6453174263742825
+    },
+    {
+      "from": "katarian-chungi",
+      "to": "pindora-chungi",
+      "route": "FR-14",
+      "weight": 0.6453174263742825
+    },
+    {
+      "from": "katarian-chungi",
+      "to": "katarian-pull",
+      "route": "FR-14",
+      "weight": 0.6370201226794641
+    },
+    {
+      "from": "katarian-pull",
+      "to": "katarian-chungi",
+      "route": "FR-14",
+      "weight": 0.6370201226794641
+    },
+    {
+      "from": "katarian-pull",
+      "to": "cda-stop",
+      "route": "FR-14",
+      "weight": 0.9247336144624861
+    },
+    {
+      "from": "cda-stop",
+      "to": "katarian-pull",
+      "route": "FR-14",
+      "weight": 0.9247336144624861
+    },
+    {
+      "from": "cda-stop",
+      "to": "pully-stop",
+      "route": "FR-14",
+      "weight": 7.7848095593674165
+    },
+    {
+      "from": "pully-stop",
+      "to": "cda-stop",
+      "route": "FR-14",
+      "weight": 7.7848095593674165
+    },
+    {
+      "from": "pully-stop",
+      "to": "mandi-morh",
+      "route": "FR-14",
+      "weight": 8.583173874783645
+    },
+    {
+      "from": "mandi-morh",
+      "to": "pully-stop",
+      "route": "FR-14",
+      "weight": 8.583173874783645
+    },
+    {
+      "from": "barakahu-terminal",
+      "to": "mangu-town",
+      "route": "FR-14A",
+      "weight": 0.6319407325305023
+    },
+    {
+      "from": "mangu-town",
+      "to": "barakahu-terminal",
+      "route": "FR-14A",
+      "weight": 0.6319407325305023
+    },
+    {
+      "from": "mangu-town",
+      "to": "col-ammanullah-road",
+      "route": "FR-14A",
+      "weight": 0.2503680557369987
+    },
+    {
+      "from": "col-ammanullah-road",
+      "to": "mangu-town",
+      "route": "FR-14A",
+      "weight": 0.2503680557369987
+    },
+    {
+      "from": "col-ammanullah-road",
+      "to": "athal-chowk",
+      "route": "FR-14A",
+      "weight": 0.5749507198909835
+    },
+    {
+      "from": "athal-chowk",
+      "to": "col-ammanullah-road",
+      "route": "FR-14A",
+      "weight": 0.5749507198909835
+    },
+    {
+      "from": "athal-chowk",
+      "to": "barakahu-bazar",
+      "route": "FR-14A",
+      "weight": 0.5903815711884618
+    },
+    {
+      "from": "barakahu-bazar",
+      "to": "athal-chowk",
+      "route": "FR-14A",
+      "weight": 0.5903815711884618
+    },
+    {
+      "from": "barakahu-bazar",
+      "to": "bhera-pull",
+      "route": "FR-14A",
+      "weight": 0.43790827866271254
+    },
+    {
+      "from": "bhera-pull",
+      "to": "barakahu-bazar",
+      "route": "FR-14A",
+      "weight": 0.43790827866271254
+    },
+    {
+      "from": "bhera-pull",
+      "to": "nai-abadi",
+      "route": "FR-14A",
+      "weight": 0.6025461476252568
+    },
+    {
+      "from": "nai-abadi",
+      "to": "bhera-pull",
+      "route": "FR-14A",
+      "weight": 0.6025461476252568
+    },
+    {
+      "from": "nai-abadi",
+      "to": "traders-colony",
+      "route": "FR-14A",
+      "weight": 1.2048712376516637
+    },
+    {
+      "from": "traders-colony",
+      "to": "nai-abadi",
+      "route": "FR-14A",
+      "weight": 1.2048712376516637
+    },
+    {
+      "from": "traders-colony",
+      "to": "akbar-niazi-hospital",
+      "route": "FR-14A",
+      "weight": 0.5256613891061406
+    },
+    {
+      "from": "akbar-niazi-hospital",
+      "to": "traders-colony",
+      "route": "FR-14A",
+      "weight": 0.5256613891061406
+    },
+    {
+      "from": "akbar-niazi-hospital",
+      "to": "phulgran",
+      "route": "FR-14A",
+      "weight": 0.27154854489485974
+    },
+    {
+      "from": "phulgran",
+      "to": "akbar-niazi-hospital",
+      "route": "FR-14A",
+      "weight": 0.27154854489485974
+    },
+    {
+      "from": "phulgran",
+      "to": "dhok-badam",
+      "route": "FR-14A",
+      "weight": 0.29035707639983926
+    },
+    {
+      "from": "dhok-badam",
+      "to": "phulgran",
+      "route": "FR-14A",
+      "weight": 0.29035707639983926
+    },
+    {
+      "from": "dhok-badam",
+      "to": "punjab-college",
+      "route": "FR-14A",
+      "weight": 0.35597147953414704
+    },
+    {
+      "from": "punjab-college",
+      "to": "dhok-badam",
+      "route": "FR-14A",
+      "weight": 0.35597147953414704
+    },
+    {
+      "from": "punjab-college",
+      "to": "al-wadi-colony",
+      "route": "FR-14A",
+      "weight": 0.1944666601129806
+    },
+    {
+      "from": "al-wadi-colony",
+      "to": "punjab-college",
+      "route": "FR-14A",
+      "weight": 0.1944666601129806
+    },
+    {
+      "from": "al-wadi-colony",
+      "to": "satra-meel",
+      "route": "FR-14A",
+      "weight": 0.3769117207732518
+    },
+    {
+      "from": "satra-meel",
+      "to": "al-wadi-colony",
+      "route": "FR-14A",
+      "weight": 0.3769117207732518
+    },
+    {
+      "from": "khanna-pul",
+      "to": "fazaia",
+      "route": "FR-15",
+      "weight": 0.8260587554510382
+    },
+    {
+      "from": "fazaia",
+      "to": "khanna-pul",
+      "route": "FR-15",
+      "weight": 0.8260587554510382
+    },
+    {
+      "from": "fazaia",
+      "to": "gangal",
+      "route": "FR-15",
+      "weight": 1.020333004799064
+    },
+    {
+      "from": "gangal",
+      "to": "fazaia",
+      "route": "FR-15",
+      "weight": 1.020333004799064
+    },
+    {
+      "from": "gangal",
+      "to": "koral-town",
+      "route": "FR-15",
+      "weight": 1.1479697483712208
+    },
+    {
+      "from": "koral-town",
+      "to": "gangal",
+      "route": "FR-15",
+      "weight": 1.1479697483712208
+    },
+    {
+      "from": "koral-town",
+      "to": "gulberg",
+      "route": "FR-15",
+      "weight": 1.1803577077909215
+    },
+    {
+      "from": "gulberg",
+      "to": "koral-town",
+      "route": "FR-15",
+      "weight": 1.1803577077909215
+    },
+    {
+      "from": "gulberg",
+      "to": "pagh-chowk",
+      "route": "FR-15",
+      "weight": 1.2925915794961276
+    },
+    {
+      "from": "pagh-chowk",
+      "to": "gulberg",
+      "route": "FR-15",
+      "weight": 1.2925915794961276
+    },
+    {
+      "from": "pagh-chowk",
+      "to": "pwd-housing-society",
+      "route": "FR-15",
+      "weight": 1.2007247267987426
+    },
+    {
+      "from": "pwd-housing-society",
+      "to": "pagh-chowk",
+      "route": "FR-15",
+      "weight": 1.2007247267987426
+    },
+    {
+      "from": "pwd-housing-society",
+      "to": "soan-gardens-e-block",
+      "route": "FR-15",
+      "weight": 1.0693341550618851
+    },
+    {
+      "from": "soan-gardens-e-block",
+      "to": "pwd-housing-society",
+      "route": "FR-15",
+      "weight": 1.0693341550618851
+    },
+    {
+      "from": "soan-gardens-e-block",
+      "to": "soan-gardens-g-block",
+      "route": "FR-15",
+      "weight": 0.8380788488917997
+    },
+    {
+      "from": "soan-gardens-g-block",
+      "to": "soan-gardens-e-block",
+      "route": "FR-15",
+      "weight": 0.8380788488917997
+    },
+    {
+      "from": "soan-gardens-g-block",
+      "to": "soan-gardens-h-block",
+      "route": "FR-15",
+      "weight": 0.6021924073914057
+    },
+    {
+      "from": "soan-gardens-h-block",
+      "to": "soan-gardens-g-block",
+      "route": "FR-15",
+      "weight": 0.6021924073914057
+    },
+    {
+      "from": "soan-gardens-h-block",
+      "to": "river-gardens",
+      "route": "FR-15",
+      "weight": 0.8326286957097534
+    },
+    {
+      "from": "river-gardens",
+      "to": "soan-gardens-h-block",
+      "route": "FR-15",
+      "weight": 0.8326286957097534
+    },
+    {
+      "from": "river-gardens",
+      "to": "kaak-pul",
+      "route": "FR-15",
+      "weight": 1.1481602463088392
+    },
+    {
+      "from": "kaak-pul",
+      "to": "river-gardens",
+      "route": "FR-15",
+      "weight": 1.1481602463088392
+    },
+    {
+      "from": "kaak-pul",
+      "to": "dha-gate-08",
+      "route": "FR-15",
+      "weight": 0.3389662723967443
+    },
+    {
+      "from": "dha-gate-08",
+      "to": "kaak-pul",
+      "route": "FR-15",
+      "weight": 0.3389662723967443
+    },
+    {
+      "from": "dha-gate-08",
+      "to": "dha-gate-07",
+      "route": "FR-15",
+      "weight": 0.606517009725807
+    },
+    {
+      "from": "dha-gate-07",
+      "to": "dha-gate-08",
+      "route": "FR-15",
+      "weight": 0.606517009725807
+    },
+    {
+      "from": "dha-gate-07",
+      "to": "suparco",
+      "route": "FR-15",
+      "weight": 1.47753697121001
+    },
+    {
+      "from": "suparco",
+      "to": "dha-gate-07",
+      "route": "FR-15",
+      "weight": 1.47753697121001
+    },
+    {
+      "from": "suparco",
+      "to": "t-chowk",
+      "route": "FR-15",
+      "weight": 0.9155941675544473
+    },
+    {
+      "from": "t-chowk",
+      "to": "suparco",
+      "route": "FR-15",
+      "weight": 0.9155941675544473
+    },
+    {
+      "from": "saddar",
+      "to": "marir-chowk",
+      "route": "Red Line",
+      "weight": 0.37228033011269573
+    },
+    {
+      "from": "marir-chowk",
+      "to": "saddar",
+      "route": "Red Line",
+      "weight": 0.37228033011269573
+    },
+    {
+      "from": "marir-chowk",
+      "to": "liaquat-bagh",
+      "route": "Red Line",
+      "weight": 0.5581990896593692
+    },
+    {
+      "from": "liaquat-bagh",
+      "to": "marir-chowk",
+      "route": "Red Line",
+      "weight": 0.5581990896593692
+    },
+    {
+      "from": "liaquat-bagh",
+      "to": "committee-chowk",
+      "route": "Red Line",
+      "weight": 0.8349017607867147
+    },
+    {
+      "from": "committee-chowk",
+      "to": "liaquat-bagh",
+      "route": "Red Line",
+      "weight": 0.8349017607867147
+    },
+    {
+      "from": "committee-chowk",
+      "to": "warisc-khan",
+      "route": "Red Line",
+      "weight": 0.8362682238505684
+    },
+    {
+      "from": "warisc-khan",
+      "to": "committee-chowk",
+      "route": "Red Line",
+      "weight": 0.8362682238505684
+    },
+    {
+      "from": "warisc-khan",
+      "to": "rehmanabad",
+      "route": "Red Line",
+      "weight": 0.836250644147703
+    },
+    {
+      "from": "rehmanabad",
+      "to": "warisc-khan",
+      "route": "Red Line",
+      "weight": 0.836250644147703
+    },
+    {
+      "from": "rehmanabad",
+      "to": "6th-road",
+      "route": "Red Line",
+      "weight": 0.8371736310205284
+    },
+    {
+      "from": "6th-road",
+      "to": "rehmanabad",
+      "route": "Red Line",
+      "weight": 0.8371736310205284
+    },
+    {
+      "from": "6th-road",
+      "to": "shamsabad",
+      "route": "Red Line",
+      "weight": 0.8362154510733434
+    },
+    {
+      "from": "shamsabad",
+      "to": "6th-road",
+      "route": "Red Line",
+      "weight": 0.8362154510733434
+    },
+    {
+      "from": "shamsabad",
+      "to": "faizabad",
+      "route": "Red Line",
+      "weight": 3.5083633695539382
+    },
+    {
+      "from": "faizabad",
+      "to": "shamsabad",
+      "route": "Red Line",
+      "weight": 3.5083633695539382
+    },
+    {
+      "from": "faizabad",
+      "to": "ijp",
+      "route": "Red Line",
+      "weight": 1.8690630148112033
+    },
+    {
+      "from": "ijp",
+      "to": "faizabad",
+      "route": "Red Line",
+      "weight": 1.8690630148112033
+    },
+    {
+      "from": "ijp",
+      "to": "potohar",
+      "route": "Red Line",
+      "weight": 0.6956296147332959
+    },
+    {
+      "from": "potohar",
+      "to": "ijp",
+      "route": "Red Line",
+      "weight": 0.6956296147332959
+    },
+    {
+      "from": "potohar",
+      "to": "khayaban-e-johar",
+      "route": "Red Line",
+      "weight": 0.6960738535510395
+    },
+    {
+      "from": "khayaban-e-johar",
+      "to": "potohar",
+      "route": "Red Line",
+      "weight": 0.6960738535510395
+    },
+    {
+      "from": "khayaban-e-johar",
+      "to": "faiz-ahmad-faiz",
+      "route": "Red Line",
+      "weight": 2.680871597120522
+    },
+    {
+      "from": "faiz-ahmad-faiz",
+      "to": "khayaban-e-johar",
+      "route": "Red Line",
+      "weight": 2.680871597120522
+    },
+    {
+      "from": "faiz-ahmad-faiz",
+      "to": "kashmir-highway",
+      "route": "Red Line",
+      "weight": 0.6268500854343624
+    },
+    {
+      "from": "kashmir-highway",
+      "to": "faiz-ahmad-faiz",
+      "route": "Red Line",
+      "weight": 0.6268500854343624
+    },
+    {
+      "from": "kashmir-highway",
+      "to": "chaman",
+      "route": "Red Line",
+      "weight": 0.6918912517571101
+    },
+    {
+      "from": "chaman",
+      "to": "kashmir-highway",
+      "route": "Red Line",
+      "weight": 0.6918912517571101
+    },
+    {
+      "from": "chaman",
+      "to": "ibn-e-sina",
+      "route": "Red Line",
+      "weight": 0.8793151144807897
+    },
+    {
+      "from": "ibn-e-sina",
+      "to": "chaman",
+      "route": "Red Line",
+      "weight": 0.8793151144807897
+    },
+    {
+      "from": "ibn-e-sina",
+      "to": "katchery",
+      "route": "Red Line",
+      "weight": 1.76427568303464
+    },
+    {
+      "from": "katchery",
+      "to": "ibn-e-sina",
+      "route": "Red Line",
+      "weight": 1.76427568303464
+    },
+    {
+      "from": "katchery",
+      "to": "pims",
+      "route": "Red Line",
+      "weight": 1.2999893144384436
+    },
+    {
+      "from": "pims",
+      "to": "katchery",
+      "route": "Red Line",
+      "weight": 1.2999893144384436
+    },
+    {
+      "from": "pims",
+      "to": "stock-exchange",
+      "route": "Red Line",
+      "weight": 0.381406913960161
+    },
+    {
+      "from": "stock-exchange",
+      "to": "pims",
+      "route": "Red Line",
+      "weight": 0.381406913960161
+    },
+    {
+      "from": "stock-exchange",
+      "to": "7th-avenue",
+      "route": "Red Line",
+      "weight": 0.3814043278105044
+    },
+    {
+      "from": "7th-avenue",
+      "to": "stock-exchange",
+      "route": "Red Line",
+      "weight": 0.3814043278105044
+    },
+    {
+      "from": "7th-avenue",
+      "to": "shaheed-e-millat",
+      "route": "Red Line",
+      "weight": 0.38140174152731765
+    },
+    {
+      "from": "shaheed-e-millat",
+      "to": "7th-avenue",
+      "route": "Red Line",
+      "weight": 0.38140174152731765
+    },
+    {
+      "from": "shaheed-e-millat",
+      "to": "parade-ground",
+      "route": "Red Line",
+      "weight": 0.38139915511062805
+    },
+    {
+      "from": "parade-ground",
+      "to": "shaheed-e-millat",
+      "route": "Red Line",
+      "weight": 0.38139915511062805
+    },
+    {
+      "from": "parade-ground",
+      "to": "secretariat",
+      "route": "Red Line",
+      "weight": 0.381396568560463
+    },
+    {
+      "from": "secretariat",
+      "to": "parade-ground",
+      "route": "Red Line",
+      "weight": 0.381396568560463
+    },
+    {
+      "from": "peshawar-mor",
+      "to": "faiz-ahmad-faiz",
+      "route": "Orange Line",
+      "weight": 6.689525149424197
+    },
+    {
+      "from": "faiz-ahmad-faiz",
+      "to": "peshawar-mor",
+      "route": "Orange Line",
+      "weight": 6.689525149424197
+    },
+    {
+      "from": "faiz-ahmad-faiz",
+      "to": "nust",
+      "route": "Orange Line",
+      "weight": 5.957889176620062
+    },
+    {
+      "from": "nust",
+      "to": "faiz-ahmad-faiz",
+      "route": "Orange Line",
+      "weight": 5.957889176620062
+    },
+    {
+      "from": "nust",
+      "to": "police-foundation",
+      "route": "Orange Line",
+      "weight": 1.4944667446758626
+    },
+    {
+      "from": "police-foundation",
+      "to": "nust",
+      "route": "Orange Line",
+      "weight": 1.4944667446758626
+    },
+    {
+      "from": "police-foundation",
+      "to": "g-10",
+      "route": "Orange Line",
+      "weight": 0.6733165356926131
+    },
+    {
+      "from": "g-10",
+      "to": "police-foundation",
+      "route": "Orange Line",
+      "weight": 0.6733165356926131
+    },
+    {
+      "from": "g-10",
+      "to": "g-11",
+      "route": "Orange Line",
+      "weight": 1.2486266999362607
+    },
+    {
+      "from": "g-11",
+      "to": "g-10",
+      "route": "Orange Line",
+      "weight": 1.2486266999362607
+    },
+    {
+      "from": "g-11",
+      "to": "golra",
+      "route": "Orange Line",
+      "weight": 2.6259380563695376
+    },
+    {
+      "from": "golra",
+      "to": "g-11",
+      "route": "Orange Line",
+      "weight": 2.6259380563695376
+    },
+    {
+      "from": "golra",
+      "to": "n5",
+      "route": "Orange Line",
+      "weight": 1.649076132851595
+    },
+    {
+      "from": "n5",
+      "to": "golra",
+      "route": "Orange Line",
+      "weight": 1.649076132851595
+    },
+    {
+      "from": "n5",
+      "to": "airport",
+      "route": "Orange Line",
+      "weight": 9.347648356708861
+    },
+    {
+      "from": "airport",
+      "to": "n5",
+      "route": "Orange Line",
+      "weight": 9.347648356708861
+    },
+    {
+      "from": "pims",
+      "to": "g-7",
+      "route": "Blue Line",
+      "weight": 0.8049895397245274
+    },
+    {
+      "from": "g-7",
+      "to": "pims",
+      "route": "Blue Line",
+      "weight": 0.8049895397245274
+    },
+    {
+      "from": "g-7",
+      "to": "g-6",
+      "route": "Blue Line",
+      "weight": 3.323308385219034
+    },
+    {
+      "from": "g-6",
+      "to": "g-7",
+      "route": "Blue Line",
+      "weight": 3.323308385219034
+    },
+    {
+      "from": "g-6",
+      "to": "melody",
+      "route": "Blue Line",
+      "weight": 0.44582026146200826
+    },
+    {
+      "from": "melody",
+      "to": "g-6",
+      "route": "Blue Line",
+      "weight": 0.44582026146200826
+    },
+    {
+      "from": "melody",
+      "to": "aabpara",
+      "route": "Blue Line",
+      "weight": 0.8824829477956113
+    },
+    {
+      "from": "aabpara",
+      "to": "melody",
+      "route": "Blue Line",
+      "weight": 0.8824829477956113
+    },
+    {
+      "from": "aabpara",
+      "to": "ataturk-avenue",
+      "route": "Blue Line",
+      "weight": 0.7712999362497144
+    },
+    {
+      "from": "ataturk-avenue",
+      "to": "aabpara",
+      "route": "Blue Line",
+      "weight": 0.7712999362497144
+    },
+    {
+      "from": "ataturk-avenue",
+      "to": "f-6",
+      "route": "Blue Line",
+      "weight": 0.8000416567073335
+    },
+    {
+      "from": "f-6",
+      "to": "ataturk-avenue",
+      "route": "Blue Line",
+      "weight": 0.8000416567073335
+    },
+    {
+      "from": "f-6",
+      "to": "f-7",
+      "route": "Blue Line",
+      "weight": 2.9991248910555597
+    },
+    {
+      "from": "f-7",
+      "to": "f-6",
+      "route": "Blue Line",
+      "weight": 2.9991248910555597
+    },
+    {
+      "from": "f-7",
+      "to": "blue-area",
+      "route": "Blue Line",
+      "weight": 2.661111530240129
+    },
+    {
+      "from": "blue-area",
+      "to": "f-7",
+      "route": "Blue Line",
+      "weight": 2.661111530240129
+    },
+    {
+      "from": "pims-hospital",
+      "to": "pims-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "pims-metro-station",
+      "to": "pims-hospital",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "pims-metro-station",
+      "to": "pims",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "pims",
+      "to": "pims-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "faizabad",
+      "to": "faizabad-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "faizabad-metro-station",
+      "to": "faizabad",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "nust-metro-station",
+      "to": "nust",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "nust",
+      "to": "nust-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "police-foundation-metro-station",
+      "to": "police-foundation",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "police-foundation",
+      "to": "police-foundation-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "g-10-metro-station",
+      "to": "g-10",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "g-10",
+      "to": "g-10-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "golra-morh-metro-station",
+      "to": "golra-morh",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "golra-morh",
+      "to": "golra-morh-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "golra-morh",
+      "to": "golra",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "golra",
+      "to": "golra-morh",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "ijp-metro-station",
+      "to": "ijp",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "ijp",
+      "to": "ijp-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "chaman-metro-station",
+      "to": "chaman",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "chaman",
+      "to": "chaman-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "ibn-e-sina-metro-station",
+      "to": "ibn-e-sina",
+      "route": "Walk",
+      "weight": 0.05
+    },
+    {
+      "from": "ibn-e-sina",
+      "to": "ibn-e-sina-metro-station",
+      "route": "Walk",
+      "weight": 0.05
+    }
+  ]
+}
