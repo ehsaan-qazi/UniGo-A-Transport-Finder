@@ -41,6 +41,9 @@ const SearchComponent = {
   /**
    * Perform route search
    */
+  /**
+   * Perform route search — uses DataLoader which now calls the backend API first.
+   */
   async performSearch() {
     const departureDropdown = document.getElementById('departure-dropdown');
     const destinationDropdown = document.getElementById('destination-dropdown');
@@ -64,23 +67,18 @@ const SearchComponent = {
     }
 
     try {
-      UniGoHelpers.showLoading('Searching for routes...');
-
-      const routeData = await DataLoader.searchRoute(from, to);
-
       const fromLabel = RouteParser.getLocationName(from, 'departure-dropdown');
       const toLabel = RouteParser.getLocationName(to, 'destination-dropdown');
+
+      const routeData = await DataLoader.searchRoute(from, to);
 
       if (routeData) {
         UniGoUI.displaySearchResults(routeData, fromLabel, toLabel);
       } else {
         UniGoUI.displaySearchResults(null, fromLabel, toLabel);
       }
-
-      UniGoHelpers.hideLoading();
     } catch (error) {
       console.error('[UniGo] Search error:', error);
-      UniGoHelpers.hideLoading();
       UniGoHelpers.showError('Failed to search for routes. Please try again.');
     }
   },

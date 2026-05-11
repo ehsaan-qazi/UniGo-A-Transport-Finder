@@ -195,6 +195,39 @@ const UniGoUI = {
   },
 
   /**
+   * Render results from the backend API response format.
+   * Called directly by script.js renderApiResult — delegates step card creation.
+   * @param {Object} apiData - Full API response with .path array
+   * @param {string} fromLabel - Display name for departure
+   * @param {string} toLabel - Display name for destination
+   */
+  renderApiResults(apiData, fromLabel, toLabel) {
+    const resultsList = document.querySelector('.results-list');
+    const searchResultContainer = document.querySelector('.search-result-container');
+    if (!resultsList || !searchResultContainer) return;
+
+    resultsList.innerHTML = '';
+    searchResultContainer.classList.remove('hide');
+    searchResultContainer.scrollIntoView({ behavior: 'smooth' });
+
+    if (apiData && apiData.path && apiData.path.length > 0) {
+      // Convert API steps to text for createStepCard compatibility
+      const textSteps = apiData.path.map(s => {
+        const routeName = s.route_name || s.route_id || 'Unknown';
+        return `${routeName} from ${s.from_name} \u2192 ${s.to_name}`;
+      });
+      const routeData = {
+        steps: textSteps,
+        label: `${apiData.total_time_minutes || '?'} min \u00b7 Rs. ${apiData.total_fare_pkr || 50}`
+      };
+      const card = this.createResultCard(routeData, fromLabel, toLabel);
+      resultsList.appendChild(card);
+    } else {
+      resultsList.innerHTML = `<p class="result-info-p">No route found between ${fromLabel} and ${toLabel}.</p>`;
+    }
+  },
+
+  /**
    * Create a step card element
    * @param {string} stepText - Step description
    * @param {number} index - Step index for animation delay

@@ -43,15 +43,17 @@ const CONFIG = {
   // Application Settings
   app: {
     name: 'UniGo',
-    version: '2.0.0',
+    version: '2.1.0',
     debug: true, // Set to false in production
     animationDelay: 300 // milliseconds
   },
 
-  // Route Data Files
+  // Backend API
+  apiBase: 'http://127.0.0.1:5000',
+
+  // Route Data Files (local fallback — backend is primary)
   dataFiles: {
-    routes: 'src/data/unigo_transport_routes_full_slugged.json',
-    stops: 'src/data/stops.json' // To be created
+    routes: 'data/unigo_transport_routes_full_slugged.json'
   },
 
   // Path settings
@@ -59,6 +61,39 @@ const CONFIG = {
     images: 'images/',
     css: 'src/css/',
     js: 'src/js/'
+  },
+
+  // Mapping: dropdown slug → graph node ID (reliable_metro_graph.json)
+  // Needed because dropdown values don't match graph node IDs directly
+  slugToNodeId: {
+    'comsats': 'comsats_university',
+    'nust': 'nust',
+    'qau': 'islamic_university',      // closest match in graph
+    'iiu': 'islamic_university',
+    'bahria-uni': 'bahria_university',
+    'air-uni': 'nust',                 // no direct match — nearest hub
+    'fast-uni': 'fast_university',
+    'nust-smme': 'nust',
+    'iqra-uni': 'nust',                // no direct match — nearest hub
+    'riphah-uni': 'faizabad',          // no direct match — nearest hub
+    'preston-uni': 'faizabad',         // no direct match — nearest hub
+    'iiui-female': 'islamic_university',
+    'saddar': 'saddar',
+    'committee-chowk': 'committee_chowk',
+    'faizabad': 'faizabad',
+    'pir-wadhai': 'pir_wadhai_morh',
+    'blue-area': 'stock_exchange',     // closest match in graph
+    'g9': 'sabzi_mandi',              // closest match in graph
+    'centaurus': 'stock_exchange',     // closest match in graph
+    'peshawar-mor': 'nust',            // no direct match — nearest hub
+    'f6': 'stock_exchange',            // closest match in graph
+    'f7': 'stock_exchange',            // closest match in graph
+    'f8': 'pims',                      // closest match in graph
+    'g10': 'g10_g11',
+    'g11': 'g10_g11',
+    'bahria-town': 'bahria_university',
+    'dha': 'dha_gate_07',
+    'pwd': 'pwd_housing_society'
   }
 };
 
