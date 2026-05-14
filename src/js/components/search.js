@@ -13,27 +13,24 @@ const SearchComponent = {
   },
 
   /**
-   * Attach event handler to search button
+   * Attach event handler to search button.
+   * NOTE: The #search button already has onclick="findTrans()" in HTML,
+   * so we only add Enter-key support here to avoid double-firing.
    */
   attachSearchHandler() {
-    const searchButton = document.getElementById('search');
-    if (searchButton) {
-      searchButton.addEventListener('click', () => this.performSearch());
-    }
-
-    // Also allow Enter key on dropdowns
+    // Enter key on dropdowns triggers search
     const departureDropdown = document.getElementById('departure-dropdown');
     const destinationDropdown = document.getElementById('destination-dropdown');
 
     if (departureDropdown) {
       departureDropdown.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') this.performSearch();
+        if (e.key === 'Enter') findTrans();
       });
     }
 
     if (destinationDropdown) {
       destinationDropdown.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') this.performSearch();
+        if (e.key === 'Enter') findTrans();
       });
     }
   },

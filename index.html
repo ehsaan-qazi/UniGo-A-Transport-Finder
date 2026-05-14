@@ -18,7 +18,6 @@
   <meta property="og:image" content="https://ehsaan-qazi.github.io/UniGo-A-Transport-Finder/pic.png">
   <meta property="og:url" content="https://ehsaan-qazi.github.io/UniGo-A-Transport-Finder/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="src/css/index.css">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -26,205 +25,183 @@
   <meta name="twitter:description"
     content="UniGo makes finding metro bus routes, Blue Line,Green line, Orange Line, and all metro transit services in Islamabad simple and fast.">
   <meta name="twitter:image" content="https://ehsaan-qazi.github.io/UniGo-A-Transport-Finder/pic.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- UniGo CSS -->
+  <link rel="stylesheet" href="src/css/index.css">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-left">
-      <div class="logo-icon">
-        <img src="images/location.png" alt="UniGo Logo" class="logo-icon" loading="lazy">
+  <!-- TopNavBar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-left">
+        <div class="logo">UniGo</div>
+        <div class="nav-links-desktop">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="profile.html" class="nav-link">Profile</a>
+        </div>
       </div>
-      <h2 class="header-title">UniGo</h2>
-    </div>
-
-    <div class="header-right">
-      <nav class="nav-links">
-        <a class="abc" href="index.html">Home</a>
-        <a class="abc" href="#">Search</a>
-        <a class="abc" href="about.html">About</a>
-        <a class="abc" href="#">Route</a>
-        <a class="abc" href="profile.html">Profile</a>
-      </nav>
-      <a href="about.html" class="help-btn">Help</a>
-      <div class="avatar"
-        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCc3_VF5bM9cOgUg22sIOumMzYRiXGL9Yn2x6N4_pFvQZ0F6m5CsB4-7oDEccNjJ1EcJ6VHKQkj3GOC25bgfR0Jw9MEtYVILBeNij_oDIX9a9QYXVBMvCEuwIGHLDmj4iodq3QqYuvyWF8PD5_CTS3XmwwG95nge7d9BKHmDhEbWCCnwJKytiDupWRNkbCA0imit-fuZdqGPlLP-eX5KqLboyE6p4aPv-v37SzQ9oCFD0wC6RYa-XroG_XjFUT5J__oXnbl2fJ5_Fs");'>
-      </div>
-      <div class="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+      <div class="navbar-right">
+        <a href="about.html" class="nav-link">Help</a>
+        <a href="about.html" class="btn-primary-pill">About UniGo</a>
+        <div class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </div>
     </div>
-  </header>
+  </nav>
 
   <!-- Mobile Overlay Menu -->
   <div class="overlay-menu" id="overlay-menu">
     <a href="index.html">Home</a>
-    <a href="#">Search</a>
     <a href="about.html">About</a>
-    <a href="#l">Route</a>
     <a href="profile.html">Profile</a>
     <a href="about.html">Help</a>
   </div>
 
-  <!-- Hero Section -->
-  <section class="hero"
-    style='background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA38A7QamZh9iYwhWlZNBvJJRvSGhnLBR_UO2IN20j2NsvovEtsjRlaCp9oSpIj4yy7yvDL_XrIFLkMz6KC_0CDyyi8JvHlW3fYDZLHOp5mKas6r147KIs8-QorGQHb7WqI0TMfZda-05rREo1cNAPpwg6Wye3kNDG9VxrYTWCbSq6wahl1MMw1Pz1Lt0g2-MXYxyZIlJto8ySLX_Jue3fyq0Q2WzIvw4J1uwT_zjRfFgPtLXocJoYQiwhRdlKKhG3kke1foIRMP7Q");'>
-    <div class="hero-text">
-      <h1>Find Metro Bus Routes, Green Line & Orange Line with UniGo</h1>
-      <p>Search metro bus services, explore all metro routes, and plan your journey across Islamabad with UniGo – the
-        easy metro transit bus finder.</p>
-    </div>
+  <!-- Main Content: Sidebar + Map -->
+  <main class="main-layout">
 
-    <!-- Search Box -->
-    <div class="search">
-      <div>
-        <label for="departure" class="select-label">Select your departure</label>
-        <select name="departure" id="departure-dropdown" class="dropdown">
-          <option>
-            <optgroup label="🎓 Universities">
-              <option value="comsats">COMSATS University Islamabad</option>
-              <option value="nust">NUST (National University of Sciences & Technology)</option>
-              <option value="qau">Quaid-i-Azam University (QAU)</option>
-              <option value="iiu">International Islamic University (IIU)</option>
-              <option value="bahria-uni">Bahria University Islamabad</option>
-              <option value="air-uni">Air University</option>
-              <option value="fast-uni">FAST-NUCES Islamabad</option>
-              <option value="nust-smme">NUST SMME Campus</option>
-              <option value="iqra-uni">IQRA University Islamabad</option>
-              <option value="riphah-uni">Riphah International University</option>
-              <option value="preston-uni">Preston University</option>
-              <option value="iiui-female">IIUI Female Campus</option>
-            </optgroup>
+    <!-- Map Background (Leaflet) -->
+    <div class="map-container" id="map"></div>
 
-            <!-- Major Areas & Transport Hubs -->
-            <optgroup label="🚌 Major Areas">
-              <option value="saddar">Saddar Rawalpindi</option>
-              <option value="committee-chowk">Committee Chowk</option>
-              <option value="faizabad">Faizabad</option>
-              <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
-              <option value="blue-area">Blue Area</option>
-              <option value="g9">G-9 Markaz</option>
-              <option value="centaurus">Centaurus Mall</option>
-              <option value="peshawar-mor">Peshawar Mor / 26 Number Chungi</option>
-              <option value="f6">F-6 Markaz</option>
-              <option value="f7">F-7 Markaz</option>
-              <option value="f8">F-8 Markaz</option>
-              <option value="g10">G-10 Markaz</option>
-              <option value="g11">G-11 Markaz</option>
-              <option value="bahria-town">Bahria Town Islamabad</option>
-              <option value="dha">DHA Islamabad</option>
-              <option value="pwd">PWD Colony</option>
-            </optgroup>
-          </option>
-        </select>
-      </div>
-      <button id="search" onclick="findTrans()">Search</button>
-      <div>
-        <label for="destination" class="select-label">Select your destination</label>
-        <select name="destination" id="destination-dropdown" class="dropdown">
-          <option>
-            <optgroup label="🎓 Universities">
-              <option value="comsats">COMSATS University Islamabad</option>
-              <option value="nust">NUST (National University of Sciences & Technology)</option>
-              <option value="qau">Quaid-i-Azam University (QAU)</option>
-              <option value="iiu">International Islamic University (IIU)</option>
-              <option value="bahria-uni">Bahria University Islamabad</option>
-              <option value="air-uni">Air University</option>
-              <option value="fast-uni">FAST-NUCES Islamabad</option>
-              <option value="nust-smme">NUST SMME Campus</option>
-              <option value="iqra-uni">IQRA University Islamabad</option>
-              <option value="riphah-uni">Riphah International University</option>
-              <option value="preston-uni">Preston University</option>
-              <option value="iiui-female">IIUI Female Campus</option>
-            </optgroup>
+    <!-- Sidebar Panel -->
+    <div class="sidebar" id="sidebar">
 
-            <!-- Major Areas & Transport Hubs -->
-            <optgroup label="🚌 Major Areas">
-              <option value="saddar">Saddar Rawalpindi</option>
-              <option value="committee-chowk">Committee Chowk</option>
-              <option value="faizabad">Faizabad</option>
-              <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
-              <option value="blue-area">Blue Area</option>
-              <option value="g9">G-9 Markaz</option>
-              <option value="centaurus">Centaurus Mall</option>
-              <option value="peshawar-mor">Peshawar Mor</option>
-              <option value="f6">F-6 Markaz</option>
-              <option value="f7">F-7 Markaz</option>
-              <option value="f8">F-8 Markaz</option>
-              <option value="g10">G-10 Markaz</option>
-              <option value="g11">G-11 Markaz</option>
-              <option value="bahria-town">Bahria Town Islamabad</option>
-              <option value="dha">DHA Islamabad</option>
-              <option value="pwd">PWD Colony</option>
-            </optgroup>
-          </option>
-        </select>
-      </div>
-    </div>
-  </section>
-  <div class="search-result-container hide">
-    <div class="page-heading">
-      <h1>Search Results – Metro Bus Routes & Transit Services</h1>
-      <p>Available metro bus routes and transit options for your destination</p>
-    </div>
+      <!-- Search Card -->
+      <div class="card search-card" id="search-card">
+        <h1 class="card-title">Where do you want to go today?</h1>
 
-    <div class="results-list">
-      <!-- Result Card -->
-      <div class="result-card" id="result-card-1">
-        <div class="result-info">
-          <h3 id="route-1">Route 1: NUST to Bahria University (via Metro Bus Route)</h3>
-          <p class="result-info-p">Islamabad - Estimated 20 mins</p>
-          <a href="route.html" class="view-route-btn">View Route</a>
+        <div class="input-group">
+          <!-- Vertical dotted connector -->
+          <div class="input-connector"></div>
+
+          <!-- Departure Input -->
+          <div class="input-row">
+            <div class="input-icon-circle">
+              <div class="dot-hollow"></div>
+            </div>
+            <div class="input-field-wrap">
+              <span class="input-label">I'm leaving from :</span>
+              <select id="departure-dropdown" class="input-field">
+                <option value="">Type a station...</option>
+                <optgroup label="🎓 Universities">
+                  <option value="comsats">COMSATS University Islamabad</option>
+                  <option value="nust">NUST (National University of Sciences & Technology)</option>
+                  <option value="qau">Quaid-i-Azam University (QAU)</option>
+                  <option value="iiu">International Islamic University (IIU)</option>
+                  <option value="bahria-uni">Bahria University Islamabad</option>
+                  <option value="air-uni">Air University</option>
+                  <option value="fast-uni">FAST-NUCES Islamabad</option>
+                  <option value="nust-smme">NUST SMME Campus</option>
+                  <option value="iqra-uni">IQRA University Islamabad</option>
+                  <option value="riphah-uni">Riphah International University</option>
+                  <option value="preston-uni">Preston University</option>
+                  <option value="iiui-female">IIUI Female Campus</option>
+                </optgroup>
+                <optgroup label="🚌 Major Areas">
+                  <option value="saddar">Saddar Rawalpindi</option>
+                  <option value="committee-chowk">Committee Chowk</option>
+                  <option value="faizabad">Faizabad</option>
+                  <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
+                  <option value="blue-area">Blue Area</option>
+                  <option value="g9">G-9 Markaz</option>
+                  <option value="centaurus">Centaurus Mall</option>
+                  <option value="peshawar-mor">Peshawar Mor / 26 Number Chungi</option>
+                  <option value="f6">F-6 Markaz</option>
+                  <option value="f7">F-7 Markaz</option>
+                  <option value="f8">F-8 Markaz</option>
+                  <option value="g10">G-10 Markaz</option>
+                  <option value="g11">G-11 Markaz</option>
+                  <option value="bahria-town">Bahria Town Islamabad</option>
+                  <option value="dha">DHA Islamabad</option>
+                  <option value="pwd">PWD Colony</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <!-- Destination Input -->
+          <div class="input-row">
+            <div class="input-icon-circle">
+              <span class="material-symbols-outlined input-pin-icon">location_on</span>
+            </div>
+            <div class="input-field-wrap">
+              <span class="input-label">I'm heading to :</span>
+              <select id="destination-dropdown" class="input-field">
+                <option value="">Type a station...</option>
+                <optgroup label="🎓 Universities">
+                  <option value="comsats">COMSATS University Islamabad</option>
+                  <option value="nust">NUST (National University of Sciences & Technology)</option>
+                  <option value="qau">Quaid-i-Azam University (QAU)</option>
+                  <option value="iiu">International Islamic University (IIU)</option>
+                  <option value="bahria-uni">Bahria University Islamabad</option>
+                  <option value="air-uni">Air University</option>
+                  <option value="fast-uni">FAST-NUCES Islamabad</option>
+                  <option value="nust-smme">NUST SMME Campus</option>
+                  <option value="iqra-uni">IQRA University Islamabad</option>
+                  <option value="riphah-uni">Riphah International University</option>
+                  <option value="preston-uni">Preston University</option>
+                  <option value="iiui-female">IIUI Female Campus</option>
+                </optgroup>
+                <optgroup label="🚌 Major Areas">
+                  <option value="saddar">Saddar Rawalpindi</option>
+                  <option value="committee-chowk">Committee Chowk</option>
+                  <option value="faizabad">Faizabad</option>
+                  <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
+                  <option value="blue-area">Blue Area</option>
+                  <option value="g9">G-9 Markaz</option>
+                  <option value="centaurus">Centaurus Mall</option>
+                  <option value="peshawar-mor">Peshawar Mor</option>
+                  <option value="f6">F-6 Markaz</option>
+                  <option value="f7">F-7 Markaz</option>
+                  <option value="f8">F-8 Markaz</option>
+                  <option value="g10">G-10 Markaz</option>
+                  <option value="g11">G-11 Markaz</option>
+                  <option value="bahria-town">Bahria Town Islamabad</option>
+                  <option value="dha">DHA Islamabad</option>
+                  <option value="pwd">PWD Colony</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
         </div>
-        <div class="result-image"></div>
+
+        <button class="btn-search" id="search" onclick="findTrans()">SEARCH</button>
       </div>
 
-      <!-- Result Card -->
-      <div class="result-card" id="result-card-2">
-        <div class="result-info">
-          <h3>Route 2: IIUI to COMSATS (Metro Transit Bus)</h3>
-          <p>Islamabad - Estimated 25 mins</p>
-          <a href="route.html" class="view-route-btn">View Route</a>
+      <!-- Route Result Card (hidden until search) -->
+      <div class="card result-card-panel hide" id="result-panel">
+        <div class="result-header">
+          <button class="back-btn" id="back-btn" onclick="hideResults()">
+            <span class="material-symbols-outlined">arrow_back</span>
+          </button>
+          <h2 class="result-title" id="result-title">Your Trip</h2>
+          <span class="fare-badge" id="fare-badge">Fare: Rs. 0</span>
+          <p class="result-meta" id="result-meta">Arrival info</p>
         </div>
-        <div class="result-image"></div>
+        <!-- Journey Steps rendered here -->
+        <div class="journey-steps" id="journey-steps"></div>
       </div>
-    </div>
-  </div>
 
-  <!-- Popular Routes -->
-  <h2 class="section-title">Popular Metro Bus Routes</h2>
-  <div class="routes-grid">
-    <div class="route-card" data-from="peshawar-mor" data-to="nust">
-      <h3>Peshawar Mor to NUST (National University of Science and Technology) – Orange Line</h3>
-      <p class="route-location">Islamabad</p>
     </div>
-    <div class="route-card" data-from="peshawar-mor" data-to="comsats">
-      <h3>Peshawar Mor to COMSATS University Islamabad – Metro Bus Service</h3>
-      <p class="route-location">Islamabad</p>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-links">
-      <a href="about.html">About Us</a>
-      <a href="profile.html">Profile</a>
-      <a href="#">Search</a>
-      <a href="about.html">About</a>
-      <a href="#">Route</a>
-    </div>
-    <p>UniGo brings you metro bus routes,Green Line, Orange Line metro, and complete metro transit services in
-      Islamabad.</p>
-    <p>© Made by M. Ehsaan ur Rehman Qazi</p>
-  </footer>
+  </main>
 
   <!-- UniGo Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="config.js"></script>
   <script src="src/js/utils/helpers.js"></script>
   <script src="src/js/utils/routeParser.js"></script>
@@ -232,7 +209,27 @@
   <script src="src/js/core/dataLoader.js"></script>
   <script src="src/js/components/ui.js"></script>
   <script src="src/js/components/search.js"></script>
+  <script src="script.js"></script>
   <script src="src/js/main.js"></script>
+
+  <!-- Map Initialization -->
+  <script>
+    // Initialize Leaflet map centered on Islamabad
+    const map = L.map('map', {
+      center: [33.6844, 73.0479],
+      zoom: 12,
+      zoomControl: true,
+      attributionControl: true
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19
+    }).addTo(map);
+
+    // Expose map globally so script.js can use it
+    window.unigoMap = map;
+  </script>
 </body>
 
 </html>

@@ -150,6 +150,18 @@ function getLineFare(routeIdOrText) {
 }
 
 /**
+ * Show / hide the result panel in the sidebar.
+ */
+function showResults() {
+  const panel = document.getElementById("result-panel");
+  if (panel) panel.classList.remove("hide");
+}
+function hideResults() {
+  const panel = document.getElementById("result-panel");
+  if (panel) panel.classList.add("hide");
+}
+
+/**
  * Main search function — calls backend API first, falls back to local JSON.
  */
 async function findTrans() {
@@ -168,146 +180,154 @@ async function findTrans() {
   const fromLabel = document.querySelector(`#departure-dropdown option[value="${from}"]`)?.text || from;
   const toLabel = document.querySelector(`#destination-dropdown option[value="${to}"]`)?.text || to;
 
-  const resultsList = document.querySelector(".results-list");
-  resultsList.innerHTML = '<p class="result-info-p">Searching...</p>';
-  const searchResultContainer = document.querySelector(".search-result-container");
-  searchResultContainer.classList.remove("hide");
-  searchResultContainer.scrollIntoView({ behavior: 'smooth' });
+  // Show loading state in result panel
+  const stepsContainer = document.getElementById("journey-steps");
+  const resultTitle = document.getElementById("result-title");
+  const fareBadge = document.getElementById("fare-badge");
+  const resultMeta = document.getElementById("result-meta");
+
+  if (resultTitle) resultTitle.textContent = `Your Trip to ${toLabel}`;
+  if (fareBadge) fareBadge.textContent = "Calculating...";
+  if (resultMeta) resultMeta.textContent = "Searching for routes...";
+  if (stepsContainer) stepsContainer.innerHTML = "";
+  showResults();
 
   // Try backend API first
   const fromNodeId = resolveSlug(from);
   const toNodeId = resolveSlug(to);
 
   try {
+    console.log(`[UniGo] 🔵 Calling backend API: ${getApiBase()}/api/routes?from=${fromNodeId}&to=${toNodeId}`);
     const res = await fetch(`${getApiBase()}/api/routes?from=${encodeURIComponent(fromNodeId)}&to=${encodeURIComponent(toNodeId)}`);
     if (res.ok) {
       const data = await res.json();
-      renderApiResult(data, fromLabel, toLabel, resultsList);
+      console.log(`[UniGo] ✅ BACKEND result received (source: ${data.source || 'api'}, fare: Rs.${data.total_fare_pkr}, time: ${data.total_time_minutes}min)`);
+      renderApiResult(data, fromLabel, toLabel);
       return;
+    } else {
+      console.warn(`[UniGo] ⚠️ Backend returned ${res.status}, falling back to local.`);
     }
   } catch (e) {
-    console.warn("[UniGo] Backend API unavailable, falling back to local data.", e);
+    console.warn("[UniGo] ❌ Backend API unavailable, falling back to local data.", e.message);
   }
 
   // Fallback: local JSON search
-  fallbackLocalSearch(from, to, fromLabel, toLabel, resultsList);
+  console.log("[UniGo] 🟡 Using LOCAL JSON fallback for search.");
+  fallbackLocalSearch(from, to, fromLabel, toLabel);
 }
 
 /**
- * Render the backend API result as a rich card with fare, time, and step timeline.
+ * Render the backend API result into the new sidebar result panel.
  */
-function renderApiResult(data, fromLabel, toLabel, container) {
-  container.innerHTML = "";
+function renderApiResult(data, fromLabel, toLabel) {
+  const stepsContainer = document.getElementById("journey-steps");
+  const resultTitle = document.getElementById("result-title");
+  const fareBadge = document.getElementById("fare-badge");
+  const resultMeta = document.getElementById("result-meta");
   const steps = data.path || [];
 
   // Calculate total fare by counting unique lines
-  let totalFare = 0;
-  const linesSeen = new Set();
-  steps.forEach(step => {
-    const lineKey = step.route_id || step.route_name || '';
-    if (!linesSeen.has(lineKey) && lineKey) {
-      linesSeen.add(lineKey);
-      totalFare += getLineFare(lineKey);
-    }
-  });
-  if (totalFare === 0) totalFare = 50;
+  let totalFare = data.total_fare_pkr || 0;
+  if (!totalFare) {
+    const linesSeen = new Set();
+    steps.forEach(step => {
+      const lineKey = step.route_id || step.route_name || '';
+      if (!linesSeen.has(lineKey) && lineKey) {
+        linesSeen.add(lineKey);
+        totalFare += getLineFare(lineKey);
+      }
+    });
+    if (totalFare === 0) totalFare = 50;
+  }
 
   const transfers = data.transfers != null ? data.transfers : Math.max(0, steps.length - 1);
 
-  // Build result card
-  const resultCard = document.createElement("div");
-  resultCard.className = "result-card";
+  // Update header
+  if (resultTitle) resultTitle.textContent = `Your Trip to ${toLabel}`;
+  if (fareBadge) fareBadge.textContent = `Fare: Rs. ${totalFare}`;
+  const metaParts = [];
+  if (data.total_time_minutes) metaParts.push(`Arrival in ${data.total_time_minutes} minutes`);
+  if (data.total_distance_km) metaParts.push(`${data.total_distance_km} km`);
+  metaParts.push(`${transfers} transfer${transfers !== 1 ? 's' : ''}`);
+  if (resultMeta) resultMeta.textContent = metaParts.join(' · ');
 
-  // Info section
-  const infoDiv = document.createElement("div");
-  infoDiv.className = "result-info";
+  // Render step cards
+  if (stepsContainer) stepsContainer.innerHTML = "";
 
-  const h3 = document.createElement("h3");
-  h3.textContent = `${fromLabel} to ${toLabel}`;
-  infoDiv.appendChild(h3);
-
-  // Summary line
-  const summaryP = document.createElement("p");
-  summaryP.className = "result-info-p";
-  const summaryParts = [];
-  if (data.total_time_minutes) summaryParts.push(`${data.total_time_minutes} min`);
-  if (data.total_distance_km) summaryParts.push(`${data.total_distance_km} km`);
-  summaryParts.push(`Rs. ${totalFare}`);
-  summaryParts.push(`${transfers} transfer${transfers !== 1 ? 's' : ''}`);
-  summaryP.textContent = summaryParts.join(' · ');
-  infoDiv.appendChild(summaryP);
-
-  resultCard.appendChild(infoDiv);
-
-  // Make card clickable → route.html
-  resultCard.style.cursor = "pointer";
-  resultCard.addEventListener("click", () => {
-    // Convert API steps to text steps for route.html compatibility
-    const textSteps = steps.map(s => {
-      const routeName = s.route_name || s.route_id || 'Unknown';
-      return `${routeName} from ${s.from_name} → ${s.to_name}`;
-    });
-    localStorage.setItem("currentRoute", JSON.stringify({
-      fromLabel, toLabel,
-      steps: textSteps,
-      routeLabel: summaryP.textContent,
-      apiData: data // Store the full API response too
-    }));
-    window.location.href = "route.html";
-  });
-
-  // Step cards
-  let insertAfterElement = summaryP;
   steps.forEach((step, i) => {
-    const stepDiv = document.createElement("div");
-    stepDiv.className = "step-card animated";
+    // Dotted connector before each card (except the first)
+    if (i > 0) {
+      const connector = document.createElement("div");
+      connector.className = "step-connector";
+      connector.innerHTML = '<div class="step-connector-line"></div>';
+      stepsContainer.appendChild(connector);
+    }
+
+    const card = document.createElement("div");
+    card.className = "step-card";
 
     // Bus image
     const imgSrc = getBusImageFromRouteId(step.route_id) ||
                    getBusImage(step.route_name || '') ||
                    getBusImage(step.step_text || '');
+    const imgWrap = document.createElement("div");
+    imgWrap.className = "step-img-wrap";
     if (imgSrc) {
-      const imgContainer = document.createElement("div");
-      imgContainer.className = "bus-img-container";
       const img = document.createElement("img");
       img.src = imgSrc;
       img.alt = step.route_name || "Bus";
-      img.className = "bus-img";
       img.loading = "lazy";
-      imgContainer.appendChild(img);
-      stepDiv.appendChild(imgContainer);
+      imgWrap.appendChild(img);
     }
+    card.appendChild(imgWrap);
 
-    // Step text
-    const p = document.createElement("p");
-    p.className = "result-info-p generated";
-    const routeDisplay = step.route_name || step.route_id || '';
-    const stopsText = `${step.from_name} → ${step.to_name}`;
-    const fare = getLineFare(step.route_id || step.route_name);
+    // Text content
+    const textWrap = document.createElement("div");
+    textWrap.className = "step-text-wrap";
+
+    const routeName = document.createElement("span");
+    routeName.className = "step-route-name";
+    const routeDisplay = step.route_name || step.route_id || 'Unknown';
+    const timeStr = step.time_minutes ? ` (${step.time_minutes} min)` : '';
+    routeName.textContent = `${routeDisplay}${timeStr}`;
+    textWrap.appendChild(routeName);
+
+    const stopsSpan = document.createElement("span");
+    stopsSpan.className = "step-stops";
+    stopsSpan.textContent = `${step.from_name} → ${step.to_name}`;
+    textWrap.appendChild(stopsSpan);
+
+    const fareSpan = document.createElement("span");
+    fareSpan.className = "step-fare";
     const extras = [];
     if (step.stops_count) extras.push(`${step.stops_count} stops`);
-    if (step.time_minutes) extras.push(`${step.time_minutes} min`);
-    extras.push(`Rs. ${fare}`);
-    p.textContent = `${routeDisplay} from ${stopsText} (${extras.join(', ')})`;
-    stepDiv.appendChild(p);
+    const lineFare = getLineFare(step.route_id || step.route_name);
+    extras.push(`Rs. ${lineFare}`);
+    fareSpan.textContent = extras.join(' · ');
+    textWrap.appendChild(fareSpan);
 
-    insertAfterElement.insertAdjacentElement("afterend", stepDiv);
-    insertAfterElement = stepDiv;
+    card.appendChild(textWrap);
+    stepsContainer.appendChild(card);
 
+    // Animate in
     const delay = (CONFIG?.app?.animationDelay || 300) * i;
-    setTimeout(() => stepDiv.classList.add("show"), delay);
+    setTimeout(() => card.classList.add("show"), delay);
   });
 
-  container.appendChild(resultCard);
+  showResults();
 }
 
 /**
  * Fallback: search through locally loaded JSON when backend is unavailable.
- * This is the original logic, preserved as-is.
  */
-function fallbackLocalSearch(from, to, fromLabel, toLabel, resultsList) {
+function fallbackLocalSearch(from, to, fromLabel, toLabel) {
+  const stepsContainer = document.getElementById("journey-steps");
+  const resultTitle = document.getElementById("result-title");
+  const fareBadge = document.getElementById("fare-badge");
+  const resultMeta = document.getElementById("result-meta");
+
   if (!isDataLoaded) {
-    resultsList.innerHTML = '<p class="result-info-p">Route data is still loading. Please try again.</p>';
+    if (resultMeta) resultMeta.textContent = "Route data is still loading. Please try again.";
     return;
   }
 
@@ -327,59 +347,76 @@ function fallbackLocalSearch(from, to, fromLabel, toLabel, resultsList) {
   }
 
   if (steps && steps.length) {
-    const resultCard = document.createElement("div");
-    resultCard.className = "result-card";
-
-    const infoDiv = document.createElement("div");
-    infoDiv.className = "result-info";
-
-    const h3 = document.createElement("h3");
-    h3.textContent = `${fromLabel} to ${toLabel}`;
-    infoDiv.appendChild(h3);
-
-    const anchorP = document.createElement("p");
-    anchorP.className = "result-info-p";
-    anchorP.textContent = routeLabel;
-    infoDiv.appendChild(anchorP);
-
-    resultCard.appendChild(infoDiv);
-    resultsList.appendChild(resultCard);
-
-    resultCard.style.cursor = "pointer";
-    resultCard.addEventListener("click", () => {
-      localStorage.setItem("currentRoute", JSON.stringify({ fromLabel, toLabel, steps, routeLabel }));
-      window.location.href = "route.html";
+    // Calculate fare from step text
+    let totalFare = 0;
+    const linesSeen = new Set();
+    steps.forEach(text => {
+      const lineType = text.includes('Red') ? 'red' : (text.includes('Orange') ? 'orange' : 'green');
+      if (!linesSeen.has(lineType)) {
+        linesSeen.add(lineType);
+        totalFare += lineType === 'red' ? 30 : 50;
+      }
     });
 
-    let insertAfterElement = anchorP;
-    steps.forEach((text, i) => {
-      const stepDiv = document.createElement("div");
-      stepDiv.className = "step-card animated";
+    if (resultTitle) resultTitle.textContent = `Your Trip to ${toLabel}`;
+    if (fareBadge) fareBadge.textContent = `Fare: Rs. ${totalFare}`;
+    if (resultMeta) resultMeta.textContent = routeLabel + ' (local data)';
+    if (stepsContainer) stepsContainer.innerHTML = "";
 
+    steps.forEach((text, i) => {
+      if (i > 0) {
+        const connector = document.createElement("div");
+        connector.className = "step-connector";
+        connector.innerHTML = '<div class="step-connector-line"></div>';
+        stepsContainer.appendChild(connector);
+      }
+
+      const card = document.createElement("div");
+      card.className = "step-card";
+
+      // Bus image
       const imgSrc = getBusImage(text);
+      const imgWrap = document.createElement("div");
+      imgWrap.className = "step-img-wrap";
       if (imgSrc) {
-        const imgContainer = document.createElement("div");
-        imgContainer.className = "bus-img-container";
         const img = document.createElement("img");
         img.src = imgSrc;
         img.alt = "Bus Image";
-        img.className = "bus-img";
-        imgContainer.appendChild(img);
-        stepDiv.appendChild(imgContainer);
+        img.loading = "lazy";
+        imgWrap.appendChild(img);
+      }
+      card.appendChild(imgWrap);
+
+      // Text
+      const textWrap = document.createElement("div");
+      textWrap.className = "step-text-wrap";
+      const routeName = document.createElement("span");
+      routeName.className = "step-route-name";
+      // Parse "Orange Line from X → Y"
+      const parts = text.split(" from ");
+      routeName.textContent = parts[0] || text;
+      textWrap.appendChild(routeName);
+
+      if (parts[1]) {
+        const stopsSpan = document.createElement("span");
+        stopsSpan.className = "step-stops";
+        stopsSpan.textContent = parts[1];
+        textWrap.appendChild(stopsSpan);
       }
 
-      const p = document.createElement("p");
-      p.className = "result-info-p generated";
-      p.textContent = text;
-      stepDiv.appendChild(p);
+      card.appendChild(textWrap);
+      stepsContainer.appendChild(card);
 
-      insertAfterElement.insertAdjacentElement("afterend", stepDiv);
-      insertAfterElement = stepDiv;
-
-      setTimeout(() => stepDiv.classList.add("show"), i * 300);
+      setTimeout(() => card.classList.add("show"), i * 300);
     });
+
+    showResults();
   } else {
-    resultsList.innerHTML = `<p class="result-info-p">No route found between ${fromLabel} and ${toLabel}.</p>`;
+    if (resultTitle) resultTitle.textContent = "No Route Found";
+    if (fareBadge) fareBadge.textContent = "";
+    if (resultMeta) resultMeta.textContent = `No route found between ${fromLabel} and ${toLabel}.`;
+    if (stepsContainer) stepsContainer.innerHTML = "";
+    showResults();
   }
 }
 

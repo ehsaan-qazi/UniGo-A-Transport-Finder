@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TransitFlow - Desktop Homepage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface": "#1b1c1c",
+                        "surface-tint": "#835400",
+                        "error": "#ba1a1a",
+                        "primary": "#835400",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-container": "#ff9f96",
+                        "inverse-surface": "#303030",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-container": "#674100",
+                        "primary-container": "#f9a825",
+                        "on-primary-fixed": "#2a1800",
+                        "on-tertiary-fixed-variant": "#930010",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed": "#410003",
+                        "on-secondary-fixed-variant": "#005235",
+                        "secondary-fixed-dim": "#71dba6",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#ffb957",
+                        "surface-bright": "#fcf9f8",
+                        "outline": "#857462",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#ffdad6",
+                        "secondary": "#006c47",
+                        "tertiary-fixed-dim": "#ffb3ac",
+                        "surface-dim": "#dcd9d9",
+                        "on-secondary-fixed": "#002113",
+                        "surface-container-high": "#eae7e7",
+                        "outline-variant": "#d7c3ae",
+                        "inverse-primary": "#ffb957",
+                        "secondary-fixed": "#8df7c1",
+                        "on-background": "#1b1c1c",
+                        "surface-container-highest": "#e5e2e1",
+                        "secondary-container": "#8af5be",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed-variant": "#643f00",
+                        "surface": "#fcf9f8",
+                        "on-surface-variant": "#524434",
+                        "background": "#fcf9f8",
+                        "on-tertiary-container": "#970010",
+                        "tertiary": "#ba1a20",
+                        "on-secondary-container": "#00714b",
+                        "inverse-on-surface": "#f3f0ef",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#f0eded",
+                        "primary-fixed": "#ffddb5",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e5e2e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "container-margin": "20px",
+                        "lg": "32px",
+                        "sm": "12px",
+                        "xl": "48px",
+                        "md": "24px",
+                        "gutter": "16px",
+                        "xs": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Manrope"],
+                        "caption": ["Manrope"],
+                        "headline-md-mobile": ["Manrope"],
+                        "label-md": ["Manrope"],
+                        "display-lg": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "body-md": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "headline-md-mobile": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                        "display-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #F2F1E8; } /* Override background to match reference */
+        .card-shadow { box-shadow: 0px 4px 20px rgba(0,0,0,0.04); }
+        .timeline-line-red { background-color: #E20000; width: 8px; border-radius: 4px; }
+        .timeline-line-green { background-color: #008B45; width: 8px; border-radius: 4px; }
+        .timeline-line-walk { border-left: 4px dotted #B0BEC5; margin-left: 2px; }
+        .timeline-node { width: 16px; height: 16px; border-radius: 50%; background-color: white; border: 4px solid; }
+        .timeline-node-red { border-color: #E20000; }
+        .timeline-node-green { border-color: #008B45; }
+    </style>
+</head>
+<body class="font-body-md text-on-surface antialiased h-screen overflow-hidden flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-surface-container-lowest shadow-sm docked full-width top-0 z-50">
+<div class="flex justify-between items-center w-full px-lg py-sm max-w-[1140px] mx-auto">
+<div class="flex items-center gap-lg">
+<div class="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed-dim">TransitFlow</div>
+<div class="hidden md:flex gap-md">
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors" href="#">Routes</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors" href="#">Tickets</a>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<button class="font-label-md text-label-md text-on-surface hover:text-primary transition-colors">Sign In</button>
+<button class="bg-primary-container text-on-primary-container font-label-md text-label-md py-sm px-md rounded-full hover:opacity-90 transition-opacity">Download App</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 flex w-full max-w-[1440px] mx-auto relative h-full">
+<!-- Map Background (Simulated) -->
+<div class="absolute inset-0 z-0 w-full h-full object-cover">
+<img alt="A clean, minimalist map view of a modern European city, displaying transit routes with simple, highly legible lines. The overall color palette is light and airy, predominantly utilizing off-whites, very soft greys, and subtle pastel tones to create an uncluttered, modern UI aesthetic." class="w-full h-full object-cover opacity-60" data-alt="A clean, minimalist map view of a modern European city, displaying transit routes with simple, highly legible lines. The overall color palette is light and airy, predominantly utilizing off-whites, very soft greys, and subtle pastel tones to create an uncluttered, modern UI aesthetic." data-location="Milan" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCURDrZwCZGYFUlahz0s_lKKxc2INP_MDL5yLfNrLzSmEgxkKle3ld0i0CTBzSESoOmkJQEhRWWjZLzU3rrpXUj2viexgK1pfTXFEFvbdjgi1lDbtn24h13N74zuktoNTo-ENxYR6FPnkOBzqQOmAcr53WUd8o6T9ygCW8MHkc8l5w93Y5He1cq6t-kXNH4T_3jCwOTHd_S7ihSvAS4xDJmLKjLnZNKcZnN79ORfIxO2wQorQLWrlqBsZawMbKMSsCjm4hp7gPRobln"/>
+</div>
+<!-- Sidebar / Search Panel (Floating) -->
+<div class="relative z-10 w-full md:w-[450px] h-full overflow-y-auto p-container-margin md:p-lg flex flex-col gap-lg hide-scrollbar">
+<!-- Search Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-md card-shadow flex flex-col gap-md">
+<h1 class="font-headline-md text-headline-md text-on-surface mb-sm">Where do you want to go for today?</h1>
+<div class="relative flex flex-col gap-sm">
+<!-- Vertical Line Connecting Inputs -->
+<div class="absolute left-[23px] top-[40px] bottom-[40px] w-[2px] bg-surface-container-high z-0 border-l-2 border-dotted border-surface-dim"></div>
+<!-- From Input -->
+<div class="relative z-10 flex items-center gap-sm bg-surface-bright rounded-2xl p-sm border border-outline-variant focus-within:border-primary-container transition-colors">
+<div class="w-[32px] h-[32px] flex items-center justify-center bg-surface-container-lowest rounded-full border border-outline-variant">
+<div class="w-3 h-3 border-2 border-on-surface-variant rounded-full"></div>
+</div>
+<div class="flex flex-col flex-1">
+<span class="font-caption text-caption text-on-surface-variant mb-xs">I'm leaving from :</span>
+<input class="bg-transparent border-none p-0 focus:ring-0 font-body-lg text-body-lg text-on-surface placeholder-on-surface-variant/50 w-full" placeholder="Type a station..." type="text"/>
+</div>
+</div>
+<!-- To Input -->
+<div class="relative z-10 flex items-center gap-sm bg-surface-bright rounded-2xl p-sm border border-outline-variant focus-within:border-primary-container transition-colors">
+<div class="w-[32px] h-[32px] flex items-center justify-center bg-surface-container-lowest rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px]" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div class="flex flex-col flex-1">
+<span class="font-caption text-caption text-on-surface-variant mb-xs">I'm heading to :</span>
+<input class="bg-transparent border-none p-0 focus:ring-0 font-body-lg text-body-lg text-on-surface placeholder-on-surface-variant/50 w-full" placeholder="Type a station..." type="text" value="Porta Genova"/>
+</div>
+</div>
+</div>
+<button class="w-full bg-primary-container text-on-primary-fixed font-label-md text-label-md py-md rounded-2xl hover:opacity-90 transition-opacity mt-sm shadow-sm">
+                    SEARCH
+                </button>
+</div>
+<!-- Route Result Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-md card-shadow flex flex-col gap-lg">
+<div class="flex flex-col gap-xs">
+<div class="flex items-center gap-sm text-on-surface-variant hover:text-primary cursor-pointer w-max">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Your Trip to Porta Genova</h2><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-primary-container text-on-primary-container w-fit mt-1">Fare: $4.50</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Arrival in 32 minutes</p>
+</div>
+<!-- Timeline Container -->
+<div class="flex flex-col relative py-sm"><div class="flex flex-col gap-4 relative">
+<!-- Trip Leg 1: Red Line -->
+<div class="bg-surface-container-low rounded-2xl p-sm flex items-center gap-md border border-outline-variant shadow-sm">
+<div class="w-32 h-20 flex-shrink-0 overflow-hidden rounded-lg">
+<img alt="Red Line Bus" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Ldi939Wv_SFqysRMHjfvNxAB-ZXCwi0u_qTGd9vX91RRN-8oZkfVMHDuof6GDpMIlw4JE0hVc4jbP0G7wSIvtTSOxkdT1Gi2FUgjm_TMjC-Xh3o3pJErVhEtiKoewr239cM9oGlxOBedEIEsRWA9lqh1mbaFWaJzAWKAXeSEpbfPiayGgsStegNpP-rRMKFoDiKZUCwhU29zcUyQY1NjF713QLP0dTfT99WxiNYGRJVJkhrcbvLnnFDFDAlwcXRG9_pvmjZFpdSc"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-on-surface">Red Line (07:34 - 08:00)</span>
+<span class="font-body-md text-on-surface-variant">Buonarroti → Cadorna</span>
+</div>
+</div>
+<!-- Visual Connector -->
+<div class="flex justify-center h-4">
+<div class="w-[2px] border-l-2 border-dotted border-outline-variant"></div>
+</div>
+<!-- Trip Leg 2: Walk -->
+<div class="bg-surface-container-low rounded-2xl p-sm flex items-center gap-md border border-outline-variant shadow-sm">
+<div class="w-32 h-20 flex-shrink-0 flex items-center justify-center bg-surface-variant rounded-lg">
+<span class="material-symbols-outlined text-on-surface-variant text-4xl">directions_walk</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-on-surface">Walk (2 mins)</span>
+<span class="font-body-md text-on-surface-variant">Cadorna → Sant'Ambrosio</span>
+</div>
+</div>
+<!-- Visual Connector -->
+<div class="flex justify-center h-4">
+<div class="w-[2px] border-l-2 border-dotted border-outline-variant"></div>
+</div>
+<!-- Trip Leg 3: Green Line -->
+<div class="bg-surface-container-low rounded-2xl p-sm flex items-center gap-md border border-outline-variant shadow-sm">
+<div class="w-32 h-20 flex-shrink-0 overflow-hidden rounded-lg">
+<img alt="Green Line Bus" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Ldi939Wv_SFqysRMHjfvNxAB-ZXCwi0u_qTGd9vX91RRN-8oZkfVMHDuof6GDpMIlw4JE0hVc4jbP0G7wSIvtTSOxkdT1Gi2FUgjm_TMjC-Xh3o3pJErVhEtiKoewr239cM9oGlxOBedEIEsRWA9lqh1mbaFWaJzAWKAXeSEpbfPiayGgsStegNpP-rRMKFoDiKZUCwhU29zcUyQY1NjF713QLP0dTfT99WxiNYGRJVJkhrcbvLnnFDFDAlwcXRG9_pvmjZFpdSc"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-on-surface">Green Line (08:02 - 08:17)</span>
+<span class="font-body-md text-on-surface-variant">Sant'Ambrosio → Porta Genova</span>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</main>
+</body></html>

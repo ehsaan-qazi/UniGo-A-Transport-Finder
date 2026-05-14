@@ -9,6 +9,31 @@ from flask import Blueprint, request, jsonify, current_app
 route_search_bp = Blueprint("route_search", __name__)
 
 
+# Fare per line (PKR) — charged once per unique line used in a journey
+FARE_TABLE = {
+    "red_line": 30,
+    "orange_line": 50,
+}
+# All green feeders and green line default to 50 PKR
+
+
+def _calculate_total_fare(merged_steps):
+    """
+    Calculate total fare by summing the fare for each unique line used.
+    Red Line = 30 PKR, Orange Line = 50 PKR, Green/Feeders = 50 PKR.
+    """
+    if not merged_steps:
+        return 0
+    seen = set()
+    total = 0
+    for step in merged_steps:
+        route_id = step.get("route_id", "")
+        if route_id and route_id not in seen:
+            seen.add(route_id)
+            total += FARE_TABLE.get(route_id, 50)  # default 50 for green/feeders
+    return total
+
+
 def _get_graph():
     """Get the graph data loaded at app startup."""
     return current_app.config.get("GRAPH_DATA", {})
@@ -111,7 +136,7 @@ def _dijkstra(graph, start_id, end_id):
                 "path": merged,
                 "total_distance_km": round(sum(s["distance_km"] for s in path), 2),
                 "total_time_minutes": sum(s["time_minutes"] for s in path),
-                "total_fare_pkr": max(s["fare_pkr"] for s in path) if path else 0,
+                "total_fare_pkr": _calculate_total_fare(merged),
                 "transfers": len(merged) - 1,
             }
 
