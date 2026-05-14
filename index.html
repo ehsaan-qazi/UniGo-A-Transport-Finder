@@ -96,41 +96,8 @@
             </div>
             <div class="input-field-wrap">
               <span class="input-label">I'm leaving from :</span>
-              <select id="departure-dropdown" class="input-field">
-                <option value="">Type a station...</option>
-                <optgroup label="🎓 Universities">
-                  <option value="comsats">COMSATS University Islamabad</option>
-                  <option value="nust">NUST (National University of Sciences & Technology)</option>
-                  <option value="qau">Quaid-i-Azam University (QAU)</option>
-                  <option value="iiu">International Islamic University (IIU)</option>
-                  <option value="bahria-uni">Bahria University Islamabad</option>
-                  <option value="air-uni">Air University</option>
-                  <option value="fast-uni">FAST-NUCES Islamabad</option>
-                  <option value="nust-smme">NUST SMME Campus</option>
-                  <option value="iqra-uni">IQRA University Islamabad</option>
-                  <option value="riphah-uni">Riphah International University</option>
-                  <option value="preston-uni">Preston University</option>
-                  <option value="iiui-female">IIUI Female Campus</option>
-                </optgroup>
-                <optgroup label="🚌 Major Areas">
-                  <option value="saddar">Saddar Rawalpindi</option>
-                  <option value="committee-chowk">Committee Chowk</option>
-                  <option value="faizabad">Faizabad</option>
-                  <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
-                  <option value="blue-area">Blue Area</option>
-                  <option value="g9">G-9 Markaz</option>
-                  <option value="centaurus">Centaurus Mall</option>
-                  <option value="peshawar-mor">Peshawar Mor / 26 Number Chungi</option>
-                  <option value="f6">F-6 Markaz</option>
-                  <option value="f7">F-7 Markaz</option>
-                  <option value="f8">F-8 Markaz</option>
-                  <option value="g10">G-10 Markaz</option>
-                  <option value="g11">G-11 Markaz</option>
-                  <option value="bahria-town">Bahria Town Islamabad</option>
-                  <option value="dha">DHA Islamabad</option>
-                  <option value="pwd">PWD Colony</option>
-                </optgroup>
-              </select>
+              <input type="text" id="departure-input" class="input-field" placeholder="Type a station..." autocomplete="off">
+              <ul class="suggestions-list" id="departure-suggestions"></ul>
             </div>
           </div>
 
@@ -141,41 +108,8 @@
             </div>
             <div class="input-field-wrap">
               <span class="input-label">I'm heading to :</span>
-              <select id="destination-dropdown" class="input-field">
-                <option value="">Type a station...</option>
-                <optgroup label="🎓 Universities">
-                  <option value="comsats">COMSATS University Islamabad</option>
-                  <option value="nust">NUST (National University of Sciences & Technology)</option>
-                  <option value="qau">Quaid-i-Azam University (QAU)</option>
-                  <option value="iiu">International Islamic University (IIU)</option>
-                  <option value="bahria-uni">Bahria University Islamabad</option>
-                  <option value="air-uni">Air University</option>
-                  <option value="fast-uni">FAST-NUCES Islamabad</option>
-                  <option value="nust-smme">NUST SMME Campus</option>
-                  <option value="iqra-uni">IQRA University Islamabad</option>
-                  <option value="riphah-uni">Riphah International University</option>
-                  <option value="preston-uni">Preston University</option>
-                  <option value="iiui-female">IIUI Female Campus</option>
-                </optgroup>
-                <optgroup label="🚌 Major Areas">
-                  <option value="saddar">Saddar Rawalpindi</option>
-                  <option value="committee-chowk">Committee Chowk</option>
-                  <option value="faizabad">Faizabad</option>
-                  <option value="pir-wadhai">Pir Wadhai Bus Terminal</option>
-                  <option value="blue-area">Blue Area</option>
-                  <option value="g9">G-9 Markaz</option>
-                  <option value="centaurus">Centaurus Mall</option>
-                  <option value="peshawar-mor">Peshawar Mor</option>
-                  <option value="f6">F-6 Markaz</option>
-                  <option value="f7">F-7 Markaz</option>
-                  <option value="f8">F-8 Markaz</option>
-                  <option value="g10">G-10 Markaz</option>
-                  <option value="g11">G-11 Markaz</option>
-                  <option value="bahria-town">Bahria Town Islamabad</option>
-                  <option value="dha">DHA Islamabad</option>
-                  <option value="pwd">PWD Colony</option>
-                </optgroup>
-              </select>
+              <input type="text" id="destination-input" class="input-field" placeholder="Type a station..." autocomplete="off">
+              <ul class="suggestions-list" id="destination-suggestions"></ul>
             </div>
           </div>
         </div>

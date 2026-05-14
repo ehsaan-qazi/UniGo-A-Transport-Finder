@@ -16,8 +16,91 @@ function getApiBase() {
   return (CONFIG && CONFIG.apiBase) || 'http://127.0.0.1:5000';
 }
 
+
+let selectedDeparture = null;
+let selectedDestination = null;
+
+/**
+ * Debounce helper for autocomplete API calls
+ */
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+
+/**
+ * Initialize autocomplete for an input field
+ */
+function initAutocomplete(inputId, suggestionsId, onSelect) {
+  const input = document.getElementById(inputId);
+  const suggestions = document.getElementById(suggestionsId);
+  if (!input || !suggestions) return;
+
+  const fetchSuggestions = debounce(async (query) => {
+    if (!query) {
+      suggestions.classList.remove("active");
+      return;
+    }
+    
+    try {
+      const res = await fetch(`${getApiBase()}/api/stops/search?q=${encodeURIComponent(query)}&limit=8`);
+      if (res.ok) {
+        const data = await res.json();
+        renderSuggestions(data.stops || []);
+      }
+    } catch (e) {
+      console.warn("[UniGo] Autocomplete failed:", e);
+    }
+  }, 300);
+
+  function renderSuggestions(stops) {
+    suggestions.innerHTML = "";
+    if (stops.length === 0) {
+      suggestions.classList.remove("active");
+      return;
+    }
+
+    stops.forEach(stop => {
+      const li = document.createElement("li");
+      li.className = "suggestion-item";
+      li.textContent = stop.name;
+      li.addEventListener("click", () => {
+        input.value = stop.name;
+        suggestions.classList.remove("active");
+        onSelect({ id: stop.id, name: stop.name });
+      });
+      suggestions.appendChild(li);
+    });
+    suggestions.classList.add("active");
+  }
+
+  input.addEventListener("input", (e) => {
+    // Reset selection if user types
+    onSelect(null);
+    fetchSuggestions(e.target.value.trim());
+  });
+
+  // Close suggestions when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!input.contains(e.target) && !suggestions.contains(e.target)) {
+      suggestions.classList.remove("active");
+    }
+  });
+}
+
 // Load the full dataset (local fallback if backend is unavailable)
 document.addEventListener("DOMContentLoaded", () => {
+  // Init autocomplete for inputs
+  initAutocomplete("departure-input", "departure-suggestions", (val) => selectedDeparture = val);
+  initAutocomplete("destination-input", "destination-suggestions", (val) => selectedDestination = val);
+
   const routesFile = (CONFIG && CONFIG.dataFiles && CONFIG.dataFiles.routes)
     || 'data/unigo_transport_routes_full_slugged.json';
 
@@ -165,20 +248,29 @@ function hideResults() {
  * Main search function — calls backend API first, falls back to local JSON.
  */
 async function findTrans() {
-  const from = document.getElementById("departure-dropdown").value;
-  const to = document.getElementById("destination-dropdown").value;
+  const departureInput = document.getElementById("departure-input");
+  const destinationInput = document.getElementById("destination-input");
 
-  if (!from || !to) {
-    alert("Please select both departure and destination.");
-    return;
+  if (!selectedDeparture || !selectedDestination) {
+    // Try to fall back to typed text if they didn't click a suggestion
+    const fromText = departureInput?.value.trim();
+    const toText = destinationInput?.value.trim();
+    if (!fromText || !toText) {
+      alert("Please select both departure and destination from the suggestions.");
+      return;
+    }
+    // Set fallback selected items based on input text
+    if (!selectedDeparture) selectedDeparture = { id: fromText, name: fromText };
+    if (!selectedDestination) selectedDestination = { id: toText, name: toText };
   }
-  if (from === to) {
+
+  if (selectedDeparture.id === selectedDestination.id) {
     alert("Departure and destination cannot be the same.");
     return;
   }
 
-  const fromLabel = document.querySelector(`#departure-dropdown option[value="${from}"]`)?.text || from;
-  const toLabel = document.querySelector(`#destination-dropdown option[value="${to}"]`)?.text || to;
+  const fromLabel = selectedDeparture.name;
+  const toLabel = selectedDestination.name;
 
   // Show loading state in result panel
   const stepsContainer = document.getElementById("journey-steps");
@@ -193,8 +285,9 @@ async function findTrans() {
   showResults();
 
   // Try backend API first
-  const fromNodeId = resolveSlug(from);
-  const toNodeId = resolveSlug(to);
+  // Try to resolve via slug mapping if it's a legacy value, otherwise use ID directly
+  const fromNodeId = resolveSlug(selectedDeparture.id);
+  const toNodeId = resolveSlug(selectedDestination.id);
 
   try {
     console.log(`[UniGo] 🔵 Calling backend API: ${getApiBase()}/api/routes?from=${fromNodeId}&to=${toNodeId}`);
@@ -213,7 +306,7 @@ async function findTrans() {
 
   // Fallback: local JSON search
   console.log("[UniGo] 🟡 Using LOCAL JSON fallback for search.");
-  fallbackLocalSearch(from, to, fromLabel, toLabel);
+  fallbackLocalSearch(selectedDeparture.id, selectedDestination.id, fromLabel, toLabel);
 }
 
 /**

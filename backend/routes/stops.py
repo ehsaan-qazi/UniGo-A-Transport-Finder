@@ -23,24 +23,56 @@ def search_stops():
     if not query:
         return jsonify({"stops": [], "query": query})
 
-    # Search: exact prefix match first, then contains
+    import re
+    from difflib import SequenceMatcher
+
+    # Search: exact prefix match first, then contains, then fuzzy
     query_lower = query.lower()
+    query_clean = re.sub(r'[^a-z0-9]', '', query_lower)
 
     # Get all stops and score them
     all_stops = Stop.query.all()
     scored = []
     for stop in all_stops:
         name_lower = stop.name.lower()
-        if name_lower == query_lower:
-            scored.append((0, stop))  # Exact match — highest priority
-        elif name_lower.startswith(query_lower):
-            scored.append((1, stop))  # Prefix match
-        elif query_lower in name_lower:
-            scored.append((2, stop))  # Contains match
-        elif stop.id.replace("_", " ").startswith(query_lower.replace(" ", "_")):
-            scored.append((3, stop))  # ID match
+        name_clean = re.sub(r'[^a-z0-9]', '', name_lower)
+        id_clean = stop.id.replace("_", "")
 
-    scored.sort(key=lambda x: (x[0], x[1].name))
+        tier = None
+        similarity = 0.0
+
+        if name_clean == query_clean:
+            tier = 0
+            similarity = 1.0
+        elif name_clean.startswith(query_clean):
+            tier = 1
+            similarity = 1.0
+        elif query_clean in name_clean:
+            tier = 2
+            similarity = 1.0
+        elif id_clean.startswith(query_clean):
+            tier = 3
+            similarity = 1.0
+        else:
+            # Fuzzy match: check similarity of query against the name
+            # We compare against a slice of the name of similar length to the query
+            # to handle cases where query is just a prefix typo (e.g., "comasts" for "comsats university")
+            compare_len = min(len(name_clean), len(query_clean) + 2)
+            ratio = SequenceMatcher(None, query_clean, name_clean[:compare_len]).ratio()
+            if ratio > 0.75:
+                tier = 4
+                similarity = ratio
+
+        if tier is not None:
+            # Sorting tuple:
+            # 1. match tier (0 to 4)
+            # 2. -similarity (so higher similarity comes first in fuzzy tier)
+            # 3. major_hub priority (0 or 1)
+            # 4. alphabetical name
+            sort_key = (tier, -similarity, 0 if stop.stop_type == "major_hub" else 1, stop.name)
+            scored.append((sort_key, stop))
+
+    scored.sort(key=lambda x: x[0])
     results = [s.to_dict() for _, s in scored[:limit]]
 
     return jsonify({"stops": results, "query": query})
