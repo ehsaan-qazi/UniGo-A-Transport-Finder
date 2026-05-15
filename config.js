@@ -49,7 +49,7 @@ const CONFIG = {
   },
 
   // Backend API
-  apiBase: 'http://127.0.0.1:5000',
+  apiBase: 'https://unigo-backend-53re.onrender.com',
 
   // Route Data Files (local fallback — backend is primary)
   dataFiles: {
