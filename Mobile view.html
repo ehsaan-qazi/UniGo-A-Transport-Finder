@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TransitFlow Mobile Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#ffddb5",
+                        "on-primary-container": "#674100",
+                        "on-tertiary-fixed-variant": "#930010",
+                        "surface-tint": "#835400",
+                        "surface-container-high": "#eae7e7",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1b1c1c",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#fcf9f8",
+                        "surface-container": "#f0eded",
+                        "on-tertiary-fixed": "#410003",
+                        "inverse-on-surface": "#f3f0ef",
+                        "primary-container": "#f9a825",
+                        "outline": "#857462",
+                        "on-surface-variant": "#524434",
+                        "on-primary-fixed-variant": "#643f00",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f6f3f2",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e5e2e1",
+                        "surface-container-highest": "#e5e2e1",
+                        "on-secondary-fixed": "#002113",
+                        "secondary-container": "#8af5be",
+                        "secondary-fixed": "#8df7c1",
+                        "on-tertiary-container": "#970010",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#ffb3ac",
+                        "primary-fixed-dim": "#ffb957",
+                        "inverse-surface": "#303030",
+                        "tertiary-fixed": "#ffdad6",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "background": "#fcf9f8",
+                        "surface": "#fcf9f8",
+                        "on-primary-fixed": "#2a1800",
+                        "inverse-primary": "#ffb957",
+                        "tertiary-container": "#ff9f96",
+                        "tertiary": "#ba1a20",
+                        "surface-dim": "#dcd9d9",
+                        "secondary": "#006c47",
+                        "primary": "#835400",
+                        "on-secondary-fixed-variant": "#005235",
+                        "on-surface": "#1b1c1c",
+                        "on-secondary-container": "#00714b",
+                        "secondary-fixed-dim": "#71dba6",
+                        "outline-variant": "#d7c3ae"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px",
+                        "2xl": "1.5rem"
+                    },
+                    "spacing": {
+                        "md": "24px",
+                        "xs": "4px",
+                        "base": "8px",
+                        "lg": "32px",
+                        "gutter": "16px",
+                        "sm": "12px",
+                        "container-margin": "20px",
+                        "xl": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-md-mobile": ["Manrope"],
+                        "label-md": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "headline-md": ["Manrope"],
+                        "display-lg": ["Manrope"],
+                        "caption": ["Manrope"],
+                        "body-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-md-mobile": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "display-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col items-center justify-start pb-24">
+<!-- Mobile Container (Max Width for larger screens) -->
+<div class="w-full max-w-[480px] min-h-screen flex flex-col relative shadow-xl shadow-black/5 bg-surface-container-low">
+<!-- Header -->
+<header class="w-full px-container-margin py-md flex items-center justify-between">
+<div class="flex items-center gap-2">
+<img alt="UniGo Logo" class="w-10 h-10 object-contain rounded-lg" src="https://lh3.googleusercontent.com/aida/ADBb0uiCDJOEGF0GcPfX7K_5EjuJ1feM3evNYqTWn0gXBuIwH8RAlsBWUvc4F2UEpzukbBU3PLqBe5iPpJ9cE0szDJBdnCFdBkmS8_dk2jTO_XpWTxvB0OMx3NOMgV2lsoeDSJvePG9wUerU7w0EmMhgVn_2iJ3PQwtuN91I4zeX1BqXcPYeGOc-0xZxWacSsinfOLTA96PflYrvd5AVzSjWlm9ZdJclJJt611RW60jFYi7QhNQKA7uy1uQpKGsN"/>
+<span class="font-display-lg text-display-lg font-bold text-primary">UniGo</span>
+</div>
+<button class="p-2 rounded-full bg-surface hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-on-surface">account_circle</span>
+</button>
+</header>
+<!-- Main Content -->
+<main class="flex-1 px-container-margin flex flex-col gap-lg pb-xl">
+<!-- Search Section -->
+<section class="flex flex-col gap-sm">
+<h1 class="font-headline-md-mobile text-headline-md-mobile text-on-surface mb-xs">Where do you want to go for today?</h1>
+<div class="bg-surface p-sm rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] flex flex-col gap-xs relative">
+<!-- Decorator Line -->
+<div class="absolute left-6 top-8 bottom-8 w-[2px] bg-outline-variant rounded-full flex flex-col justify-between items-center py-1">
+<div class="w-2 h-2 rounded-full bg-outline-variant -ml-[3px]"></div>
+<div class="w-2 h-2 rounded-full bg-primary-container -ml-[3px]"></div>
+</div>
+<!-- From Input -->
+<div class="relative pl-10">
+<input class="w-full bg-transparent border-b border-outline-variant py-sm font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:border-primary-container transition-colors" placeholder="I'm leaving from" type="text" value="Current Location"/>
+</div>
+<!-- To Input -->
+<div class="relative pl-10 mt-2">
+<input class="w-full bg-transparent border-b border-transparent py-sm font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:border-primary-container transition-colors" placeholder="I'm heading to" type="text" value="Porta Genova"/>
+</div>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container font-label-md text-label-md py-sm rounded-full mt-sm hover:opacity-90 transition-opacity shadow-sm">
+                    SEARCH
+                </button>
+</section>
+<!-- Trip Results Section -->
+<section class="flex flex-col gap-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md-mobile text-headline-md-mobile text-on-surface">Your Trip to Porta Genova</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Arrival in 32 minutes</p>
+</div>
+<div class="bg-primary-container text-on-primary-container font-label-md text-label-md px-sm py-1 rounded-full">
+                        $4.50
+                    </div>
+</div>
+<!-- Trip Legs -->
+<div class="flex flex-col gap-sm relative">
+<!-- Timeline Line -->
+<div class="absolute left-[27px] top-6 bottom-6 w-1 bg-outline-variant rounded-full z-0"></div>
+<!-- Leg 1: Bus -->
+<div class="bg-surface rounded-2xl p-sm flex gap-md shadow-[0_4px_20px_rgba(0,0,0,0.04)] relative z-10 items-center">
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0 border-4 border-surface shadow-sm">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">directions_bus</span>
+</div>
+<div class="flex-1 flex justify-between items-center">
+<div>
+<h3 class="font-label-md text-label-md text-on-surface">Red Line Bus</h3>
+<p class="font-caption text-caption text-on-surface-variant">Stop A12 • 10:15 AM</p>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md text-on-surface">12 min</span>
+</div>
+</div>
+</div>
+<!-- Leg 2: Walk -->
+<div class="bg-surface rounded-2xl p-sm flex gap-md shadow-[0_4px_20px_rgba(0,0,0,0.04)] relative z-10 items-center opacity-80">
+<div class="w-10 h-10 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center shrink-0 border-4 border-surface shadow-sm">
+<span class="material-symbols-outlined">directions_walk</span>
+</div>
+<div class="flex-1 flex justify-between items-center">
+<div>
+<h3 class="font-label-md text-label-md text-on-surface">Walk</h3>
+<p class="font-caption text-caption text-on-surface-variant">Transfer to Blue Line</p>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md text-on-surface">5 min</span>
+</div>
+</div>
+</div>
+<!-- Leg 3: Bus -->
+<div class="bg-surface rounded-2xl p-sm flex gap-md shadow-[0_4px_20px_rgba(0,0,0,0.04)] relative z-10 items-center">
+<div class="w-10 h-10 rounded-full bg-[#1e88e5] text-white flex items-center justify-center shrink-0 border-4 border-surface shadow-sm">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">directions_bus</span>
+</div>
+<div class="flex-1 flex justify-between items-center">
+<div>
+<h3 class="font-label-md text-label-md text-on-surface">Blue Line Bus</h3>
+<p class="font-caption text-caption text-on-surface-variant">Stop B4 • 10:32 AM</p>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md text-on-surface">15 min</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar (Mobile) -->
+<nav class="fixed bottom-0 w-full max-w-[480px] bg-surface shadow-[0_-4px_20px_rgba(0,0,0,0.05)] border-t border-surface-variant z-50">
+<div class="flex justify-around items-center px-container-margin py-xs h-16">
+<!-- Home (Active) -->
+<button class="flex flex-col items-center gap-1 text-primary-container w-16">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-caption text-[10px] font-bold">Home</span>
+</button>
+<!-- Routes -->
+<button class="flex flex-col items-center gap-1 text-on-surface-variant hover:text-primary transition-colors w-16">
+<span class="material-symbols-outlined text-2xl">route</span>
+<span class="font-caption text-[10px]">Routes</span>
+</button>
+<!-- Tickets -->
+<button class="flex flex-col items-center gap-1 text-on-surface-variant hover:text-primary transition-colors w-16">
+<span class="material-symbols-outlined text-2xl">confirmation_number</span>
+<span class="font-caption text-[10px]">Tickets</span>
+</button>
+</div>
+</nav>
+</div>
+</body></html>
