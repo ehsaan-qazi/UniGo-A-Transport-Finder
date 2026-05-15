@@ -30,6 +30,22 @@ def search_stops():
     query_lower = query.lower()
     query_clean = re.sub(r'[^a-z0-9]', '', query_lower)
 
+    # Dictionary of landmarks that don't have a direct station
+    ALIASES = {
+        "n5": ["Peshawar Mor", "26 Number", "26 Number Chungi"],
+        "nust": ["Air University", "IQRA University"],
+        "islamic_university": ["Quaid-i-Azam University", "QAU", "IIU", "IIUI"],
+        "bahria_university": ["Bahria Town", "Bahria Uni"],
+        "fast_university": ["FAST NUCES", "FAST Uni"],
+        "faizabad": ["Riphah International University", "Preston University"],
+        "stock_exchange": ["Blue Area", "Centaurus Mall", "F-6 Markaz", "F-7 Markaz"],
+        "sabzi_mandi": ["G-9 Markaz", "Karachi Company"],
+        "pims": ["F-8 Markaz"],
+        "g10_g11": ["G-10 Markaz", "G-11 Markaz"],
+        "dha_gate_07": ["DHA Islamabad"],
+        "pwd_housing_society": ["PWD Colony"]
+    }
+
     # Get all stops and score them
     all_stops = Stop.query.all()
     scored = []
@@ -40,6 +56,7 @@ def search_stops():
 
         tier = None
         similarity = 0.0
+        matched_alias = None
 
         if name_clean == query_clean:
             tier = 0
@@ -54,26 +71,43 @@ def search_stops():
             tier = 3
             similarity = 1.0
         else:
-            # Fuzzy match: check similarity of query against the name
-            # We compare against a slice of the name of similar length to the query
-            # to handle cases where query is just a prefix typo (e.g., "comasts" for "comsats university")
-            compare_len = min(len(name_clean), len(query_clean) + 2)
-            ratio = SequenceMatcher(None, query_clean, name_clean[:compare_len]).ratio()
-            if ratio > 0.75:
-                tier = 4
-                similarity = ratio
+            # Check Aliases (Landmarks)
+            stop_aliases = ALIASES.get(stop.id, [])
+            for alias in stop_aliases:
+                alias_clean = re.sub(r'[^a-z0-9]', '', alias.lower())
+                if alias_clean.startswith(query_clean) or query_clean in alias_clean:
+                    tier = 1  # Treat alias match as prefix/contains match
+                    similarity = 1.0
+                    matched_alias = alias
+                    break
+            
+            # If no alias matched, do a fuzzy typo check on the main name
+            if tier is None:
+                compare_len = min(len(name_clean), len(query_clean) + 2)
+                ratio = SequenceMatcher(None, query_clean, name_clean[:compare_len]).ratio()
+                if ratio > 0.75:
+                    tier = 4
+                    similarity = ratio
 
         if tier is not None:
+            # If an alias matched, append it to the name so the user knows WHY it was suggested
+            display_name = stop.name
+            if matched_alias:
+                display_name = f"{stop.name} (Near {matched_alias})"
+                
             # Sorting tuple:
             # 1. match tier (0 to 4)
             # 2. -similarity (so higher similarity comes first in fuzzy tier)
             # 3. major_hub priority (0 or 1)
             # 4. alphabetical name
             sort_key = (tier, -similarity, 0 if stop.stop_type == "major_hub" else 1, stop.name)
-            scored.append((sort_key, stop))
+            
+            stop_dict = stop.to_dict()
+            stop_dict["name"] = display_name
+            scored.append((sort_key, stop_dict))
 
     scored.sort(key=lambda x: x[0])
-    results = [s.to_dict() for _, s in scored[:limit]]
+    results = [s for _, s in scored[:limit]]
 
     return jsonify({"stops": results, "query": query})
 
