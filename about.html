@@ -4,98 +4,167 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UniGo - About Us</title>
-  <link rel="stylesheet" href="src/css/about.css">
+  <meta name="description" content="About UniGo – your smart transport finder for Islamabad and Rawalpindi.">
+  <title>UniGo | About Us</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800">
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
+
+  <!-- UniGo CSS -->
+  <link rel="stylesheet" href="src/css/index.css">
+  <link rel="stylesheet" href="src/css/about.css">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-left">
-      <div class="logo-icon">
-        <img src="images/location.png" alt="UniGo Logo" class="logo-icon" loading="lazy">
+  <!-- TopNavBar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-left">
+        <div class="logo">UniGo</div>
+        <div class="nav-links-desktop">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link active">About</a>
+          <a href="profile.html" class="nav-link">Profile</a>
+        </div>
       </div>
-      <h2 class="header-title">UniGo</h2>
-    </div>
-
-    <div class="header-right">
-      <nav class="nav-links">
-        <a class="abc" href="index.html">Home</a>
-        <a class="abc" href="#">Search</a>
-        <a class="abc" href="about.html">About</a>
-        <a class="abc" href="#">Route</a>
-        <a class="abc" href="profile.html">Profile</a>
-      </nav>
-      <a href="about.html" class="help-btn active">Help</a>
-      <div class="avatar"
-        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCc3_VF5bM9cOgUg22sIOumMzYRiXGL9Yn2x6N4_pFvQZ0F6m5CsB4-7oDEccNjJ1EcJ6VHKQkj3GOC25bgfR0Jw9MEtYVILBeNij_oDIX9a9QYXVBMvCEuwIGHLDmj4iodq3QqYuvyWF8PD5_CTS3XmwwG95nge7d9BKHmDhEbWCCnwJKytiDupWRNkbCA0imit-fuZdqGPlLP-eX5KqLboyE6p4aPv-v37SzQ9oCFD0wC6RYa-XroG_XjFUT5J__oXnbl2fJ5_Fs");'>
-      </div>
-      <div class="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+      <div class="navbar-right">
+        <a href="about.html" class="nav-link">Help</a>
+        <a href="about.html" class="btn-primary-pill">About UniGo</a>
+        <div class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </div>
     </div>
-  </header>
+  </nav>
 
   <!-- Mobile Overlay Menu -->
-  <div class="overlay-menu">
-    <a href="index.html">Home</a>
-    <a href="#">Search</a>
-    <a href="about.html">About</a>
-    <a href="#">Route</a>
-    <a href="profile.html">Profile</a>
-    <a href="about.html">Help</a>
+  <div class="overlay-menu" id="overlay-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link active">About</a>
+    <a href="profile.html" class="nav-link">Profile</a>
+    <a href="about.html" class="nav-link">Help</a>
   </div>
 
-  <!-- About Section -->
-  <main class="about-container">
-    <section class="about-section">
-      <h1>About UniGo</h1>
-      <p>UniGo is a smart and intuitive transport-finding web app designed to simplify commuting for students and daily
-        travelers in Islamabad. Whether you're moving between universities or navigating key city centers, UniGo helps
-        you pinpoint routes quickly and easily.</p>
+  <main class="about-main">
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+      <img class="hero-image" src="images/bus image.png" alt="Effortless Commuting">
+      <div class="hero-overlay">
+        <h1 class="hero-title">Effortless Commuting for the Modern Traveler</h1>
+      </div>
     </section>
 
-    <section class="about-section">
-      <h2>Our Mission</h2>
-      <p>At UniGo, our mission is simple: to make transport route lookup effortless, fast, and user-friendly. By
-        focusing on commonly traveled routes—such as between universities and major hubs like Blue Area, Centaurus Mall,
-        and Peshawar Mor—we aim to streamline daily commutes for students, faculty, and commuters across Islamabad.</p>
-    </section>
-    <!--
-    <section class="about-section">
-      <h2>Contact Us</h2>
-      <ul>
-        <li>Email: fa24-bse-037@isbstudent.comsats.edu.pk</li>
-        <li>Address: COMSATS University Islamabad</li>
-      </ul>
-    </section>
-    -->
+    <!-- Content Grid -->
+    <div class="about-grid">
+      <!-- Left Content -->
+      <div class="about-left">
+        <!-- About Article -->
+        <article class="content-card">
+          <h2 class="card-title">About UniGo</h2>
+          <p class="card-text">
+            UniGo is a smart and intuitive transport-finding web app designed to simplify commuting for students and
+            daily travelers in Islamabad. Whether you're moving between universities or navigating key city centers,
+            UniGo helps you pinpoint routes quickly and easily.
+          </p>
+        </article>
+
+        <!-- Mission Article -->
+        <article class="content-card">
+          <h2 class="card-title">Our Mission</h2>
+          <p class="card-text">
+            At UniGo, our mission is simple: to make transport route lookup effortless, fast, and user-friendly. By
+            focusing on commonly traveled routes—such as between universities and major hubs like Blue Area, Centaurus
+            Mall, and Peshawar Mor—we aim to streamline daily commutes for students, faculty, and commuters across
+            Islamabad.
+          </p>
+        </article>
+
+        <!-- Bento Grid -->
+        <div class="bento-grid">
+          <div class="bento-card bento-primary">
+            <span class="material-symbols-outlined bento-icon">speed</span>
+            <h3 class="bento-title">Instant Routes</h3>
+            <p class="bento-text">Find the quickest way to your destination with real-time optimization.</p>
+          </div>
+          <div class="bento-card bento-secondary">
+            <span class="material-symbols-outlined bento-icon">school</span>
+            <h3 class="bento-title">Student Focused</h3>
+            <p class="bento-text">Dedicated mapping for all major university campuses in Islamabad.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Aside -->
+      <aside class="about-right">
+        <div class="sidebar-card">
+          <div class="sidebar-header">
+            <h4 class="sidebar-kicker">Coverage Area</h4>
+            <p class="sidebar-title">Islamabad & Rawalpindi</p>
+          </div>
+
+          <div class="coverage-list">
+            <div class="coverage-item">
+              <span class="coverage-dot"></span>
+              <span class="coverage-text">Blue Area Hubs</span>
+            </div>
+            <div class="coverage-item">
+              <span class="coverage-dot"></span>
+              <span class="coverage-text">University Enclaves</span>
+            </div>
+            <div class="coverage-item">
+              <span class="coverage-dot"></span>
+              <span class="coverage-text">Metro Connectivity</span>
+            </div>
+          </div>
+
+          <div class="sidebar-image-container">
+            <img class="sidebar-image"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7e3VmkMkorAAlxClGTA-3ac5NibOW9C-M02Rrm7UOQm1nGwEMGF_hQlXgac2LoPiFUVUDRuHJL2F31VANxgTpReWbmhbV_ynHWRY5BASJiqubXXqmvtX4md3RXET42FsGYVDP_H2WlW_vZl3GVW4K-H2L8tXt9i-3pMMTl9SbzqEW77Egaw6fma4dZRniCAXMZBCyAjwMfX4WNTxf2l94bR7214J8lE9p7BkD6-PYDfG_ilwWhq0U43Qp_1p2LgVD6H2ntfXTTN8N"
+              alt="Map Route">
+          </div>
+        </div>
+      </aside>
+    </div>
   </main>
 
-  <!-- Footer -->
   <footer class="footer">
-    <div class="footer-links">
-      <a href="about.html" class="active">About Us</a>
-      <a href="profile.html">Profile</a>
-      <a href="#">Search</a>
-      <a href="filters.html">Filters</a>
-      <a href="#">Route</a>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">UniGo</span>
+        <span class="footer-copyright">© 2024 UniGo Inc. All rights reserved.</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Help Center</a>
+        <a href="#">Feedback</a>
+      </div>
+      <div class="footer-author">
+        Made by M. Ehsaan ur Rehman Qazi
+      </div>
     </div>
-    <p>© Made by M. Ehsaan ur Rehman Qazi</p>
   </footer>
 
+  <script src="script.js?v=2"></script>
+  <!-- Basic Mobile Menu Toggle Logic -->
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const overlayMenu = document.getElementById('overlay-menu');
+    if (menuIcon && overlayMenu) {
+      menuIcon.addEventListener('click', () => {
+        overlayMenu.classList.toggle('show');
+        menuIcon.classList.toggle('active');
+      });
+    }
+  </script>
 </body>
-<!-- UniGo Scripts -->
-<script src="config.js"></script>
-<script src="src/js/utils/helpers.js"></script>
-<script src="src/js/components/ui.js"></script>
-<script src="src/js/main.js"></script>
-<script src="about.js"></script>
 
 </html>
