@@ -6,6 +6,8 @@
 const CONFIG = {
   // Google Maps API Configuration
   googleMaps: {
+    //before you try to copy the api key, i've restricted it, so please don't try!
+    //this is a frontend side key you Moron!!!
     apiKey: 'AIzaSyDbR33_V3lyAvRtiRDeMgUGPJXPdY7uxTM', // Replace with your actual API key
     center: {
       lat: 33.6844, // Islamabad center
