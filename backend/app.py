@@ -101,3 +101,8 @@ def _load_precomputed_routes(app):
 if __name__ == "__main__":
     app = create_app()
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+# touch oint for monitor bot
+@app.route('/api/health')
+def health():
+    return {'status': 'ok'}
