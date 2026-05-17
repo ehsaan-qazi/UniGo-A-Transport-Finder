@@ -33,8 +33,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
 
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Google Maps will be loaded dynamically via script tag at the bottom -->
 
   <!-- UniGo CSS -->
   <link rel="stylesheet" href="src/css/index.css">
@@ -138,7 +137,7 @@
   </main>
 
   <!-- UniGo Scripts -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Leaflet is removed -->
   <script src="config.js?v=2"></script>
   <script src="src/js/utils/helpers.js"></script>
   <script src="src/js/utils/routeParser.js"></script>
@@ -146,26 +145,34 @@
   <script src="src/js/core/dataLoader.js"></script>
   <script src="src/js/components/ui.js"></script>
   <script src="src/js/components/search.js"></script>
+  <script src="src/js/components/map.js"></script>
   <script src="script.js?v=2"></script>
   <script src="src/js/main.js"></script>
 
   <!-- Map Initialization -->
   <script>
-    // Initialize Leaflet map centered on Islamabad
-    const map = L.map('map', {
-      center: [33.6844, 73.0479],
-      zoom: 12,
-      zoomControl: true,
-      attributionControl: true
-    });
+    // Load Google Maps API dynamically using the config
+    function initMapAPI() {
+      if (typeof CONFIG === 'undefined' || !CONFIG.googleMaps || !CONFIG.googleMaps.apiKey) {
+        console.error('Google Maps API key is missing from config.js');
+        return;
+      }
+      const script = document.createElement('script');
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleMaps.apiKey}&callback=initGoogleMap`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    }
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 19
-    }).addTo(map);
+    // Callback called by Google Maps once loaded
+    window.initGoogleMap = function() {
+      if (window.UniGoMap) {
+        window.UniGoMap.init();
+      }
+    };
 
-    // Expose map globally so script.js can use it
-    window.unigoMap = map;
+    // Start loading Maps
+    initMapAPI();
   </script>
 </body>
 

@@ -242,6 +242,7 @@ function showResults() {
 function hideResults() {
   const panel = document.getElementById("result-panel");
   if (panel) panel.classList.add("hide");
+  if (window.UniGoMap) window.UniGoMap.clearMap();
 }
 
 /**
@@ -296,6 +297,9 @@ async function findTrans() {
       const data = await res.json();
       console.log(`[UniGo] ✅ BACKEND result received (source: ${data.source || 'api'}, fare: Rs.${data.total_fare_pkr}, time: ${data.total_time_minutes}min)`);
       renderApiResult(data, fromLabel, toLabel);
+      if (window.UniGoMap) {
+        window.UniGoMap.drawRoute(data.path);
+      }
       return;
     } else {
       console.warn(`[UniGo] ⚠️ Backend returned ${res.status}, falling back to local.`);

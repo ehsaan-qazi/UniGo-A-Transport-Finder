@@ -6,7 +6,7 @@
 const CONFIG = {
   // Google Maps API Configuration
   googleMaps: {
-    apiKey: 'AIzaSyDbR33_V3lyAvRtiRDeMgUGPJXPdY7uxTM', // Replace with your actual API key
+    apiKey: 'YOUR_GOOGLE_MAPS_API_KEY_HERE', // Replace with your actual API key
     center: {
       lat: 33.6844, // Islamabad center
       lng: 73.0479
