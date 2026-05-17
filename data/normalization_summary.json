@@ -1,0 +1,19 @@
+{
+  "routes": 18,
+  "schedule_routes": 16,
+  "manual_routes": 2,
+  "stops": 223,
+  "stops_without_coordinates": 2,
+  "unmatched_coordinate_stops": {
+    "n5_metro_station": "N5 Metro Station",
+    "motorway_chowk": "Motorway Chowk"
+  },
+  "output_files": [
+    "stops.json",
+    "lines.json"
+  ],
+  "manual_routes_added": [
+    "orange_line",
+    "red_line"
+  ]
+}

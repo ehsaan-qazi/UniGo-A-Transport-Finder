@@ -47,52 +47,34 @@ def _get_precomputed_routes():
 def _get_route_display_name(route_id, graph):
     """Convert route_id like 'fr_01' to display name like 'FR-01'."""
     routes = graph.get("routes", {})
-    if isinstance(routes, dict) and route_id in routes:
+    if route_id in routes:
         return routes[route_id].get("name", route_id)
-    elif isinstance(routes, list):
-        for r in routes:
-            if r.get("id") == route_id:
-                return r.get("name", route_id)
     return route_id
 
 
 def _get_route_color(route_id, graph):
     """Get the color hex for a route."""
     routes = graph.get("routes", {})
-    if isinstance(routes, dict) and route_id in routes:
+    if route_id in routes:
         return routes[route_id].get("color", "#888888")
-    elif isinstance(routes, list):
-        for r in routes:
-            if r.get("id") == route_id:
-                return r.get("color", "#888888")
     return "#888888"
 
 
 def _dijkstra(graph, start_id, end_id):
     """
-    Dijkstra's algorithm on the metro graph with transfer penalty.
-    Returns the shortest path as a list of steps.
+    Dijkstra's algorithm on the dynamically-built metro graph.
+    Uses the pre-built adjacency list from graph_builder.
+    Transfer penalty discourages unnecessary line switches.
     """
     nodes = graph.get("nodes", {})
-    edges = graph.get("edges", [])
+    adj = graph.get("adj", {})  # Pre-built by graph_builder
 
     if start_id not in nodes or end_id not in nodes:
         return None
 
-    # Build adjacency from edges for fast lookup
-    adj = {}
-    edge_map = {}
-    for edge in edges:
-        from_id = edge["from"]
-        if from_id not in adj:
-            adj[from_id] = []
-        adj[from_id].append(edge)
-        edge_map[edge["id"]] = edge
-
     TRANSFER_PENALTY = 3.0  # km penalty for route switches
 
     # State: (node_id, route_id) — tracks which route we arrived on
-    # Distance dict: state -> cost
     dist = {}
     prev = {}
     start_state = (start_id, "START")
@@ -124,7 +106,6 @@ def _dijkstra(graph, start_id, end_id):
                     "route_color": _get_route_color(edge["route_id"], graph),
                     "distance_km": edge.get("distance_km", 0),
                     "time_minutes": edge.get("time_minutes", 0),
-                    "fare_pkr": edge.get("fare_pkr", 0),
                 })
                 state = prev_state
 
@@ -135,7 +116,7 @@ def _dijkstra(graph, start_id, end_id):
             return {
                 "path": merged,
                 "total_distance_km": round(sum(s["distance_km"] for s in path), 2),
-                "total_time_minutes": sum(s["time_minutes"] for s in path),
+                "total_time_minutes": round(sum(s["time_minutes"] for s in path), 1),
                 "total_fare_pkr": _calculate_total_fare(merged),
                 "transfers": len(merged) - 1,
             }
@@ -175,7 +156,6 @@ def _merge_steps(path):
         "to_name": path[0]["to_name"],
         "distance_km": path[0]["distance_km"],
         "time_minutes": path[0]["time_minutes"],
-        "fare_pkr": path[0]["fare_pkr"],
         "stops_count": 2,  # from + to
     }
 
@@ -201,7 +181,6 @@ def _merge_steps(path):
                 "to_name": step["to_name"],
                 "distance_km": step["distance_km"],
                 "time_minutes": step["time_minutes"],
-                "fare_pkr": step["fare_pkr"],
                 "stops_count": 2,
             }
 
@@ -277,7 +256,7 @@ def find_route():
         from (str): departure stop ID
         to (str): destination stop ID
     Strategy:
-        1. Try Dijkstra on the reliable_metro_graph
+        1. Try Dijkstra on the dynamically-built graph
         2. Fall back to pre-computed routes if Dijkstra fails
     """
     from_id = request.args.get("from", "").strip()

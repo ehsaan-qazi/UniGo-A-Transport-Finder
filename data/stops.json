@@ -1,0 +1,2089 @@
+{
+  "nust": {
+    "name": "Nust Metro Station",
+    "lat": 33.65616235045436,
+    "lon": 72.99354916191967,
+    "routes_serving": [
+      "fr_01",
+      "fr_07",
+      "fr_05",
+      "orange_line"
+    ],
+    "is_transfer_point": true
+  },
+  "police_foundation": {
+    "name": "Police Foundation",
+    "lat": 33.66401117816605,
+    "lon": 73.00665575482641,
+    "routes_serving": [
+      "fr_01",
+      "fr_07",
+      "fr_05",
+      "orange_line"
+    ],
+    "is_transfer_point": true
+  },
+  "npa_stop": {
+    "name": "NPA Stop",
+    "lat": 33.65522369551933,
+    "lon": 73.0107879951163,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "islamic_university": {
+    "name": "Islamic University",
+    "lat": 33.65841146575012,
+    "lon": 73.01874069819371,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "fast_university": {
+    "name": "FAST University",
+    "lat": 33.65715207354386,
+    "lon": 73.01562587623567,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "paec_general_hospital": {
+    "name": "PAEC General Hospital",
+    "lat": 33.65186416615534,
+    "lon": 73.01455034691553,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "imc_hospital": {
+    "name": "IMC Hospital",
+    "lat": 33.6485390851684,
+    "lon": 73.0172052799046,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "metro_cnc": {
+    "name": "Metro CNC",
+    "lat": 33.64017881210836,
+    "lon": 73.02475235499799,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "sabzi_mandi": {
+    "name": "Sabzi Mandi",
+    "lat": 33.64015443818664,
+    "lon": 73.02470144651754,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "mandi_morh": {
+    "name": "Mandi Morh",
+    "lat": 33.636761081440426,
+    "lon": 73.0340763701306,
+    "routes_serving": [
+      "fr_01",
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "kurang_road_stop": {
+    "name": "Kurang Road Stop",
+    "lat": 33.6442317902593,
+    "lon": 73.02994407977063,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "iesco": {
+    "name": "IESCO",
+    "lat": 33.653177186922356,
+    "lon": 73.04855285509447,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "ptcl_i_10": {
+    "name": "PTCL I-10",
+    "lat": 33.64915941878916,
+    "lon": 73.04126007977088,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "sui_gas_stop": {
+    "name": "Sui Gas Stop",
+    "lat": 33.65323621167766,
+    "lon": 73.04846239326234,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "ogti_stop": {
+    "name": "OGTI Stop",
+    "lat": 33.65493785374421,
+    "lon": 73.05186740729125,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "cda_complain_center": {
+    "name": "CDA Complain Center",
+    "lat": 33.65749161703867,
+    "lon": 73.05705183675967,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "mci_model_school": {
+    "name": "MCI Model School",
+    "lat": 33.65936929199387,
+    "lon": 73.06036175576642,
+    "routes_serving": [
+      "fr_01"
+    ],
+    "is_transfer_point": false
+  },
+  "pims": {
+    "name": "Pims Metro Station",
+    "lat": 33.705771076959586,
+    "lon": 73.04842526628263,
+    "routes_serving": [
+      "fr_03a",
+      "fr_04",
+      "fr_06",
+      "fr_07",
+      "fr_08a",
+      "fr_08c",
+      "frg_1",
+      "st_02",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "katchery": {
+    "name": "Katchery",
+    "lat": 33.7019007985139,
+    "lon": 73.04132062656583,
+    "routes_serving": [
+      "fr_03a",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "f_8_markaz": {
+    "name": "F-8 Markaz",
+    "lat": 33.70897506352382,
+    "lon": 73.0392400742605,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "f_9_park": {
+    "name": "F-9 Park",
+    "lat": 33.69626473744667,
+    "lon": 73.0178166356354,
+    "routes_serving": [
+      "fr_03a",
+      "fr_06"
+    ],
+    "is_transfer_point": true
+  },
+  "shaheen_chowk": {
+    "name": "Shaheen Chowk",
+    "lat": 33.71225657009168,
+    "lon": 73.02647576865095,
+    "routes_serving": [
+      "fr_03a",
+      "fr_06"
+    ],
+    "is_transfer_point": true
+  },
+  "bahria_university": {
+    "name": "Bahria University",
+    "lat": 33.71590950412624,
+    "lon": 73.0316821680655,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "naval_complex": {
+    "name": "Naval Complex",
+    "lat": 33.71911409238221,
+    "lon": 73.037922851093,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "faisal_masjid": {
+    "name": "Faisal Masjid",
+    "lat": 33.72745049970733,
+    "lon": 73.04013203590536,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "parveen_shakir_road": {
+    "name": "Parveen Shakir Road",
+    "lat": 33.72295906576111,
+    "lon": 73.0450559269901,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "kohsar_road": {
+    "name": "Kohsar Road",
+    "lat": 33.72676191855094,
+    "lon": 73.05295235299494,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "f_7_markaz": {
+    "name": "F-7 Markaz",
+    "lat": 33.72238280297697,
+    "lon": 73.05763403115739,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "flower_market": {
+    "name": "Flower Market",
+    "lat": 33.72406619654728,
+    "lon": 73.06107810820274,
+    "routes_serving": [
+      "fr_03a"
+    ],
+    "is_transfer_point": false
+  },
+  "children_hospital": {
+    "name": "Children Hospital",
+    "lat": 33.70537137129901,
+    "lon": 73.05554950477897,
+    "routes_serving": [
+      "fr_04",
+      "fr_07",
+      "fr_08a",
+      "fr_08c",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "rescue_15": {
+    "name": "Rescue 15",
+    "lat": 33.70046153534805,
+    "lon": 73.06198165393491,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "bank_colony": {
+    "name": "Bank Colony",
+    "lat": 33.735948114807464,
+    "lon": 73.20982690793362,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "salai_centre": {
+    "name": "Salai Centre",
+    "lat": 33.643091125649825,
+    "lon": 73.0098718110711,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "sitara_market": {
+    "name": "Sitara Market",
+    "lat": 33.70592071993154,
+    "lon": 73.06693220487129,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "pully_stop": {
+    "name": "Pully Stop",
+    "lat": 33.63823467002523,
+    "lon": 73.03752990862037,
+    "routes_serving": [
+      "fr_04",
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "iqbal_hall": {
+    "name": "Iqbal Hall",
+    "lat": 33.70999902341296,
+    "lon": 73.07204809974415,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "g_6_12": {
+    "name": "G-6/1.2",
+    "lat": 33.712788794465204,
+    "lon": 73.08046943559292,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "melody_market": {
+    "name": "Melody Market",
+    "lat": 33.715180092014734,
+    "lon": 73.08434247142414,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "abpara_market": {
+    "name": "Abpara Market",
+    "lat": 33.710074373640424,
+    "lon": 73.09163807490908,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "youth_hostel": {
+    "name": "Youth Hostel",
+    "lat": 33.710164342249236,
+    "lon": 73.09158573492675,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "metropolitan_corporation": {
+    "name": "Metropolitan Corporation",
+    "lat": 33.71556543415166,
+    "lon": 73.08762716304525,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "icb_college": {
+    "name": "ICB College",
+    "lat": 33.71730159896494,
+    "lon": 73.08916067184546,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "nadra_chowk": {
+    "name": "NADRA Chowk",
+    "lat": 33.71984059249061,
+    "lon": 73.09563118162852,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "lodges_park": {
+    "name": "Lodges Park",
+    "lat": 33.71584970852236,
+    "lon": 73.098551452535,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "sukh_chayn_park": {
+    "name": "Sukh Chayn Park",
+    "lat": 33.7134400732209,
+    "lon": 73.09994620092624,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "ministry_of_foreign_affairs": {
+    "name": "Ministry of Foreign Affairs",
+    "lat": 33.71891611494204,
+    "lon": 73.1037976477992,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "radio_pakistan": {
+    "name": "Radio Pakistan",
+    "lat": 33.72276283585213,
+    "lon": 73.10087335960137,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "national_library": {
+    "name": "National Library",
+    "lat": 33.724648528214054,
+    "lon": 73.10273174843998,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "secretariate_police_station": {
+    "name": "Secretariate Police Station",
+    "lat": 33.72699328083057,
+    "lon": 73.10741081999159,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "diplomatic_enclave_gate_4": {
+    "name": "Diplomatic Enclave Gate 4",
+    "lat": 33.7320741385373,
+    "lon": 73.11036091874325,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "aiwan_e_sadar_colony": {
+    "name": "Aiwan e Sadar Colony",
+    "lat": 33.733911705279155,
+    "lon": 73.10842840119612,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "muslim_colony": {
+    "name": "Muslim Colony",
+    "lat": 33.7376341761268,
+    "lon": 73.10810204829741,
+    "routes_serving": [
+      "fr_04"
+    ],
+    "is_transfer_point": false
+  },
+  "bari_imam": {
+    "name": "Bari Imam",
+    "lat": 33.74361259060048,
+    "lon": 73.1094763783134,
+    "routes_serving": [
+      "fr_04",
+      "fr_04a"
+    ],
+    "is_transfer_point": true
+  },
+  "muhallah_noori_bagh": {
+    "name": "Muhallah Noori Bagh",
+    "lat": 33.744526135013956,
+    "lon": 73.11301072395725,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "community_health_center": {
+    "name": "Community Health Center",
+    "lat": 33.744672004954126,
+    "lon": 73.11764764402467,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "d_type_quaid_e_azam_colony": {
+    "name": "D-Type Quaid e Azam Colony",
+    "lat": 33.74477842201472,
+    "lon": 73.1200990877055,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "c_type_quaid_e_azam_colony": {
+    "name": "C-Type Quaid e Azam Colony",
+    "lat": 33.744751658278815,
+    "lon": 73.12486269091103,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "babul_quaid": {
+    "name": "Babul Quaid",
+    "lat": 33.74495684671334,
+    "lon": 73.12947609046074,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "quaid_azam_university": {
+    "name": "Quaid Azam University",
+    "lat": 33.74493900426212,
+    "lon": 73.13964702705954,
+    "routes_serving": [
+      "fr_04a"
+    ],
+    "is_transfer_point": false
+  },
+  "tipu_market_g_8": {
+    "name": "Tipu Market G-8",
+    "lat": 33.7007123212486,
+    "lon": 73.04232873603668,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "ibn_e_sina_metro_station": {
+    "name": "Ibn-e-Sina Metro Station",
+    "lat": 33.69583366301052,
+    "lon": 73.03858458162729,
+    "routes_serving": [
+      "fr_06",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "chaman_metro_station": {
+    "name": "Chaman Metro Station",
+    "lat": 33.6917436315037,
+    "lon": 73.0426001379597,
+    "routes_serving": [
+      "fr_06",
+      "fr_07"
+    ],
+    "is_transfer_point": true
+  },
+  "taqwa_market": {
+    "name": "Taqwa Market",
+    "lat": 33.690401390940806,
+    "lon": 73.0396584699581,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "g_9_4_park": {
+    "name": "G-9/4 Park",
+    "lat": 33.68926021306159,
+    "lon": 73.03707597009735,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "karachi_company": {
+    "name": "Karachi Company",
+    "lat": 33.68655826790666,
+    "lon": 73.03235930280375,
+    "routes_serving": [
+      "fr_06",
+      "fr_07"
+    ],
+    "is_transfer_point": true
+  },
+  "g_9_1_and_g_9_4": {
+    "name": "G-9/1 and G-9/4",
+    "lat": 33.685223869252575,
+    "lon": 73.03347546749892,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "g_9_markaz": {
+    "name": "G-9 Markaz",
+    "lat": 33.689904955947306,
+    "lon": 73.03033111082424,
+    "routes_serving": [
+      "fr_06",
+      "fr_07"
+    ],
+    "is_transfer_point": true
+  },
+  "g_9_3": {
+    "name": "G-9/3",
+    "lat": 33.68923994732535,
+    "lon": 73.03698939735551,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "fazaia_housing_scheme": {
+    "name": "Fazaia Housing Scheme",
+    "lat": 33.71000020631117,
+    "lon": 73.02092766969206,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "paf_hospital": {
+    "name": "PAF Hospital",
+    "lat": 33.70755267741876,
+    "lon": 73.01561043283475,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "pakistan_gate": {
+    "name": "Pakistan Gate",
+    "lat": 33.70253375310019,
+    "lon": 73.00883904780024,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "maroof_international_hospital": {
+    "name": "Maroof International Hospital",
+    "lat": 33.69714725702341,
+    "lon": 73.01273480758155,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "f_10_markaz": {
+    "name": "F-10 Markaz",
+    "lat": 33.69455644959399,
+    "lon": 73.01251602172444,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "imcb_f10_4": {
+    "name": "IMCB F10/4",
+    "lat": 33.6908547246512,
+    "lon": 73.00600824451489,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "imcg_f_10_2": {
+    "name": "IMCG F-10/2",
+    "lat": 33.689450763125755,
+    "lon": 73.00306083483818,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "f_10_f_11_chowk": {
+    "name": "F-10/F-11 Chowk",
+    "lat": 33.686806044482154,
+    "lon": 72.99687850784939,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "major_road": {
+    "name": "Major Road",
+    "lat": 33.68594605429847,
+    "lon": 72.99410110355345,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "ptcl_f_11": {
+    "name": "PTCL F-11",
+    "lat": 33.68429111900835,
+    "lon": 72.99154822303227,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "f_11_markaz": {
+    "name": "F-11 Markaz",
+    "lat": 33.68285846364324,
+    "lon": 72.98881723877136,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "opf_girls_college": {
+    "name": "OPF Girls College",
+    "lat": 33.68560024870533,
+    "lon": 72.98495823937701,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "golra_sharif_f_11_3": {
+    "name": "Golra Sharif F-11/3",
+    "lat": 33.68937965949906,
+    "lon": 72.9822889951181,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "golra_sharif": {
+    "name": "Golra Sharif",
+    "lat": 33.68932992407956,
+    "lon": 72.98237567821926,
+    "routes_serving": [
+      "fr_06"
+    ],
+    "is_transfer_point": false
+  },
+  "nori_hospital": {
+    "name": "NORI Hospital",
+    "lat": 33.69872355284949,
+    "lon": 73.05390933322424,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "dental_hospital": {
+    "name": "Dental Hospital",
+    "lat": 33.69974111444802,
+    "lon": 73.04896333974719,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "g_8_markaz": {
+    "name": "G-8 Markaz",
+    "lat": 33.699027037385164,
+    "lon": 73.04749348921057,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "development_park": {
+    "name": "Development Park",
+    "lat": 33.69557260579922,
+    "lon": 73.04804065987764,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "g_9_4": {
+    "name": "G-9/4",
+    "lat": 33.68926021306159,
+    "lon": 73.03707597009735,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "police_flats": {
+    "name": "Police Flats",
+    "lat": 33.684880600359925,
+    "lon": 73.02472775132632,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "college_morh": {
+    "name": "College Morh",
+    "lat": 33.68105540612217,
+    "lon": 73.01837571468454,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "g_10_markaz": {
+    "name": "G-10 Markaz",
+    "lat": 33.67650917901414,
+    "lon": 73.01458852478868,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "pha_flats": {
+    "name": "PHA Flats",
+    "lat": 33.67574296788226,
+    "lon": 73.01182475666249,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "tanki_stop": {
+    "name": "Tanki Stop",
+    "lat": 33.6741222166913,
+    "lon": 73.00985989044702,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "g_10_g_11": {
+    "name": "G-10/G-11",
+    "lat": 33.67299020399478,
+    "lon": 73.0072397263097,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "institute_of_modern_studies": {
+    "name": "Institute of Modern Studies",
+    "lat": 33.67225142887911,
+    "lon": 73.00283562653611,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "g_11_markaz": {
+    "name": "G-11 Markaz",
+    "lat": 33.67000714306969,
+    "lon": 72.99869564926453,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "mehrabad": {
+    "name": "Mehrabad",
+    "lat": 33.66647019084591,
+    "lon": 72.98976782580704,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "bar_council": {
+    "name": "Bar Council",
+    "lat": 33.65950949850007,
+    "lon": 72.99708985839457,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "ak_bari_road": {
+    "name": "A.K Bari Road",
+    "lat": 33.661795574704115,
+    "lon": 73.00230407282065,
+    "routes_serving": [
+      "fr_07"
+    ],
+    "is_transfer_point": false
+  },
+  "tnt": {
+    "name": "TNT",
+    "lat": 33.69766367958974,
+    "lon": 73.06191122632266,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "frg_1",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "zero_point": {
+    "name": "Zero Point",
+    "lat": 33.69562710976255,
+    "lon": 73.06924045318415,
+    "routes_serving": [
+      "fr_08a",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "cda": {
+    "name": "CDA",
+    "lat": 33.70028997747736,
+    "lon": 73.07808355040576,
+    "routes_serving": [
+      "fr_08a",
+      "frg_1",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "abpara": {
+    "name": "Abpara",
+    "lat": 33.70587953244183,
+    "lon": 73.08876630811679,
+    "routes_serving": [
+      "fr_08a",
+      "frg_1",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "foreign_affairs_office": {
+    "name": "Foreign Affairs Office",
+    "lat": 33.710955767476264,
+    "lon": 73.10564090623255,
+    "routes_serving": [
+      "fr_08a",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "kashmir_chowk": {
+    "name": "Kashmir Chowk",
+    "lat": 33.70737686380931,
+    "lon": 73.1063704670969,
+    "routes_serving": [
+      "fr_08a",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "rawal_dam_chowk": {
+    "name": "Rawal Dam Chowk",
+    "lat": 33.691837664272,
+    "lon": 73.11058213416324,
+    "routes_serving": [
+      "fr_08a",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "rawal_town": {
+    "name": "Rawal Town",
+    "lat": 33.689370419069675,
+    "lon": 73.11173039079104,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "school_board_stop": {
+    "name": "School Board Stop",
+    "lat": 33.68899245184988,
+    "lon": 73.11641174492661,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "rawal_dam_colony": {
+    "name": "Rawal Dam Colony",
+    "lat": 33.68840449953099,
+    "lon": 73.12036124315094,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "narc_colony": {
+    "name": "N.A.R.C Colony",
+    "lat": 33.687407071224186,
+    "lon": 73.13180595527018,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "nih_allergy_center": {
+    "name": "N.I.H Allergy Center",
+    "lat": 33.6848662015435,
+    "lon": 73.13538952548298,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "shahzad_town": {
+    "name": "Shahzad Town",
+    "lat": 33.67736914836529,
+    "lon": 73.14168600981654,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "park_view_city": {
+    "name": "Park View City",
+    "lat": 33.67418733049198,
+    "lon": 73.14437213534026,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "green_avenue": {
+    "name": "Green Avenue",
+    "lat": 33.667634529881504,
+    "lon": 73.14987079253174,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "chatta_bakhtawar": {
+    "name": "Chatta Bakhtawar",
+    "lat": 33.664579580165444,
+    "lon": 73.1525913323509,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "gulshan_al_huda_community": {
+    "name": "Gulshan Al Huda Community",
+    "lat": 33.65922417128849,
+    "lon": 73.15375727797695,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c"
+    ],
+    "is_transfer_point": true
+  },
+  "hostel_city": {
+    "name": "Hostel City",
+    "lat": 33.65608505185562,
+    "lon": 73.15413153213662,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "comsats_university": {
+    "name": "COMSATS University",
+    "lat": 33.65184346427155,
+    "lon": 73.15980292203837,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "tamma_stop": {
+    "name": "Tamma Stop",
+    "lat": 33.64812890801019,
+    "lon": 73.16224996841554,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "capt_naeem_tufail_shaheed_chowk": {
+    "name": "Capt. Naeem Tufail Shaheed Chowk",
+    "lat": 33.644823335305404,
+    "lon": 73.16359373542986,
+    "routes_serving": [
+      "fr_08a",
+      "fr_08c",
+      "st_02"
+    ],
+    "is_transfer_point": true
+  },
+  "h_8": {
+    "name": "H-8",
+    "lat": 33.68411295908987,
+    "lon": 73.07210484166711,
+    "routes_serving": [
+      "fr_08c"
+    ],
+    "is_transfer_point": false
+  },
+  "kach_naar_park_i_8": {
+    "name": "Kach Naar Park I-8",
+    "lat": 33.673201261143895,
+    "lon": 73.08022224442259,
+    "routes_serving": [
+      "fr_08c"
+    ],
+    "is_transfer_point": false
+  },
+  "faizabad": {
+    "name": "Faizabad Interchange",
+    "lat": 33.66682997443567,
+    "lon": 73.08816133297216,
+    "routes_serving": [
+      "fr_08c",
+      "fr_09",
+      "fr_14",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "itp_driving_license_centre": {
+    "name": "ITP Driving License Centre",
+    "lat": 33.67249336537841,
+    "lon": 73.09322959081629,
+    "routes_serving": [
+      "fr_08c",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "margalla_town": {
+    "name": "Margalla Town",
+    "lat": 33.68165134127899,
+    "lon": 73.10182436371905,
+    "routes_serving": [
+      "fr_08c",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "garden_avenue": {
+    "name": "Garden Avenue",
+    "lat": 33.685986661172585,
+    "lon": 73.10703439098384,
+    "routes_serving": [
+      "fr_08c",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "khanna_pul": {
+    "name": "Khanna Pul",
+    "lat": 33.62729234971165,
+    "lon": 73.11615187311992,
+    "routes_serving": [
+      "fr_09",
+      "fr_15"
+    ],
+    "is_transfer_point": true
+  },
+  "zia_masjid": {
+    "name": "Zia Masjid",
+    "lat": 33.63668261039801,
+    "lon": 73.1076208316939,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "kuri_road": {
+    "name": "Kuri Road",
+    "lat": 33.64278168133575,
+    "lon": 73.10400334725043,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "iqbal_town": {
+    "name": "Iqbal Town",
+    "lat": 33.645759696879345,
+    "lon": 73.10077842531066,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "dhok_kala_khan": {
+    "name": "Dhok Kala Khan",
+    "lat": 33.64970088746827,
+    "lon": 73.09779915626328,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "sohan": {
+    "name": "Sohan",
+    "lat": 33.65947377424344,
+    "lon": 73.09047317351903,
+    "routes_serving": [
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "ijp": {
+    "name": "IJP Metro Station",
+    "lat": 33.65608729476395,
+    "lon": 73.0720416988241,
+    "routes_serving": [
+      "fr_09",
+      "fr_14",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "pindora_chungi": {
+    "name": "Pindora Chungi",
+    "lat": 33.65221524115215,
+    "lon": 73.06400180860736,
+    "routes_serving": [
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "katarian_chungi": {
+    "name": "Katarian Chungi",
+    "lat": 33.64875892858748,
+    "lon": 73.05840135614791,
+    "routes_serving": [
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "katarian_pull": {
+    "name": "Katarian Pull",
+    "lat": 33.64585623326584,
+    "lon": 73.05246830981389,
+    "routes_serving": [
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "cda_stop": {
+    "name": "CDA Stop",
+    "lat": 33.6413010371886,
+    "lon": 73.04411054651209,
+    "routes_serving": [
+      "fr_09",
+      "fr_14"
+    ],
+    "is_transfer_point": true
+  },
+  "fauji_colony": {
+    "name": "Fauji Colony",
+    "lat": 33.632654433545156,
+    "lon": 73.02755595249089,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "carriage_factory": {
+    "name": "Carriage Factory",
+    "lat": 33.63044752798577,
+    "lon": 73.02264207135525,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "westridge": {
+    "name": "Westridge",
+    "lat": 33.62726656249293,
+    "lon": 73.01666847329481,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "ctti": {
+    "name": "CTTI",
+    "lat": 33.62426215737786,
+    "lon": 73.01060728212643,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "social_security_hospital": {
+    "name": "Social Security Hospital",
+    "lat": 33.62038657630803,
+    "lon": 73.0033251194973,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "british_homes": {
+    "name": "British Homes",
+    "lat": 33.61706073534783,
+    "lon": 72.9979236934649,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "pir_wadhai_morh": {
+    "name": "Pir Wadhai Morh",
+    "lat": 33.61575514091682,
+    "lon": 72.99445625256871,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "kohinoor_mill_colony": {
+    "name": "Kohinoor Mill Colony",
+    "lat": 33.61640317566239,
+    "lon": 72.98716661606083,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "kohinoor_mill": {
+    "name": "Kohinoor Mill",
+    "lat": 33.61897620669635,
+    "lon": 72.98080391924425,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "chishtiabad": {
+    "name": "Chishtiabad",
+    "lat": 33.62235914910118,
+    "lon": 72.97551693016543,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "golra_morh": {
+    "name": "Golra Morh Metro Station",
+    "lat": 33.64068190616236,
+    "lon": 72.96169294133917,
+    "routes_serving": [
+      "fr_09",
+      "fr_11",
+      "orange_line"
+    ],
+    "is_transfer_point": true
+  },
+  "home_of_military_transport": {
+    "name": "Home of Military Transport",
+    "lat": 33.63446041895948,
+    "lon": 72.96680827497872,
+    "routes_serving": [
+      "fr_09"
+    ],
+    "is_transfer_point": false
+  },
+  "nust_eme_college": {
+    "name": "NUST EME College",
+    "lat": 33.62380690233334,
+    "lon": 72.9542761038392,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "imcg_i_14_3": {
+    "name": "IMCG I-14/3",
+    "lat": 33.62138803926696,
+    "lon": 72.97077653744478,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "riphah_international_university": {
+    "name": "RIPHAH International University",
+    "lat": 33.61635157491563,
+    "lon": 72.96953768380725,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "i_14_markaz": {
+    "name": "I-14 Markaz",
+    "lat": 33.611549973334476,
+    "lon": 72.9699945374473,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "i_14_1_park": {
+    "name": "I-14/1 Park",
+    "lat": 33.60867803796011,
+    "lon": 72.96317053744714,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "rafiullah_shaheed_chowk": {
+    "name": "Rafiullah Shaheed Chowk",
+    "lat": 33.60655819718681,
+    "lon": 72.96062211416707,
+    "routes_serving": [
+      "fr_11"
+    ],
+    "is_transfer_point": false
+  },
+  "barakahu": {
+    "name": "Barakahu",
+    "lat": 33.735497639838265,
+    "lon": 73.1653332236176,
+    "routes_serving": [
+      "fr_14",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "shahdara": {
+    "name": "Shahdara",
+    "lat": 33.73491699754946,
+    "lon": 73.1591076957223,
+    "routes_serving": [
+      "fr_14",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "malpur": {
+    "name": "Malpur",
+    "lat": 33.72992318391457,
+    "lon": 73.14446747498076,
+    "routes_serving": [
+      "fr_14",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "lake_view_park": {
+    "name": "Lake View Park",
+    "lat": 33.722883791026305,
+    "lon": 73.1352601487836,
+    "routes_serving": [
+      "fr_14",
+      "frg_1"
+    ],
+    "is_transfer_point": true
+  },
+  "dhokri_stop": {
+    "name": "Dhokri Stop",
+    "lat": 33.71144018613291,
+    "lon": 73.10611361247028,
+    "routes_serving": [
+      "fr_14"
+    ],
+    "is_transfer_point": false
+  },
+  "barakahu_terminal": {
+    "name": "Barakahu Terminal",
+    "lat": 33.735497639838265,
+    "lon": 73.1653332236176,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "mangu_town": {
+    "name": "Mangu Town",
+    "lat": 33.73627356624121,
+    "lon": 73.1721032067579,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "col_ammanullah_road": {
+    "name": "Col. Ammanullah Road",
+    "lat": 33.73684207209912,
+    "lon": 73.1747230502809,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "athal_chowk": {
+    "name": "Athal Chowk",
+    "lat": 33.73972547946584,
+    "lon": 73.17988434320343,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "barakahu_bazar": {
+    "name": "Barakahu Bazar",
+    "lat": 33.74296589046329,
+    "lon": 73.18494225120912,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "bhera_pull": {
+    "name": "Bhera Pull",
+    "lat": 33.74495242285442,
+    "lon": 73.18903166333249,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "nai_abadi": {
+    "name": "Nai Abadi",
+    "lat": 33.74826270686837,
+    "lon": 73.1941912244859,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "traders_colony": {
+    "name": "Traders Colony",
+    "lat": 33.753819249837505,
+    "lon": 73.2053793826709,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "akbar_niazi_hospital": {
+    "name": "Akbar Niazi Hospital",
+    "lat": 33.75639216654366,
+    "lon": 73.210149401866,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "phulgran": {
+    "name": "Phulgran",
+    "lat": 33.757528124890136,
+    "lon": 73.21274960051353,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "dhok_badam": {
+    "name": "Dhok Badam",
+    "lat": 33.75877923391185,
+    "lon": 73.21550644260951,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "punjab_college": {
+    "name": "Punjab College",
+    "lat": 33.76122652592548,
+    "lon": 73.21798884194057,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "al_wadi_colony": {
+    "name": "Al Wadi Colony",
+    "lat": 33.762573768209634,
+    "lon": 73.21933018733174,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "satra_meel": {
+    "name": "Satra Meel",
+    "lat": 33.764047132524766,
+    "lon": 73.22300219618715,
+    "routes_serving": [
+      "fr_14a"
+    ],
+    "is_transfer_point": false
+  },
+  "fazaia": {
+    "name": "Fazaia",
+    "lat": 33.620769397121414,
+    "lon": 73.12042150978492,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "gangal": {
+    "name": "Gangal",
+    "lat": 33.61283553089856,
+    "lon": 73.12595758898938,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "koral_town": {
+    "name": "Koral Town",
+    "lat": 33.60407883994751,
+    "lon": 73.13252363665529,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "gulberg": {
+    "name": "Gulberg",
+    "lat": 33.59507526959182,
+    "lon": 73.13927457564758,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "pagh_chowk": {
+    "name": "Pagh Chowk",
+    "lat": 33.584989746096,
+    "lon": 73.14621363147394,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "pwd_housing_society": {
+    "name": "PWD Housing Society",
+    "lat": 33.5757829004841,
+    "lon": 73.1529865617986,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "soan_gardens_e_block": {
+    "name": "Soan Gardens E Block",
+    "lat": 33.56761952166926,
+    "lon": 73.1590876857792,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "soan_gardens_g_block": {
+    "name": "Soan Gardens G Block",
+    "lat": 33.56122981858447,
+    "lon": 73.16388484403411,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "soan_gardens_h_block": {
+    "name": "Soan Gardens H Block",
+    "lat": 33.556644092819006,
+    "lon": 73.16734214758053,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "river_gardens": {
+    "name": "River Gardens",
+    "lat": 33.55031440649514,
+    "lon": 73.17214273881568,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "kaak_pul": {
+    "name": "Kaak Pul",
+    "lat": 33.541540392663094,
+    "lon": 73.1786745303829,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "dha_gate_08": {
+    "name": "DHA Gate 08",
+    "lat": 33.538758445405364,
+    "lon": 73.18016990388493,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "dha_gate_07": {
+    "name": "DHA Gate 07",
+    "lat": 33.53331629060999,
+    "lon": 73.1806106080966,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "suparco": {
+    "name": "SUPARCO",
+    "lat": 33.52010801924289,
+    "lon": 73.17886918123955,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "t__chowk": {
+    "name": "T- Chowk",
+    "lat": 33.51187400906095,
+    "lon": 73.17892381524551,
+    "routes_serving": [
+      "fr_15"
+    ],
+    "is_transfer_point": false
+  },
+  "shakarparian_park": {
+    "name": "Shakarparian Park",
+    "lat": 33.69405275285776,
+    "lon": 73.07107353745157,
+    "routes_serving": [
+      "st_02"
+    ],
+    "is_transfer_point": false
+  },
+  "g_10": {
+    "name": "G-10 Metro Station",
+    "lat": 33.66812149156935,
+    "lon": 73.01199876656565,
+    "routes_serving": [
+      "fr_05",
+      "orange_line"
+    ],
+    "is_transfer_point": true
+  },
+  "sunday_bazar": {
+    "name": "Sunday Bazar",
+    "lat": 33.6704710026737,
+    "lon": 73.01037636005229,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "g10_g11": {
+    "name": "G10/G11",
+    "lat": 33.67300425910158,
+    "lon": 73.00725014484864,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "sumbal_road": {
+    "name": "Sumbal Road",
+    "lat": 33.690848001420804,
+    "lon": 73.00599400538732,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "khayaban_e_iqbal": {
+    "name": "Khayaban e Iqbal",
+    "lat": 33.71785084228562,
+    "lon": 73.03562589644407,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "npf_housing_society": {
+    "name": "NPF Housing Society",
+    "lat": 33.70139092157227,
+    "lon": 72.98530191014846,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "multy_stop___islamabad_gardens": {
+    "name": "Multy Stop / Islamabad Gardens",
+    "lat": 33.70517043778595,
+    "lon": 72.98238300850728,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "e_11_2___fechs___islamabad_international_hospital": {
+    "name": "E-11/2 / FECHS / Islamabad International Hospital",
+    "lat": 33.702804330380225,
+    "lon": 72.96823623693213,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "d_12_service_road": {
+    "name": "D-12 Service Road",
+    "lat": 33.70024371460742,
+    "lon": 72.9605014871891,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "iesco_d_12": {
+    "name": "IESCO D-12",
+    "lat": 33.69716012091452,
+    "lon": 72.95348103744601,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "d_12_markaz": {
+    "name": "D-12 Markaz",
+    "lat": 33.70058031989568,
+    "lon": 72.95126514412566,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "d_12": {
+    "name": "D-12",
+    "lat": 33.702651972144444,
+    "lon": 72.94973004425427,
+    "routes_serving": [
+      "fr_05"
+    ],
+    "is_transfer_point": false
+  },
+  "faiz_ahmad_faiz": {
+    "name": "Faiz Ahmed Faiz Interchange",
+    "lat": 33.67597547092326,
+    "lon": 73.05419343744485,
+    "routes_serving": [
+      "orange_line",
+      "red_line"
+    ],
+    "is_transfer_point": true
+  },
+  "nha_station": {
+    "name": "Nha Station",
+    "lat": 33.67736971456913,
+    "lon": 73.03477249512268,
+    "routes_serving": [
+      "orange_line"
+    ],
+    "is_transfer_point": false
+  },
+  "g_13": {
+    "name": "G 13",
+    "lat": 33.64962022456023,
+    "lon": 72.98190082599774,
+    "routes_serving": [
+      "orange_line"
+    ],
+    "is_transfer_point": false
+  },
+  "n5": {
+    "name": "N-5 Metro Station",
+    "lat": 33.631405458274656,
+    "lon": 72.94504902802898,
+    "routes_serving": [
+      "fr_11",
+      "orange_line"
+    ],
+    "is_transfer_point": true,
+    "aliases": [
+      "Peshawar Mor",
+      "26 Number",
+      "26 Number Chungi",
+      "Motorway Chowk",
+      "N5 Metro Station"
+    ]
+  },
+  "secretariat": {
+    "name": "Secretariat",
+    "lat": 33.734981351421155,
+    "lon": 73.09199091046553,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "parade_ground": {
+    "name": "Parade Ground",
+    "lat": 33.72481390411347,
+    "lon": 73.08440581744021,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "shaheed_e_millat": {
+    "name": "Shaheed E Millat",
+    "lat": 33.72143189903388,
+    "lon": 73.07862297479728,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "7th_avenue": {
+    "name": "7Th Avenue",
+    "lat": 33.71791590021736,
+    "lon": 73.07131663745794,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "stock_exchange": {
+    "name": "Stock Exchange",
+    "lat": 33.71173131945205,
+    "lon": 73.05938617175002,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "khayaban_e_johar": {
+    "name": "Khayaban E Johar",
+    "lat": 33.66881612869496,
+    "lon": 73.05931087868181,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "potohar": {
+    "name": "Potohar",
+    "lat": 33.660806319056015,
+    "lon": 73.06541558639717,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "shamsabad": {
+    "name": "Shamsabad",
+    "lat": 33.650152206091484,
+    "lon": 73.0798887863183,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "6th_road": {
+    "name": "6Th Road",
+    "lat": 33.64342792428653,
+    "lon": 73.07730268205215,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "rehmanabad": {
+    "name": "Rehmanabad",
+    "lat": 33.636074234549824,
+    "lon": 73.07437287219966,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "chandni_chowk": {
+    "name": "Chandni Chowk",
+    "lat": 33.63037846939594,
+    "lon": 73.07188452778101,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "waris_khan": {
+    "name": "Waris Khan",
+    "lat": 33.62058382520123,
+    "lon": 73.06610093958388,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "committee_chowk": {
+    "name": "Committee Chowk",
+    "lat": 33.61374893564973,
+    "lon": 73.06507097132922,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "liaquat_bagh": {
+    "name": "Liaquat Bagh",
+    "lat": 33.606127171255565,
+    "lon": 73.06580053219396,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "marir_chowk": {
+    "name": "Marir Chowk",
+    "lat": 33.59956816170293,
+    "lon": 73.06260333905094,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  },
+  "saddar": {
+    "name": "Saddar",
+    "lat": 33.59376829488407,
+    "lon": 73.0561767662768,
+    "routes_serving": [
+      "red_line"
+    ],
+    "is_transfer_point": false
+  }
+}

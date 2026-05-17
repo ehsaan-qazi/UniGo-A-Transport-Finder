@@ -1,0 +1,1492 @@
+[
+  {
+    "route_id": "fr_01",
+    "route_name": "Khana Pul to NUST",
+    "short_name": "FR-01",
+    "source_route_id": "10001",
+    "direction": "Forward",
+    "color": "#008000",
+    "total_trips": 17,
+    "average_headway_min": 60,
+    "source_file": "converted.json",
+    "stops": [
+      {
+        "stop_id": "nust",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "police_foundation",
+        "time_from_start_sec": 110
+      },
+      {
+        "stop_id": "npa_stop",
+        "time_from_start_sec": 280
+      },
+      {
+        "stop_id": "islamic_university",
+        "time_from_start_sec": 440
+      },
+      {
+        "stop_id": "fast_university",
+        "time_from_start_sec": 620
+      },
+      {
+        "stop_id": "paec_general_hospital",
+        "time_from_start_sec": 780
+      },
+      {
+        "stop_id": "imc_hospital",
+        "time_from_start_sec": 905
+      },
+      {
+        "stop_id": "metro_cnc",
+        "time_from_start_sec": 1065
+      },
+      {
+        "stop_id": "sabzi_mandi",
+        "time_from_start_sec": 1165
+      },
+      {
+        "stop_id": "mandi_morh",
+        "time_from_start_sec": 1335
+      },
+      {
+        "stop_id": "kurang_road_stop",
+        "time_from_start_sec": 1440
+      },
+      {
+        "stop_id": "iesco",
+        "time_from_start_sec": 1560
+      },
+      {
+        "stop_id": "ptcl_i_10",
+        "time_from_start_sec": 1670
+      },
+      {
+        "stop_id": "sui_gas_stop",
+        "time_from_start_sec": 1775
+      },
+      {
+        "stop_id": "ogti_stop",
+        "time_from_start_sec": 2125
+      },
+      {
+        "stop_id": "cda_complain_center",
+        "time_from_start_sec": 2375
+      },
+      {
+        "stop_id": "mci_model_school",
+        "time_from_start_sec": 2700
+      }
+    ]
+  },
+  {
+    "route_id": "fr_03a",
+    "route_name": "PIMS Hospital to Faisal Masjid",
+    "short_name": "FR-03A",
+    "source_route_id": "10003",
+    "direction": "Forward",
+    "color": "#2563eb",
+    "total_trips": 97,
+    "average_headway_min": 10,
+    "source_file": "converted (1).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "katchery",
+        "time_from_start_sec": 380
+      },
+      {
+        "stop_id": "f_8_markaz",
+        "time_from_start_sec": 505
+      },
+      {
+        "stop_id": "f_9_park",
+        "time_from_start_sec": 645
+      },
+      {
+        "stop_id": "shaheen_chowk",
+        "time_from_start_sec": 750
+      },
+      {
+        "stop_id": "bahria_university",
+        "time_from_start_sec": 950
+      },
+      {
+        "stop_id": "naval_complex",
+        "time_from_start_sec": 1075
+      },
+      {
+        "stop_id": "faisal_masjid",
+        "time_from_start_sec": 1270
+      },
+      {
+        "stop_id": "parveen_shakir_road",
+        "time_from_start_sec": 1450
+      },
+      {
+        "stop_id": "kohsar_road",
+        "time_from_start_sec": 1570
+      },
+      {
+        "stop_id": "f_7_markaz",
+        "time_from_start_sec": 1707
+      },
+      {
+        "stop_id": "flower_market",
+        "time_from_start_sec": 1800
+      }
+    ]
+  },
+  {
+    "route_id": "fr_04",
+    "route_name": "PIMS Hospital to Bari Amam",
+    "short_name": "FR-04",
+    "source_route_id": "10004",
+    "direction": "Forward",
+    "color": "#dc2626",
+    "total_trips": 97,
+    "average_headway_min": 10,
+    "source_file": "converted (2).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "children_hospital",
+        "time_from_start_sec": 124
+      },
+      {
+        "stop_id": "rescue_15",
+        "time_from_start_sec": 252
+      },
+      {
+        "stop_id": "bank_colony",
+        "time_from_start_sec": 377
+      },
+      {
+        "stop_id": "salai_centre",
+        "time_from_start_sec": 487
+      },
+      {
+        "stop_id": "sitara_market",
+        "time_from_start_sec": 615
+      },
+      {
+        "stop_id": "pully_stop",
+        "time_from_start_sec": 787
+      },
+      {
+        "stop_id": "iqbal_hall",
+        "time_from_start_sec": 915
+      },
+      {
+        "stop_id": "g_6_12",
+        "time_from_start_sec": 1129
+      },
+      {
+        "stop_id": "melody_market",
+        "time_from_start_sec": 1257
+      },
+      {
+        "stop_id": "abpara_market",
+        "time_from_start_sec": 1427
+      },
+      {
+        "stop_id": "youth_hostel",
+        "time_from_start_sec": 1567
+      },
+      {
+        "stop_id": "metropolitan_corporation",
+        "time_from_start_sec": 1847
+      },
+      {
+        "stop_id": "icb_college",
+        "time_from_start_sec": 1966
+      },
+      {
+        "stop_id": "nadra_chowk",
+        "time_from_start_sec": 2016
+      },
+      {
+        "stop_id": "lodges_park",
+        "time_from_start_sec": 2096
+      },
+      {
+        "stop_id": "sukh_chayn_park",
+        "time_from_start_sec": 2176
+      },
+      {
+        "stop_id": "ministry_of_foreign_affairs",
+        "time_from_start_sec": 2434
+      },
+      {
+        "stop_id": "radio_pakistan",
+        "time_from_start_sec": 2536
+      },
+      {
+        "stop_id": "national_library",
+        "time_from_start_sec": 2636
+      },
+      {
+        "stop_id": "secretariate_police_station",
+        "time_from_start_sec": 2691
+      },
+      {
+        "stop_id": "diplomatic_enclave_gate_4",
+        "time_from_start_sec": 2845
+      },
+      {
+        "stop_id": "aiwan_e_sadar_colony",
+        "time_from_start_sec": 2967
+      },
+      {
+        "stop_id": "muslim_colony",
+        "time_from_start_sec": 3067
+      },
+      {
+        "stop_id": "bari_imam",
+        "time_from_start_sec": 3335
+      }
+    ]
+  },
+  {
+    "route_id": "fr_04a",
+    "route_name": "Bari Imam to Quaid e Azam University",
+    "short_name": "FR-04A",
+    "source_route_id": "11004",
+    "direction": "Forward",
+    "color": "#7c3aed",
+    "total_trips": 33,
+    "average_headway_min": 30,
+    "source_file": "converted (3).json",
+    "stops": [
+      {
+        "stop_id": "bari_imam",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "muhallah_noori_bagh",
+        "time_from_start_sec": 100
+      },
+      {
+        "stop_id": "community_health_center",
+        "time_from_start_sec": 200
+      },
+      {
+        "stop_id": "d_type_quaid_e_azam_colony",
+        "time_from_start_sec": 315
+      },
+      {
+        "stop_id": "c_type_quaid_e_azam_colony",
+        "time_from_start_sec": 410
+      },
+      {
+        "stop_id": "babul_quaid",
+        "time_from_start_sec": 520
+      },
+      {
+        "stop_id": "quaid_azam_university",
+        "time_from_start_sec": 700
+      }
+    ]
+  },
+  {
+    "route_id": "fr_06",
+    "route_name": "PIMS Hospital to Golara Shareef",
+    "short_name": "FR-06",
+    "source_route_id": "10006",
+    "direction": "Forward",
+    "color": "#ea580c",
+    "total_trips": 17,
+    "average_headway_min": 60,
+    "source_file": "converted (4).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "tipu_market_g_8",
+        "time_from_start_sec": 160
+      },
+      {
+        "stop_id": "ibn_e_sina_metro_station",
+        "time_from_start_sec": 250
+      },
+      {
+        "stop_id": "chaman_metro_station",
+        "time_from_start_sec": 330
+      },
+      {
+        "stop_id": "taqwa_market",
+        "time_from_start_sec": 430
+      },
+      {
+        "stop_id": "g_9_4_park",
+        "time_from_start_sec": 500
+      },
+      {
+        "stop_id": "karachi_company",
+        "time_from_start_sec": 560
+      },
+      {
+        "stop_id": "g_9_1_and_g_9_4",
+        "time_from_start_sec": 645
+      },
+      {
+        "stop_id": "g_9_markaz",
+        "time_from_start_sec": 725
+      },
+      {
+        "stop_id": "g_9_3",
+        "time_from_start_sec": 875
+      },
+      {
+        "stop_id": "f_9_park",
+        "time_from_start_sec": 1025
+      },
+      {
+        "stop_id": "shaheen_chowk",
+        "time_from_start_sec": 1100
+      },
+      {
+        "stop_id": "fazaia_housing_scheme",
+        "time_from_start_sec": 1175
+      },
+      {
+        "stop_id": "paf_hospital",
+        "time_from_start_sec": 1305
+      },
+      {
+        "stop_id": "pakistan_gate",
+        "time_from_start_sec": 1405
+      },
+      {
+        "stop_id": "maroof_international_hospital",
+        "time_from_start_sec": 1535
+      },
+      {
+        "stop_id": "f_10_markaz",
+        "time_from_start_sec": 1665
+      },
+      {
+        "stop_id": "imcb_f10_4",
+        "time_from_start_sec": 1800
+      },
+      {
+        "stop_id": "imcg_f_10_2",
+        "time_from_start_sec": 1930
+      },
+      {
+        "stop_id": "f_10_f_11_chowk",
+        "time_from_start_sec": 2030
+      },
+      {
+        "stop_id": "major_road",
+        "time_from_start_sec": 2130
+      },
+      {
+        "stop_id": "ptcl_f_11",
+        "time_from_start_sec": 2190
+      },
+      {
+        "stop_id": "f_11_markaz",
+        "time_from_start_sec": 2255
+      },
+      {
+        "stop_id": "opf_girls_college",
+        "time_from_start_sec": 2365
+      },
+      {
+        "stop_id": "golra_sharif_f_11_3",
+        "time_from_start_sec": 2445
+      },
+      {
+        "stop_id": "golra_sharif",
+        "time_from_start_sec": 2580
+      }
+    ]
+  },
+  {
+    "route_id": "fr_07",
+    "route_name": "PIMS Hospital-Police Foundation",
+    "short_name": "FR-07",
+    "source_route_id": "10007",
+    "direction": "Forward",
+    "color": "#0891b2",
+    "total_trips": 97,
+    "average_headway_min": 10,
+    "source_file": "converted (5).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "children_hospital",
+        "time_from_start_sec": 60
+      },
+      {
+        "stop_id": "nori_hospital",
+        "time_from_start_sec": 239
+      },
+      {
+        "stop_id": "dental_hospital",
+        "time_from_start_sec": 379
+      },
+      {
+        "stop_id": "g_8_markaz",
+        "time_from_start_sec": 409
+      },
+      {
+        "stop_id": "development_park",
+        "time_from_start_sec": 439
+      },
+      {
+        "stop_id": "chaman_metro_station",
+        "time_from_start_sec": 568
+      },
+      {
+        "stop_id": "g_9_4",
+        "time_from_start_sec": 684
+      },
+      {
+        "stop_id": "karachi_company",
+        "time_from_start_sec": 804
+      },
+      {
+        "stop_id": "g_9_markaz",
+        "time_from_start_sec": 874
+      },
+      {
+        "stop_id": "police_flats",
+        "time_from_start_sec": 989
+      },
+      {
+        "stop_id": "college_morh",
+        "time_from_start_sec": 1159
+      },
+      {
+        "stop_id": "g_10_markaz",
+        "time_from_start_sec": 1329
+      },
+      {
+        "stop_id": "pha_flats",
+        "time_from_start_sec": 1499
+      },
+      {
+        "stop_id": "tanki_stop",
+        "time_from_start_sec": 1569
+      },
+      {
+        "stop_id": "g_10_g_11",
+        "time_from_start_sec": 1639
+      },
+      {
+        "stop_id": "institute_of_modern_studies",
+        "time_from_start_sec": 1714
+      },
+      {
+        "stop_id": "g_11_markaz",
+        "time_from_start_sec": 1824
+      },
+      {
+        "stop_id": "mehrabad",
+        "time_from_start_sec": 2066
+      },
+      {
+        "stop_id": "nust",
+        "time_from_start_sec": 2410
+      },
+      {
+        "stop_id": "bar_council",
+        "time_from_start_sec": 2560
+      },
+      {
+        "stop_id": "ak_bari_road",
+        "time_from_start_sec": 2630
+      },
+      {
+        "stop_id": "police_foundation",
+        "time_from_start_sec": 2840
+      }
+    ]
+  },
+  {
+    "route_id": "fr_08a",
+    "route_name": "Capt. Naeem T. Shaheed Chowk to PIMS",
+    "short_name": "FR-08A",
+    "source_route_id": "10008",
+    "direction": "Forward",
+    "color": "#16a34a",
+    "total_trips": 209,
+    "average_headway_min": 5,
+    "source_file": "converted (6).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "children_hospital",
+        "time_from_start_sec": 20
+      },
+      {
+        "stop_id": "tnt",
+        "time_from_start_sec": 340
+      },
+      {
+        "stop_id": "zero_point",
+        "time_from_start_sec": 480
+      },
+      {
+        "stop_id": "cda",
+        "time_from_start_sec": 620
+      },
+      {
+        "stop_id": "abpara",
+        "time_from_start_sec": 770
+      },
+      {
+        "stop_id": "foreign_affairs_office",
+        "time_from_start_sec": 950
+      },
+      {
+        "stop_id": "kashmir_chowk",
+        "time_from_start_sec": 1070
+      },
+      {
+        "stop_id": "rawal_dam_chowk",
+        "time_from_start_sec": 1240
+      },
+      {
+        "stop_id": "rawal_town",
+        "time_from_start_sec": 1320
+      },
+      {
+        "stop_id": "school_board_stop",
+        "time_from_start_sec": 1410
+      },
+      {
+        "stop_id": "rawal_dam_colony",
+        "time_from_start_sec": 1500
+      },
+      {
+        "stop_id": "narc_colony",
+        "time_from_start_sec": 1650
+      },
+      {
+        "stop_id": "nih_allergy_center",
+        "time_from_start_sec": 1750
+      },
+      {
+        "stop_id": "shahzad_town",
+        "time_from_start_sec": 1890
+      },
+      {
+        "stop_id": "park_view_city",
+        "time_from_start_sec": 1990
+      },
+      {
+        "stop_id": "green_avenue",
+        "time_from_start_sec": 2140
+      },
+      {
+        "stop_id": "chatta_bakhtawar",
+        "time_from_start_sec": 2220
+      },
+      {
+        "stop_id": "gulshan_al_huda_community",
+        "time_from_start_sec": 2320
+      },
+      {
+        "stop_id": "hostel_city",
+        "time_from_start_sec": 2390
+      },
+      {
+        "stop_id": "comsats_university",
+        "time_from_start_sec": 2510
+      },
+      {
+        "stop_id": "tamma_stop",
+        "time_from_start_sec": 2600
+      },
+      {
+        "stop_id": "capt_naeem_tufail_shaheed_chowk",
+        "time_from_start_sec": 2700
+      }
+    ]
+  },
+  {
+    "route_id": "fr_08c",
+    "route_name": "Capt. Naeem T. Shaheed Chowk to PIMS",
+    "short_name": "FR-08C",
+    "source_route_id": "11118",
+    "direction": "Forward",
+    "color": "#c026d3",
+    "total_trips": 48,
+    "average_headway_min": 20,
+    "source_file": "converted (7).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "children_hospital",
+        "time_from_start_sec": 220
+      },
+      {
+        "stop_id": "tnt",
+        "time_from_start_sec": 410
+      },
+      {
+        "stop_id": "h_8",
+        "time_from_start_sec": 570
+      },
+      {
+        "stop_id": "kach_naar_park_i_8",
+        "time_from_start_sec": 725
+      },
+      {
+        "stop_id": "faizabad",
+        "time_from_start_sec": 875
+      },
+      {
+        "stop_id": "itp_driving_license_centre",
+        "time_from_start_sec": 1045
+      },
+      {
+        "stop_id": "margalla_town",
+        "time_from_start_sec": 1200
+      },
+      {
+        "stop_id": "garden_avenue",
+        "time_from_start_sec": 1340
+      },
+      {
+        "stop_id": "rawal_town",
+        "time_from_start_sec": 1430
+      },
+      {
+        "stop_id": "school_board_stop",
+        "time_from_start_sec": 1520
+      },
+      {
+        "stop_id": "rawal_dam_colony",
+        "time_from_start_sec": 1670
+      },
+      {
+        "stop_id": "narc_colony",
+        "time_from_start_sec": 1770
+      },
+      {
+        "stop_id": "nih_allergy_center",
+        "time_from_start_sec": 1910
+      },
+      {
+        "stop_id": "shahzad_town",
+        "time_from_start_sec": 2010
+      },
+      {
+        "stop_id": "park_view_city",
+        "time_from_start_sec": 2160
+      },
+      {
+        "stop_id": "green_avenue",
+        "time_from_start_sec": 2240
+      },
+      {
+        "stop_id": "chatta_bakhtawar",
+        "time_from_start_sec": 2390
+      },
+      {
+        "stop_id": "gulshan_al_huda_community",
+        "time_from_start_sec": 2510
+      },
+      {
+        "stop_id": "hostel_city",
+        "time_from_start_sec": 2600
+      },
+      {
+        "stop_id": "comsats_university",
+        "time_from_start_sec": 2675
+      },
+      {
+        "stop_id": "tamma_stop",
+        "time_from_start_sec": 2700
+      },
+      {
+        "stop_id": "capt_naeem_tufail_shaheed_chowk",
+        "time_from_start_sec": 2775
+      }
+    ]
+  },
+  {
+    "route_id": "fr_09",
+    "route_name": "Golara Mor to Khanna Pul",
+    "short_name": "FR-09",
+    "source_route_id": "10009",
+    "direction": "Forward",
+    "color": "#ca8a04",
+    "total_trips": 65,
+    "average_headway_min": 15,
+    "source_file": "converted (8).json",
+    "stops": [
+      {
+        "stop_id": "khanna_pul",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "zia_masjid",
+        "time_from_start_sec": 290
+      },
+      {
+        "stop_id": "kuri_road",
+        "time_from_start_sec": 430
+      },
+      {
+        "stop_id": "iqbal_town",
+        "time_from_start_sec": 550
+      },
+      {
+        "stop_id": "dhok_kala_khan",
+        "time_from_start_sec": 665
+      },
+      {
+        "stop_id": "sohan",
+        "time_from_start_sec": 855
+      },
+      {
+        "stop_id": "faizabad",
+        "time_from_start_sec": 1095
+      },
+      {
+        "stop_id": "ijp",
+        "time_from_start_sec": 1355
+      },
+      {
+        "stop_id": "pindora_chungi",
+        "time_from_start_sec": 1605
+      },
+      {
+        "stop_id": "katarian_chungi",
+        "time_from_start_sec": 1695
+      },
+      {
+        "stop_id": "katarian_pull",
+        "time_from_start_sec": 1791
+      },
+      {
+        "stop_id": "cda_stop",
+        "time_from_start_sec": 1924
+      },
+      {
+        "stop_id": "pully_stop",
+        "time_from_start_sec": 2049
+      },
+      {
+        "stop_id": "mandi_morh",
+        "time_from_start_sec": 2229
+      },
+      {
+        "stop_id": "fauji_colony",
+        "time_from_start_sec": 2344
+      },
+      {
+        "stop_id": "carriage_factory",
+        "time_from_start_sec": 2444
+      },
+      {
+        "stop_id": "westridge",
+        "time_from_start_sec": 2554
+      },
+      {
+        "stop_id": "ctti",
+        "time_from_start_sec": 2651
+      },
+      {
+        "stop_id": "social_security_hospital",
+        "time_from_start_sec": 2769
+      },
+      {
+        "stop_id": "british_homes",
+        "time_from_start_sec": 2849
+      },
+      {
+        "stop_id": "pir_wadhai_morh",
+        "time_from_start_sec": 2945
+      },
+      {
+        "stop_id": "kohinoor_mill_colony",
+        "time_from_start_sec": 3095
+      },
+      {
+        "stop_id": "kohinoor_mill",
+        "time_from_start_sec": 3225
+      },
+      {
+        "stop_id": "chishtiabad",
+        "time_from_start_sec": 3365
+      },
+      {
+        "stop_id": "golra_morh",
+        "time_from_start_sec": 3510
+      },
+      {
+        "stop_id": "home_of_military_transport",
+        "time_from_start_sec": 3700
+      },
+      {
+        "stop_id": "golra_morh",
+        "time_from_start_sec": 3900
+      }
+    ]
+  },
+  {
+    "route_id": "fr_11",
+    "route_name": "Golra Morh Metro Station- Rafiullah Shaheed Chowk",
+    "short_name": "FR-11",
+    "source_route_id": "10011",
+    "direction": "Forward",
+    "color": "#0f766e",
+    "total_trips": 19,
+    "average_headway_min": 53,
+    "source_file": "converted (9).json",
+    "stops": [
+      {
+        "stop_id": "golra_morh",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "n5",
+        "time_from_start_sec": 290
+      },
+      {
+        "stop_id": "nust_eme_college",
+        "time_from_start_sec": 505
+      },
+      {
+        "stop_id": "golra_morh",
+        "time_from_start_sec": 655
+      },
+      {
+        "stop_id": "imcg_i_14_3",
+        "time_from_start_sec": 795
+      },
+      {
+        "stop_id": "riphah_international_university",
+        "time_from_start_sec": 915
+      },
+      {
+        "stop_id": "i_14_markaz",
+        "time_from_start_sec": 1010
+      },
+      {
+        "stop_id": "i_14_1_park",
+        "time_from_start_sec": 1110
+      },
+      {
+        "stop_id": "rafiullah_shaheed_chowk",
+        "time_from_start_sec": 1200
+      }
+    ]
+  },
+  {
+    "route_id": "fr_14",
+    "route_name": "Bara Kahu to Mandi Morh",
+    "short_name": "FR-14",
+    "source_route_id": "10014",
+    "direction": "Forward",
+    "color": "#be123c",
+    "total_trips": 65,
+    "average_headway_min": 15,
+    "source_file": "converted (10).json",
+    "stops": [
+      {
+        "stop_id": "barakahu",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "shahdara",
+        "time_from_start_sec": 130
+      },
+      {
+        "stop_id": "malpur",
+        "time_from_start_sec": 290
+      },
+      {
+        "stop_id": "lake_view_park",
+        "time_from_start_sec": 435
+      },
+      {
+        "stop_id": "dhokri_stop",
+        "time_from_start_sec": 675
+      },
+      {
+        "stop_id": "kashmir_chowk",
+        "time_from_start_sec": 766
+      },
+      {
+        "stop_id": "rawal_dam_chowk",
+        "time_from_start_sec": 946
+      },
+      {
+        "stop_id": "garden_avenue",
+        "time_from_start_sec": 1096
+      },
+      {
+        "stop_id": "margalla_town",
+        "time_from_start_sec": 1226
+      },
+      {
+        "stop_id": "itp_driving_license_centre",
+        "time_from_start_sec": 1386
+      },
+      {
+        "stop_id": "sohan",
+        "time_from_start_sec": 1806
+      },
+      {
+        "stop_id": "faizabad",
+        "time_from_start_sec": 2046
+      },
+      {
+        "stop_id": "ijp",
+        "time_from_start_sec": 2306
+      },
+      {
+        "stop_id": "pindora_chungi",
+        "time_from_start_sec": 2556
+      },
+      {
+        "stop_id": "katarian_chungi",
+        "time_from_start_sec": 2645
+      },
+      {
+        "stop_id": "katarian_pull",
+        "time_from_start_sec": 2742
+      },
+      {
+        "stop_id": "cda_stop",
+        "time_from_start_sec": 2875
+      },
+      {
+        "stop_id": "pully_stop",
+        "time_from_start_sec": 3000
+      },
+      {
+        "stop_id": "mandi_morh",
+        "time_from_start_sec": 3180
+      }
+    ]
+  },
+  {
+    "route_id": "fr_14a",
+    "route_name": "Bara Kahu to Satra Meel",
+    "short_name": "FR-14A",
+    "source_route_id": "11014",
+    "direction": "Forward",
+    "color": "#4f46e5",
+    "total_trips": 65,
+    "average_headway_min": 15,
+    "source_file": "converted (11).json",
+    "stops": [
+      {
+        "stop_id": "barakahu_terminal",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "mangu_town",
+        "time_from_start_sec": 50
+      },
+      {
+        "stop_id": "col_ammanullah_road",
+        "time_from_start_sec": 140
+      },
+      {
+        "stop_id": "athal_chowk",
+        "time_from_start_sec": 270
+      },
+      {
+        "stop_id": "barakahu_bazar",
+        "time_from_start_sec": 450
+      },
+      {
+        "stop_id": "bhera_pull",
+        "time_from_start_sec": 600
+      },
+      {
+        "stop_id": "nai_abadi",
+        "time_from_start_sec": 750
+      },
+      {
+        "stop_id": "traders_colony",
+        "time_from_start_sec": 890
+      },
+      {
+        "stop_id": "akbar_niazi_hospital",
+        "time_from_start_sec": 990
+      },
+      {
+        "stop_id": "phulgran",
+        "time_from_start_sec": 1050
+      },
+      {
+        "stop_id": "dhok_badam",
+        "time_from_start_sec": 1110
+      },
+      {
+        "stop_id": "punjab_college",
+        "time_from_start_sec": 1170
+      },
+      {
+        "stop_id": "al_wadi_colony",
+        "time_from_start_sec": 1200
+      },
+      {
+        "stop_id": "satra_meel",
+        "time_from_start_sec": 1320
+      }
+    ]
+  },
+  {
+    "route_id": "fr_15",
+    "route_name": "Khanna Pul- T- Chowk",
+    "short_name": "FR-15",
+    "source_route_id": "10015",
+    "direction": "Forward",
+    "color": "#65a30d",
+    "total_trips": 33,
+    "average_headway_min": 30,
+    "source_file": "converted (12).json",
+    "stops": [
+      {
+        "stop_id": "khanna_pul",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "fazaia",
+        "time_from_start_sec": 90
+      },
+      {
+        "stop_id": "gangal",
+        "time_from_start_sec": 215
+      },
+      {
+        "stop_id": "koral_town",
+        "time_from_start_sec": 350
+      },
+      {
+        "stop_id": "gulberg",
+        "time_from_start_sec": 460
+      },
+      {
+        "stop_id": "pagh_chowk",
+        "time_from_start_sec": 585
+      },
+      {
+        "stop_id": "pwd_housing_society",
+        "time_from_start_sec": 720
+      },
+      {
+        "stop_id": "soan_gardens_e_block",
+        "time_from_start_sec": 830
+      },
+      {
+        "stop_id": "soan_gardens_g_block",
+        "time_from_start_sec": 955
+      },
+      {
+        "stop_id": "soan_gardens_h_block",
+        "time_from_start_sec": 1090
+      },
+      {
+        "stop_id": "river_gardens",
+        "time_from_start_sec": 1200
+      },
+      {
+        "stop_id": "kaak_pul",
+        "time_from_start_sec": 1325
+      },
+      {
+        "stop_id": "dha_gate_08",
+        "time_from_start_sec": 1460
+      },
+      {
+        "stop_id": "dha_gate_07",
+        "time_from_start_sec": 1570
+      },
+      {
+        "stop_id": "suparco",
+        "time_from_start_sec": 1695
+      },
+      {
+        "stop_id": "t__chowk",
+        "time_from_start_sec": 1830
+      }
+    ]
+  },
+  {
+    "route_id": "frg_1",
+    "route_name": "PIMS - Barakahu",
+    "short_name": "FRG-1",
+    "source_route_id": "20001",
+    "direction": "Forward",
+    "color": "#9333ea",
+    "total_trips": 196,
+    "average_headway_min": 5,
+    "source_file": "converted (13).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "children_hospital",
+        "time_from_start_sec": 90
+      },
+      {
+        "stop_id": "tnt",
+        "time_from_start_sec": 300
+      },
+      {
+        "stop_id": "cda",
+        "time_from_start_sec": 640
+      },
+      {
+        "stop_id": "abpara",
+        "time_from_start_sec": 810
+      },
+      {
+        "stop_id": "foreign_affairs_office",
+        "time_from_start_sec": 990
+      },
+      {
+        "stop_id": "lake_view_park",
+        "time_from_start_sec": 1310
+      },
+      {
+        "stop_id": "malpur",
+        "time_from_start_sec": 1480
+      },
+      {
+        "stop_id": "shahdara",
+        "time_from_start_sec": 1670
+      },
+      {
+        "stop_id": "barakahu",
+        "time_from_start_sec": 1800
+      }
+    ]
+  },
+  {
+    "route_id": "st_02",
+    "route_name": "10220 - PIMS-10238 - Capt. Naeem Tufail Shaheed Chowk",
+    "short_name": "ST-02",
+    "source_route_id": "11002",
+    "direction": "Forward",
+    "color": "#0284c7",
+    "total_trips": 9,
+    "average_headway_min": 60,
+    "source_file": "converted (14).json",
+    "stops": [
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "tnt",
+        "time_from_start_sec": 220
+      },
+      {
+        "stop_id": "zero_point",
+        "time_from_start_sec": 360
+      },
+      {
+        "stop_id": "cda",
+        "time_from_start_sec": 520
+      },
+      {
+        "stop_id": "abpara",
+        "time_from_start_sec": 620
+      },
+      {
+        "stop_id": "shakarparian_park",
+        "time_from_start_sec": 1010
+      },
+      {
+        "stop_id": "rawal_town",
+        "time_from_start_sec": 1820
+      },
+      {
+        "stop_id": "school_board_stop",
+        "time_from_start_sec": 1910
+      },
+      {
+        "stop_id": "rawal_dam_colony",
+        "time_from_start_sec": 2000
+      },
+      {
+        "stop_id": "narc_colony",
+        "time_from_start_sec": 2150
+      },
+      {
+        "stop_id": "nih_allergy_center",
+        "time_from_start_sec": 2250
+      },
+      {
+        "stop_id": "shahzad_town",
+        "time_from_start_sec": 2390
+      },
+      {
+        "stop_id": "park_view_city",
+        "time_from_start_sec": 2490
+      },
+      {
+        "stop_id": "green_avenue",
+        "time_from_start_sec": 2640
+      },
+      {
+        "stop_id": "chatta_bakhtawar",
+        "time_from_start_sec": 2720
+      },
+      {
+        "stop_id": "hostel_city",
+        "time_from_start_sec": 2870
+      },
+      {
+        "stop_id": "comsats_university",
+        "time_from_start_sec": 2990
+      },
+      {
+        "stop_id": "tamma_stop",
+        "time_from_start_sec": 3080
+      },
+      {
+        "stop_id": "capt_naeem_tufail_shaheed_chowk",
+        "time_from_start_sec": 3180
+      }
+    ]
+  },
+  {
+    "route_id": "fr_05",
+    "route_name": "Golara Morh to Taxila",
+    "short_name": "FR-05",
+    "source_route_id": "10005",
+    "direction": "Forward",
+    "color": "#64748b",
+    "total_trips": 193,
+    "average_headway_min": 5,
+    "source_file": "converted(15).json",
+    "stops": [
+      {
+        "stop_id": "nust",
+        "time_from_start_sec": 0
+      },
+      {
+        "stop_id": "police_foundation",
+        "time_from_start_sec": 200
+      },
+      {
+        "stop_id": "g_10",
+        "time_from_start_sec": 350
+      },
+      {
+        "stop_id": "sunday_bazar",
+        "time_from_start_sec": 440
+      },
+      {
+        "stop_id": "g10_g11",
+        "time_from_start_sec": 600
+      },
+      {
+        "stop_id": "sumbal_road",
+        "time_from_start_sec": 765
+      },
+      {
+        "stop_id": "khayaban_e_iqbal",
+        "time_from_start_sec": 910
+      },
+      {
+        "stop_id": "npf_housing_society",
+        "time_from_start_sec": 1090
+      },
+      {
+        "stop_id": "multy_stop___islamabad_gardens",
+        "time_from_start_sec": 1210
+      },
+      {
+        "stop_id": "e_11_2___fechs___islamabad_international_hospital",
+        "time_from_start_sec": 1400
+      },
+      {
+        "stop_id": "d_12_service_road",
+        "time_from_start_sec": 1520
+      },
+      {
+        "stop_id": "iesco_d_12",
+        "time_from_start_sec": 1655
+      },
+      {
+        "stop_id": "d_12_markaz",
+        "time_from_start_sec": 1755
+      },
+      {
+        "stop_id": "d_12",
+        "time_from_start_sec": 1825
+      }
+    ]
+  },
+  {
+    "route_id": "orange_line",
+    "route_name": "Orange Line: Faiz Ahmed Faiz to N-5 / 26 No. Chungi",
+    "short_name": "Orange Line",
+    "source_route_id": null,
+    "direction": "Forward",
+    "color": "#f97316",
+    "total_trips": null,
+    "average_headway_min": null,
+    "source_file": "manual_user_input",
+    "stops": [
+      {
+        "stop_id": "faiz_ahmad_faiz",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "nha_station",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "g_10",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "police_foundation",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "nust",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "g_13",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "golra_morh",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "n5",
+        "time_from_start_sec": null
+      }
+    ]
+  },
+  {
+    "route_id": "red_line",
+    "route_name": "Red Line Metrobus: Pak Secretariat to Saddar",
+    "short_name": "Red Line",
+    "source_route_id": null,
+    "direction": "North to South",
+    "color": "#dc2626",
+    "total_trips": null,
+    "average_headway_min": null,
+    "source_file": "manual_user_input",
+    "stops": [
+      {
+        "stop_id": "secretariat",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "parade_ground",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "shaheed_e_millat",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "7th_avenue",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "stock_exchange",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "pims",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "katchery",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "ibn_e_sina_metro_station",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "faiz_ahmad_faiz",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "khayaban_e_johar",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "potohar",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "ijp",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "faizabad",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "shamsabad",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "6th_road",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "rehmanabad",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "chandni_chowk",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "waris_khan",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "committee_chowk",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "liaquat_bagh",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "marir_chowk",
+        "time_from_start_sec": null
+      },
+      {
+        "stop_id": "saddar",
+        "time_from_start_sec": null
+      }
+    ]
+  }
+]

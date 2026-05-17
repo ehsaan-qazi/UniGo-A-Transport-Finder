@@ -71,8 +71,12 @@ def search_stops():
             tier = 3
             similarity = 1.0
         else:
-            # Check Aliases (Landmarks)
-            stop_aliases = ALIASES.get(stop.id, [])
+            # Check Aliases from graph data + hardcoded landmarks
+            graph = current_app.config.get("GRAPH_DATA", {})
+            graph_node = graph.get("nodes", {}).get(stop.id, {})
+            graph_aliases = graph_node.get("aliases", [])
+            stop_aliases = list(set(graph_aliases + ALIASES.get(stop.id, [])))
+
             for alias in stop_aliases:
                 alias_clean = re.sub(r'[^a-z0-9]', '', alias.lower())
                 if alias_clean.startswith(query_clean) or query_clean in alias_clean:

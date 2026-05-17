@@ -1,8 +1,8 @@
 """
-Seed script — loads stops from reliable_metro_graph.json into the SQLite database.
+Seed script — loads stops from the dynamically-built graph into the database.
+The graph is built from stops.json + lines.json at app startup.
 Run once: python seed.py
 """
-import json
 import sys
 from pathlib import Path
 
@@ -14,47 +14,37 @@ from models import db, Stop
 
 
 def seed_stops():
-    """Read nodes from reliable_metro_graph.json and insert into DB."""
+    """Read nodes from the dynamic graph and insert/update the database."""
     app = create_app()
 
-    graph_path = app.config["GRAPH_DATA_PATH"]
-    print(f"[seed] Loading graph from: {graph_path}")
-
-    with open(graph_path, "r", encoding="utf-8") as f:
-        graph = json.load(f)
-
+    graph = app.config.get("GRAPH_DATA", {})
     nodes = graph.get("nodes", {})
-    print(f"[seed] Found {len(nodes)} nodes in graph")
+    print(f"[seed] Graph has {len(nodes)} nodes")
 
     with app.app_context():
-        # Drop and recreate all tables
         db.create_all()
 
+        # Wipe existing stops for a clean reseed
+        deleted = Stop.query.delete()
+        print(f"[seed] Cleared {deleted} existing stops")
+
         inserted = 0
-        skipped = 0
-
         for node_id, node_data in nodes.items():
-            # Check if already exists
-            existing = db.session.get(Stop, node_id)
-            if existing:
-                skipped += 1
-                continue
-
             stop = Stop(
                 id=node_id,
                 name=node_data.get("name", node_id),
-                latitude=node_data.get("latitude", 0.0),
-                longitude=node_data.get("longitude", 0.0),
-                stop_type=node_data.get("type", "regular_stop"),
+                latitude=node_data.get("lat", 0.0),
+                longitude=node_data.get("lon", 0.0),
+                stop_type="major_hub" if node_data.get("is_transfer_point") else "regular_stop",
                 is_transfer_point=node_data.get("is_transfer_point", False),
-                wheelchair_accessible=node_data.get("wheelchair_accessible", False),
+                wheelchair_accessible=False,
                 routes_serving=",".join(node_data.get("routes_serving", [])),
             )
             db.session.add(stop)
             inserted += 1
 
         db.session.commit()
-        print(f"[seed] Done! Inserted: {inserted}, Skipped (already exist): {skipped}")
+        print(f"[seed] Inserted {inserted} stops")
         print(f"[seed] Total stops in DB: {Stop.query.count()}")
 
 

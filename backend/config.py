@@ -13,13 +13,17 @@ class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY", "unigo-dev-secret-change-in-prod")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    # Path to the main data file
-    GRAPH_DATA_PATH = os.environ.get(
-        "GRAPH_DATA_PATH",
-        str(BASE_DIR.parent / "data" / "reliable_metro_graph.json")
+    # Paths to the dynamic graph source files
+    STOPS_DATA_PATH = os.environ.get(
+        "STOPS_DATA_PATH",
+        str(BASE_DIR.parent / "data" / "stops.json")
+    )
+    LINES_DATA_PATH = os.environ.get(
+        "LINES_DATA_PATH",
+        str(BASE_DIR.parent / "data" / "lines.json")
     )
 
-    # Path to the pre-computed routes file (fallback for direct lookups)
+    # Path to the pre-computed routes file (legacy fallback)
     ROUTES_DATA_PATH = os.environ.get(
         "ROUTES_DATA_PATH",
         str(BASE_DIR.parent / "data" / "unigo_transport_routes_full_slugged.json")

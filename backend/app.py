@@ -1,7 +1,7 @@
 """
 UniGo Flask Application
 Entry point for the backend API server.
-Loads graph data into memory at startup, registers all blueprints.
+Dynamically builds the routing graph at startup from stops.json + lines.json.
 """
 import json
 import os
@@ -9,6 +9,7 @@ from flask import Flask
 from flask_cors import CORS
 from models import db
 from config import config_map
+from graph_builder import build_graph, get_graph_stats
 
 
 def create_app(config_name=None):
@@ -23,8 +24,8 @@ def create_app(config_name=None):
     db.init_app(app)
     CORS(app)  # Allow all origins for dev — restrict in production
 
-    # Load graph data into memory at startup
-    _load_graph_data(app)
+    # Build graph dynamically from source files
+    _build_graph(app)
     _load_precomputed_routes(app)
 
     # Register blueprints
@@ -44,13 +45,13 @@ def create_app(config_name=None):
     @app.route("/api/health")
     def health():
         graph = app.config.get("GRAPH_DATA", {})
-        nodes_count = len(graph.get("nodes", {}))
-        edges_count = len(graph.get("edges", []))
+        stats = get_graph_stats(graph)
         return {
             "status": "ok",
-            "nodes": nodes_count,
-            "edges": edges_count,
-            "routes": len(graph.get("routes", {})),
+            "nodes": stats["nodes"],
+            "edges": stats["edges"],
+            "routes": stats["routes"],
+            "transfer_points": stats["transfer_points"],
         }
 
     # Create DB tables on first request (dev convenience)
@@ -60,18 +61,28 @@ def create_app(config_name=None):
     return app
 
 
-def _load_graph_data(app):
-    """Load reliable_metro_graph.json into app.config['GRAPH_DATA']."""
-    path = app.config.get("GRAPH_DATA_PATH", "")
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            app.config["GRAPH_DATA"] = json.load(f)
-        nodes = len(app.config["GRAPH_DATA"].get("nodes", {}))
-        edges = len(app.config["GRAPH_DATA"].get("edges", []))
-        print(f"[UniGo] Loaded graph: {nodes} nodes, {edges} edges")
-    else:
-        print(f"[UniGo] WARNING: Graph file not found at {path}")
+def _build_graph(app):
+    """Build the routing graph dynamically from stops.json + lines.json."""
+    stops_path = app.config.get("STOPS_DATA_PATH", "")
+    lines_path = app.config.get("LINES_DATA_PATH", "")
+
+    if not os.path.exists(stops_path):
+        print(f"[UniGo] WARNING: stops.json not found at {stops_path}")
         app.config["GRAPH_DATA"] = {}
+        return
+
+    if not os.path.exists(lines_path):
+        print(f"[UniGo] WARNING: lines.json not found at {lines_path}")
+        app.config["GRAPH_DATA"] = {}
+        return
+
+    graph = build_graph(stops_path, lines_path)
+    app.config["GRAPH_DATA"] = graph
+
+    stats = get_graph_stats(graph)
+    print(f"[UniGo] Graph built: {stats['nodes']} nodes, "
+          f"{stats['edges']} edges, {stats['routes']} routes, "
+          f"{stats['transfer_points']} transfer points")
 
 
 def _load_precomputed_routes(app):
@@ -90,6 +101,3 @@ def _load_precomputed_routes(app):
 if __name__ == "__main__":
     app = create_app()
     app.run(host="0.0.0.0", port=5000, debug=True)
-@app.route('/api/health')
-def health():
-    return {'status': 'ok'}

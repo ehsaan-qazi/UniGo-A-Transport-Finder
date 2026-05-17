@@ -256,64 +256,27 @@ body {
   border-radius: 4px;
 }
 
-/* On mobile, sidebar is a bottom sheet over the map */
+/* On mobile, sidebar takes full width */
 @media (max-width: 767px) {
+  .sidebar {
+    max-width: 100%;
+  }
+
+  .map-container {
+    display: none;
+  }
+
   body {
-    overflow: hidden;
+    overflow-y: auto;
   }
 
   .main-layout {
     flex-direction: column;
-    overflow: hidden;
-  }
-
-  .map-container {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: 1;
+    overflow-y: auto;
   }
 
   .sidebar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 100%;
     height: auto;
-    max-height: 85vh;
-    z-index: 10;
-    background: transparent;
-    pointer-events: none;
-    padding: 16px;
-    padding-bottom: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 16px;
-    overflow-y: auto;
-    scrollbar-width: none;
-  }
-  
-  .sidebar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .sidebar > * {
-    pointer-events: auto;
-  }
-
-  .card {
-    box-shadow: 0 -4px 24px rgba(0,0,0,0.15);
-  }
-
-  .result-card-panel {
-    background: var(--surface);
-    border-radius: var(--radius-xl);
-    padding: 20px;
-    box-shadow: 0 -4px 24px rgba(0,0,0,0.15);
-    flex-shrink: 0;
   }
 }
 
