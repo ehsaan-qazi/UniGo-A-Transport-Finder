@@ -118,50 +118,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Enhanced mobile menu toggle with animation
-document.addEventListener("DOMContentLoaded", () => {
-  const menuIcon = document.querySelector(".menu-icon");
-  const overlayMenu = document.querySelector(".overlay-menu");
-
-  if (menuIcon && overlayMenu) {
-    menuIcon.addEventListener("click", () => {
-      overlayMenu.classList.toggle("show");
-
-      const bars = menuIcon.querySelectorAll(".bar");
-      if (overlayMenu.classList.contains("show")) {
-        bars[0].style.transform = "rotate(45deg) translate(6px, 6px)";
-        bars[1].style.opacity = "0";
-        bars[2].style.transform = "rotate(-45deg) translate(6px, -6px)";
-      } else {
-        bars[0].style.transform = "rotate(0) translate(0, 0)";
-        bars[1].style.opacity = "1";
-        bars[2].style.transform = "rotate(0) translate(0, 0)";
-      }
-    });
-
-    overlayMenu.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        overlayMenu.classList.remove("show");
-        const bars = menuIcon.querySelectorAll(".bar");
-        bars[0].style.transform = "rotate(0) translate(0, 0)";
-        bars[1].style.opacity = "1";
-        bars[2].style.transform = "rotate(0) translate(0, 0)";
-      });
-    });
-
-    document.addEventListener("click", function (e) {
-      if (!menuIcon.contains(e.target) && !overlayMenu.contains(e.target)) {
-        if (overlayMenu.classList.contains("show")) {
-          overlayMenu.classList.remove("show");
-          const bars = menuIcon.querySelectorAll(".bar");
-          bars[0].style.transform = "rotate(0) translate(0, 0)";
-          bars[1].style.opacity = "1";
-          bars[2].style.transform = "rotate(0) translate(0, 0)";
-        }
-      }
-    });
-  }
-});
+// The mobile menu toggle logic was duplicated here and conflicted with src/js/components/ui.js.
+// It has been removed from script.js.
 
 // Reverse route text handler
 function reverseStepText(text) {

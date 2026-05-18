@@ -263,7 +263,10 @@ body {
   }
 
   .map-container {
-    display: none;
+    display: block;
+    position: relative;
+    height: 45vh; /* Keep map visible on top */
+    flex-shrink: 0;
   }
 
   body {
